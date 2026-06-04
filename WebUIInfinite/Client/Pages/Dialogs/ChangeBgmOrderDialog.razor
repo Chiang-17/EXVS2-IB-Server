@@ -1,13 +1,10 @@
-@* Legacy: BGM reference list data source
 @inject ICommonDataService CommonDataService
-*@
 @inject ILogger<ChangeBgmOrderDialog> Logger
 @inject ISnackbar Snackbar
 @using WebUIInfinite.Client.Services.Common
 @using WebUIInfinite.Shared.Dto.Common;
 
 <style>
-    @* Legacy: table row selection highlight
     .selected {
         background-color: #1E88E5 !important;
     }
@@ -19,16 +16,14 @@
             .selected > td .mud-input {
                 color: white !important;
             }
-    *@
 </style>
 
 <MudDialog>
     <DialogContent>
         <MudGrid>
-            @* Legacy: BGM reference list
             <MudItem xs="8">
-                <MudTable Elevation="5" Items="@bgmList" Filter="@Filter" @ref="mudTable"
-                          T="Bgm" Hover="true" FixedHeader="true">
+                <MudTable Elevation="5" Items="@bgmList" Filter="@Filter" @ref="mudTable" @bind-SelectedItem="@SelectedTableBgm"
+                          RowClassFunc="@SelectedRowClassFunc" T="Bgm" Hover="true" FixedHeader="true">
                     <ColGroup>
                         <col style="width: 50px;"/>
                         <col/>
@@ -120,16 +115,14 @@
                     </PagerContent>
                 </MudTable>
             </MudItem>
-            *@
 
-            <MudItem xs="12" md="4">
-                <MudStack Spacing="2" Class="align-center">
-                @* Legacy: add from table selection
+            <MudStack Spacing="2" Class="align-center">
                 <MudButton Variant="Variant.Filled" Color="Color.Primary" OnClick="AddBgm">Add</MudButton>
-                *@
+                @* Legacy: add by uint ID input
                 <MudNumericField T="uint" @bind-Value="_bgmIdInput" Label="@localizer["bgm_custom_id"]"
                                  Variant="Variant.Outlined" Min="0"/>
                 <MudButton Variant="Variant.Filled" Color="Color.Primary" OnClick="AddBgmFromInput">Add</MudButton>
+                *@
                 @* Legacy: test Custom ID
                 <MudGrid Class="mt-1">
                     <MudItem xs="8" sm="6">
@@ -143,10 +136,9 @@
                     </MudItem>
                 </MudGrid>
                 *@
-                </MudStack>
-            </MudItem>
+            </MudStack>
 
-            <MudItem xs="12" md="8">
+            <MudItem xs="3">
                 <MudDropContainer Elevation="5" @ref="container" T="DropItem" @bind-Items="items" ItemsSelector="@((item, dropzone) => item.Identifier == dropzone)"
                                   ItemDropped="ItemUpdated" Class="d-flex flex-wrap flex-grow-1">
                     <ChildContent>
@@ -167,7 +159,7 @@
                         </MudCard>
                     </ChildContent>
                     <ItemRenderer>
-                        <MudPaper Elevation="25" Class="pa-4 my-4">@GetBgmDisplayName(context.Id)</MudPaper>
+                        <MudPaper Elevation="25" Class="pa-4 my-4">@context.ValueJP</MudPaper>
                     </ItemRenderer>
                 </MudDropContainer>
             </MudItem>
@@ -184,30 +176,28 @@
     [CascadingParameter]
     IMudDialogInstance MudDialog { get; set; } = null!;
 
-    // Legacy: BGM reference list
-    // private MudTable<Bgm> mudTable = null!;
+    private MudTable<Bgm> mudTable = null!;
 
-    // Legacy: table row selection for adding BGM
-    // private Bgm? SelectedTableBgm { get; set; }
+    private Bgm? SelectedTableBgm { get; set; }
 
     // ReSharper disable once NotAccessedField.Local
-    // private int selectedRowNumber = -1;
+    private int selectedRowNumber = -1;
 
-    // private string searchString = string.Empty;
+    private string searchString = string.Empty;
 
-    // private readonly int[] pageSizeOptions = { 10, 25, 50, 100 };
+    private readonly int[] pageSizeOptions = { 10, 25, 50, 100 };
 
     private MudDropContainer<DropItem> container = null!;
 
     [Parameter]
     public uint[] Data { get; set; } = null!;
 
-    // Legacy: BGM reference list
-    // private IReadOnlyList<Bgm> bgmList = new List<Bgm>();
+    private IReadOnlyList<Bgm> bgmList = new List<Bgm>();
 
     private List<DropItem> items = new();
 
-    private uint _bgmIdInput;
+    // Legacy: add by uint ID input
+    // private uint _bgmIdInput;
 
     // Legacy: test Custom ID
     // private uint _customBgmId;
@@ -216,11 +206,10 @@
     {
         await base.OnInitializedAsync();
 
-        // Legacy: BGM reference list
-        // bgmList = CommonDataService.GetBgmSortedById();
+        bgmList = CommonDataService.GetBgmSortedById();
 
         items = Data.Select(CreateDropItemFromId).ToList();
-        _bgmIdInput = Data.FirstOrDefault();
+        // Legacy: _bgmIdInput = Data.FirstOrDefault();
     }
 
     private void Submit()
@@ -234,13 +223,6 @@
 
     private void Cancel() => MudDialog.Cancel();
 
-    private void AddBgmFromInput()
-    {
-        TryAddToOrder(CreateDropItemFromId(_bgmIdInput));
-    }
-
-    // Legacy: add from table selection
-    /*
     private void AddBgm()
     {
         if (SelectedTableBgm == null)
@@ -249,6 +231,13 @@
         }
 
         TryAddToOrder(CreateDropItemFromId(SelectedTableBgm.Id));
+    }
+
+    // Legacy: add by uint ID input
+    /*
+    private void AddBgmFromInput()
+    {
+        TryAddToOrder(CreateDropItemFromId(_bgmIdInput));
     }
 
     private void AddCustomBgmId()
@@ -277,30 +266,54 @@
 
     private DropItem CreateDropItemFromId(uint id)
     {
-        // Legacy: resolve name from data file
-        // var bgm = CommonDataService.GetBgmById(id);
+        var bgm = CommonDataService.GetBgmById(id);
         return new DropItem
         {
             Id = id,
-            ValueJP = GetBgmDisplayName(id),
+            ValueJP = GetBgmDisplayName(bgm, id),
             Identifier = "Order"
         };
     }
 
-    private static string GetBgmDisplayName(uint id) => $"BGM {id}";
+    private string GetBgmDisplayName(Bgm? bgm, uint id)
+    {
+        if (bgm is null)
+        {
+            return $"Custom ID: {id}";
+        }
 
-    // Legacy: table row selection highlight
-    /*
+        var lang = Thread.CurrentThread.CurrentCulture.Name;
+
+        if (lang == "en-US")
+        {
+            return bgm.Value;
+        }
+
+        if (lang == "zh-Hans")
+        {
+            return bgm.ValueCN;
+        }
+
+        if (lang == "zh-Hant")
+        {
+            return bgm.ValueTC;
+        }
+
+        if (lang == "zh-Hant-TW")
+        {
+            return bgm.ValueTC2;
+        }
+
+        return bgm.ValueJP;
+    }
+
     private string SelectedRowClassFunc(Bgm element, int rowNumber)
     {
         if (mudTable.SelectedItem == null || !mudTable.SelectedItem.Equals(element)) return string.Empty;
         selectedRowNumber = rowNumber;
         return "selected";
     }
-    */
 
-    // Legacy: BGM reference list filter/sort helpers
-    /*
     private bool Filter(Bgm? bgm)
     {
         if (bgm is null)
@@ -310,6 +323,21 @@
         var aggregate = $"{bgm.Value}{bgm.ValueJP}{bgm.ValueCN}{bgm.ValueTC}{bgm.ValueTC2}";
         return string.IsNullOrEmpty(searchString) ||
                aggregate.Contains(searchString, StringComparison.OrdinalIgnoreCase);
+    }
+
+    private void ItemUpdated(MudItemDropInfo<DropItem> dropItem)
+    {
+        if (dropItem.Item != null)
+        {
+            dropItem.Item.Identifier = dropItem.DropzoneIdentifier;
+        }
+    }
+
+    public class DropItem
+    {
+        public uint Id { get; init; }
+        public string ValueJP { get; init; } = string.Empty;
+        public string Identifier { get; set; } = string.Empty;
     }
     
     private Func<Bgm, object> SortByBgmName()
@@ -360,21 +388,5 @@
         }
 
         return bgm => bgm.SeriesJP;
-    }
-    */
-
-    private void ItemUpdated(MudItemDropInfo<DropItem> dropItem)
-    {
-        if (dropItem.Item != null)
-        {
-            dropItem.Item.Identifier = dropItem.DropzoneIdentifier;
-        }
-    }
-
-    public class DropItem
-    {
-        public uint Id { get; init; }
-        public string ValueJP { get; init; } = string.Empty;
-        public string Identifier { get; set; } = string.Empty;
     }
 }

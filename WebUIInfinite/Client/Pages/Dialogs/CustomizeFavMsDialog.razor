@@ -103,7 +103,7 @@
                                         foreach (var x in Data.BgmList)
                                         {
                                             <tr>
-                                                <td>BGM @x</td>
+                                                <td>@(NameService.GetLocalizedName(CommonDataService.GetBgmById(x)) ?? $"Custom ID: {x}")</td>
                                             </tr>
                                         }
                                     }
