@@ -6069,6 +6069,10 @@
                       {
                           "Id":  1,
                           "Value":  "FBポーズド"
+                      },
+                      {
+                          "Id":  2,
+                          "Value":  "GGGP Special"
                       }
                   ]
     },
@@ -9842,7 +9846,17 @@
                              "Id":  1,
                              "Value":  "制服"
                          }
-                     ]
+                     ],
+        "Poses": [
+                     {
+                         "Id": 0,
+                         "Value": "Default"
+                     },
+                     {
+                         "Id": 1,
+                         "Value": "GGGP Special"
+                     }
+                 ]
     },
     {
         "Id":  319,
@@ -10128,6 +10142,7 @@
         "ValueTC":  "飛翼高達",
         "ValueTC2":  "飛翼鋼彈",
         "Pilot":  "Heero Yuy",
+        "PilotJP":  "ヒイロ・ユイ",
         "PilotCN":  "希罗·尤尔",
         "PilotTC":  "希羅·尤",
         "PilotTC2":  "希洛·唯",
@@ -10149,7 +10164,7 @@
                          },
                          {
                              "Id":  1,
-                             "Value":  "学生服"
+                             "Value":  "聖ガブリエル学園制服"
                          }
                      ]
     },
