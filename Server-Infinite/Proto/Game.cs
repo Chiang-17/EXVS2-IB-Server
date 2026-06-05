@@ -1344,27 +1344,7 @@ namespace nue.protocol.exvs
             public void ResetGuestNavAnnivFlag() => __pbn__GuestNavAnnivFlag = null;
             private bool? __pbn__GuestNavAnnivFlag;
 
-            [global::ProtoBuf.ProtoMember(4, Name = @"level_max_disp_flag")]
-            public bool LevelMaxDispFlag
-            {
-                get => __pbn__LevelMaxDispFlag.GetValueOrDefault();
-                set => __pbn__LevelMaxDispFlag = value;
-            }
-            public bool ShouldSerializeLevelMaxDispFlag() => __pbn__LevelMaxDispFlag != null;
-            public void ResetLevelMaxDispFlag() => __pbn__LevelMaxDispFlag = null;
-            private bool? __pbn__LevelMaxDispFlag;
-
-            [global::ProtoBuf.ProtoMember(5, Name = @"class_change_disp_flag")]
-            public bool ClassChangeDispFlag
-            {
-                get => __pbn__ClassChangeDispFlag.GetValueOrDefault();
-                set => __pbn__ClassChangeDispFlag = value;
-            }
-            public bool ShouldSerializeClassChangeDispFlag() => __pbn__ClassChangeDispFlag != null;
-            public void ResetClassChangeDispFlag() => __pbn__ClassChangeDispFlag = null;
-            private bool? __pbn__ClassChangeDispFlag;
-
-            [global::ProtoBuf.ProtoMember(6, Name = @"ex_tutorial_disp_flag")]
+            [global::ProtoBuf.ProtoMember(4, Name = @"ex_tutorial_disp_flag")]
             public bool ExTutorialDispFlag
             {
                 get => __pbn__ExTutorialDispFlag.GetValueOrDefault();

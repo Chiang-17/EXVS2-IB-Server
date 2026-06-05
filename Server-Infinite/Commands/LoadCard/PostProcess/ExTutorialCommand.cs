@@ -15,15 +15,15 @@ public class ExTutorialCommand : ILoadCardPostProcessCommand
 
     public void PostProcess(CardProfile cardProfile, Request.LoadCard loadCardRequest)
     {
-        if (!loadCardRequest.ExTutorialDispFlag)
+        if (!loadCardRequest.ShouldSerializeExTutorialDispFlag())
         {
             return;
         }
-        
+
         var playerProfile = _context.PlayerProfileDbSet
             .First(x => x.CardProfile == cardProfile);
 
-        playerProfile.ExTutorialDispFlag = false;
+        playerProfile.ExTutorialDispFlag = loadCardRequest.ExTutorialDispFlag;
 
         _context.SaveChanges();
     }
