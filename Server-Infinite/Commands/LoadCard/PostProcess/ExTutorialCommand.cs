@@ -20,10 +20,15 @@ public class ExTutorialCommand : ILoadCardPostProcessCommand
             return;
         }
 
+        if (!loadCardRequest.ExTutorialDispFlag)
+        {
+            return;
+        }
+
         var playerProfile = _context.PlayerProfileDbSet
             .First(x => x.CardProfile == cardProfile);
 
-        playerProfile.ExTutorialDispFlag = loadCardRequest.ExTutorialDispFlag;
+        playerProfile.ExTutorialDispFlag = false;
 
         _context.SaveChanges();
     }
