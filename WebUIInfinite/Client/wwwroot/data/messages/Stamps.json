@@ -2327,6 +2327,18 @@
         "Clues":  "ガンダムスローネツヴァイ"
     },
     {
+        "ID":  10416,
+        "Value":  "私とエアリアルがついてますから",
+        "Existence":  "IB",
+        "Clues":  "ガンダム・エアリアル(改修型)"
+    },
+    {
+        "ID":  10417,
+        "Value":  "…ごめんね",
+        "Existence":  "IB",
+        "Clues":  "ガンダム・エアリアル(改修型)パーメットスコア・エイト"
+    },
+    {
         "ID":  10418,
         "Value":  "この身に代えて守ってみせる！",
         "Existence":  "OB",
@@ -2351,9 +2363,57 @@
         "Clues":  "デスティニーガンダム(ハイネ機)"
     },
     {
+        "ID":  10423,
+        "Value": "ともに勝利を…",
+        "Existence": "IB",
+        "Clues": "特定Lv.到達で獲得PLv.10"
+    },
+    {
+        "ID":  10424,
+        "Value": "一点突破だ！",
+        "Existence": "IB",
+        "Clues": "特定Lv.到達で獲得PLv.210"
+    },
+    {
+        "ID":  10425,
+        "Value": "壁は越える！",
+        "Existence": "IB",
+        "Clues": "特定Lv.到達で獲得PLv.410"
+    },
+    {
+        "ID":  10426,
+        "Value": "次もこの調子でいこう",
+        "Existence": "IB",
+        "Clues": ""
+    },
+    {
         "ID":  10433,
         "Value":  "ミク、いっきまーす！",
         "Existence":  "IB",
-        "Clues":  "-"
+        "Clues":  "GUNDAM×MIKU Anniversary Special project コラボキャンペーン"
+    },
+    {
+        "ID":  10436,
+        "Value": "僕は一人じゃないから",
+        "Existence": "IB",
+        "Clues": "マイティーストライクフリーダムガンダム"
+    },
+    {
+        "ID":  10439,
+        "Value": "僕は、まだ死なない",
+        "Existence": "IB",
+        "Clues": "赤いガンダム"
+    },
+    {
+        "ID":  10440,
+        "Value": "鋼の心で 風のように",
+        "Existence": "IB",
+        "Clues": "インフィニットブーストパスstage:30"
+    },
+    {
+        "ID":  10450,
+        "Value": "気張って行けよ！",
+        "Existence": "IB",
+        "Clues": "チュアチュリー・パンランチ"
     }
 ]
