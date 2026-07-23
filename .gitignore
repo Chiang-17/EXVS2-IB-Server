@@ -8,6 +8,7 @@ publish/
 
 # Image Resources
 WebUIInfinite/Client/wwwroot/images/
+Server-Infinite/wwwroot/
 
 # User Data
 *.db
