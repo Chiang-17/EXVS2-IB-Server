@@ -634,6 +634,12 @@
   <data name="tracker_custom_text" xml:space="preserve">
     <value>Tracker 自定义文本</value>
   </data>
+  <data name="tracker_type" xml:space="preserve">
+    <value>Tracker 类型 (type)</value>
+  </data>
+  <data name="tracker_text_id" xml:space="preserve">
+    <value>Tracker 文本 ID (text_id)</value>
+  </data>
   <data name="dialogtitle_change_sticker_background" xml:space="preserve">
     <value>修改贴纸背景</value>
   </data>

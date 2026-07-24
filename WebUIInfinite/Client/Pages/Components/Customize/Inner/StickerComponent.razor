@@ -55,6 +55,60 @@
         </MudItem>
     </MudGrid>
 </MudItem>
+@* ---- Open-custom tracker inputs: user directly sets type / text_id / custom_text ---- *@
+<MudItem xs="12">
+    <MudText Typo="Typo.subtitle2" Class="mt-2">@localizer["tracker_1"]</MudText>
+    <MudGrid>
+        <MudItem xs="12" sm="4">
+            <MudNumericField @bind-Value="StickerDto.Tracker1Type" Min="0" T="uint" Margin="Margin.Normal"
+                             Label="@localizer["tracker_type"]" Variant="Variant.Outlined"/>
+        </MudItem>
+        <MudItem xs="12" sm="4">
+            <MudNumericField @bind-Value="StickerDto.Tracker1" Min="0" T="uint" Margin="Margin.Normal"
+                             Label="@localizer["tracker_text_id"]" Variant="Variant.Outlined"/>
+        </MudItem>
+        <MudItem xs="12" sm="4">
+            <MudTextField @bind-Value="StickerDto.Tracker1CustomText" Margin="Margin.Normal"
+                          Label="@localizer["tracker_custom_text"]" Variant="Variant.Outlined"/>
+        </MudItem>
+    </MudGrid>
+</MudItem>
+<MudItem xs="12">
+    <MudText Typo="Typo.subtitle2" Class="mt-2">@localizer["tracker_2"]</MudText>
+    <MudGrid>
+        <MudItem xs="12" sm="4">
+            <MudNumericField @bind-Value="StickerDto.Tracker2Type" Min="0" T="uint" Margin="Margin.Normal"
+                             Label="@localizer["tracker_type"]" Variant="Variant.Outlined"/>
+        </MudItem>
+        <MudItem xs="12" sm="4">
+            <MudNumericField @bind-Value="StickerDto.Tracker2" Min="0" T="uint" Margin="Margin.Normal"
+                             Label="@localizer["tracker_text_id"]" Variant="Variant.Outlined"/>
+        </MudItem>
+        <MudItem xs="12" sm="4">
+            <MudTextField @bind-Value="StickerDto.Tracker2CustomText" Margin="Margin.Normal"
+                          Label="@localizer["tracker_custom_text"]" Variant="Variant.Outlined"/>
+        </MudItem>
+    </MudGrid>
+</MudItem>
+<MudItem xs="12">
+    <MudText Typo="Typo.subtitle2" Class="mt-2">@localizer["tracker_3"]</MudText>
+    <MudGrid>
+        <MudItem xs="12" sm="4">
+            <MudNumericField @bind-Value="StickerDto.Tracker3Type" Min="0" T="uint" Margin="Margin.Normal"
+                             Label="@localizer["tracker_type"]" Variant="Variant.Outlined"/>
+        </MudItem>
+        <MudItem xs="12" sm="4">
+            <MudNumericField @bind-Value="StickerDto.Tracker3" Min="0" T="uint" Margin="Margin.Normal"
+                             Label="@localizer["tracker_text_id"]" Variant="Variant.Outlined"/>
+        </MudItem>
+        <MudItem xs="12" sm="4">
+            <MudTextField @bind-Value="StickerDto.Tracker3CustomText" Margin="Margin.Normal"
+                          Label="@localizer["tracker_custom_text"]" Variant="Variant.Outlined"/>
+        </MudItem>
+    </MudGrid>
+</MudItem>
+
+@* ---- Original dropdown-based tracker selectors (kept for future use of the text_id -> type mapping) ----
 <MudItem xs="12">
     <MudSelect @bind-Value="StickerDto.Tracker1" Margin="Margin.Normal" T="uint"
                Label="@localizer["tracker_1"]" Variant="Variant.Outlined">
@@ -82,6 +136,7 @@
         }
     </MudSelect>
 </MudItem>
+---- *@
 
 @code{
     [Parameter]

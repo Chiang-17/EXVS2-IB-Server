@@ -6,9 +6,16 @@ public class StickerDto
     
     public uint StickerBackgroundId { get; set; } = 0;
     public uint StickerEffectId { get; set; } = 0;
+
+    /// <summary>Maps to PlayerSticker.Tracker.text_id (tag 3) for tracker slot 1–3.</summary>
     public uint Tracker1 { get; set; } = 0;
     public uint Tracker2 { get; set; } = 0;
     public uint Tracker3 { get; set; } = 0;
+
+    /// <summary>Maps to PlayerSticker.Tracker.type (tag 1) for tracker slot 1–3. Open-custom: user-provided.</summary>
+    public uint Tracker1Type { get; set; } = 0;
+    public uint Tracker2Type { get; set; } = 0;
+    public uint Tracker3Type { get; set; } = 0;
 
     /// <summary>Maps to PlayerSticker.Tracker.custom_text (tag 6) for tracker slot 1–3.</summary>
     public string Tracker1CustomText { get; set; } = string.Empty;

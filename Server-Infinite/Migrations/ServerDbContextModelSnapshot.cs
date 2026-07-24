@@ -1307,6 +1307,9 @@ namespace ServerInfinite.Migrations
                         .IsRequired()
                         .HasColumnType("TEXT");
 
+                    b.Property<uint>("Tracker1Type")
+                        .HasColumnType("INTEGER");
+
                     b.Property<uint>("Tracker2")
                         .HasColumnType("INTEGER");
 
@@ -1314,12 +1317,18 @@ namespace ServerInfinite.Migrations
                         .IsRequired()
                         .HasColumnType("TEXT");
 
+                    b.Property<uint>("Tracker2Type")
+                        .HasColumnType("INTEGER");
+
                     b.Property<uint>("Tracker3")
                         .HasColumnType("INTEGER");
 
                     b.Property<string>("Tracker3CustomText")
                         .IsRequired()
                         .HasColumnType("TEXT");
+
+                    b.Property<uint>("Tracker3Type")
+                        .HasColumnType("INTEGER");
 
                     b.Property<DateTime>("UpdateTime")
                         .HasColumnType("TEXT");
@@ -1508,6 +1517,9 @@ namespace ServerInfinite.Migrations
                         .IsRequired()
                         .HasColumnType("TEXT");
 
+                    b.Property<uint>("Tracker1Type")
+                        .HasColumnType("INTEGER");
+
                     b.Property<uint>("Tracker2")
                         .HasColumnType("INTEGER");
 
@@ -1515,12 +1527,18 @@ namespace ServerInfinite.Migrations
                         .IsRequired()
                         .HasColumnType("TEXT");
 
+                    b.Property<uint>("Tracker2Type")
+                        .HasColumnType("INTEGER");
+
                     b.Property<uint>("Tracker3")
                         .HasColumnType("INTEGER");
 
                     b.Property<string>("Tracker3CustomText")
                         .IsRequired()
                         .HasColumnType("TEXT");
+
+                    b.Property<uint>("Tracker3Type")
+                        .HasColumnType("INTEGER");
 
                     b.Property<DateTime>("UpdateTime")
                         .HasColumnType("TEXT");

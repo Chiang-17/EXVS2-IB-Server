@@ -59,11 +59,11 @@ public class MobileSuitStickerCommand : ILoadCardMobileUserCommand
                 StickerEffectId = mobileSuitSticker.StickerEffectId,
             };
 
-            AddTracker(msPlayerSticker, mobileSuitSticker.Tracker1, mobileSuitSticker.Tracker1CustomText,
+            AddTracker(msPlayerSticker, mobileSuitSticker.Tracker1Type, mobileSuitSticker.Tracker1, mobileSuitSticker.Tracker1CustomText,
                 cardProfile, mobileSuitSticker, playerLevel);
-            AddTracker(msPlayerSticker, mobileSuitSticker.Tracker2, mobileSuitSticker.Tracker2CustomText,
+            AddTracker(msPlayerSticker, mobileSuitSticker.Tracker2Type, mobileSuitSticker.Tracker2, mobileSuitSticker.Tracker2CustomText,
                 cardProfile, mobileSuitSticker, playerLevel);
-            AddTracker(msPlayerSticker, mobileSuitSticker.Tracker3, mobileSuitSticker.Tracker3CustomText,
+            AddTracker(msPlayerSticker, mobileSuitSticker.Tracker3Type, mobileSuitSticker.Tracker3, mobileSuitSticker.Tracker3CustomText,
                 cardProfile, mobileSuitSticker, playerLevel);
             
             mobileUserGroup.PlayerStickers.Add(msPlayerSticker);
@@ -73,7 +73,9 @@ public class MobileSuitStickerCommand : ILoadCardMobileUserCommand
     bool HasBlankSticker(MobileSuitSticker mobileSuitSticker)
     {
         var isBlankTracker = mobileSuitSticker.Tracker1 == 0 && mobileSuitSticker.Tracker2 == 0 &&
-                             mobileSuitSticker.Tracker3 == 0;
+                             mobileSuitSticker.Tracker3 == 0 &&
+                             mobileSuitSticker.Tracker1Type == 0 && mobileSuitSticker.Tracker2Type == 0 &&
+                             mobileSuitSticker.Tracker3Type == 0;
         var isBlankDisplay = mobileSuitSticker.StickerBackgroundId == 0 && mobileSuitSticker.StickerEffectId == 0 &&
                              mobileSuitSticker.SubBackgroundId == 0;
         var isWithoutPose = mobileSuitSticker.PoseId == 0 &&
@@ -85,24 +87,36 @@ public class MobileSuitStickerCommand : ILoadCardMobileUserCommand
 
     void AddTracker(
         Response.LoadCard.MobileUserGroup.PlayerSticker sticker,
+        uint type,
         uint textId,
         string customText,
         CardProfile cardProfile,
         MobileSuitSticker mobileSuitSticker,
         PlayerLevel playerLevel)
     {
-        if (textId == 0)
+        // Open-custom tracker: user directly controls type / text_id / custom_text.
+        // Skip only when the whole slot is blank.
+        if (type == 0 && textId == 0 && string.IsNullOrEmpty(customText))
         {
             return;
         }
 
         var tracker = new Response.LoadCard.MobileUserGroup.PlayerSticker.Tracker
         {
+            Type = type,
             TextId = textId,
             CustomText = customText ?? string.Empty
         };
 
+        // Look up rarity / tracker value (and mapped type) from text_id against real stats.
         ProcessMobileSuitTracker(tracker, cardProfile, mobileSuitSticker, playerLevel);
+
+        // Open-custom: preserve the user-provided type when set; otherwise keep the mapped type.
+        if (type != 0)
+        {
+            tracker.Type = type;
+        }
+
         sticker.Trackers.Add(tracker);
     }
 

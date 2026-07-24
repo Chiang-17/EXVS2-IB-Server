@@ -39,31 +39,43 @@ public class DefaultStickerCommand : ILoadCardMobileUserCommand
         var playerLevel = _context.PlayerLevelDbSet
             .First(x => x.CardProfile == cardProfile);
         
-        AddTracker(defaultSticker, defaultStickerProfile.Tracker1, defaultStickerProfile.Tracker1CustomText, playerLevel);
-        AddTracker(defaultSticker, defaultStickerProfile.Tracker2, defaultStickerProfile.Tracker2CustomText, playerLevel);
-        AddTracker(defaultSticker, defaultStickerProfile.Tracker3, defaultStickerProfile.Tracker3CustomText, playerLevel);
+        AddTracker(defaultSticker, defaultStickerProfile.Tracker1Type, defaultStickerProfile.Tracker1, defaultStickerProfile.Tracker1CustomText, playerLevel);
+        AddTracker(defaultSticker, defaultStickerProfile.Tracker2Type, defaultStickerProfile.Tracker2, defaultStickerProfile.Tracker2CustomText, playerLevel);
+        AddTracker(defaultSticker, defaultStickerProfile.Tracker3Type, defaultStickerProfile.Tracker3, defaultStickerProfile.Tracker3CustomText, playerLevel);
         
         mobileUserGroup.PlayerStickers.Add(defaultSticker);
     }
 
     void AddTracker(
         Response.LoadCard.MobileUserGroup.PlayerSticker sticker,
+        uint type,
         uint textId,
         string customText,
         Models.Cards.Battle.PlayerLevel playerLevel)
     {
-        if (textId == 0)
+        // Open-custom tracker: user directly controls type / text_id / custom_text.
+        // Skip only when the whole slot is blank.
+        if (type == 0 && textId == 0 && string.IsNullOrEmpty(customText))
         {
             return;
         }
 
         var tracker = new Response.LoadCard.MobileUserGroup.PlayerSticker.Tracker
         {
+            Type = type,
             TextId = textId,
             CustomText = customText ?? string.Empty
         };
 
+        // Look up rarity / tracker value (and mapped type) from text_id against real stats.
         _stickerTrackerProcessor.Process(tracker, null, playerLevel);
+
+        // Open-custom: preserve the user-provided type when set; otherwise keep the mapped type.
+        if (type != 0)
+        {
+            tracker.Type = type;
+        }
+
         sticker.Trackers.Add(tracker);
     }
 }
