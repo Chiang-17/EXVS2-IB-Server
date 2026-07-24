@@ -55,12 +55,12 @@
         "Costumes":  [
                          {
                              "Id":  0,
-                             "Value":  "Default",
+                             "Value":  "デフォルト",
                              "ValueJP":  "デフォルト"
                          },
                          {
                              "Id":  1,
-                             "Value":  "Dress",
+                             "Value":  "ジオン公国軍軍服[劇場版]",
                              "ValueJP":  "ジオン公国軍軍服[劇場版]"
                          }
                      ]
@@ -103,12 +103,12 @@
         "Costumes":  [
                          {
                              "Id":  0,
-                             "Value":  "Default",
+                             "Value":  "デフォルト",
                              "ValueJP":  "デフォルト"
                          },
                          {
                              "Id":  1,
-                             "Value":  "Dress",
+                             "Value":  "ドレス[ZZ]",
                              "ValueJP":  "ドレス[ZZ]"
                          }
                      ]
@@ -133,12 +133,12 @@
         "Costumes":  [
                          {
                              "Id":  0,
-                             "Value":  "Default",
+                             "Value":  "デフォルト",
                              "ValueJP":  "デフォルト"
                          },
                          {
                              "Id":  1,
-                             "Value":  "Short Hair",
+                             "Value":  "ショートカット",
                              "ValueJP":  "ショートカット"
                          }
                      ]
@@ -163,12 +163,12 @@
         "Costumes":  [
                          {
                              "Id":  0,
-                             "Value":  "Default",
+                             "Value":  "デフォルト",
                              "ValueJP":  "デフォルト"
                          },
                          {
                              "Id":  1,
-                             "Value":  "Plain Clothes",
+                             "Value":  "私服",
                              "ValueJP":  "私服"
                          }
                      ]
@@ -193,17 +193,17 @@
         "Costumes":  [
                          {
                              "Id":  0,
-                             "Value":  "Default",
+                             "Value":  "デフォルト",
                              "ValueJP":  "デフォルト"
                          },
                          {
                              "Id":  1,
-                             "Value":  "Untied Hair",
+                             "Value":  "髪をほどく",
                              "ValueJP":  "髪をほどく"
                          },
                          {
                              "Id":  2,
-                             "Value":  "Plain Clothes",
+                             "Value":  "私服",
                              "ValueJP":  "私服"
                          }
                      ]
@@ -228,12 +228,12 @@
         "Costumes":  [
                          {
                              "Id":  0,
-                             "Value":  "Default",
+                             "Value":  "デフォルト",
                              "ValueJP":  "デフォルト"
                          },
                          {
                              "Id":  1,
-                             "Value":  "Plain Clothes",
+                             "Value":  "私服",
                              "ValueJP":  "私服"
                          }
                      ]
@@ -258,17 +258,17 @@
         "Costumes":  [
                          {
                              "Id":  0,
-                             "Value":  "Default",
+                             "Value":  "デフォルト",
                              "ValueJP":  "デフォルト"
                          },
                          {
                              "Id":  1,
-                             "Value":  "Disguised",
+                             "Value":  "キエルに変装",
                              "ValueJP":  "キエルに変装"
                          },
                          {
                              "Id":  2,
-                             "Value":  "Nurse",
+                             "Value":  "看護師服",
                              "ValueJP":  "看護師服"
                          }
                      ]
@@ -293,12 +293,12 @@
         "Costumes":  [
                          {
                              "Id":  0,
-                             "Value":  "Default",
+                             "Value":  "デフォルト",
                              "ValueJP":  "デフォルト"
                          },
                          {
                              "Id":  1,
-                             "Value":  "Normal Suit",
+                             "Value":  "ノーマルスーツ",
                              "ValueJP":  "ノーマルスーツ"
                          }
                      ]
@@ -323,12 +323,12 @@
         "Costumes":  [
                          {
                              "Id":  0,
-                             "Value":  "Default",
+                             "Value":  "デフォルト",
                              "ValueJP":  "デフォルト"
                          },
                          {
                              "Id":  1,
-                             "Value":  "Plain Clothes",
+                             "Value":  "私服",
                              "ValueJP":  "私服"
                          }
                      ]
@@ -353,12 +353,12 @@
         "Costumes":  [
                          {
                              "Id":  0,
-                             "Value":  "Default",
+                             "Value":  "デフォルト",
                              "ValueJP":  "デフォルト"
                          },
                          {
                              "Id":  1,
-                             "Value":  "Pilot Suit",
+                             "Value":  "パイロットスーツ",
                              "ValueJP":  "パイロットスーツ"
                          }
                      ]
@@ -383,12 +383,12 @@
         "Costumes":  [
                          {
                              "Id":  0,
-                             "Value":  "Default",
+                             "Value":  "デフォルト",
                              "ValueJP":  "デフォルト"
                          },
                          {
                              "Id":  1,
-                             "Value":  "Pilot Suit",
+                             "Value":  "パイロットスーツ",
                              "ValueJP":  "パイロットスーツ"
                          }
                      ]
@@ -413,12 +413,12 @@
         "Costumes":  [
                          {
                              "Id":  0,
-                             "Value":  "Default",
+                             "Value":  "デフォルト",
                              "ValueJP":  "デフォルト"
                          },
                          {
                              "Id":  1,
-                             "Value":  "Normal Suit",
+                             "Value":  "ノーマルスーツ",
                              "ValueJP":  "ノーマルスーツ"
                          }
                      ]
@@ -461,12 +461,12 @@
         "Costumes":  [
                          {
                              "Id":  0,
-                             "Value":  "Default",
+                             "Value":  "デフォルト",
                              "ValueJP":  "デフォルト"
                          },
                          {
                              "Id":  1,
-                             "Value":  "Plain Clothes",
+                             "Value":  "私服",
                              "ValueJP":  "私服"
                          }
                      ]
@@ -509,12 +509,12 @@
         "Costumes":  [
                          {
                              "Id":  0,
-                             "Value":  "Default",
+                             "Value":  "デフォルト",
                              "ValueJP":  "デフォルト"
                          },
                          {
                              "Id":  1,
-                             "Value":  "Peacecraft Uniform",
+                             "Value":  "礼服",
                              "ValueJP":  "礼服"
                          }
                      ]
@@ -539,12 +539,12 @@
         "Costumes":  [
                          {
                              "Id":  0,
-                             "Value":  "Default",
+                             "Value":  "デフォルト",
                              "ValueJP":  "デフォルト"
                          },
                          {
                              "Id":  1,
-                             "Value":  "Plain Clothes",
+                             "Value":  "私服",
                              "ValueJP":  "私服"
                          }
                      ]
@@ -569,17 +569,17 @@
         "Costumes":  [
                          {
                              "Id":  0,
-                             "Value":  "Default",
+                             "Value":  "デフォルト",
                              "ValueJP":  "デフォルト"
                          },
                          {
                              "Id":  1,
-                             "Value":  "Dress",
+                             "Value":  "ドレス",
                              "ValueJP":  "ドレス"
                          },
                          {
                              "Id":  2,
-                             "Value":  "Stage Costume",
+                             "Value":  "ステージ衣装",
                              "ValueJP":  "ステージ衣装"
                          }
                      ]
@@ -604,12 +604,12 @@
         "Costumes":  [
                          {
                              "Id":  0,
-                             "Value":  "Default",
+                             "Value":  "デフォルト",
                              "ValueJP":  "デフォルト"
                          },
                          {
                              "Id":  1,
-                             "Value":  "Plain Clothes",
+                             "Value":  "私服",
                              "ValueJP":  "私服"
                          }
                      ]
@@ -652,12 +652,12 @@
         "Costumes":  [
                          {
                              "Id":  0,
-                             "Value":  "Default",
+                             "Value":  "デフォルト",
                              "ValueJP":  "デフォルト"
                          },
                          {
                              "Id":  1,
-                             "Value":  "Orb Jacket",
+                             "Value":  "オーブジャケット",
                              "ValueJP":  "オーブジャケット"
                          }
                      ]
@@ -682,12 +682,12 @@
         "Costumes":  [
                          {
                              "Id":  0,
-                             "Value":  "Default",
+                             "Value":  "デフォルト",
                              "ValueJP":  "デフォルト"
                          },
                          {
                              "Id":  1,
-                             "Value":  "Plain Clothes",
+                             "Value":  "私服",
                              "ValueJP":  "私服"
                          }
                      ]
@@ -712,12 +712,12 @@
         "Costumes":  [
                          {
                              "Id":  0,
-                             "Value":  "Default",
+                             "Value":  "デフォルト",
                              "ValueJP":  "デフォルト"
                          },
                          {
                              "Id":  1,
-                             "Value":  "Plain Clothes",
+                             "Value":  "私服",
                              "ValueJP":  "私服"
                          }
                      ]
@@ -742,12 +742,12 @@
         "Costumes":  [
                          {
                              "Id":  0,
-                             "Value":  "Default",
+                             "Value":  "デフォルト",
                              "ValueJP":  "デフォルト"
                          },
                          {
                              "Id":  1,
-                             "Value":  "Normal Suit",
+                             "Value":  "ノーマルスーツ",
                              "ValueJP":  "ノーマルスーツ"
                          }
                      ]
@@ -772,12 +772,12 @@
         "Costumes":  [
                          {
                              "Id":  0,
-                             "Value":  "Default",
+                             "Value":  "デフォルト",
                              "ValueJP":  "デフォルト"
                          },
                          {
                              "Id":  1,
-                             "Value":  "No Ribbon",
+                             "Value":  "リボンなし",
                              "ValueJP":  "リボンなし"
                          }
                      ]
@@ -802,12 +802,12 @@
         "Costumes":  [
                          {
                              "Id":  0,
-                             "Value":  "Default",
+                             "Value":  "デフォルト",
                              "ValueJP":  "デフォルト"
                          },
                          {
                              "Id":  1,
-                             "Value":  "Plain Clothes",
+                             "Value":  "私服",
                              "ValueJP":  "私服"
                          }
                      ]
@@ -832,27 +832,27 @@
         "Costumes":  [
                          {
                              "Id":  0,
-                             "Value":  "Default",
+                             "Value":  "デフォルト",
                              "ValueJP":  "デフォルト"
                          },
                          {
                              "Id":  3,
-                             "Value":  "Poolside",
+                             "Value":  "プールサイド",
                              "ValueJP":  "プールサイド"
                          },
                          {
                              "Id":  6,
-                             "Value":  "Sailor Suit",
+                             "Value":  "セーラー服[シルキーブルー]",
                              "ValueJP":  "セーラー服[シルキーブルー]"
                          },
                          {
                              "Id":  7,
-                             "Value":  "Seaside",
+                             "Value":  "シーサイドモデル",
                              "ValueJP":  "シーサイドモデル"
                          },
                          {
                              "Id":  8,
-                             "Value":  "Princess",
+                             "Value":  "プリンセスルートモデル",
                              "ValueJP":  "プリンセスルートモデル"
                          }
                      ]
@@ -877,22 +877,22 @@
         "Costumes":  [
                          {
                              "Id":  0,
-                             "Value":  "Default",
+                             "Value":  "デフォルト",
                              "ValueJP":  "デフォルト"
                          },
                          {
                              "Id":  1,
-                             "Value":  "Jupiter Color",
+                             "Value":  "ジュピターカラー",
                              "ValueJP":  "ジュピターカラー"
                          },
                          {
                              "Id":  2,
-                             "Value":  "Swimsuit",
+                             "Value":  "ビーチモデル",
                              "ValueJP":  "ビーチモデル"
                          },
                          {
                              "Id":  8,
-                             "Value":  "Princess",
+                             "Value":  "プリンセスルートモデル",
                              "ValueJP":  "プリンセスルートモデル"
                          }
                      ]
@@ -917,22 +917,22 @@
         "Costumes":  [
                          {
                              "Id":  0,
-                             "Value":  "Default",
+                             "Value":  "デフォルト",
                              "ValueJP":  "デフォルト"
                          },
                          {
                              "Id":  1,
-                             "Value":  "Jupiter Color",
+                             "Value":  "ジュピターカラー",
                              "ValueJP":  "ジュピターカラー"
                          },
                          {
                              "Id":  2,
-                             "Value":  "Swimsuit",
+                             "Value":  "ビーチモデル",
                              "ValueJP":  "ビーチモデル"
                          },
                          {
                              "Id":  8,
-                             "Value":  "Princess",
+                             "Value":  "プリンセスルートモデル",
                              "ValueJP":  "プリンセスルートモデル"
                          }
                      ]
@@ -957,22 +957,22 @@
         "Costumes":  [
                          {
                              "Id":  0,
-                             "Value":  "Default",
+                             "Value":  "デフォルト",
                              "ValueJP":  "デフォルト"
                          },
                          {
                              "Id":  1,
-                             "Value":  "Jupiter Color",
+                             "Value":  "ジュピターカラー",
                              "ValueJP":  "ジュピターカラー"
                          },
                          {
                              "Id":  2,
-                             "Value":  "Swimsuit",
+                             "Value":  "ビーチモデル",
                              "ValueJP":  "ビーチモデル"
                          },
                          {
                              "Id":  8,
-                             "Value":  "Princess",
+                             "Value":  "プリンセスルートモデル",
                              "ValueJP":  "プリンセスルートモデル"
                          }
                      ]
@@ -997,22 +997,22 @@
         "Costumes":  [
                          {
                              "Id":  0,
-                             "Value":  "Default",
+                             "Value":  "デフォルト",
                              "ValueJP":  "デフォルト"
                          },
                          {
                              "Id":  1,
-                             "Value":  "Jupiter Color",
+                             "Value":  "ジュピターカラー",
                              "ValueJP":  "ジュピターカラー"
                          },
                          {
                              "Id":  2,
-                             "Value":  "Swimsuit",
+                             "Value":  "ビーチモデル",
                              "ValueJP":  "ビーチモデル"
                          },
                          {
                              "Id":  8,
-                             "Value":  "Princess",
+                             "Value":  "プリンセスルートモデル",
                              "ValueJP":  "プリンセスルートモデル"
                          }
                      ]
@@ -1037,12 +1037,12 @@
         "Costumes":  [
                          {
                              "Id":  0,
-                             "Value":  "Default",
+                             "Value":  "デフォルト",
                              "ValueJP":  "デフォルト"
                          },
                          {
                              "Id":  1,
-                             "Value":  "Dress",
+                             "Value":  "ドレス",
                              "ValueJP":  "ドレス"
                          }
                      ]
@@ -1067,12 +1067,12 @@
         "Costumes":  [
                          {
                              "Id":  0,
-                             "Value":  "Default",
+                             "Value":  "デフォルト",
                              "ValueJP":  "デフォルト"
                          },
                          {
                              "Id":  1,
-                             "Value":  "Indoor Wear",
+                             "Value":  "室内着",
                              "ValueJP":  "室内着"
                          }
                      ]
@@ -1086,7 +1086,7 @@
         "ValueTC2":  "星野文奈",
         "Series":  "Gundam Build Fighters Try",
         "SeriesJP":  "ガンダムビルドファイターズトライ",
-        "SeriesCN":  "高达创斗者TRY",
+        "SeriesCN":  "高达创战者TRY",
         "SeriesTC":  "高達創戰者TRY",
         "SeriesTC2":  "鋼彈創鬥者TRY",
         "Seiyuu":  "Makino Yui",
@@ -1097,12 +1097,12 @@
         "Costumes":  [
                          {
                              "Id":  0,
-                             "Value":  "Default",
+                             "Value":  "デフォルト",
                              "ValueJP":  "デフォルト"
                          },
                          {
                              "Id":  1,
-                             "Value":  "Seiho Gakuen Uniform",
+                             "Value":  "聖鳳学園制服",
                              "ValueJP":  "聖鳳学園制服"
                          }
                      ]
@@ -1235,12 +1235,12 @@
         "Costumes":  [
                          {
                              "Id":  0,
-                             "Value":  "Default",
+                             "Value":  "デフォルト",
                              "ValueJP":  "デフォルト"
                          },
                          {
                              "Id":  1,
-                             "Value":  "Tekkadan Jacket",
+                             "Value":  "鉄華団ジャケット",
                              "ValueJP":  "鉄華団ジャケット"
                          }
                      ]
@@ -1265,12 +1265,12 @@
         "Costumes":  [
                          {
                              "Id":  0,
-                             "Value":  "Default",
+                             "Value":  "デフォルト",
                              "ValueJP":  "デフォルト"
                          },
                          {
                              "Id":  1,
-                             "Value":  "Cheerleader",
+                             "Value":  "チアユニフォーム",
                              "ValueJP":  "チアユニフォーム"
                          }
                      ]
@@ -1295,32 +1295,32 @@
         "Costumes":  [
                          {
                              "Id":  0,
-                             "Value":  "Default",
+                             "Value":  "デフォルト",
                              "ValueJP":  "デフォルト"
                          },
                          {
                              "Id":  1,
-                             "Value":  "Fluffy Flapper",
+                             "Value":  "フラッフィーフラッパー",
                              "ValueJP":  "フラッフィーフラッパー"
                          },
                          {
                              "Id":  2,
-                             "Value":  "Cermonal",
+                             "Value":  "チェルモナル",
                              "ValueJP":  "チェルモナル"
                          },
                          {
                              "Id":  3,
-                             "Value":  "Rackezina",
+                             "Value":  "ラッケジーナ",
                              "ValueJP":  "ラッケジーナ"
                          },
                          {
                              "Id":  4,
-                             "Value":  "Fluffy Flapper（クリーシム）",
+                             "Value":  "フラッフィーフラッパー（クリーシム）",
                              "ValueJP":  "フラッフィーフラッパー（クリーシム）"
                          },
                          {
                              "Id":  5,
-                             "Value":  "Gakuen Uniform",
+                             "Value":  "学園制服",
                              "ValueJP":  "学園制服"
                          },
                          {
@@ -1360,32 +1360,32 @@
         "Costumes":  [
                          {
                              "Id":  0,
-                             "Value":  "Default",
+                             "Value":  "デフォルト",
                              "ValueJP":  "デフォルト"
                          },
                          {
                              "Id":  1,
-                             "Value":  "Fluffy Flapper",
+                             "Value":  "フラッフィーフラッパー",
                              "ValueJP":  "フラッフィーフラッパー"
                          },
                          {
                              "Id":  2,
-                             "Value":  "Cermonal",
+                             "Value":  "チェルモナル",
                              "ValueJP":  "チェルモナル"
                          },
                          {
                              "Id":  3,
-                             "Value":  "Rackezina",
+                             "Value":  "ラッケジーナ",
                              "ValueJP":  "ラッケジーナ"
                          },
                          {
                              "Id":  4,
-                             "Value":  "Fluffy Flapper（クリーシム）",
+                             "Value":  "フラッフィーフラッパー（クリーシム）",
                              "ValueJP":  "フラッフィーフラッパー（クリーシム）"
                          },
                          {
                              "Id":  5,
-                             "Value":  "Gakuen Uniform",
+                             "Value":  "学園制服",
                              "ValueJP":  "学園制服"
                          },
                          {
@@ -1446,7 +1446,7 @@
         "Costumes":  [
                          {
                              "Id":  0,
-                             "Value":  "Default",
+                             "Value":  "デフォルト",
                              "ValueJP":  "デフォルト"
                          },
                          {
@@ -1481,12 +1481,12 @@
         "Costumes":  [
                          {
                              "Id":  0,
-                             "Value":  "Default",
+                             "Value":  "デフォルト",
                              "ValueJP":  "デフォルト"
                          },
                          {
                              "Id":  1,
-                             "Value":  "Dress",
+                             "Value":  "ドレス",
                              "ValueJP":  "ドレス"
                          }
                      ]
@@ -1529,12 +1529,12 @@
         "Costumes":  [
                          {
                              "Id":  0,
-                             "Value":  "Default",
+                             "Value":  "デフォルト",
                              "ValueJP":  "デフォルト"
                          },
                          {
                              "Id":  1,
-                             "Value":  "Plain Clothes",
+                             "Value":  "私服",
                              "ValueJP":  "私服"
                          }
                      ]

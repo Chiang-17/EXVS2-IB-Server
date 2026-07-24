@@ -1,410 +1,2038 @@
-﻿[
-    {
-        "Id":  0,
-        "Value":  "None",
-        "Existence":  "OBv7"
-    },
-    {
-        "Id":  1,
-        "Value":  "プレイヤーレベル1周目Lv.200",
-        "Existence":  "OBv7",
-        "Category":  "プレイヤーレベル"
-    },
-    {
-        "Id":  2,
-        "Value":  "プレイヤーレベル2周目Lv.200",
-        "Existence":  "OBv7",
-        "Category":  "プレイヤーレベル"
-    },
-    {
-        "Id":  3,
-        "Value":  "プレイヤーレベル3周目Lv.200",
-        "Existence":  "OBv7",
-        "Category":  "プレイヤーレベル"
-    },
-    {
-        "Id":  4,
-        "Value":  "Aceランキングトライアル100位以内",
-        "Existence":  "OBv7",
-        "Category":  "イベント"
-    },
-    {
-        "Id":  5,
-        "Value":  "Aceランキングトライアル1000位以内",
-        "Existence":  "OBv7",
-        "Category":  "イベント"
-    },
-    {
-        "Id":  6,
-        "Value":  "Aceランキングトライアル連続100位以内",
-        "Existence":  "OBv7",
-        "Category":  "イベント"
-    },
-    {
-        "Id":  7,
-        "Value":  "Aceランキングトライアル連続1000位以内",
-        "Existence":  "OBv7",
-        "Category":  "イベント"
-    },
-    {
-        "Id":  12,
-        "Value":  "Aceランキングトライアル100位以内 (2023/9)",
-        "Existence":  "OBv7",
-        "Category":  "イベント"
-    },
-    {
-        "Id":  13,
-        "Value":  "Aceランキングトライアル1000位以内 (2023/9)",
-        "Existence":  "OBv7",
-        "Category":  "イベント"
-    },
-    {
-        "Id":  14,
-        "Value":  "Aceランキングトライアル連続100位以内 (2023/9)",
-        "Existence":  "OBv7",
-        "Category":  "イベント"
-    },
-    {
-        "Id":  15,
-        "Value":  "Aceランキングトライアル連続1000位以内 (2023/9)",
-        "Existence":  "OBv7",
-        "Category":  "イベント"
-    },
-    {
-        "Id":  16,
-        "Value":  "Aceランキングトライアル100位以内 (2023/11)",
-        "Existence":  "OBv7",
-        "Category":  "イベント"
-    },
-    {
-        "Id":  17,
-        "Value":  "Aceランキングトライアル1000位以内 (2023/11)",
-        "Existence":  "OBv7",
-        "Category":  "イベント"
-    },
-    {
-        "Id":  18,
-        "Value":  "Aceランキングトライアル連続100位以内 (2023/11)",
-        "Existence":  "OBv7",
-        "Category":  "イベント"
-    },
-    {
-        "Id":  19,
-        "Value":  "Aceランキングトライアル連続1000位以内 (2023/11)",
-        "Existence":  "OBv7",
-        "Category":  "イベント"
-    },
-    {
-        "Id":  20,
-        "Value":  "Aceランキングトライアル100位以内 (2024/1)",
-        "Existence":  "OBv9",
-        "Category":  "イベント"
-    },
-    {
-        "Id":  21,
-        "Value":  "Aceランキングトライアル1000位以内 (2024/1)",
-        "Existence":  "OBv9",
-        "Category":  "イベント"
-    },
-    {
-        "Id":  22,
-        "Value":  "Aceランキングトライアル連続100位以内 (2024/1)",
-        "Existence":  "OBv9",
-        "Category":  "イベント"
-    },
-    {
-        "Id":  23,
-        "Value":  "Aceランキングトライアル連続1000位以内 (2024/1)",
-        "Existence":  "OBv9",
-        "Category":  "イベント"
-    },
-    {
-        "Id":  24,
-        "Value":  "Overランキングトライアル100位以内 (2024/3)",
-        "Existence":  "OBv13",
-        "Category":  "イベント"
-    },
-    {
-        "Id":  25,
-        "Value":  "Overランキングトライアル1000位以内 (2024/3)",
-        "Existence":  "OBv13",
-        "Category":  "イベント"
-    },
-    {
-        "Id":  26,
-        "Value":  "Overランキングトライアル連続100位以内 (2024/3)",
-        "Existence":  "OBv13",
-        "Category":  "イベント"
-    },
-    {
-        "Id":  27,
-        "Value":  "Overランキングトライアル連続1000位以内 (2024/3)",
-        "Existence":  "OBv13",
-        "Category":  "イベント"
-    },
-    {
-        "Id":  28,
-        "Value":  "Overランキングトライアル100位以内 (2024/5)",
-        "Existence":  "OBv13",
-        "Category":  "イベント"
-    },
-    {
-        "Id":  29,
-        "Value":  "Overランキングトライアル1000位以内 (2024/5)",
-        "Existence":  "OBv13",
-        "Category":  "イベント"
-    },
-    {
-        "Id":  30,
-        "Value":  "Overランキングトライアル連続100位以内 (2024/5)",
-        "Existence":  "OBv13",
-        "Category":  "イベント"
-    },
-    {
-        "Id":  31,
-        "Value":  "Overランキングトライアル連続1000位以内 (2024/5)",
-        "Existence":  "OBv13",
-        "Category":  "イベント"
-    },
-    {
-        "Id":  32,
-        "Value":  "『機動戦士ガンダムSEED FREEDOM』公開記念キャンペーン 10クレジットプレイ",
-        "Existence":  "OBv13",
-        "Category":  "イベント"
-    },
-    {
-        "Id":  33,
-        "Value":  "Overランキングトライアル100位以内 (2024/7)",
-        "Existence":  "OBv16",
-        "Category":  "イベント"
-    },
-    {
-        "Id":  34,
-        "Value":  "Overランキングトライアル1000位以内 (2024/7)",
-        "Existence":  "OBv16",
-        "Category":  "イベント"
-    },
-    {
-        "Id":  35,
-        "Value":  "Overランキングトライアル連続100位以内 (2024/7)",
-        "Existence":  "OBv16",
-        "Category":  "イベント"
-    },
-    {
-        "Id":  36,
-        "Value":  "Overランキングトライアル連続1000位以内 (2024/7)",
-        "Existence":  "OBv16",
-        "Category":  "イベント"
-    },
-    {
-        "Id":  37,
-        "Value":  "Overランキングトライアル100位以内 (2024/9)",
-        "Existence":  "OBv18",
-        "Category":  "イベント"
-    },
-    {
-        "Id":  38,
-        "Value":  "Overランキングトライアル1000位以内 (2024/9)",
-        "Existence":  "OBv18",
-        "Category":  "イベント"
-    },
-    {
-        "Id":  39,
-        "Value":  "Overランキングトライアル連続100位以内 (2024/9)",
-        "Existence":  "OBv18",
-        "Category":  "イベント"
-    },
-    {
-        "Id":  40,
-        "Value":  "Overランキングトライアル連続1000位以内 (2024/9)",
-        "Existence":  "OBv18",
-        "Category":  "イベント"
-    },
-    {
-        "Id":  41,
-        "Value":  "Overランキングトライアル100位以内 (2024/11)",
-        "Existence":  "OBv19",
-        "Category":  "イベント"
-    },
-    {
-        "Id":  42,
-        "Value":  "Overランキングトライアル1000位以内 (2024/11)",
-        "Existence":  "OBv19",
-        "Category":  "イベント"
-    },
-    {
-        "Id":  43,
-        "Value":  "Overランキングトライアル連続100位以内 (2024/11)",
-        "Existence":  "OBv19",
-        "Category":  "イベント"
-    },
-    {
-        "Id":  44,
-        "Value":  "Overランキングトライアル連続1000位以内 (2024/11)",
-        "Existence":  "OBv19",
-        "Category":  "イベント"
-    },
-    {
-        "Id":  45,
-        "Value":  "Overランキングトライアル100位以内 (2025/1)",
-        "Existence":  "OBv24",
-        "Category":  "イベント"
-    },
-    {
-        "Id":  46,
-        "Value":  "Overランキングトライアル1000位以内 (2025/1)",
-        "Existence":  "OBv24",
-        "Category":  "イベント"
-    },
-    {
-        "Id":  47,
-        "Value":  "Overランキングトライアル連続100位以内 (2025/1)",
-        "Existence":  "OBv24",
-        "Category":  "イベント"
-    },
-    {
-        "Id":  48,
-        "Value":  "Overランキングトライアル連続1000位以内 (2025/1)",
-        "Existence":  "OBv24",
-        "Category":  "イベント"
-    },
-    {
-        "Id":  49,
-        "Value":  "Sticker Effect 49",
-        "Existence":  "OBv16"
-    },
-    {
-        "Id":  50,
-        "Value":  "Sticker Effect 50",
-        "Existence":  "OBv16"
-    },
-    {
-        "Id":  51,
-        "Value":  "Sticker Effect 51",
-        "Existence":  "OBv16"
-    },
-    {
-        "Id":  52,
-        "Value":  "Sticker Effect 52",
-        "Existence":  "OBv16"
-    },
-    {
-        "Id":  53,
-        "Value":  "Sticker Effect 53",
-        "Existence":  "OBv16"
-    },
-    {
-        "Id":  54,
-        "Value":  "KING OF CLASS MATCH",
-        "Existence":  "OBv16"
-    },
-    {
-        "Id":  55,
-        "Value":  "Sticker Effect 55",
-        "Existence":  "OBv16"
-    },
-    {
-        "Id":  56,
-        "Value":  "Sticker Effect 56",
-        "Existence":  "OBv16"
-    },
-    {
-        "Id":  57,
-        "Value":  "Sticker Effect 57",
-        "Existence":  "OBv16"
-    },
-    {
-        "Id":  58,
-        "Value":  "「GGGP2024 後夜祭」来場",
-        "Existence":  "OBv18",
-        "Category":  "会場イベント"
-    },
-    {
-        "Id":  59,
-        "Value":  "Sticker Effect 59",
-        "Existence":  "OBv18"
-    },
-    {
-        "Id":  60,
-        "Value":  "PDF2025優勝",
-        "Existence":  "OBv24",
-        "Category":  "大会"
-    },
-    {
-        "Id":  61,
-        "Value":  "PDF2025準優勝",
-        "Existence":  "OBv24",
-        "Category":  "大会"
-    },
-    {
-        "Id":  62,
-        "Value":  "PDF2025ベスト8",
-        "Existence":  "OBv24",
-        "Category":  "大会"
-    },
-    {
-        "Id":  63,
-        "Value":  "Overランキングトライアル100位以内 (2025/3)",
-        "Existence":  "OBv26",
-        "Category":  "イベント"
-    },
-    {
-        "Id":  64,
-        "Value":  "Overランキングトライアル1000位以内 (2025/3)",
-        "Existence":  "OBv26",
-        "Category":  "イベント"
-    },
-    {
-        "Id":  65,
-        "Value":  "Overランキングトライアル連続100位以内 (2025/3)",
-        "Existence":  "OBv26",
-        "Category":  "イベント"
-    },
-    {
-        "Id":  67,
-        "Value":  "エクストリームファン投票_デスティニーガンダム",
-        "Existence":  "OBv24",
-        "Category":  "キャンペーン"
-    },
-    {
-        "Id":  68,
-        "Value":  "エクストリームファン投票_アースリィガンダム",
-        "Existence":  "OBv24",
-        "Category":  "キャンペーン"
-    },
-    {
-        "Id":  69,
-        "Value":  "エクストリームファン投票_ガンダム・エアリアル",
-        "Existence":  "OBv24",
-        "Category":  "キャンペーン"
-    },
-    {
-        "Id":  70,
-        "Value":  "エクストリームファン投票_ザクⅡ",
-        "Existence":  "OBv24",
-        "Category":  "キャンペーン"
-    },
-    {
-        "Id":  71,
-        "Value":  "PDF2025開催記念特典",
-        "Existence":  "OBv24",
-        "Category":  "大会"
-    },
-    {
-        "Id":  72,
-        "Value":  "LEGEND OF CLASS MATCH",
-        "Existence":  "OBv24"
-    },
-    {
-        "Id":  73,
-        "Value":  "SEASON BATTLE THE FINAL 優勝",
-        "Existence":  "OBv27",
-        "Category":  "大会"
-    },
-    {
-        "Id":  74,
-        "Value":  "SEASON BATTLE THE FINAL 準優勝",
-        "Existence":  "OBv27",
-        "Category":  "大会"
-    }
+[
+  {
+    "Id": 0,
+    "Value": "None",
+    "Existence": "OBv7"
+  },
+  {
+    "Id": 1,
+    "Value": "プレイヤーレベル1周目Lv.200",
+    "Existence": "OBv7",
+    "Category": "プレイヤーレベル"
+  },
+  {
+    "Id": 2,
+    "Value": "プレイヤーレベル2周目Lv.200",
+    "Existence": "OBv7",
+    "Category": "プレイヤーレベル"
+  },
+  {
+    "Id": 3,
+    "Value": "プレイヤーレベル3周目Lv.200",
+    "Existence": "OBv7",
+    "Category": "プレイヤーレベル"
+  },
+  {
+    "Id": 4,
+    "Value": "Aceランキングトライアル100位以内",
+    "Existence": "OBv7",
+    "Category": "イベント"
+  },
+  {
+    "Id": 5,
+    "Value": "Aceランキングトライアル1000位以内",
+    "Existence": "OBv7",
+    "Category": "イベント"
+  },
+  {
+    "Id": 6,
+    "Value": "Aceランキングトライアル連続100位以内",
+    "Existence": "OBv7",
+    "Category": "イベント"
+  },
+  {
+    "Id": 7,
+    "Value": "Aceランキングトライアル連続1000位以内",
+    "Existence": "OBv7",
+    "Category": "イベント"
+  },
+  {
+    "Id": 8,
+    "Value": "Invalid Sticker Effect",
+    "Existence": "NotExist"
+  },
+  {
+    "Id": 9,
+    "Value": "Invalid Sticker Effect",
+    "Existence": "NotExist"
+  },
+  {
+    "Id": 10,
+    "Value": "Invalid Sticker Effect",
+    "Existence": "NotExist"
+  },
+  {
+    "Id": 11,
+    "Value": "Invalid Sticker Effect",
+    "Existence": "NotExist"
+  },
+  {
+    "Id": 12,
+    "Value": "Aceランキングトライアル100位以内 (2023/9)",
+    "Existence": "OBv7",
+    "Category": "イベント"
+  },
+  {
+    "Id": 13,
+    "Value": "Aceランキングトライアル1000位以内 (2023/9)",
+    "Existence": "OBv7",
+    "Category": "イベント"
+  },
+  {
+    "Id": 14,
+    "Value": "Aceランキングトライアル連続100位以内 (2023/9)",
+    "Existence": "OBv7",
+    "Category": "イベント"
+  },
+  {
+    "Id": 15,
+    "Value": "Aceランキングトライアル連続1000位以内 (2023/9)",
+    "Existence": "OBv7",
+    "Category": "イベント"
+  },
+  {
+    "Id": 16,
+    "Value": "Aceランキングトライアル100位以内 (2023/11)",
+    "Existence": "OBv7",
+    "Category": "イベント"
+  },
+  {
+    "Id": 17,
+    "Value": "Aceランキングトライアル1000位以内 (2023/11)",
+    "Existence": "OBv7",
+    "Category": "イベント"
+  },
+  {
+    "Id": 18,
+    "Value": "Aceランキングトライアル連続100位以内 (2023/11)",
+    "Existence": "OBv7",
+    "Category": "イベント"
+  },
+  {
+    "Id": 19,
+    "Value": "Aceランキングトライアル連続1000位以内 (2023/11)",
+    "Existence": "OBv7",
+    "Category": "イベント"
+  },
+  {
+    "Id": 20,
+    "Value": "Aceランキングトライアル100位以内 (2024/1)",
+    "Existence": "OBv9",
+    "Category": "イベント"
+  },
+  {
+    "Id": 21,
+    "Value": "Aceランキングトライアル1000位以内 (2024/1)",
+    "Existence": "OBv9",
+    "Category": "イベント"
+  },
+  {
+    "Id": 22,
+    "Value": "Aceランキングトライアル連続100位以内 (2024/1)",
+    "Existence": "OBv9",
+    "Category": "イベント"
+  },
+  {
+    "Id": 23,
+    "Value": "Aceランキングトライアル連続1000位以内 (2024/1)",
+    "Existence": "OBv9",
+    "Category": "イベント"
+  },
+  {
+    "Id": 24,
+    "Value": "Overランキングトライアル100位以内 (2024/3)",
+    "Existence": "OBv13",
+    "Category": "イベント"
+  },
+  {
+    "Id": 25,
+    "Value": "Overランキングトライアル1000位以内 (2024/3)",
+    "Existence": "OBv13",
+    "Category": "イベント"
+  },
+  {
+    "Id": 26,
+    "Value": "Overランキングトライアル連続100位以内 (2024/3)",
+    "Existence": "OBv13",
+    "Category": "イベント"
+  },
+  {
+    "Id": 27,
+    "Value": "Overランキングトライアル連続1000位以内 (2024/3)",
+    "Existence": "OBv13",
+    "Category": "イベント"
+  },
+  {
+    "Id": 28,
+    "Value": "Overランキングトライアル100位以内 (2024/5)",
+    "Existence": "OBv13",
+    "Category": "イベント"
+  },
+  {
+    "Id": 29,
+    "Value": "Overランキングトライアル1000位以内 (2024/5)",
+    "Existence": "OBv13",
+    "Category": "イベント"
+  },
+  {
+    "Id": 30,
+    "Value": "Overランキングトライアル連続100位以内 (2024/5)",
+    "Existence": "OBv13",
+    "Category": "イベント"
+  },
+  {
+    "Id": 31,
+    "Value": "Overランキングトライアル連続1000位以内 (2024/5)",
+    "Existence": "OBv13",
+    "Category": "イベント"
+  },
+  {
+    "Id": 32,
+    "Value": "『機動戦士ガンダムSEED FREEDOM』公開記念キャンペーン 10クレジットプレイ",
+    "Existence": "OBv13",
+    "Category": "イベント"
+  },
+  {
+    "Id": 33,
+    "Value": "Overランキングトライアル100位以内 (2024/7)",
+    "Existence": "OBv16",
+    "Category": "イベント"
+  },
+  {
+    "Id": 34,
+    "Value": "Overランキングトライアル1000位以内 (2024/7)",
+    "Existence": "OBv16",
+    "Category": "イベント"
+  },
+  {
+    "Id": 35,
+    "Value": "Overランキングトライアル連続100位以内 (2024/7)",
+    "Existence": "OBv16",
+    "Category": "イベント"
+  },
+  {
+    "Id": 36,
+    "Value": "Overランキングトライアル連続1000位以内 (2024/7)",
+    "Existence": "OBv16",
+    "Category": "イベント"
+  },
+  {
+    "Id": 37,
+    "Value": "Overランキングトライアル100位以内 (2024/9)",
+    "Existence": "OBv18",
+    "Category": "イベント"
+  },
+  {
+    "Id": 38,
+    "Value": "Overランキングトライアル1000位以内 (2024/9)",
+    "Existence": "OBv18",
+    "Category": "イベント"
+  },
+  {
+    "Id": 39,
+    "Value": "Overランキングトライアル連続100位以内 (2024/9)",
+    "Existence": "OBv18",
+    "Category": "イベント"
+  },
+  {
+    "Id": 40,
+    "Value": "Overランキングトライアル連続1000位以内 (2024/9)",
+    "Existence": "OBv18",
+    "Category": "イベント"
+  },
+  {
+    "Id": 41,
+    "Value": "Overランキングトライアル100位以内 (2024/11)",
+    "Existence": "OBv19",
+    "Category": "イベント"
+  },
+  {
+    "Id": 42,
+    "Value": "Overランキングトライアル1000位以内 (2024/11)",
+    "Existence": "OBv19",
+    "Category": "イベント"
+  },
+  {
+    "Id": 43,
+    "Value": "Overランキングトライアル連続100位以内 (2024/11)",
+    "Existence": "OBv19",
+    "Category": "イベント"
+  },
+  {
+    "Id": 44,
+    "Value": "Overランキングトライアル連続1000位以内 (2024/11)",
+    "Existence": "OBv19",
+    "Category": "イベント"
+  },
+  {
+    "Id": 45,
+    "Value": "Overランキングトライアル100位以内 (2025/1)",
+    "Existence": "OBv24",
+    "Category": "イベント"
+  },
+  {
+    "Id": 46,
+    "Value": "Overランキングトライアル1000位以内 (2025/1)",
+    "Existence": "OBv24",
+    "Category": "イベント"
+  },
+  {
+    "Id": 47,
+    "Value": "Overランキングトライアル連続100位以内 (2025/1)",
+    "Existence": "OBv24",
+    "Category": "イベント"
+  },
+  {
+    "Id": 48,
+    "Value": "Overランキングトライアル連続1000位以内 (2025/1)",
+    "Existence": "OBv24",
+    "Category": "イベント"
+  },
+  {
+    "Id": 49,
+    "Value": "Sticker Effect 49",
+    "Existence": "OBv16"
+  },
+  {
+    "Id": 50,
+    "Value": "Sticker Effect 50",
+    "Existence": "OBv16"
+  },
+  {
+    "Id": 51,
+    "Value": "Sticker Effect 51",
+    "Existence": "OBv16"
+  },
+  {
+    "Id": 52,
+    "Value": "Sticker Effect 52",
+    "Existence": "OBv16"
+  },
+  {
+    "Id": 53,
+    "Value": "Sticker Effect 53",
+    "Existence": "OBv16"
+  },
+  {
+    "Id": 54,
+    "Value": "KING OF CLASS MATCH",
+    "Existence": "OBv16"
+  },
+  {
+    "Id": 55,
+    "Value": "Sticker Effect 55",
+    "Existence": "OBv16"
+  },
+  {
+    "Id": 56,
+    "Value": "Sticker Effect 56",
+    "Existence": "OBv16"
+  },
+  {
+    "Id": 57,
+    "Value": "Sticker Effect 57",
+    "Existence": "OBv16"
+  },
+  {
+    "Id": 58,
+    "Value": "「GGGP2024 後夜祭」来場",
+    "Existence": "OBv18",
+    "Category": "会場イベント"
+  },
+  {
+    "Id": 59,
+    "Value": "Sticker Effect 59",
+    "Existence": "OBv18"
+  },
+  {
+    "Id": 60,
+    "Value": "PDF2025優勝",
+    "Existence": "OBv24",
+    "Category": "大会"
+  },
+  {
+    "Id": 61,
+    "Value": "PDF2025準優勝",
+    "Existence": "OBv24",
+    "Category": "大会"
+  },
+  {
+    "Id": 62,
+    "Value": "PDF2025ベスト8",
+    "Existence": "OBv24",
+    "Category": "大会"
+  },
+  {
+    "Id": 63,
+    "Value": "Overランキングトライアル100位以内 (2025/3)",
+    "Existence": "OBv26",
+    "Category": "イベント"
+  },
+  {
+    "Id": 64,
+    "Value": "Overランキングトライアル1000位以内 (2025/3)",
+    "Existence": "OBv26",
+    "Category": "イベント"
+  },
+  {
+    "Id": 65,
+    "Value": "Overランキングトライアル連続100位以内 (2025/3)",
+    "Existence": "OBv26",
+    "Category": "イベント"
+  },
+  {
+    "Id": 66,
+    "Value": "Overランキングトライアル連続1000位以内 (2025/3)",
+    "Existence": "OBv26",
+    "Category": "イベント"
+  },
+  {
+    "Id": 67,
+    "Value": "エクストリームファン投票_デスティニーガンダム",
+    "Existence": "OBv24",
+    "Category": "キャンペーン"
+  },
+  {
+    "Id": 68,
+    "Value": "エクストリームファン投票_アースリィガンダム",
+    "Existence": "OBv24",
+    "Category": "キャンペーン"
+  },
+  {
+    "Id": 69,
+    "Value": "エクストリームファン投票_ガンダム・エアリアル",
+    "Existence": "OBv24",
+    "Category": "キャンペーン"
+  },
+  {
+    "Id": 70,
+    "Value": "エクストリームファン投票_ザクⅡ",
+    "Existence": "OBv24",
+    "Category": "キャンペーン"
+  },
+  {
+    "Id": 71,
+    "Value": "PDF2025開催記念特典",
+    "Existence": "OBv24",
+    "Category": "大会"
+  },
+  {
+    "Id": 72,
+    "Value": "LEGEND OF CLASS MATCH",
+    "Existence": "OBv24"
+  },
+  {
+    "Id": 73,
+    "Value": "SEASON BATTLE THE FINAL 優勝",
+    "Existence": "OBv27",
+    "Category": "大会"
+  },
+  {
+    "Id": 74,
+    "Value": "SEASON BATTLE THE FINAL 準優勝",
+    "Existence": "OBv27",
+    "Category": "大会"
+  },
+  {
+    "Id": 80,
+    "Value": "ガンダム熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 81,
+    "Value": "シャア専用ゲルググ熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 82,
+    "Value": "アッガイ熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 83,
+    "Value": "ジオング熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 84,
+    "Value": "ギャン熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 85,
+    "Value": "ガンダム(Gメカ)熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 86,
+    "Value": "ザクII(ドアン機)熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 87,
+    "Value": "シャア専用ザクII熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 88,
+    "Value": "ガンキャノン熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 89,
+    "Value": "Zガンダム熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 90,
+    "Value": "百式熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 91,
+    "Value": "メッサーラ熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 92,
+    "Value": "ジ・O熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 93,
+    "Value": "ガンダムMk-II熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 94,
+    "Value": "ハンブラビ熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 95,
+    "Value": "マラサイ熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 96,
+    "Value": "ガブスレイ熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 97,
+    "Value": "バウンド・ドック熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 98,
+    "Value": "ディジェ熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 99,
+    "Value": "フルアーマーZZガンダム熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 100,
+    "Value": "キュベレイMk-II(プルツー)熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 101,
+    "Value": "キュベレイ熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 102,
+    "Value": "ザクIII改熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 103,
+    "Value": "アッガイ(ハマーン搭乗)熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 104,
+    "Value": "Zガンダム(ルー搭乗)熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 105,
+    "Value": "ZZガンダム熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 106,
+    "Value": "キュベレイMk-II(プル)熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 107,
+    "Value": "ドーベン・ウルフ熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 108,
+    "Value": "νガンダム熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 109,
+    "Value": "サザビー熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 110,
+    "Value": "リ・ガズィ熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 111,
+    "Value": "ヤクト・ドーガ熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 112,
+    "Value": "νガンダムHWS熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 113,
+    "Value": "RX-93ff νガンダム熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 114,
+    "Value": "ガンダムF91熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 115,
+    "Value": "ベルガ・ギロス熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 116,
+    "Value": "V2ガンダム熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 117,
+    "Value": "ガンイージ熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 118,
+    "Value": "ゴトラタン熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 119,
+    "Value": "ヴィクトリーガンダム熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 120,
+    "Value": "リグ・コンティオ熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 121,
+    "Value": "ゲドラフ熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 122,
+    "Value": "ゴッドガンダム熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 123,
+    "Value": "ドラゴンガンダム熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 124,
+    "Value": "マスターガンダム熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 125,
+    "Value": "ガンダムシュピーゲル熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 126,
+    "Value": "ノーベルガンダム熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 127,
+    "Value": "シャイニングガンダム熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 128,
+    "Value": "ライジングガンダム熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 129,
+    "Value": "ガンダムマックスター熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 130,
+    "Value": "ウイングガンダムゼロ熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 131,
+    "Value": "ガンダムエピオン熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 132,
+    "Value": "アルトロンガンダム熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 133,
+    "Value": "ガンダムサンドロック改熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 134,
+    "Value": "ガンダムヘビーアームズ改熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 135,
+    "Value": "ガンダムデスサイズヘル熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 136,
+    "Value": "トールギスII熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 137,
+    "Value": "トールギス熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 138,
+    "Value": "ウイングガンダムゼロ(EW版)熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 139,
+    "Value": "ガンダムヘビーアームズ改(EW版)熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 140,
+    "Value": "トールギスIII熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 141,
+    "Value": "熟ガンダムデスサイズヘル(EW版)練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 142,
+    "Value": "ガンダムDX熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 143,
+    "Value": "ガンダムヴァサーゴ・チェストブレイク熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 144,
+    "Value": "ガンダムXディバイダー熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 145,
+    "Value": "ガンダムX熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 146,
+    "Value": "ベルティゴ熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 147,
+    "Value": "∀ガンダム熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 148,
+    "Value": "ターンX熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 149,
+    "Value": "ゴールドスモー熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 150,
+    "Value": "カプル熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 151,
+    "Value": "コレンカプル熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 152,
+    "Value": "ストライクガンダム熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 153,
+    "Value": "フォビドゥンガンダム熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 154,
+    "Value": "プロヴィデンスガンダム熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 155,
+    "Value": "ラゴゥ熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 156,
+    "Value": "フリーダムガンダム熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 157,
+    "Value": "デュエルガンダムアサルトシュラウド熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 158,
+    "Value": "パーフェクトストライクガンダム熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 159,
+    "Value": "ブリッツガンダム熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 160,
+    "Value": "レイダーガンダム熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 161,
+    "Value": "バスターガンダム熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 162,
+    "Value": "イージスガンダム熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 163,
+    "Value": "ジャスティスガンダム熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 164,
+    "Value": "カラミティガンダム熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 165,
+    "Value": "ストライクフリーダムガンダム熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 166,
+    "Value": "インフィニットジャスティスガンダム熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 167,
+    "Value": "デスティニーガンダム熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 168,
+    "Value": "ガナーザクウォーリア熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 169,
+    "Value": "インパルスガンダム熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 170,
+    "Value": "ガイアガンダム熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 171,
+    "Value": "レジェンドガンダム熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 172,
+    "Value": "インパルスガンダム(ルナマリア搭乗)熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 173,
+    "Value": "インフィニットジャスティスガンダム(ラクス搭乗)熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 174,
+    "Value": "グフイグナイテッド熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 175,
+    "Value": "ストライクルージュ(オオトリ装備)熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 176,
+    "Value": "アカツキ熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 177,
+    "Value": "ガンダムエクシア熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 178,
+    "Value": "ダブルオーガンダム熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 179,
+    "Value": "スサノオ熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 180,
+    "Value": "ケルディムガンダム熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 181,
+    "Value": "アルケーガンダム熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 182,
+    "Value": "ガンダムデュナメス熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 183,
+    "Value": "リボーンズガンダム熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 184,
+    "Value": "ガンダムスローネドライ熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 185,
+    "Value": "アリオスガンダム熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 186,
+    "Value": "アヴァランチエクシア熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 187,
+    "Value": "ダブルオーガンダム セブンソード／G熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 188,
+    "Value": "ティエレンタオツー熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 189,
+    "Value": "ヤークトアルケーガンダム熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 190,
+    "Value": "ガンダムキュリオス熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 191,
+    "Value": "ガンダムヴァーチェ熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 192,
+    "Value": "ガンダムスローネツヴァイ熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 193,
+    "Value": "グラハム専用ユニオンフラッグカスタム熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 195,
+    "Value": "ガラッゾ(ヒリング・ケア機)熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 196,
+    "Value": "アヘッド脳量子波対応型 (スマルトロン)熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 197,
+    "Value": "ダブルオークアンタ熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 198,
+    "Value": "ラファエルガンダム熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 199,
+    "Value": "ブレイヴ指揮官用試験機熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 200,
+    "Value": "ダブルオークアンタ フルセイバー熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 201,
+    "Value": "ガンダムサバーニャ熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 202,
+    "Value": "ガンダムハルート熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 203,
+    "Value": "ユニコーンガンダム熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 204,
+    "Value": "クシャトリヤ熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 205,
+    "Value": "シナンジュ熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 206,
+    "Value": "デルタプラス熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 207,
+    "Value": "バンシィ熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 208,
+    "Value": "ローゼン・ズール熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 209,
+    "Value": "フルアーマー・ユニコーンガンダム熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 210,
+    "Value": "バンシィ・ノルン熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 211,
+    "Value": "アレックス熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 212,
+    "Value": "ザクII改熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 213,
+    "Value": "ケンプファー熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 214,
+    "Value": "熟ガンダム試作1号機フルバーニアン練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 215,
+    "Value": "ガンダム試作2号機熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 216,
+    "Value": "ガーベラ・テトラ熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 217,
+    "Value": "ガンダム試作3号機熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 218,
+    "Value": "ガンダムEz8熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 219,
+    "Value": "グフ・カスタム熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 220,
+    "Value": "ヅダ熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 221,
+    "Value": "ヒルドルブ熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 222,
+    "Value": "高機動型ザクII後期型(ジョニー・ライデン機)熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 223,
+    "Value": "高機動型ザクII改(シン・マツナガ機)熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 224,
+    "Value": "クロスボーン・ガンダムX1改熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 225,
+    "Value": "クロスボーン・ガンダムX2改熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 226,
+    "Value": "クロスボーン・ガンダムX3熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 227,
+    "Value": "クロスボーン・ガンダムX1フルクロス熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 228,
+    "Value": "ビギナ・ギナII(木星決戦仕様)熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 229,
+    "Value": "ファントムガンダム熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 230,
+    "Value": "ブルーディスティニー1号機熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 231,
+    "Value": "イフリート改熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 232,
+    "Value": "Hi-νガンダム熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 233,
+    "Value": "ナイチンゲール熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 234,
+    "Value": "アストレイレッドフレーム熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 235,
+    "Value": "アストレイブルーフレームセカンドL熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 236,
+    "Value": "アストレイゴールドフレーム天熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 237,
+    "Value": "アストレイゴールドフレーム天ミナ熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 238,
+    "Value": "ドレッドノートガンダム(Xアストレイ)熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 239,
+    "Value": "ハイペリオンガンダム熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 240,
+    "Value": "アストレイレッドフレーム改熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 241,
+    "Value": "アストレイレッドフレーム(レッドドラゴン)熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 242,
+    "Value": "アストレイブルーフレームD熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 243,
+    "Value": "ドレッドノートイータ熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 244,
+    "Value": "ストライクノワール熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 245,
+    "Value": "スターゲイザー熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 246,
+    "Value": "Ex-Sガンダム熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 247,
+    "Value": "Ξガンダム熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 248,
+    "Value": "ペーネロペー熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 249,
+    "Value": "ガンダムAGE-1熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 250,
+    "Value": "ガンダムAGE-2熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 251,
+    "Value": "ガンダムAGE-3熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 252,
+    "Value": "ガンダムAGE-FX熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 253,
+    "Value": "ゼイドラ熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 254,
+    "Value": "ファルシア熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 255,
+    "Value": "ガンダムレギルス熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 256,
+    "Value": "ガンダムAGE-2 ダークハウンド熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 257,
+    "Value": "ガンダムAGE-1 フルグランサ熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 258,
+    "Value": "フォーンファルシア熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 259,
+    "Value": "エクストリームガンダム エクリプス-F熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 260,
+    "Value": "エクストリームガンダム ゼノン-F熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 261,
+    "Value": "エクストリームガンダム アイオス-F熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 262,
+    "Value": "エクストリームガンダム type-レオスII Vs.熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 263,
+    "Value": "エクストリームガンダム エクセリア熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 264,
+    "Value": "G-セルフ熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 265,
+    "Value": "マックナイフ(マスク機)熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 266,
+    "Value": "G-セルフ(パーフェクトパック)熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 267,
+    "Value": "G-アルケイン(フルドレス)熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 268,
+    "Value": "モンテーロ熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 269,
+    "Value": "G-ルシファー熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 270,
+    "Value": "カバカーリー熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 271,
+    "Value": "ダハック熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 272,
+    "Value": "ヘカテー熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 273,
+    "Value": "ガンダム・バルバト熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 274,
+    "Value": "ガンダム・キマリストルーパー熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 275,
+    "Value": "ガンダム・バルバトスルプス熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 276,
+    "Value": "ガンダム・グシオンリベイクフルシティ熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 277,
+    "Value": "ガンダム・バエル熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 278,
+    "Value": "ガンダム・バルバトスルプスレクス熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 279,
+    "Value": "ガンダム・キマリスヴィダール熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 280,
+    "Value": "ガンダム・フラウロス熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 281,
+    "Value": "ペイルライダー(陸戦重装仕様)熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 282,
+    "Value": "高機動型ゲルググ(ヴィンセント機)熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 283,
+    "Value": "イフリート(シュナイド機)熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 284,
+    "Value": "トーリスリッター熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 285,
+    "Value": "フルアーマー・ガンダム熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 286,
+    "Value": "サイコ・ザク熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 287,
+    "Value": "アトラスガンダム熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 288,
+    "Value": "アッガイ(ダリル搭乗)熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 289,
+    "Value": "ビルドストライクガンダム(フルパッケージ)熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 290,
+    "Value": "ザクアメイジング熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 291,
+    "Value": "ガンダムX魔王熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 292,
+    "Value": "ウイングガンダムフェニーチェ熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 293,
+    "Value": "スタービルドストライクガンダム熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 294,
+    "Value": "戦国アストレイ頑駄無熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 295,
+    "Value": "ホットスクランブルガンダム熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 296,
+    "Value": "トライバーニングガンダム熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 297,
+    "Value": "ライトニングガンダムフルバーニアン熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 298,
+    "Value": "スターウイニングガンダム熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 299,
+    "Value": "トランジェントガンダム熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 300,
+    "Value": "騎士ガンダム熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 301,
+    "Value": "ナラティブガンダム熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 302,
+    "Value": "シナンジュ・スタイン熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 303,
+    "Value": "ユニコーンガンダム3号機フェネクス熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 304,
+    "Value": "ガンダムダブルオーダイバーエース熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 305,
+    "Value": "RX-零丸熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 306,
+    "Value": "ガンダムダブルオースカイ熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 307,
+    "Value": "オーヴェロン熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 308,
+    "Value": "N-EXTREMEガンダム エクスプロージョン熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 309,
+    "Value": "N-EXTREMEガンダム ザナドゥ熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 310,
+    "Value": "N-EXTREMEガンダム ヴィシャス熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 311,
+    "Value": "N-EXTREMEガンダム スプレマシー熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 312,
+    "Value": "アースリィガンダム熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 313,
+    "Value": "ガンダム・エアリアル熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 314,
+    "Value": "ガンダム・ファラクト熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 315,
+    "Value": "ダリルバルデ熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 316,
+    "Value": "ライジングフリーダムガンダム熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 317,
+    "Value": "インフィニットジャスティスガンダム弐式熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 318,
+    "Value": "ランダム 3000熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 319,
+    "Value": "ランダム 2500熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 320,
+    "Value": "ランダム 2000熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 321,
+    "Value": "ランダム 1500熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 322,
+    "Value": "ランダム ALL熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 323,
+    "Value": "Lv.190",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 324,
+    "Value": "Lv.390",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 325,
+    "Value": "Sticker Effect 325",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 326,
+    "Value": "Sticker Effect 326",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 327,
+    "Value": "Sticker Effect 327",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 328,
+    "Value": "Sticker Effect 328",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 329,
+    "Value": "EXVS.2OB機体熟練度★MASTER機体専用エフェクト",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 330,
+    "Value": "インフィニットブーストパスstage:100",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 331,
+    "Value": "インフィニットブーストパスstage:100",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 340,
+    "Value": "Extreme∞ランキング100位以内",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 341,
+    "Value": "Extreme∞ランキング1000位以内",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 342,
+    "Value": "Extreme∞ランキング連続100位以内",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 343,
+    "Value": "Extreme∞ランキング連続1000位以内",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 344,
+    "Value": "Extreme∞ランキング100位以内",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 345,
+    "Value": "Extreme∞ランキング1000位以内",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 346,
+    "Value": "Extreme∞ランキング連続100位以内",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 347,
+    "Value": "Extreme∞ランキング連続1000位以内",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 380,
+    "Value": "1機体で機体熟練度★LEGEND",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 381,
+    "Value": "デスティニーガンダム(ハイネ機)熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 382,
+    "Value": "ガンダム・エアリアル(改修型)熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 383,
+    "Value": "ガンダム・エアリアル(改修型)パーメットスコア・エイト熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 384,
+    "Value": "マイティーストライクフリーダムガンダム熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 385,
+    "Value": "ウイングガンダム熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 386,
+    "Value": "赤いガンダム熟練度★11",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 396,
+    "Value": "Survive Said The Prophet ×「機動戦士ガンダム エクストリームバーサス２インフィニットブースト」",
+    "Existence": "IB",
+    "Category": ""
+  }
 ]

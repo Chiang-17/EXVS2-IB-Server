@@ -1,16 +1,16 @@
 ﻿[
   {
     "Id": 0,
-    "ValueJP": "Practice01-bgm",
-    "Value": "Practice01-bgm",
-    "ValueCN": "Practice01-bgm",
-    "ValueTC": "Practice01-bgm",
-    "ValueTC2": "Practice01-bgm",
-    "SeriesJP": "機動戦士ガンダム EXTREME VS.2 INFINITE BOOST",
-    "Series": "Mobile Suit Gundam EXTREME VS.2 INFINITE BOOST",
-    "SeriesCN": "机动战士高达 EXTREME VS.2 INFINITE BOOST",
-    "SeriesTC": "機動戰士高達 EXTREME VS.2 INFINITE BOOST",
-    "SeriesTC2": "機動戰士鋼彈 EXTREME VS.2 INFINITE BOOST"
+    "ValueJP": "-",
+    "Value": "-",
+    "ValueCN": "-",
+    "ValueTC": "-",
+    "ValueTC2": "-",
+    "SeriesJP": "-",
+    "Series": "-",
+    "SeriesCN": "-",
+    "SeriesTC": "-",
+    "SeriesTC2": "-"
   },
   {
     "Id": 2,
@@ -437,7 +437,7 @@
     "ValueTC2": "FINAL MISSION ～ QUANTAM BURST",
     "SeriesJP": "劇場版 機動戦士ガンダム00 -A wakening of the Trailblazer-",
     "Series": "Mobile Suit Gundam 00 The Movie -Awakening of the Trailblazer-",
-    "SeriesCN": "剧场版 机动战士高达00 -觉醒的先驱者-",
+    "SeriesCN": "剧场版 机动战士高达00 -先驱者的觉醒-",
     "SeriesTC": "劇場版 機動戰士高達00 -先驅者的覺醒-",
     "SeriesTC2": "劇場版 機動戰士鋼彈00 -先驅者的覺醒-"
   },
@@ -450,7 +450,7 @@
     "ValueTC2": "INNOVADE & INNOVATOR",
     "SeriesJP": "劇場版 機動戦士ガンダム00 -A wakening of the Trailblazer-",
     "Series": "Mobile Suit Gundam 00 The Movie -Awakening of the Trailblazer-",
-    "SeriesCN": "剧场版 机动战士高达00 -觉醒的先驱者-",
+    "SeriesCN": "剧场版 机动战士高达00 -先驱者的觉醒-",
     "SeriesTC": "劇場版 機動戰士高達00 -先驅者的覺醒-",
     "SeriesTC2": "劇場版 機動戰士鋼彈00 -先驅者的覺醒-"
   },
@@ -489,7 +489,7 @@
     "ValueTC2": "ガンダムAGE-2～運命の先へ",
     "SeriesJP": "機動戦士ガンダムAGE",
     "Series": "Mobile Suit Gundam AGE",
-    "SeriesCN": "機動戦士ガンダムAGE",
+    "SeriesCN": "机动战士高达AGE",
     "SeriesTC": "機動戰士高達AGE",
     "SeriesTC2": "機動戰士鋼彈AGE"
   },
@@ -502,7 +502,7 @@
     "ValueTC2": "ガンダムAGE-3～覚醒",
     "SeriesJP": "機動戦士ガンダムAGE",
     "Series": "Mobile Suit Gundam AGE",
-    "SeriesCN": "機動戦士ガンダムAGE",
+    "SeriesCN": "机动战士高达AGE",
     "SeriesTC": "機動戰士高達AGE",
     "SeriesTC2": "機動戰士鋼彈AGE"
   },
@@ -606,7 +606,7 @@
     "ValueTC2": "いつか空に届いて",
     "SeriesJP": "機動戦士ガンダム0080 ポケットの中の戦争",
     "Series": "Mobile Suit Gundam 0080 War in the Pocket",
-    "SeriesCN": "机动战士高达0080 口袋中的战争",
+    "SeriesCN": "机动战士高达0080: 口袋中的战争",
     "SeriesTC": "機動戰士高達0080: 口袋裡的戰爭",
     "SeriesTC2": "機動戰士鋼彈0080: 口袋裡的戰爭"
   },
@@ -645,9 +645,9 @@
     "ValueTC2": "機動戦",
     "SeriesJP": "機動戦士ガンダム MS IGLOO",
     "Series": "Mobile Suit Gundam MS IGLOO",
-    "SeriesCN": "机动战士高达 MS IGLOO 一年战争秘录",
-    "SeriesTC": "機動戰士高達 MS IGLOO 一年戰爭秘錄",
-    "SeriesTC2": "機動戰士鋼彈 MS IGLOO 一年戰爭秘錄"
+    "SeriesCN": "机动战士高达 MS IGLOO",
+    "SeriesTC": "機動戰士高達 MS IGLOO",
+    "SeriesTC2": "機動戰士鋼彈 MS IGLOO"
   },
   {
     "Id": 64,
@@ -658,9 +658,9 @@
     "ValueTC2": "進出ス!",
     "SeriesJP": "機動戦士ガンダム MS IGLOO",
     "Series": "Mobile Suit Gundam MS IGLOO",
-    "SeriesCN": "机动战士高达 MS IGLOO 一年战争秘录",
-    "SeriesTC": "機動戰士高達 MS IGLOO 一年戰爭秘錄",
-    "SeriesTC2": "機動戰士鋼彈 MS IGLOO 一年戰爭秘錄"
+    "SeriesCN": "机动战士高达 MS IGLOO",
+    "SeriesTC": "機動戰士高達 MS IGLOO",
+    "SeriesTC2": "機動戰士鋼彈 MS IGLOO"
   },
   {
     "Id": 65,
@@ -723,7 +723,7 @@
     "ValueTC2": "セルリアン",
     "SeriesJP": "ガンダムビルドファイターズトライ",
     "Series": "Gundam Build Fighters Try",
-    "SeriesCN": "高达创斗者TRY",
+    "SeriesCN": "高达创战者TRY",
     "SeriesTC": "高達創戰者TRY",
     "SeriesTC2": "鋼彈創鬥者TRY"
   },
@@ -736,7 +736,7 @@
     "ValueTC2": "トライファイターズ",
     "SeriesJP": "ガンダムビルドファイターズトライ",
     "Series": "Gundam Build Fighters Try",
-    "SeriesCN": "高达创斗者TRY",
+    "SeriesCN": "高达创战者TRY",
     "SeriesTC": "高達創戰者TRY",
     "SeriesTC2": "鋼彈創鬥者TRY"
   },
@@ -840,7 +840,7 @@
     "ValueTC2": "THE FRONT",
     "SeriesJP": "機動戦士ガンダム外伝 THE BLUE DESTINY",
     "Series": "Mobile Suit Gundam Side Story: The Blue Destiny",
-    "SeriesCN": "机动战士高达外传 THE BLUE DESTINY",
+    "SeriesCN": "机动战士高达外传 蓝色命运",
     "SeriesTC": "機動戰士高達外傳 THE BLUE DESTINY",
     "SeriesTC2": "機動戰士鋼彈外傳 THE BLUE DESTINY"
   },
@@ -853,7 +853,7 @@
     "ValueTC2": "戦慄のブルー",
     "SeriesJP": "機動戦士ガンダム外伝 THE BLUE DESTINY",
     "Series": "Mobile Suit Gundam Side Story: The Blue Destiny",
-    "SeriesCN": "机动战士高达外传 THE BLUE DESTINY",
+    "SeriesCN": "机动战士高达外传 蓝色命运",
     "SeriesTC": "機動戰士高達外傳 THE BLUE DESTINY",
     "SeriesTC2": "機動戰士鋼彈外傳 THE BLUE DESTINY"
   },
@@ -1100,7 +1100,7 @@
     "ValueTC2": "閉ざされた世界",
     "SeriesJP": "劇場版 機動戦士ガンダム00 -A wakening of the Trailblazer-",
     "Series": "Mobile Suit Gundam 00 The Movie -Awakening of the Trailblazer-",
-    "SeriesCN": "剧场版 机动战士高达00 -觉醒的先驱者-",
+    "SeriesCN": "剧场版 机动战士高达00 -先驱者的觉醒-",
     "SeriesTC": "劇場版 機動戰士高達00 -先驅者的覺醒-",
     "SeriesTC2": "劇場版 機動戰士鋼彈00 -先驅者的覺醒-"
   },
@@ -1113,7 +1113,7 @@
     "ValueTC2": "君の中の英雄",
     "SeriesJP": "機動戦士ガンダムAGE",
     "Series": "Mobile Suit Gundam AGE",
-    "SeriesCN": "機動戦士ガンダムAGE",
+    "SeriesCN": "机动战士高达AGE",
     "SeriesTC": "機動戰士高達AGE",
     "SeriesTC2": "機動戰士鋼彈AGE"
   },
@@ -1295,7 +1295,7 @@
     "ValueTC2": "ガンダバダガンダバダ",
     "SeriesJP": "ガンダムビルドファイターズトライ",
     "Series": "Gundam Build Fighters Try",
-    "SeriesCN": "高达创斗者TRY",
+    "SeriesCN": "高达创战者TRY",
     "SeriesTC": "高達創戰者TRY",
     "SeriesTC2": "鋼彈創鬥者TRY"
   },
@@ -1325,6 +1325,19 @@
     "SeriesTC": "機動戰士高達SEED FREEDOM",
     "SeriesTC2": "機動戰士鋼彈SEED FREEDOM"
   },
+  {
+    "Id": 121,
+    "ValueJP": "Practice01-bgm",
+    "Value": "Practice01-bgm",
+    "ValueCN": "Practice01-bgm",
+    "ValueTC": "Practice01-bgm",
+    "ValueTC2": "Practice01-bgm",
+    "SeriesJP": "機動戦士ガンダム EXTREME VS.2 INFINITE BOOST",
+    "Series": "Mobile Suit Gundam EXTREME VS.2 INFINITE BOOST",
+    "SeriesCN": "机动战士高达 EXTREME VS.2 INFINITE BOOST",
+    "SeriesTC": "機動戰士高達 EXTREME VS.2 INFINITE BOOST",
+    "SeriesTC2": "機動戰士鋼彈 EXTREME VS.2 INFINITE BOOST"
+  }, 
   {
     "Id": 122,
     "ValueJP": "始動!ダブル·ゼ一タ",
@@ -1424,10 +1437,10 @@
     "ValueTC": "MARCHOSIAS",
     "ValueTC2": "MARCHOSIAS",
     "SeriesJP": "機動戦士ガンダム外伝 ミッシングリンク",
-    "Series": "機動戦士ガンダム外伝 ミッシングリンク",
+    "Series": "Mobile Suit Gundam Side Story: Missing Link",
     "SeriesCN": "机动战士高达外传 失落的节点",
-    "SeriesTC": "機動戰士高達外傳 失落的節點",
-    "SeriesTC2": "機動戰士高達外傳 失落的節點"
+    "SeriesTC": "機動戰士高達外傳 MISSING LINK",
+    "SeriesTC2": "機動戰士鋼彈外傳 MISSING LINK"
   },
   {
     "Id": 130,
@@ -1438,7 +1451,7 @@
     "ValueTC2": "衝突-譲れない闘い-",
     "SeriesJP": "ガンダムビルドファイターズトライ",
     "Series": "Gundam Build Fighters Try",
-    "SeriesCN": "高达创斗者TRY",
+    "SeriesCN": "高达创战者TRY",
     "SeriesTC": "高達創戰者TRY",
     "SeriesTC2": "鋼彈創鬥者TRY"
   },
@@ -1515,10 +1528,10 @@
     "ValueTC": "FALLEN ANGEL",
     "ValueTC2": "FALLEN ANGEL",
     "SeriesJP": "機動戦士ガンダム外伝 ミッシングリンク",
-    "Series": "機動戦士ガンダム外伝 ミッシングリンク",
+    "Series": "Mobile Suit Gundam Side Story: Missing Link",
     "SeriesCN": "机动战士高达外传 失落的节点",
-    "SeriesTC": "機動戰士高達外傳 失落的節點",
-    "SeriesTC2": "機動戰士高達外傳 失落的節點"
+    "SeriesTC": "機動戰士高達外傳 MISSING LINK",
+    "SeriesTC2": "機動戰士鋼彈外傳 MISSING LINK"
   },
   {
     "Id": 137,
@@ -1540,11 +1553,11 @@
     "ValueCN": "アイドル戦士(feat.初音ミク)",
     "ValueTC": "アイドル戦士(feat.初音ミク)",
     "ValueTC2": "アイドル戦士(feat.初音ミク)",
-    "SeriesJP": "その他",
-    "Series": "その他",
-    "SeriesCN": "その他",
-    "SeriesTC": "その他",
-    "SeriesTC2": "その他"
+    "SeriesJP": "機動戦士ガンダム エクストリームバーサス2 インフィニットブースト",
+    "Series": "Mobile Suit Gundam EXTREME VS.2 INFINITE BOOST",
+    "SeriesCN": "机动战士高达 EXTREME VS.2 INFINITE BOOST",
+    "SeriesTC": "機動戰士高達 EXTREME VS.2 INFINITE BOOST",
+    "SeriesTC2": "機動戰士鋼彈 EXTREME VS.2 INFINITE BOOST"
   }, 
   {
     "Id": 139,
@@ -1555,7 +1568,7 @@
     "ValueTC2": "Plazma",
     "SeriesJP": "機動戦士Gundam GQuuuuuuX",
     "Series": "Mobile Suit Gundam GQuuuuuuX",
-    "SeriesCN": "机动战士高达GQuuuuuuX",
+    "SeriesCN": "机动战士高达 GQuuuuuuX",
     "SeriesTC": "機動戦士Gundam GQuuuuuuX",
     "SeriesTC2": "機動戦士Gundam GQuuuuuuX"
   },

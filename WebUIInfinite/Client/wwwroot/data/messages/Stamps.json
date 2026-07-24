@@ -6,2412 +6,2413 @@
     },
     {
         "ID":  1,
-        "Value":  "Use Customize Message",
-        "Existence":  "VS2"
-    },
-    {
-        "ID":  10001,
         "Value":  "よろしくお願いします！",
         "Existence":  "VS2",
         "Clues":  "ショップ"
     },
     {
-        "ID":  10002,
+        "ID":  2,
         "Value":  "頑張ります！",
         "Existence":  "VS2",
         "Clues":  "ショップ"
     },
     {
-        "ID":  10003,
+        "ID":  3,
         "Value":  "楽しみましょう！",
         "Existence":  "VS2",
         "Clues":  "ショップ"
     },
     {
-        "ID":  10004,
+        "ID":  4,
         "Value":  "初心者です",
         "Existence":  "VS2",
         "Clues":  "ショップ"
     },
     {
-        "ID":  10005,
+        "ID":  5,
         "Value":  "ありがとうございました！",
         "Existence":  "VS2",
         "Clues":  "ショップ"
     },
     {
-        "ID":  10006,
+        "ID":  6,
         "Value":  "すみませんでした．．．",
         "Existence":  "VS2",
         "Clues":  "ショップ"
     },
     {
-        "ID":  10007,
+        "ID":  7,
         "Value":  "リターンマッチやりましょう！",
         "Existence":  "VS2",
         "Clues":  "ショップ"
     },
     {
-        "ID":  10008,
+        "ID":  8,
         "Value":  "アムロ、いきまーす！",
         "Existence":  "VS2",
         "Clues":  "ガンダム"
     },
     {
-        "ID":  10009,
+        "ID":  9,
         "Value":  "勝利の栄光を君に！",
         "Existence":  "VS2",
         "Clues":  "シャア専用ゲルググ"
     },
     {
-        "ID":  10010,
+        "ID":  10,
         "Value":  "任務完了まで気を抜くなよ！",
         "Existence":  "VS2",
         "Clues":  "アッガイ"
     },
     {
-        "ID":  10011,
+        "ID":  11,
         "Value":  "見えるぞ…私にも敵が見える！",
         "Existence":  "VS2",
         "Clues":  "ジオング"
     },
     {
-        "ID":  10012,
+        "ID":  12,
         "Value":  "あと10年は戦える！",
         "Existence":  "VS2",
         "Clues":  "ギャン"
     },
     {
-        "ID":  10013,
+        "ID":  13,
         "Value":  "エンジン全開！",
         "Existence":  "VS2",
         "Clues":  "ガンダム(Gメカ)"
     },
     {
-        "ID":  10014,
+        "ID":  14,
         "Value":  "ええい！奴は化け物か！",
         "Existence":  "VS2",
         "Clues":  "シャア専用ザクII"
     },
     {
-        "ID":  10015,
+        "ID":  15,
         "Value":  "俺の身体をみんあに貸すぞ！",
         "Existence":  "VS2",
         "Clues":  "Zガンダム"
     },
     {
-        "ID":  10016,
+        "ID":  16,
         "Value":  "幸運を祈る",
         "Existence":  "VS2",
         "Clues":  "百式"
     },
     {
-        "ID":  10017,
+        "ID":  17,
         "Value":  "その力、私の為に役立ててくれると嬉しい",
         "Existence":  "VS2",
         "Clues":  "メッサーラ"
     },
     {
-        "ID":  10018,
+        "ID":  18,
         "Value":  "君のことが好きになれそうだ",
         "Existence":  "VS2",
         "Clues":  "ジ・O"
     },
     {
-        "ID":  10019,
+        "ID":  19,
         "Value":  "私の命を吸って…そして、勝つのよ！",
         "Existence":  "VS2",
         "Clues":  "ガンダムMk-II"
     },
     {
-        "ID":  10020,
+        "ID":  20,
         "Value":  "なかなか楽しませてもらったぞォ！",
         "Existence":  "VS2",
         "Clues":  "ハンブラビ"
     },
     {
-        "ID":  10021,
+        "ID":  21,
         "Value":  "挟み撃ちと行くぞ！",
         "Existence":  "VS2",
         "Clues":  "マラサイ"
     },
     {
-        "ID":  10022,
+        "ID":  22,
         "Value":  "ツキはオレにある！",
         "Existence":  "VS2",
         "Clues":  "ガブスレイ"
     },
     {
-        "ID":  10023,
+        "ID":  23,
         "Value":  "近づく奴はみんな灰にしてやる！",
         "Existence":  "VS2",
         "Clues":  "バウンド・ドック"
     },
     {
-        "ID":  10024,
+        "ID":  24,
         "Value":  "自分のできることを最大限にやる！",
         "Existence":  "VS2",
         "Clues":  "フルアーマーZZガンダム"
     },
     {
-        "ID":  10025,
+        "ID":  25,
         "Value":  "戦功をあげたいんだろ? あたしは協力する",
         "Existence":  "VS2",
         "Clues":  "キュベレイMk-II(プルツー)"
     },
     {
-        "ID":  10026,
+        "ID":  26,
         "Value":  "ここが奴等の墓場となる!",
         "Existence":  "VS2",
         "Clues":  "キュベレイ"
     },
     {
-        "ID":  10027,
+        "ID":  27,
         "Value":  "ハマーン様！バンザァァーイ！",
         "Existence":  "VS2",
         "Clues":  "ザクIII改"
     },
     {
-        "ID":  10028,
+        "ID":  28,
         "Value":  "凄い！感動の嵐！",
         "Existence":  "VS2",
         "Clues":  "ZZガンダム"
     },
     {
-        "ID":  10029,
+        "ID":  29,
         "Value":  "プルプルプル プルプルプル〜!",
         "Existence":  "VS2",
         "Clues":  "キュベレイMk-II(プル)"
     },
     {
-        "ID":  10030,
+        "ID":  30,
         "Value":  "νガンダムは伊達じゃない！",
         "Existence":  "VS2",
         "Clues":  "νガンダム"
     },
     {
-        "ID":  10031,
+        "ID":  31,
         "Value":  "君のような支えが要る…",
         "Existence":  "VS2",
         "Clues":  "サザビー"
     },
     {
-        "ID":  10032,
+        "ID":  32,
         "Value":  "少しでも 力になれれば…",
         "Existence":  "VS2",
         "Clues":  "リ・ガズィ"
     },
     {
-        "ID":  10033,
+        "ID":  33,
         "Value":  "そいつは手ごわいぞ！",
         "Existence":  "VS2",
         "Clues":  "ヤクト・ドーガ"
     },
     {
-        "ID":  10034,
+        "ID":  34,
         "Value":  "逃げまわりゃ、死にはしない!",
         "Existence":  "VS2",
         "Clues":  "ガンダムF91"
     },
     {
-        "ID":  10035,
+        "ID":  35,
         "Value":  "貴族主義社会の為に！",
         "Existence":  "VS2",
         "Clues":  "ベルガ・ギロス"
     },
     {
-        "ID":  10036,
+        "ID":  36,
         "Value":  "死ぬもんか! あなたも死なないで!",
         "Existence":  "VS2",
         "Clues":  "V2ガンダム"
     },
     {
-        "ID":  10037,
+        "ID":  37,
         "Value":  "いい返事だ！",
         "Existence":  "VS2",
         "Clues":  "ガンイージ"
     },
     {
-        "ID":  10038,
+        "ID":  38,
         "Value":  "私の手の中で 戦いなさい",
         "Existence":  "VS2",
         "Clues":  "ゴトラタン"
     },
     {
-        "ID":  10039,
+        "ID":  39,
         "Value":  "パーツをどんどんぶつけていきます！",
         "Existence":  "VS2",
         "Clues":  "ヴィクトリーガンダム"
     },
     {
-        "ID":  10040,
+        "ID":  40,
         "Value":  "すり身にしてやれ！",
         "Existence":  "VS2",
         "Clues":  "ゲドラフ"
     },
     {
-        "ID":  10041,
+        "ID":  41,
         "Value":  "我が心明鏡止水",
         "Existence":  "VS2",
         "Clues":  "ゴッドガンダム"
     },
     {
-        "ID":  10042,
+        "ID":  42,
         "Value":  "目に物見せてやるぜ！",
         "Existence":  "VS2",
         "Clues":  "ドラゴンガンダム"
     },
     {
-        "ID":  10043,
+        "ID":  43,
         "Value":  "貴様の力はその程度のものかっ！",
         "Existence":  "VS2",
         "Clues":  "マスターガンダム"
     },
     {
-        "ID":  10044,
+        "ID":  44,
         "Value":  "そんなことはどうでもいい！",
         "Existence":  "VS2",
         "Clues":  "ガンダムシュピーゲル"
     },
     {
-        "ID":  10045,
+        "ID":  45,
         "Value":  "さ、あたしと ファイトしよ!",
         "Existence":  "VS2",
         "Clues":  "ノーベルガンダム"
     },
     {
-        "ID":  10046,
+        "ID":  46,
         "Value":  "ガンダムファイト！レディーゴーッ！！",
         "Existence":  "VS2",
         "Clues":  "シャイニングガンダム"
     },
     {
-        "ID":  10047,
+        "ID":  47,
         "Value":  "もう黙って見てるなんてできない!",
         "Existence":  "VS2",
         "Clues":  "ライジングガンダム"
     },
     {
-        "ID":  10048,
+        "ID":  48,
         "Value":  "I\u0027ll never give up!!",
         "Existence":  "VS2",
         "Clues":  "ガンダムマックスター"
     },
     {
-        "ID":  10049,
+        "ID":  49,
         "Value":  "任務、了解",
         "Existence":  "VS2",
         "Clues":  "ウイングガンダムゼロ"
     },
     {
-        "ID":  10050,
+        "ID":  50,
         "Value":  "私はまだ、自分を弱者と認めてない！！",
         "Existence":  "VS2",
         "Clues":  "ガンダムエピオン"
     },
     {
-        "ID":  10051,
+        "ID":  51,
         "Value":  "攻撃こそが最大の防御だ！",
         "Existence":  "VS2",
         "Clues":  "アルトロンガンダム"
     },
     {
-        "ID":  10052,
+        "ID":  52,
         "Value":  "フォーメーションを組もう！",
         "Existence":  "VS2",
         "Clues":  "ガンダムサンドロック改"
     },
     {
-        "ID":  10053,
+        "ID":  53,
         "Value":  "事は全てエレガントに…",
         "Existence":  "VS2",
         "Clues":  "トールギスII"
     },
     {
-        "ID":  10054,
+        "ID":  54,
         "Value":  "いま楽にしてやる",
         "Existence":  "VS2",
         "Clues":  "ウイングガンダムゼロ(EW版)"
     },
     {
-        "ID":  10055,
+        "ID":  55,
         "Value":  "的確な判断だ",
         "Existence":  "VS2",
         "Clues":  "ガンダムヘビーアームズ改(EW版)"
     },
     {
-        "ID":  10056,
+        "ID":  56,
         "Value":  "大人しく棺桶で眠るわけにはいかん！",
         "Existence":  "VS2",
         "Clues":  "トールギスIII"
     },
     {
-        "ID":  10057,
+        "ID":  57,
         "Value":  "まぁ、そんなに気にすんなよ",
         "Existence":  "VS2",
         "Clues":  "ガンダムデスサイズヘル(EW版)"
     },
     {
-        "ID":  10058,
+        "ID":  58,
         "Value":  "過ちは繰り返させない！",
         "Existence":  "VS2",
         "Clues":  "ガンダムDX"
     },
     {
-        "ID":  10059,
+        "ID":  59,
         "Value":  "私の愛馬は狂暴です",
         "Existence":  "VS2",
         "Clues":  "ガンダムガンダムヴァサーゴ・チェストブレイク"
     },
     {
-        "ID":  10060,
+        "ID":  60,
         "Value":  "君は私の頼もしいパートナーだ",
         "Existence":  "VS2",
         "Clues":  "ガンダムXディバイダー"
     },
     {
-        "ID":  10061,
+        "ID":  61,
         "Value":  "ホワイトドールのご加護を！",
         "Existence":  "VS2",
         "Clues":  "∀ガンダム"
     },
     {
-        "ID":  10062,
+        "ID":  62,
         "Value":  "我が世の春が来た！",
         "Existence":  "VS2",
         "Clues":  "ターンX"
     },
     {
-        "ID":  10063,
+        "ID":  63,
         "Value":  "ユニバース！",
         "Existence":  "VS2",
         "Clues":  "ゴールドスモー"
     },
     {
-        "ID":  10064,
+        "ID":  64,
         "Value":  "あたしはまだ 戦うんですからね!",
         "Existence":  "VS2",
         "Clues":  "カプル"
     },
     {
-        "ID":  10065,
+        "ID":  65,
         "Value":  "その股座にロケットパァーンチィ!!",
         "Existence":  "VS2",
         "Clues":  "コレンカプル"
     },
     {
-        "ID":  10066,
+        "ID":  66,
         "Value":  "もう、逃げない 決めたんだ",
         "Existence":  "VS2",
         "Clues":  "ストライクガンダム"
     },
     {
-        "ID":  10067,
+        "ID":  67,
         "Value":  "あいつら…うざ～い",
         "Existence":  "VS2",
         "Clues":  "フォビドゥンガンダム"
     },
     {
-        "ID":  10068,
+        "ID":  68,
         "Value":  "奴等にはそろそろ退場してもらおうか…",
         "Existence":  "VS2",
         "Clues":  "プロヴィデンスガンダム"
     },
     {
-        "ID":  10069,
+        "ID":  69,
         "Value":  "さぁ、戦争をしに行くぞ",
         "Existence":  "VS2",
         "Clues":  "ラゴゥ"
     },
     {
-        "ID":  10070,
+        "ID":  70,
         "Value":  "大丈夫、もう泣かないって決めたから!",
         "Existence":  "VS2",
         "Clues":  "フリーダムガンダム"
     },
     {
-        "ID":  10071,
+        "ID":  71,
         "Value":  "奴に屈辱を晴らす!",
         "Existence":  "VS2",
         "Clues":  "デュエルガンダムアサルトシュラウド"
     },
     {
-        "ID":  10072,
+        "ID":  72,
         "Value":  "俺は不可能を可能にする男ってね",
         "Existence":  "VS2",
         "Clues":  "パーフェクトストライクガンダム"
     },
     {
-        "ID":  10073,
+        "ID":  73,
         "Value":  "大丈夫ですよ 僕は貴方を信じてます",
         "Existence":  "VS2",
         "Clues":  "ブリッツガンダム"
     },
     {
-        "ID":  10074,
+        "ID":  74,
         "Value":  "滅殺！！",
         "Existence":  "VS2",
         "Clues":  "レイダーガンダム"
     },
     {
-        "ID":  10075,
+        "ID":  75,
         "Value":  "グゥレイトォ!!",
         "Existence":  "VS2",
         "Clues":  "バスターガンダム"
     },
     {
-        "ID":  10076,
+        "ID":  76,
         "Value":  "覚悟はある。僕は戦う",
         "Existence":  "VS2",
         "Clues":  "ストライクフリーダムガンダム"
     },
     {
-        "ID":  10077,
+        "ID":  77,
         "Value":  "お前がエースだ 頼んだぞ!",
         "Existence":  "VS2",
         "Clues":  "インフィニットジャスティスガンダム"
     },
     {
-        "ID":  10078,
+        "ID":  78,
         "Value":  "どんな敵とでも戦ってやるさ！",
         "Existence":  "VS2",
         "Clues":  "デスティニーガンダム"
     },
     {
-        "ID":  10079,
+        "ID":  79,
         "Value":  "射撃は苦手で…",
         "Existence":  "VS2",
         "Clues":  "ガナーザクウォーリア"
     },
     {
-        "ID":  10080,
+        "ID":  80,
         "Value":  "アンタは俺が討つんだ! 今日、ここで!",
         "Existence":  "VS2",
         "Clues":  "インパルスガンダム"
     },
     {
-        "ID":  10081,
+        "ID":  81,
         "Value":  "絶対負けない！",
         "Existence":  "VS2",
         "Clues":  "ガイアガンダム"
     },
     {
-        "ID":  10082,
+        "ID":  82,
         "Value":  "この処分は 後程、必ず!",
         "Existence":  "VS2",
         "Clues":  "レジェンドガンダム"
     },
     {
-        "ID":  10083,
+        "ID":  83,
         "Value":  "ザクとは違うんだよ！ザクとは！",
         "Existence":  "VS2",
         "Clues":  "グフイグナイテッド"
     },
     {
-        "ID":  10084,
+        "ID":  84,
         "Value":  "諦めるな! 押し返せば道も開ける!",
         "Existence":  "VS2",
         "Clues":  "ストライクルージュ(オオトリ装備)"
     },
     {
-        "ID":  10085,
+        "ID":  85,
         "Value":  "さーて 気張っていきますか!",
         "Existence":  "VS2",
         "Clues":  "アカツキ"
     },
     {
-        "ID":  10086,
+        "ID":  86,
         "Value":  "目標を駆逐する",
         "Existence":  "VS2",
         "Clues":  "ガンダムエクシア"
     },
     {
-        "ID":  10087,
+        "ID":  87,
         "Value":  "俺がバックアップに回る！",
         "Existence":  "VS2",
         "Clues":  "ダブルオーガンダム"
     },
     {
-        "ID":  10088,
+        "ID":  88,
         "Value":  "そうだ…これとやりたかった！",
         "Existence":  "VS2",
         "Clues":  "スサノオ"
     },
     {
-        "ID":  10089,
+        "ID":  89,
         "Value":  "オーライ！",
         "Existence":  "VS2",
         "Clues":  "ケルディムガンダム"
     },
     {
-        "ID":  10090,
+        "ID":  90,
         "Value":  "やっぱ戦争は白兵でねぇとなぁ!",
         "Existence":  "VS2",
         "Clues":  "アルケーガンダム"
     },
     {
-        "ID":  10091,
+        "ID":  91,
         "Value":  "目標を狙い撃つぜ！",
         "Existence":  "VS2",
         "Clues":  "ガンダムデュナメス"
     },
     {
-        "ID":  10092,
+        "ID":  92,
         "Value":  "遂に本気を出すべき相手が来たかな？",
         "Existence":  "VS2",
         "Clues":  "リボーンズガンダム"
     },
     {
-        "ID":  10093,
+        "ID":  93,
         "Value":  "もぉ～たまんなぁ～い！",
         "Existence":  "VS2",
         "Clues":  "ガンダムスローネドライ"
     },
     {
-        "ID":  10094,
+        "ID":  94,
         "Value":  "俺達に勝てるわけがねぇよなぁ！",
         "Existence":  "VS2",
         "Clues":  "アリオスガンダム"
     },
     {
-        "ID":  10095,
+        "ID":  95,
         "Value":  "懐に飛び込み 直接攻撃を仕掛ける!",
         "Existence":  "VS2",
         "Clues":  "アヴァランチエクシア"
     },
     {
-        "ID":  10096,
+        "ID":  96,
         "Value":  "飛翔する！",
         "Existence":  "VS2",
         "Clues":  "ダブルオーガンダムセブンソード/G"
     },
     {
-        "ID":  10097,
+        "ID":  97,
         "Value":  "この戦いで決着を付ける！",
         "Existence":  "VS2",
         "Clues":  "ティエレンタオツー"
     },
     {
-        "ID":  10098,
+        "ID":  98,
         "Value":  "今度は 私が君を守る!",
         "Existence":  "VS2",
         "Clues":  "ガンダムヴァーチェ"
     },
     {
-        "ID":  10099,
+        "ID":  99,
         "Value":  "トランザムで突破する！",
         "Existence":  "VS2",
         "Clues":  "ダブルオークアンタ"
     },
     {
-        "ID":  10100,
+        "ID":  100,
         "Value":  "敵の力は未知数だ！フルパワーで行く！",
         "Existence":  "VS2",
         "Clues":  "ラファエルガンダム"
     },
     {
-        "ID":  10101,
+        "ID":  101,
         "Value":  "あえて言おう! …死ぬなよ!",
         "Existence":  "VS2",
         "Clues":  "ブレイヴ指揮官用試験機"
     },
     {
-        "ID":  10102,
+        "ID":  102,
         "Value":  "俺のことは気にするな 自分のための戦いをしろ",
         "Existence":  "VS2",
         "Clues":  "ダブルオークアンタフルセイバー"
     },
     {
-        "ID":  10103,
+        "ID":  103,
         "Value":  "狙い撃たねぇ、だからさ…乱れ撃つぜぇ！",
         "Existence":  "VS2",
         "Clues":  "ガンダムサバーニャ"
     },
     {
-        "ID":  10104,
+        "ID":  104,
         "Value":  "ウダウダしてる暇はねぇ！速攻で決めるぜ相棒！",
         "Existence":  "VS2",
         "Clues":  "ガンダムハルート"
     },
     {
-        "ID":  10105,
+        "ID":  105,
         "Value":  "男と見込んだ よろしく頼みます!",
         "Existence":  "VS2",
         "Clues":  "ユニコーンガンダム"
     },
     {
-        "ID":  10106,
+        "ID":  106,
         "Value":  "了解、 マスター",
         "Existence":  "VS2",
         "Clues":  "クシャトリヤ"
     },
     {
-        "ID":  10107,
+        "ID":  107,
         "Value":  "この力、示させてもらう！",
         "Existence":  "VS2",
         "Clues":  "シナンジュ"
     },
     {
-        "ID":  10108,
+        "ID":  108,
         "Value":  "同時攻撃による一点突破で行くぞ！",
         "Existence":  "VS2",
         "Clues":  "デルタプラス"
     },
     {
-        "ID":  10109,
+        "ID":  109,
         "Value":  "奴等は敵! 倒すべき敵!",
         "Existence":  "VS2",
         "Clues":  "バンシィ"
     },
     {
-        "ID":  10110,
+        "ID":  110,
         "Value":  "露払いをさせていただきます!",
         "Existence":  "VS2",
         "Clues":  "ローゼン・ズール"
     },
     {
-        "ID":  10111,
+        "ID":  111,
         "Value":  "自分の意思で！迷わず進む！",
         "Existence":  "VS2",
         "Clues":  "フルアーマー・ユニコーンガンダム"
     },
     {
-        "ID":  10112,
+        "ID":  112,
         "Value":  "みんなで…みんなでおれを否定するのか…!",
         "Existence":  "VS2",
         "Clues":  "バンシィ・ノルン"
     },
     {
-        "ID":  10113,
+        "ID":  113,
         "Value":  "私じゃこの機体を使いこなせない…",
         "Existence":  "VS2",
         "Clues":  "アレックス"
     },
     {
-        "ID":  10114,
+        "ID":  114,
         "Value":  "お互いツイてないね…",
         "Existence":  "VS2",
         "Clues":  "ザクII改"
     },
     {
-        "ID":  10115,
+        "ID":  115,
         "Value":  "さぁ来い、戦い方を教えてやる",
         "Existence":  "VS2",
         "Clues":  "ケンプファー"
     },
     {
-        "ID":  10116,
+        "ID":  116,
         "Value":  "吶喊します",
         "Existence":  "VS2",
         "Clues":  "ガンダム試作1号機フルバーニアン"
     },
     {
-        "ID":  10117,
+        "ID":  117,
         "Value":  "私は帰ってきた！",
         "Existence":  "VS2",
         "Clues":  "ガンダム試作2号機"
     },
     {
-        "ID":  10118,
+        "ID":  118,
         "Value":  "この戦いは楽させてあげるよ",
         "Existence":  "VS2",
         "Clues":  "ガーベラ・テトラ"
     },
     {
-        "ID":  10119,
+        "ID":  119,
         "Value":  "この戦場は…地獄だ",
         "Existence":  "VS2",
         "Clues":  "ガンダム試作3号機"
     },
     {
-        "ID":  10120,
+        "ID":  120,
         "Value":  "守ったら負ける! 攻めろ!",
         "Existence":  "VS2",
         "Clues":  "ガンダムEz8"
     },
     {
-        "ID":  10121,
+        "ID":  121,
         "Value":  "自分は、死に場所を 見つけました",
         "Existence":  "VS2",
         "Clues":  "グフ・カスタム"
     },
     {
-        "ID":  10122,
+        "ID":  122,
         "Value":  "諸君! ヅダを信じたまえっ",
         "Existence":  "VS2",
         "Clues":  "ヅダ"
     },
     {
-        "ID":  10123,
+        "ID":  123,
         "Value":  "先手を打たなきゃ 袋叩きに遭うぞ!",
         "Existence":  "VS2",
         "Clues":  "ヒルドルブ"
     },
     {
-        "ID":  10124,
+        "ID":  124,
         "Value":  "俺達の奇跡を見せてやろうじゃないか！",
         "Existence":  "VS2",
         "Clues":  "クロスボーン・ガンダムX1改"
     },
     {
-        "ID":  10125,
+        "ID":  125,
         "Value":  "何とぞ我が力ぞんぶんにお使いください！",
         "Existence":  "VS2",
         "Clues":  "クロスボーン・ガンダムX2改"
     },
     {
-        "ID":  10126,
+        "ID":  126,
         "Value":  "向こうも人間、チャンスはあるはずだ！",
         "Existence":  "VS2",
         "Clues":  "クロスボーン・ガンダムX3"
     },
     {
-        "ID":  10127,
+        "ID":  127,
         "Value":  "俺はこの時を！この瞬間を待っていたんだーっ",
         "Existence":  "VS2",
         "Clues":  "クロスボーン・ガンダムX1フルクロス"
     },
     {
-        "ID":  10128,
+        "ID":  128,
         "Value":  "オタクをなめるな!",
         "Existence":  "VS2",
         "Clues":  "ファントムガンダム"
     },
     {
-        "ID":  10129,
+        "ID":  129,
         "Value":  "………",
         "Existence":  "VS2",
         "Clues":  "ブルーディスティニー1号機"
     },
     {
-        "ID":  10130,
+        "ID":  130,
         "Value":  "マシンの性能差か…！",
         "Existence":  "VS2",
         "Clues":  "イフリート改"
     },
     {
-        "ID":  10131,
+        "ID":  131,
         "Value":  "エゴだよ！それはっ！",
         "Existence":  "VS2",
         "Clues":  "Hi-νガンダム"
     },
     {
-        "ID":  10132,
+        "ID":  132,
         "Value":  "我々の勝ちだな",
         "Existence":  "VS2",
         "Clues":  "ナイチンゲール"
     },
     {
-        "ID":  10133,
+        "ID":  133,
         "Value":  "どうだい最強だろ、俺の悪運は",
         "Existence":  "VS2",
         "Clues":  "アストレイレッドフレーム"
     },
     {
-        "ID":  10134,
+        "ID":  134,
         "Value":  "任務完了（ミッションコンプリート）",
         "Existence":  "VS2",
         "Clues":  "アストレイブルーフレームセカンドL"
     },
     {
-        "ID":  10135,
+        "ID":  135,
         "Value":  "最後に勝つのは私だ！",
         "Existence":  "VS2",
         "Clues":  "アストレイゴールドフレーム天"
     },
     {
-        "ID":  10136,
+        "ID":  136,
         "Value":  "あなたを死なせはしません！",
         "Existence":  "VS2",
         "Clues":  "ドレッドノートガンダム(Xアストレイ)"
     },
     {
-        "ID":  10137,
+        "ID":  137,
         "Value":  "失敗作のオレに…相応しい負け方だ",
         "Existence":  "VS2",
         "Clues":  "ハイペリオンガンダム"
     },
     {
-        "ID":  10138,
+        "ID":  138,
         "Value":  "根性を見せてやる！",
         "Existence":  "VS2",
         "Clues":  "アストレイレッドフレーム改"
     },
     {
-        "ID":  10139,
+        "ID":  139,
         "Value":  "合点承知",
         "Existence":  "VS2",
         "Clues":  "アストレイレッドフレーム(レッドドラゴン)"
     },
     {
-        "ID":  10140,
+        "ID":  140,
         "Value":  "流石だな",
         "Existence":  "VS2",
         "Clues":  "アストレイブルーフレームD"
     },
     {
-        "ID":  10141,
+        "ID":  141,
         "Value":  "了解",
         "Existence":  "VS2",
         "Clues":  "ストライクノワール"
     },
     {
-        "ID":  10142,
+        "ID":  142,
         "Value":  "女って厄介でしょ？",
         "Existence":  "VS2",
         "Clues":  "スターゲイザー"
     },
     {
-        "ID":  10143,
+        "ID":  143,
         "Value":  "Dummy",
         "Existence":  "VS2"
     },
     {
-        "ID":  10144,
+        "ID":  144,
         "Value":  "…これからが地獄だぞ",
         "Existence":  "VS2",
         "Clues":  "Ξガンダム"
     },
     {
-        "ID":  10145,
+        "ID":  145,
         "Value":  "この戦いは 理屈ではない!",
         "Existence":  "VS2",
         "Clues":  "ペーネロペー"
     },
     {
-        "ID":  10146,
+        "ID":  146,
         "Value":  "僕が 救世主になる!",
         "Existence":  "VS2",
         "Clues":  "ガンダムAGE-1"
     },
     {
-        "ID":  10147,
+        "ID":  147,
         "Value":  "心を強く持てば どんな強敵も倒せる!",
         "Existence":  "VS2",
         "Clues":  "ガンダムAGE-2"
     },
     {
-        "ID":  10148,
+        "ID":  148,
         "Value":  "突破口を開く！",
         "Existence":  "VS2",
         "Clues":  "ガンダムAGE-3"
     },
     {
-        "ID":  10149,
+        "ID":  149,
         "Value":  "僕ならあいつを止められる！",
         "Existence":  "VS2",
         "Clues":  "ガンダムAGE-FX"
     },
     {
-        "ID":  10150,
+        "ID":  150,
         "Value":  "敵の弱点を徹底的に突くぞ",
         "Existence":  "VS2",
         "Clues":  "ゼイドラ"
     },
     {
-        "ID":  10151,
+        "ID":  151,
         "Value":  "生きるのって…難しいね…",
         "Existence":  "VS2",
         "Clues":  "ファルシア"
     },
     {
-        "ID":  10152,
+        "ID":  152,
         "Value":  "これがガンダムか",
         "Existence":  "VS2",
         "Clues":  "ガンダムレギルス"
     },
     {
-        "ID":  10153,
+        "ID":  153,
         "Value":  "自分を信じて 戦い抜け!",
         "Existence":  "VS2",
         "Clues":  "ガンダムAGE-2 ダークハウンド"
     },
     {
-        "ID":  10154,
+        "ID":  154,
         "Value":  "根絶やしにするのだ！",
         "Existence":  "VS2",
         "Clues":  "ガンダムAGE-1 フルグランサ"
     },
     {
-        "ID":  10155,
+        "ID":  155,
         "Value":  "全てを知る俺に勝てぬ敵などない…!",
         "Existence":  "VS2",
         "Clues":  "エクストリームガンダム エクリプス-F"
     },
     {
-        "ID":  10156,
+        "ID":  156,
         "Value":  "極!!限!!全!!力!!",
         "Existence":  "VS2",
         "Clues":  "エクストリームガンダム ゼノン-F"
     },
     {
-        "ID":  10157,
+        "ID":  157,
         "Value":  "早く帰って セシアの笑顔を見たい…",
         "Existence":  "VS2",
         "Clues":  "エクストリームガンダム アイオス-F"
     },
     {
-        "ID":  10158,
+        "ID":  158,
         "Value":  "君の心は絶対に俺が取り戻す!",
         "Existence":  "VS2",
         "Clues":  "エクストリームガンダム type-レオスII Vs."
     },
     {
-        "ID":  10159,
+        "ID":  159,
         "Value":  "私のこの手が希望に輝く!",
         "Existence":  "VS2",
         "Clues":  "エクストリームガンダム エクセリア"
     },
     {
-        "ID":  10160,
+        "ID":  160,
         "Value":  "ありあとしたー!",
         "Existence":  "VS2",
         "Clues":  "G-セルフ"
     },
     {
-        "ID":  10161,
+        "ID":  161,
         "Value":  "連敗の汚名はそそぐ覚悟であります！",
         "Existence":  "VS2",
         "Clues":  "マックナイフ"
     },
     {
-        "ID":  10162,
+        "ID":  162,
         "Value":  "もう僕は攻撃はしません!　その意味は分かりますよね?",
         "Existence":  "VS2",
         "Clues":  "G-セルフ(パーフェクトパック)"
     },
     {
-        "ID":  10163,
+        "ID":  163,
         "Value":  "役立たずな私…！",
         "Existence":  "VS2",
         "Clues":  "G-アルケイン(フルドレス)"
     },
     {
-        "ID":  10164,
+        "ID":  164,
         "Value":  "援護ありがとうね！",
         "Existence":  "VS2",
         "Clues":  "モンテーロ"
     },
     {
-        "ID":  10165,
+        "ID":  165,
         "Value":  "ねぇ、次はどうすればいい？",
         "Existence":  "VS2",
         "Clues":  "ガンダム・バルバトス"
     },
     {
-        "ID":  10166,
+        "ID":  166,
         "Value":  "貴様！何者だ！？",
         "Existence":  "VS2",
         "Clues":  "ガンダム・キマリストルーパー"
     },
     {
-        "ID":  10167,
+        "ID":  167,
         "Value":  "あいつ…邪魔だ…！",
         "Existence":  "VS2",
         "Clues":  "ガンダム・バルバトスルプス"
     },
     {
-        "ID":  10168,
+        "ID":  168,
         "Value":  "体張るぞ！",
         "Existence":  "VS2",
         "Clues":  "ガンダム・グシオンリベイクフルシティ"
     },
     {
-        "ID":  10169,
+        "ID":  169,
         "Value":  "皆、バエルのもとへ集え！",
         "Existence":  "VS2",
         "Clues":  "ガンダム・バエル"
     },
     {
-        "ID":  10170,
+        "ID":  170,
         "Value":  "まだ、止まれない",
         "Existence":  "VS2",
         "Clues":  "ガンダム・バルバトスルプスレクス"
     },
     {
-        "ID":  10171,
+        "ID":  171,
         "Value":  "この戦場にはやっぱフリージャズだ！",
         "Existence":  "VS2",
         "Clues":  "フルアーマー・ガンダム"
     },
     {
-        "ID":  10172,
+        "ID":  172,
         "Value":  "生き残ろう 生き残って いつか心から笑おう",
         "Existence":  "VS2",
         "Clues":  "サイコ・ザク"
     },
     {
-        "ID":  10173,
+        "ID":  173,
         "Value":  "悪ノリする客には退場してもらおうか！",
         "Existence":  "VS2",
         "Clues":  "アトラスガンダム"
     },
     {
-        "ID":  10174,
+        "ID":  174,
         "Value":  "遊びだからこそ!本気になれる!",
         "Existence":  "VS2",
         "Clues":  "ビルドストライクガンダム(フルパッケージ)"
     },
     {
-        "ID":  10175,
+        "ID":  175,
         "Value":  "私の本気で応えよう!",
         "Existence":  "VS2",
         "Clues":  "ザクアメイジング"
     },
     {
-        "ID":  10176,
+        "ID":  176,
         "Value":  "アメイジングだ！",
         "Existence":  "VS2",
         "Clues":  "ホットスクランブルガンダム"
     },
     {
-        "ID":  10177,
+        "ID":  177,
         "Value":  "ガンプラバトルは楽しく真剣にやるもんだろ！",
         "Existence":  "VS2",
         "Clues":  "トライバーニングガンダム"
     },
     {
-        "ID":  10178,
+        "ID":  178,
         "Value":  "ハロハロハロハロハロハロ",
         "Existence":  "VS2",
         "Clues":  "ハロ"
     },
     {
-        "ID":  10179,
+        "ID":  179,
         "Value":  "大佐どいてください、邪魔です",
         "Existence":  "VS2",
         "Clues":  "ララァ・スン"
     },
     {
-        "ID":  10180,
+        "ID":  180,
         "Value":  "ジーク、ジオンッッ！",
         "Existence":  "VS2",
         "Clues":  "ギレン・ザビ"
     },
     {
-        "ID":  10181,
+        "ID":  181,
         "Value":  "あまり無茶しないでね",
         "Existence":  "VS2",
         "Clues":  "ファ・ユイリィ"
     },
     {
-        "ID":  10182,
+        "ID":  182,
         "Value":  "お前はものの頼み方を知らないようだ",
         "Existence":  "VS2",
         "Clues":  "ハマーン・カーン"
     },
     {
-        "ID":  10183,
+        "ID":  183,
         "Value":  "胸がキュンキュンする…",
         "Existence":  "VS2",
         "Clues":  "エルピー・プル"
     },
     {
-        "ID":  10184,
+        "ID":  184,
         "Value":  "私は賭けの対象じゃないわ",
         "Existence":  "VS2",
         "Clues":  "セシリー・フェアチャイルド"
     },
     {
-        "ID":  10185,
+        "ID":  185,
         "Value":  "真の強さを　あたしに見せて欲しいのよ",
         "Existence":  "VS2",
         "Clues":  "カテジナ・ルース"
     },
     {
-        "ID":  10186,
+        "ID":  186,
         "Value":  "あなたに、力を…",
         "Existence":  "VS2",
         "Clues":  "ティファ・アディール"
     },
     {
-        "ID":  10187,
+        "ID":  187,
         "Value":  "これが私の戦争です",
         "Existence":  "VS2",
         "Clues":  "アイナ・サハリン"
     },
     {
-        "ID":  10188,
+        "ID":  188,
         "Value":  "私、なんてはしたないことを！",
         "Existence":  "VS2",
         "Clues":  "ソシエ・ハイム"
     },
     {
-        "ID":  10189,
+        "ID":  189,
         "Value":  "よしなに",
         "Existence":  "VS2",
         "Clues":  "ディアナ・ソレル"
     },
     {
-        "ID":  10190,
+        "ID":  190,
         "Value":  "気を抜いちゃだめよ",
         "Existence":  "VS2",
         "Clues":  "フェルト・グレイス"
     },
     {
-        "ID":  10191,
+        "ID":  191,
         "Value":  "守ってみせる、今度こそ！",
         "Existence":  "VS2",
         "Clues":  "スメラギ・李・ノリエガ"
     },
     {
-        "ID":  10192,
+        "ID":  192,
         "Value":  "そーゆートコ…凄く好みね！",
         "Existence":  "VS2",
         "Clues":  "ネーナ・トリニティ"
     },
     {
-        "ID":  10193,
+        "ID":  193,
         "Value":  "作戦完遂に全力を尽くします。",
         "Existence":  "VS2",
         "Clues":  "ソーマ・ピーリス"
     },
     {
-        "ID":  10194,
+        "ID":  194,
         "Value":  "わかってますけど　ブーブーですー",
         "Existence":  "VS2",
         "Clues":  "ミレイナ・ヴァスティ"
     },
     {
-        "ID":  10195,
+        "ID":  195,
         "Value":  "俺と来い！俺を独りにするなー！",
         "Existence":  "VS2",
         "Clues":  "スベロア・ジンネマン"
     },
     {
-        "ID":  10196,
+        "ID":  196,
         "Value":  "自信があるでしょう？やってみせなさい",
         "Existence":  "VS2",
         "Clues":  "オードリー・バーン"
     },
     {
-        "ID":  10197,
+        "ID":  197,
         "Value":  "あきらめるなよ　君の目には力がある",
         "Existence":  "VS2",
         "Clues":  "ブライト・ノア"
     },
     {
-        "ID":  10198,
+        "ID":  198,
         "Value":  "もう終わりにしましょう　復讐も、戦いも…",
         "Existence":  "VS2",
         "Clues":  "リリーナ・ドーリアン"
     },
     {
-        "ID":  10200,
+        "ID":  200,
         "Value":  "…うん、あたし達の仲間　大事な友達よ",
         "Existence":  "VS2",
         "Clues":  "ミリアリア・ハウ"
     },
     {
-        "ID":  10201,
+        "ID":  201,
         "Value":  "私も歌いますから　平和の歌を",
         "Existence":  "VS2",
         "Clues":  "ラクス・クライン"
     },
     {
-        "ID":  10202,
+        "ID":  202,
         "Value":  "また、会えるといいわね　戦場でないどこかで",
         "Existence":  "VS2",
         "Clues":  "マリュー・ラミアス"
     },
     {
-        "ID":  10203,
+        "ID":  203,
         "Value":  "本当の私の想いが　あなたを護るから",
         "Existence":  "VS2",
         "Clues":  "フレイ・アルスター"
     },
     {
-        "ID":  10204,
+        "ID":  204,
         "Value":  "大丈夫ですから、あたし大丈夫ですから",
         "Existence":  "VS2",
         "Clues":  "メイリン・ホーク"
     },
     {
-        "ID":  10205,
+        "ID":  205,
         "Value":  "どうか私の声を聞いて！",
         "Existence":  "VS2",
         "Clues":  "ミーア・キャンベル"
     },
     {
-        "ID":  10206,
+        "ID":  206,
         "Value":  "射撃の腕もかなりのものと聞いてますけど？",
         "Existence":  "VS2",
         "Clues":  "ルナマリア・ホーク"
     },
     {
-        "ID":  10207,
+        "ID":  207,
         "Value":  "私、信じてる",
         "Existence":  "VS2",
         "Clues":  "エミリー・アモンド"
     },
     {
-        "ID":  10208,
+        "ID":  208,
         "Value":  "いいんだよ、許してあげて",
         "Existence":  "VS2",
         "Clues":  "ユリン・ルシェル"
     },
     {
-        "ID":  10209,
+        "ID":  209,
         "Value":  "私、ずっと…ずっと会いたかった！",
         "Existence":  "VS2",
         "Clues":  "ロマリー・ストーン"
     },
     {
-        "ID":  10210,
+        "ID":  210,
         "Value":  "頼りにしていますからね！",
         "Existence":  "VS2",
         "Clues":  "セシア・アウェア"
     },
     {
-        "ID":  10211,
+        "ID":  211,
         "Value":  "オマエの背中はアタシが守る！",
         "Existence":  "VS2",
         "Clues":  "セシア・アウェア・アハト"
     },
     {
-        "ID":  10212,
+        "ID":  212,
         "Value":  "極限の純愛を奏でましょう",
         "Existence":  "VS2",
         "Clues":  "セシア・アウェア・セスト"
     },
     {
-        "ID":  10213,
+        "ID":  213,
         "Value":  "快楽の時間を始めましょう",
         "Existence":  "VS2",
         "Clues":  "セシア・アウェア・ノーノ"
     },
     {
-        "ID":  10214,
+        "ID":  214,
         "Value":  "遊びの時間の始まりだ～！",
         "Existence":  "VS2",
         "Clues":  "セシア・アウェア・プリモ"
     },
     {
-        "ID":  10215,
+        "ID":  215,
         "Value":  "私はパイロットとして補欠ですか！？",
         "Existence":  "VS2",
         "Clues":  "アイーダ・スルガン"
     },
     {
-        "ID":  10216,
+        "ID":  216,
         "Value":  "わたしはこの目ですべてを見届けたいんです",
         "Existence":  "VS2",
         "Clues":  "クーデリア・藍那・バーンスタイン"
     },
     {
-        "ID":  10217,
+        "ID":  217,
         "Value":  "一生懸命頑張りますっ！",
         "Existence":  "VS2",
         "Clues":  "アトラ・ミクスタ"
     },
     {
-        "ID":  10218,
+        "ID":  218,
         "Value":  "お手伝いしましょうか？",
         "Existence":  "VS2",
         "Clues":  "フミタン・アドモス"
     },
     {
-        "ID":  10219,
+        "ID":  219,
         "Value":  "さっきはありがとう…",
         "Existence":  "VS2",
         "Clues":  "アイラ・ユルキアイネン"
     },
     {
-        "ID":  10220,
+        "ID":  220,
         "Value":  "ねぇ、ガンプラ好き？",
         "Existence":  "VS2",
         "Clues":  "ホシノ・フミナ"
     },
     {
-        "ID":  10225,
+        "ID":  225,
         "Value":  "今日もがんばるぞ！",
         "Existence":  "VS2",
         "Clues":  "エクストラGスクラッチ SDガンダム30周年記念 コラボキャンペーン"
     },
     {
-        "ID":  10226,
+        "ID":  226,
         "Value":  "うぉ～っ！もえてきたぜ！",
         "Existence":  "VS2",
         "Clues":  "エクストラGスクラッチ SDガンダム30周年記念 コラボキャンペーン"
     },
     {
-        "ID":  10227,
+        "ID":  227,
         "Value":  "かつぞ～っ！おーっ！！",
         "Existence":  "VS2",
         "Clues":  "エクストラGスクラッチ SDガンダム30周年記念 コラボキャンペーン"
     },
     {
-        "ID":  10228,
+        "ID":  228,
         "Value":  "ワッショイ　ワッショイ！",
         "Existence":  "VS2",
         "Clues":  "エクストラGスクラッチ SDガンダム30周年記念 コラボキャンペーン"
     },
     {
-        "ID":  10229,
+        "ID":  229,
         "Value":  "くやしぃ～っ！！！",
         "Existence":  "VS2",
         "Clues":  "エクストラGスクラッチ SDガンダム30周年記念 コラボキャンペーン"
     },
     {
-        "ID":  10230,
+        "ID":  230,
         "Value":  "えらい　えらい",
         "Existence":  "VS2",
         "Clues":  "エクストラGスクラッチ SDガンダム30周年記念 コラボキャンペーン"
     },
     {
-        "ID":  10231,
+        "ID":  231,
         "Value":  "俺を見ろー！",
         "Existence":  "VS2",
         "Clues":  "ガンダム・キマリスヴィダール"
     },
     {
-        "ID":  10232,
+        "ID":  232,
         "Value":  "ガンダム 売るよ！",
         "Existence":  "VS2",
         "Clues":  "ガンダムX"
     },
     {
-        "ID":  10233,
+        "ID":  233,
         "Value":  "プランB! プランBだ!",
         "Existence":  "VS2",
         "Clues":  "アッガイ（ダリル搭乗）"
     },
     {
-        "ID":  10235,
+        "ID":  235,
         "Value":  "もう一度挑戦するんだ！",
         "Existence":  "VS2",
         "Clues":  "ライトニングガンダムフルバーニアン"
     },
     {
-        "ID":  10236,
+        "ID":  236,
         "Value":  "お、俺だって！俺だってー！",
         "Existence":  "VS2",
         "Clues":  "ガンキャノン"
     },
     {
-        "ID":  10237,
+        "ID":  237,
         "Value":  "見ていてください私の力を！",
         "Existence":  "VS2",
         "Clues":  "フォーンファルシア"
     },
     {
-        "ID":  10238,
+        "ID":  238,
         "Value":  "一撃離脱で行く！",
         "Existence":  "VS2",
         "Clues":  "高機動型ザクII後期型(ジョニー・ライデン機)"
     },
     {
-        "ID":  10239,
+        "ID":  239,
         "Value":  "2人で勝利をつかもう！",
         "Existence":  "VS2",
         "Clues":  "SPRING BATTLE 2019"
     },
     {
-        "ID":  10240,
+        "ID":  240,
         "Value":  "とびきり痛いのいきますよぉー！",
         "Existence":  "VS2",
         "Clues":  "ガンダムX魔王"
     },
     {
-        "ID":  10242,
+        "ID":  242,
         "Value":  "さよならは言わないでね…？",
         "Existence":  "VS2",
         "Clues":  "ペイルライダー(陸戦重装仕様)"
     },
     {
-        "ID":  10244,
+        "ID":  244,
         "Value":  "そうです! アタシがついてる!",
         "Existence":  "VS2",
         "Clues":  "G-ルシファー"
     },
     {
-        "ID":  10245,
+        "ID":  245,
         "Value":  "どんまい",
         "Existence":  "VS2",
         "Clues":  "ガンダムキュリオス"
     },
     {
-        "ID":  10246,
+        "ID":  246,
         "Value":  "次も勝つぞ！",
         "Existence":  "VS2",
         "Clues":  "SUMMER BATTLE 2019"
     },
     {
-        "ID":  10247,
+        "ID":  247,
         "Value":  "勝利の道を作って見せる！",
         "Existence":  "VS2",
         "Clues":  "スターウイニングガンダム"
     },
     {
-        "ID":  10253,
+        "ID":  253,
         "Value":  "生き抜いてみせる…！",
         "Existence":  "VS2",
         "Clues":  "ベルティゴ"
     },
     {
-        "ID":  10254,
+        "ID":  254,
         "Value":  "我は応えねばならぬ",
         "Existence":  "VS2",
         "Clues":  "ガンダムアストレイ ゴールドフレーム 天ミナ"
     },
     {
-        "ID":  10257,
+        "ID":  257,
         "Value":  "行くぜ、相棒！",
         "Existence":  "VS2",
         "Clues":  "AUTUMN BATTLE 2019"
     },
     {
-        "ID":  10259,
+        "ID":  259,
         "Value":  "極限感謝！",
         "Existence":  "VS2",
         "Clues":  "極限感謝祭2018"
     },
     {
-        "ID":  10260,
+        "ID":  260,
         "Value":  "剣の勝負ならば負けん！",
         "Existence":  "VS2",
         "Clues":  "「METAL ROBOT魂 ＜SIDE MS＞"
     },
     {
-        "ID":  10261,
+        "ID":  261,
         "Value":  "戦闘、お疲れ様でした！",
         "Existence":  "VS2",
         "Clues":  "プライズアイテム「パスケース」獲得特典"
     },
     {
-        "ID":  10262,
+        "ID":  262,
         "Value":  "また、一緒に戦えてうれしいです",
         "Existence":  "VS2",
         "Clues":  "プライズアイテム「パスケース」獲得特典"
     },
     {
-        "ID":  10263,
+        "ID":  263,
         "Value":  "援護なら任せて下さい！",
         "Existence":  "VS2",
         "Clues":  "プライズアイテム「ヘッドフォン」獲得特典"
     },
     {
-        "ID":  10264,
+        "ID":  264,
         "Value":  "正義は勝つ!",
         "Existence":  "VS2",
         "Clues":  "騎士ガンダム"
     },
     {
-        "ID":  10265,
+        "ID":  265,
         "Value":  "がんばろうね！",
         "Existence":  "VS2",
         "Clues":  "SDガンダム30周年記念　コラボキャンペーン"
     },
     {
-        "ID":  10266,
+        "ID":  266,
         "Value":  "さあ、いこう！！",
         "Existence":  "VS2",
         "Clues":  "SDガンダム30周年記念　コラボキャンペーン"
     },
     {
-        "ID":  10267,
+        "ID":  267,
         "Value":  "オレたちは最高のコンビだ！",
         "Existence":  "VS2",
         "Clues":  "WINTER BATTLE 2020"
     },
     {
-        "ID":  10268,
+        "ID":  268,
         "Value":  "俺は優勝者だぜ？",
         "Existence":  "VS2",
         "Clues":  "「PREMIUM DOGFIGHT 2019」優勝"
     },
     {
-        "ID":  10269,
+        "ID":  269,
         "Value":  "準優勝者じゃ力不足かい？",
         "Existence":  "VS2",
         "Clues":  "「PREMIUM DOGFIGHT 2019」準優勝"
     },
     {
-        "ID":  10270,
+        "ID":  270,
         "Value":  "今日はいい日だ！",
         "Existence":  "VS2",
         "Clues":  "ドーベン・ウルフ"
     },
     {
-        "ID":  10271,
+        "ID":  271,
         "Value":  "君が鳥になるなら俺は…俺も鳥になる！",
         "Existence":  "VS2",
         "Clues":  "ナラティブガンダム"
     },
     {
-        "ID":  10272,
+        "ID":  272,
         "Value":  "ところがぎっちょん！",
         "Existence":  "VS2",
         "Clues":  "ヤークトアルケーガンダム"
     },
     {
-        "ID":  10273,
+        "ID":  273,
         "Value":  "俺が…奴を討つ！",
         "Existence":  "VS2",
         "Clues":  "イージスガンダム"
     },
     {
-        "ID":  10274,
+        "ID":  274,
         "Value":  "さぁて…口説かせてもらおうか",
         "Existence":  "VS2",
         "Clues":  "ウイングガンダムフェニーチェ"
     },
     {
-        "ID":  10275,
+        "ID":  275,
         "Value":  "この勝利を閣下と祖国に！",
         "Existence":  "VS2",
         "Clues":  "高機動型ザクII改(シン・マツナガ機)"
     },
     {
-        "ID":  10276,
+        "ID":  276,
         "Value":  "今の言葉は…取り消して！",
         "Existence":  "VS2",
         "Clues":  "ガンダムダブルオーダイバーエース"
     },
     {
-        "ID":  10277,
+        "ID":  277,
         "Value":  "MSの格闘技というのを見せてやる！",
         "Existence":  "VS2",
         "Clues":  "ザクII(ドアン機)"
     },
     {
-        "ID":  10279,
+        "ID":  279,
         "Value":  "やってみなければわからん!",
         "Existence":  "VS2",
         "Clues":  "カバカーリー"
     },
     {
-        "ID":  10281,
+        "ID":  281,
         "Value":  "撃っちゃうんだなぁ これが！",
         "Existence":  "VS2",
         "Clues":  "シナンジュ・スタイン"
     },
     {
-        "ID":  10290,
+        "ID":  290,
         "Value":  "こんばんは！",
         "Existence":  "XB"
     },
     {
-        "ID":  10291,
+        "ID":  291,
         "Value":  "前衛やります",
         "Existence":  "XB"
     },
     {
-        "ID":  10292,
+        "ID":  292,
         "Value":  "後衛やります",
         "Existence":  "XB"
     },
     {
-        "ID":  10293,
+        "ID":  293,
         "Value":  "チーム出撃しましょう！",
         "Existence":  "XB"
     },
     {
-        "ID":  10294,
+        "ID":  294,
         "Value":  "了解しました！",
         "Existence":  "XB"
     },
     {
-        "ID":  10295,
+        "ID":  295,
         "Value":  "これだからやめられない！",
         "Existence":  "XB",
         "Clues":  "スタービルドストライクガンダム"
     },
     {
-        "ID":  10296,
+        "ID":  296,
         "Value":  "手伝って・・・",
         "Existence":  "XB",
         "Clues":  "ユニコーンガンダム3号機フェネクス"
     },
     {
-        "ID":  10297,
+        "ID":  297,
         "Value":  "よっしゃ！ぶちかましてやろうぜ！",
         "Existence":  "XB",
         "Clues":  "ガンダム・フラウロス"
     },
     {
-        "ID":  10298,
+        "ID":  298,
         "Value":  "いい仕事だ！",
         "Existence":  "XB",
         "Clues":  "オルガ・イツカ"
     },
     {
-        "ID":  10299,
+        "ID":  299,
         "Value":  "あたしだって、負けない！",
         "Existence":  "XB",
         "Clues":  "マニィ・アンバサダ"
     },
     {
-        "ID":  10300,
+        "ID":  300,
         "Value":  "ピンチを切り抜け僚機と勝利！",
         "Existence":  "XB",
         "Clues":  "プレシーズンレベルスタンプ"
     },
     {
-        "ID":  10301,
+        "ID":  301,
         "Value":  "猛烈な近接格闘で敵を殲滅！",
         "Existence":  "XB",
         "Clues":  "シーズン1レベルスタンプ"
     },
     {
-        "ID":  10302,
+        "ID":  302,
         "Value":  "怒涛の連続射撃で敵を一掃！",
         "Existence":  "XB",
         "Clues":  "シーズン2レベルスタンプ"
     },
     {
-        "ID":  10303,
+        "ID":  303,
         "Value":  "圧倒的な機動力で追い詰めろ！",
         "Existence":  "XB",
         "Clues":  "シーズン3レベルスタンプ"
     },
     {
-        "ID":  10304,
+        "ID":  304,
         "Value":  "強靭な攻撃でねじ伏せろ！",
         "Existence":  "XB",
         "Clues":  "シーズン4レベルスタンプ"
     },
     {
-        "ID":  10305,
+        "ID":  305,
         "Value":  "オレたちの連携技をくらえ！",
         "Existence":  "XB",
         "Clues":  "シーズン5レベルスタンプ"
     },
     {
-        "ID":  10306,
+        "ID":  306,
         "Value":  "これがオレたちのとっておきだ！！",
         "Existence":  "XB",
         "Clues":  "シーズン6レベルスタンプ"
     },
     {
-        "ID":  10307,
+        "ID":  307,
         "Value":  "蹴散らすぞ!",
         "Existence":  "XB",
         "Clues":  "ジャスティスガンダム"
     },
     {
-        "ID":  10308,
+        "ID":  308,
         "Value":  "斬って斬って斬りまくるぅ！",
         "Existence":  "XB",
         "Clues":  "ガンダムデスサイズヘル"
     },
     {
-        "ID":  10309,
+        "ID":  309,
         "Value":  "迷う事はないはずだ",
         "Existence":  "XB",
         "Clues":  "ディジェ"
     },
     {
-        "ID":  10310,
+        "ID":  310,
         "Value":  "このバーストで勝負を決める！",
         "Existence":  "XB",
         "Clues":  "リバイバルショップ"
     },
     {
-        "ID":  10311,
+        "ID":  311,
         "Value":  "この戦場は俺が支配する！",
         "Existence":  "XB"
     },
     {
-        "ID":  10312,
+        "ID":  312,
         "Value":  "この一撃をねじ込んでやる！",
         "Existence":  "XB"
     },
     {
-        "ID":  10313,
+        "ID":  313,
         "Value":  "ここから勝利を掴み取る！",
         "Existence":  "XB",
         "Clues":  "リバイバルショップ"
     },
     {
-        "ID":  10314,
+        "ID":  314,
         "Value":  "敵も！勝利も！逃がさない！！",
         "Existence":  "XB"
     },
     {
-        "ID":  10315,
+        "ID":  315,
         "Value":  "行くぜ！BURST X",
         "Existence":  "XB",
         "Clues":  "スペシャルショップ"
     },
     {
-        "ID":  10316,
+        "ID":  316,
         "Value":  "畳み掛けるなら今しかないっ！！",
         "Existence":  "XB",
         "Clues":  "スペシャルショップ"
     },
     {
-        "ID":  10317,
+        "ID":  317,
         "Value":  "資金はまだある！",
         "Existence":  "XB",
         "Clues":  "スペシャルショップ"
     },
     {
-        "ID":  10318,
+        "ID":  318,
         "Value":  "俺たちの勝利だッ！",
         "Existence":  "XB",
         "Clues":  "店舗大会「SUMMER BATTLE 2021」各大会の参加者"
     },
     {
-        "ID":  10319,
+        "ID":  319,
         "Value":  "テンションあげてこー！",
         "Existence":  "XB",
         "Clues":  "店舗大会「AUTUMN BATTLE 2021」各大会の参加者"
     },
     {
-        "ID":  10320,
+        "ID":  320,
         "Value":  "勝鬨をあげろー！",
         "Existence":  "XB",
         "Clues":  "店舗大会「WINTER BATTLE 2022」各大会の参加者"
     },
     {
-        "ID":  10321,
+        "ID":  321,
         "Value":  "開幕即デスなんて冗談じゃない…！",
         "Existence":  "XB",
         "Clues":  "オーヴェロン"
     },
     {
-        "ID":  10322,
+        "ID":  322,
         "Value":  "私に失望させるな",
         "Existence":  "XB",
         "Clues":  "アッガイ(ハマーン搭乗)"
     },
     {
-        "ID":  10323,
+        "ID":  323,
         "Value":  "借りは返させてもらうよ!",
         "Existence":  "XB",
         "Clues":  "ガラッゾ(ヒリング・ケア機)"
     },
     {
-        "ID":  10324,
+        "ID":  324,
         "Value":  "私にやられに来たんだよなぁ！",
         "Existence":  "XB",
         "Clues":  "ダハック"
     },
     {
-        "ID":  10325,
+        "ID":  325,
         "Value":  "主導権を握らせるな!",
         "Existence":  "XB",
         "Clues":  "高機動型ゲルググ(ヴィンセント機)"
     },
     {
-        "ID":  10326,
+        "ID":  326,
         "Value":  "推して参る!",
         "Existence":  "XB",
         "Clues":  "RX-零丸"
     },
     {
-        "ID":  10327,
+        "ID":  327,
         "Value":  "私たちは勝ちに行く",
         "Existence":  "OB",
         "Clues":  "アヤメ"
     },
     {
-        "ID":  10328,
+        "ID":  328,
         "Value":  "忘れてた?　私も赤なのよ!",
         "Existence":  "XB",
         "Clues":  "インパルスガンダム(ルナマリア搭乗)"
     },
     {
-        "ID":  10329,
+        "ID":  329,
         "Value":  "さぁ!惜しみなく称賛しろ!",
         "Existence":  "XB",
         "Clues":  "ビギナ・ギナII(木星決戦仕様)"
     },
     {
-        "ID":  10330,
+        "ID":  330,
         "Value":  "馬鹿は来る!",
         "Existence":  "XB",
         "Clues":  "トールギス"
     },
     {
-        "ID":  10331,
+        "ID":  331,
         "Value":  "即席チーム組みませんか？",
         "Existence":  "XB",
         "Clues":  "即席チーム結成応援キャンペーン報酬"
     },
     {
-        "ID":  10332,
+        "ID":  332,
         "Value":  "即席チームOKです！！",
         "Existence":  "XB",
         "Clues":  "即席チーム結成応援キャンペーン報酬"
     },
     {
-        "ID":  10333,
+        "ID":  333,
         "Value":  "あなたの力を貸してください！",
         "Existence":  "XB",
         "Clues":  "即席チーム結成応援キャンペーン報酬"
     },
     {
-        "ID":  10334,
+        "ID":  334,
         "Value":  "一緒に戦いましょう！",
         "Existence":  "XB",
         "Clues":  "即席チーム結成応援キャンペーン報酬"
     },
     {
-        "ID":  10335,
+        "ID":  335,
         "Value":  "ここが俺の家だ！",
         "Existence":  "XB"
     },
     {
-        "ID":  10336,
+        "ID":  336,
         "Value":  "オレたちの速さについてこれるかな！？",
         "Existence":  "XB",
         "Clues":  "シーズン7レベルスタンプ"
     },
     {
-        "ID":  10337,
+        "ID":  337,
         "Value":  "もう誰にもオレたちは止められない！",
         "Existence":  "XB",
         "Clues":  "シーズン8レベルスタンプ"
     },
     {
-        "ID":  10338,
+        "ID":  338,
         "Value":  "刮目しろ！これがオレたちの連携だ！",
         "Existence":  "XB",
         "Clues":  "シーズン9レベルスタンプ"
     },
     {
-        "ID":  10339,
+        "ID":  339,
         "Value":  "NEXCITING!!! NEXTREME!!!",
         "Existence":  "XB",
         "Clues":  "シーズン10レベルスタンプ"
     },
     {
-        "ID":  10340,
+        "ID":  340,
         "Value":  "例のアレやりますよ！",
         "Existence":  "XB",
         "Clues":  "スペシャルショップ"
     },
     {
-        "ID":  10341,
+        "ID":  341,
         "Value":  "ゴメンっ",
         "Existence":  "XB",
         "Clues":  "スペシャルショップ"
     },
     {
-        "ID":  10342,
+        "ID":  342,
         "Value":  "GG!",
         "Existence":  "XB",
         "Clues":  "スペシャルショップ"
     },
     {
-        "ID":  10343,
+        "ID":  343,
         "Value":  "2人なら不可能はない！",
         "Existence":  "XB",
         "Clues":  "店舗大会「SPRING BATTLE 2022」各大会の参加者"
     },
     {
-        "ID":  10344,
+        "ID":  344,
         "Value":  "俺たちの勝利だッ！",
         "Existence":  "XB",
         "Clues":  "店舗大会「SUMMER BATTLE 2022」各大会の参加者"
     },
     {
-        "ID":  10345,
+        "ID":  345,
         "Value":  "テンションあげてこー！",
         "Existence":  "XB",
         "Clues":  "店舗大会「AUTUMN BATTLE 2022」各大会の参加者"
     },
     {
-        "ID":  10346,
+        "ID":  346,
         "Value":  "その無邪気さは気に入らんな！",
         "Existence":  "XB",
         "Clues":  "イフリート(シュナイド機)"
     },
     {
-        "ID":  10347,
+        "ID":  347,
         "Value":  "やりますねぇ!",
         "Existence":  "XB",
         "Clues":  "スペシャルショップ"
     },
     {
-        "ID":  10348,
+        "ID":  348,
         "Value":  "援護武装を使います！",
         "Existence":  "XB",
         "Clues":  "スペシャルショップ"
     },
     {
-        "ID":  10349,
+        "ID":  349,
         "Value":  "感謝感激！",
         "Existence":  "XB",
         "Clues":  "スペシャルショップ"
     },
     {
-        "ID":  10350,
+        "ID":  350,
         "Value":  "クロブ愛(LOVE)",
         "Existence":  "XB",
         "Clues":  "クロブ交流会参加賞"
     },
     {
-        "ID":  10351,
+        "ID":  351,
         "Value":  "趣味はゲーセン通いです",
         "Existence":  "XB",
         "Clues":  "クロブ交流会参加賞"
     },
     {
-        "ID":  10352,
+        "ID":  352,
         "Value":  "明日もゲーセンで会いましょう",
         "Existence":  "XB",
         "Clues":  "クロブ交流会参加賞"
     },
     {
-        "ID":  10353,
+        "ID":  353,
         "Value":  "一緒に突っ走ろうぜ！",
         "Existence":  "XB",
         "Clues":  "Project N-EXTREMEバンダイナムコパスポート第1弾アクセスコード入力"
     },
     {
-        "ID":  10354,
+        "ID":  354,
         "Value":  "これは俺達の意思だ",
         "Existence":  "XB",
         "Clues":  "Project N-EXTREMEバンダイナムコパスポート第2弾アクセスコード入力"
     },
     {
-        "ID":  10355,
+        "ID":  355,
         "Value":  "さぁっ、行きましょー！",
         "Existence":  "XB",
         "Clues":  "Project N-EXTREMEバンダイナムコパスポート第1弾アクセスコード入力"
     },
     {
-        "ID":  10356,
+        "ID":  356,
         "Value":  "私も万全を尽くします",
         "Existence":  "XB",
         "Clues":  "Project N-EXTREMEバンダイナムコパスポート第2弾アクセスコード入力"
     },
     {
-        "ID":  10357,
+        "ID":  357,
         "Value":  "いつでも全力!",
         "Existence":  "XB",
         "Clues":  "N-EXTREMEガンダム エクスプロージョン"
     },
     {
-        "ID":  10358,
+        "ID":  358,
         "Value":  "ボクが活路を開くんだ!",
         "Existence":  "XB",
         "Clues":  "N-EXTREMEガンダム ザナドゥ"
     },
     {
-        "ID":  10359,
+        "ID":  359,
         "Value":  "えい、えい、おー！",
         "Existence":  "XB",
         "Clues":  "メリーナ・マーロンフィッツ"
     },
     {
-        "ID":  10360,
+        "ID":  360,
         "Value":  "退け ここからは俺がやる",
         "Existence":  "XB",
         "Clues":  "N-EXTREMEガンダム ヴィシャス"
     },
     {
-        "ID":  10361,
+        "ID":  361,
         "Value":  "……ご自由に",
         "Existence":  "XB",
         "Clues":  "N-EXTREMEガンダム スプレマシー"
     },
     {
-        "ID":  10362,
+        "ID":  362,
         "Value":  "褒めたりなんてしませんから",
         "Existence":  "XB",
         "Clues":  "カノ・クランズ"
     },
     {
-        "ID":  10363,
+        "ID":  363,
         "Value":  "敵部隊に穴を開ける！",
         "Existence":  "XB",
         "Clues":  "RX-93ff νガンダム"
     },
     {
-        "ID":  10364,
+        "ID":  364,
         "Value":  "極限連携",
         "Existence":  "XB",
         "Clues":  "チーム出撃キャンペーン 500pts"
     },
     {
-        "ID":  10365,
+        "ID":  365,
         "Value":  "友情バースト発生！",
         "Existence":  "XB"
     },
     {
-        "ID":  10366,
+        "ID":  366,
         "Value":  "マチありでした！",
         "Existence":  "XB",
         "Clues":  "チーム出撃キャンペーン 250pts"
     },
     {
-        "ID":  10368,
+        "ID":  368,
         "Value":  "目移りしちまうぜぇ！",
         "Existence":  "XB",
         "Clues":  "カラミティガンダム"
     },
     {
-        "ID":  10369,
+        "ID":  369,
         "Value":  "道を開けなさい！",
         "Existence":  "XB",
         "Clues":  "インフィニットジャスティスガンダム(ラクス搭乗)"
     },
     {
-        "ID":  10370,
+        "ID":  370,
         "Value":  "NICE",
         "Existence":  "XB",
         "Clues":  "スペシャルショップ"
     },
     {
-        "ID":  10371,
+        "ID":  371,
         "Value":  "礼には及びません",
         "Existence":  "XB",
         "Clues":  "戦国アストレイ頑駄無"
     },
     {
-        "ID":  10372,
+        "ID":  372,
         "Value":  "これくらいで落ち込んでたら!",
         "Existence":  "XB",
         "Clues":  "Zガンダム(ルー搭乗)"
     },
     {
-        "ID":  10373,
+        "ID":  373,
         "Value":  "方法はあるはずだ！",
         "Existence":  "XB",
         "Clues":  "νガンダムHWS"
     },
     {
-        "ID":  10374,
+        "ID":  374,
         "Value":  "初めましてだなぁガンダム！",
         "Existence":  "XB",
         "Clues":  "グラハム専用ユニオンフラッグカスタム"
     },
     {
-        "ID":  10375,
+        "ID":  375,
         "Value":  "次もやれる！俺たちなら！！",
         "Existence":  "XB",
         "Clues":  "店舗大会「WINTER BATTLE 2023」各大会の参加者"
     },
     {
-        "ID":  10376,
+        "ID":  376,
         "Value":  "PDF2022絶対王者ここに君臨",
         "Existence":  "XB",
         "Clues":  "「PREMIUM DOGFIGHT 2022」優勝"
     },
     {
-        "ID":  10377,
+        "ID":  377,
         "Value":  "玉座への挑戦は終わらない！",
         "Existence":  "XB",
         "Clues":  "「PREMIUM DOGFIGHT 2022」準優勝"
     },
     {
-        "ID":  10378,
+        "ID":  378,
         "Value":  "もう、繰り返さない",
         "Existence":  "OB",
         "Clues":  "アースリィガンダム"
     },
     {
-        "ID":  10379,
+        "ID":  379,
         "Value":  "逃げたら一つ、進めば二つ",
         "Existence":  "OB",
         "Clues":  "ガンダム・エアリアル"
     },
     {
-        "ID":  10380,
+        "ID":  380,
         "Value":  "自らの力の無さを知れ",
         "Existence":  "OB",
         "Clues":  "ドレッドノートイータ"
     },
     {
-        "ID":  10381,
+        "ID":  381,
         "Value":  "絶対勝って！",
         "Existence":  "OB",
         "Clues":  "ミオリネ・レンブラン"
     },
     {
-        "ID":  10382,
+        "ID":  382,
         "Value":  "次も勝利しかあり得ません",
         "Existence":  "OB",
         "Clues":  "ネイア・e・ピケ"
     },
     {
-        "ID":  10383,
+        "ID":  383,
         "Value":  "虹の輝きで道を照らせ！",
         "Existence":  "OB",
         "Clues":  "オーバーブーストパスでstage:60"
     },
     {
-        "ID":  10384,
+        "ID":  384,
         "Value":  "あの頃の思い出、忘れないよ…",
         "Existence":  "OB",
         "Clues":  "オーバーブーストパスでstage:70"
     },
     {
-        "ID":  10385,
+        "ID":  385,
         "Value":  "理想に辿り着く為に、戦い続けるだけだ！",
         "Existence":  "OB",
         "Clues":  "オーバーブーストパスでstage:70"
     },
     {
-        "ID":  10386,
+        "ID":  386,
         "Value":  "困った時は俺を呼べ！！",
         "Existence":  "OB",
         "Clues":  "オーバーブーストパスでstage:70"
     },
     {
-        "ID":  10387,
+        "ID":  387,
         "Value":  "限界を超える・・・！",
         "Existence":  "OB",
         "Clues":  "オーバーブーストパスでstage:70"
     },
     {
-        "ID":  10388,
+        "ID":  388,
         "Value":  "可能に賭けてみるさ",
         "Existence":  "OB",
         "Clues":  "オーバーブーストパスでstage:70"
     },
     {
-        "ID":  10389,
+        "ID":  389,
         "Value":  "可能性はゼロじゃない！",
         "Existence":  "OB",
         "Clues":  "ガンダムダブルオースカイ"
     },
     {
-        "ID":  10390,
+        "ID":  390,
         "Value":  "ご命令とあれば。",
         "Existence":  "OB",
         "Clues":  "ガンダム・ファラクト"
     },
     {
-        "ID":  10391,
+        "ID":  391,
         "Value":  "終わらせる！ここでっ！！",
         "Existence":  "OB",
         "Clues":  "ライジングフリーダムガンダム"
     },
     {
-        "ID":  10392,
+        "ID":  392,
         "Value":  "ヘカテーは使えるじゃないか！",
         "Existence":  "OB",
         "Clues":  "ヘカテー"
     },
     {
-        "ID":  10393,
+        "ID":  393,
         "Value":  "あとは俺が引き継ぐ",
         "Existence":  "OB",
         "Clues":  "ダリルバルデ"
     },
     {
-        "ID":  10394,
+        "ID":  394,
         "Value":  "制圧を開始する。",
         "Existence":  "OB",
         "Clues":  "オーバーブーストパスでstage:60"
     },
     {
-        "ID":  10395,
+        "ID":  395,
         "Value":  "サイノウバクハツ！！",
         "Existence":  "OBv18",
         "Clues":  "オーバーブーストパスでstage:60"
     },
     {
-        "ID":  10396,
+        "ID":  396,
         "Value":  "チカラ　ヲ　カイホウ　セヨ",
         "Existence":  "OBv19",
         "Clues":  "オーバーブーストパスでstage:60"
     },
     {
-        "ID":  10397,
+        "ID":  397,
         "Value":  "この戦場で誰よりも自由だ！！",
         "Existence":  "OBv24",
         "Clues":  "オーバーブーストパスでstage:60"
     },
     {
-        "ID":  10398,
+        "ID":  398,
         "Value":  "ご無事なお帰りをお待ちしております",
         "Existence":  "OB",
         "Clues":  "ラクス・クライン（SEED FREEDOM版）"
     },
     {
-        "ID":  10399,
+        "ID":  399,
         "Value":  "ついにこの時が来たよ…",
         "Existence":  "OB",
         "Clues":  "アヘッド脳量子波対応型 (スマルトロン)"
     },
     {
-        "ID":  10400,
+        "ID":  400,
         "Value":  "本気にさせてくれる！",
         "Existence":  "OBv24",
         "Clues":  "トランジェントガンダム"
     },
     {
-        "ID":  10401,
+        "ID":  401,
         "Value":  "お前の強さには敬服する",
         "Existence":  "OB",
         "Clues":  "ガンダムヘビーアームズ改"
     },
     {
-        "ID":  10402,
+        "ID":  402,
         "Value":  "全てが分かった！",
         "Existence":  "OB",
         "Clues":  "リグ・コンティオ"
     },
     {
-        "ID":  10403,
+        "ID":  403,
         "Value":  "できるっ！！",
         "Existence":  "OB",
         "Clues":  "インフィニットジャスティスガンダム弐式"
     },
     {
-        "ID":  10404,
+        "ID":  404,
         "Value":  "私達なら、きっといいチームになりますよ！",
         "Existence":  "OB",
         "Clues":  "EXVS.トークライブ in 両国国技館"
     },
     {
-        "ID":  10405,
+        "ID":  405,
         "Value":  "私とも、上手く嚙み合ってきてるのかな・・・",
         "Existence":  "OB",
         "Clues":  "EXVS.トークライブ in 両国国技館"
     },
     {
-        "ID":  10406,
+        "ID":  406,
         "Value":  "わたくしの胸が高鳴ってまいりました",
         "Existence":  "OB",
         "Clues":  "EXVS.トークライブ in 両国国技館"
     },
     {
-        "ID":  10407,
+        "ID":  407,
         "Value":  "どうも、職人です。",
         "Existence":  "OBv18",
         "Clues":  "リバイバルショップ"
     },
     {
-        "ID":  10408,
+        "ID":  408,
         "Value":  "リロード中",
         "Existence":  "OBv18",
         "Clues":  "リバイバルショップ"
     },
     {
-        "ID":  10409,
+        "ID":  409,
         "Value":  "下剋上だよなぁ！？",
         "Existence":  "OBv18",
         "Clues":  "リバイバルショップ"
     },
     {
-        "ID":  10410,
+        "ID":  410,
         "Value":  "キミが全一だよ",
         "Existence":  "OBv18",
         "Clues":  "リバイバルショップ"
     },
     {
-        "ID":  10411,
+        "ID":  411,
         "Value":  "めっちゃ良かったのでリプレイ保存しちゃいます！！",
         "Existence":  "OBv18",
         "Clues":  "リバイバルショップ"
     },
     {
-        "ID":  10412,
+        "ID":  412,
         "Value":  "大逆転勝利！！",
         "Existence":  "OBv18",
         "Clues":  "リバイバルショップ"
     },
     {
-        "ID":  10413,
+        "ID":  413,
         "Value":  "オバブ最強はこの俺だ",
         "Existence":  "OBv24",
         "Clues":  "「PREMIUM DOGFIGHT 2025」優勝"
     },
     {
-        "ID":  10414,
+        "ID":  414,
         "Value":  "銀色の輝きはここにある",
         "Existence":  "OBv24",
         "Clues":  "「PREMIUM DOGFIGHT 2025」準優勝"
     },
     {
-        "ID":  10415,
+        "ID":  415,
         "Value":  "少しくらい遊ばせてくれよ！",
         "Existence":  "OBv22",
         "Clues":  "ガンダムスローネツヴァイ"
     },
     {
-        "ID":  10416,
+        "ID":  416,
         "Value":  "私とエアリアルがついてますから",
         "Existence":  "IB",
         "Clues":  "ガンダム・エアリアル(改修型)"
     },
     {
-        "ID":  10417,
+        "ID":  417,
         "Value":  "…ごめんね",
         "Existence":  "IB",
         "Clues":  "ガンダム・エアリアル(改修型)パーメットスコア・エイト"
     },
     {
-        "ID":  10418,
+        "ID":  418,
         "Value":  "この身に代えて守ってみせる！",
         "Existence":  "OB",
         "Clues":  "トーリスリッター"
     },
     {
-        "ID":  10419,
+        "ID":  419,
         "Value":  "ここからがクライマックスだ！！",
         "Existence":  "OB",
         "Clues":  "オーバーブーストパスでstage:60"
     },
     {
-        "ID":  10420,
+        "ID":  420,
         "Value":  "運命よ　そこをどけ　俺が通る道だ",
         "Existence":  "OB",
         "Clues":  "SEASON BATTLE THE FINAL"
     },
     {
-        "ID":  10421,
+        "ID":  421,
         "Value":  "遊びでやってんじゃねぇんだ！！",
         "Existence":  "OB",
         "Clues":  "デスティニーガンダム(ハイネ機)"
     },
     {
-        "ID":  10423,
+        "ID": 423,
         "Value": "ともに勝利を…",
         "Existence": "IB",
         "Clues": "特定Lv.到達で獲得PLv.10"
     },
     {
-        "ID":  10424,
+        "ID": 424,
         "Value": "一点突破だ！",
         "Existence": "IB",
         "Clues": "特定Lv.到達で獲得PLv.210"
     },
     {
-        "ID":  10425,
+        "ID": 425,
         "Value": "壁は越える！",
         "Existence": "IB",
         "Clues": "特定Lv.到達で獲得PLv.410"
     },
     {
-        "ID":  10426,
+        "ID": 426,
         "Value": "次もこの調子でいこう",
         "Existence": "IB",
-        "Clues": ""
+        "Clues": "特定Lv.到達で獲得PLv.610"
     },
     {
-        "ID":  10433,
+        "ID":  433,
         "Value":  "ミク、いっきまーす！",
         "Existence":  "IB",
-        "Clues":  "GUNDAM×MIKU Anniversary Special project コラボキャンペーン"
+        "Clues":  " GUNDAM×MIKUAnniversary Special projectコラボキャンペーン"
     },
     {
-        "ID":  10436,
+        "ID": 436,
         "Value": "僕は一人じゃないから",
         "Existence": "IB",
         "Clues": "マイティーストライクフリーダムガンダム"
     },
     {
-        "ID":  10439,
+        "ID": 439,
         "Value": "僕は、まだ死なない",
         "Existence": "IB",
         "Clues": "赤いガンダム"
     },
     {
-        "ID":  10440,
+        "ID": 440,
         "Value": "鋼の心で 風のように",
         "Existence": "IB",
-        "Clues": "インフィニットブーストパスstage:30"
+        "Clues": "インフィニットブーストパスVol1 stage:30"
     },
     {
-        "ID":  10450,
+        "ID": 441,
+        "Value": "なんだ、男か。",
+        "Existence": "IB",
+        "Clues": "インフィニットブーストパスVol2 stage:30"
+    },
+    {
+        "ID": 450,
         "Value": "気張って行けよ！",
         "Existence": "IB",
         "Clues": "チュアチュリー・パンランチ"

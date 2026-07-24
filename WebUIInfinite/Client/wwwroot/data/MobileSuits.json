@@ -72,6 +72,10 @@
                       {
                           "Id":  3,
                           "Value":  "OB→IB引継ぎキャンペーン"
+                      },
+                      {
+                          "Id":  11,
+                          "Value":  "G-3カラー"
                       }
                   ]
     },
@@ -413,6 +417,10 @@
                       {
                           "Id":  2,
                           "Value":  "EXVSポーズド"
+                      },
+                      {
+                          "Id":  3,
+                          "Value":  "アーセナルベースコラボ"
                       }
                   ]
     },
@@ -636,7 +644,7 @@
                       },
                       {
                           "Id":  3,
-                          "Value":  "アーセナルベースコラボ"
+                          "Value":  " アーセナルベースコラボ"
                       }
                   ]
     },
@@ -1576,7 +1584,17 @@
                              "Id":  1,
                              "Value":  "制服"
                          }
-                     ]
+                     ],
+        "Poses":  [
+                      {
+                          "Id":  0,
+                          "Value":  "IBポーズド"
+                      },
+                      {
+                          "Id":  1,
+                          "Value":  "OBポーズド"
+                      }
+                  ]
     },
     {
         "Id":  73,
@@ -2140,7 +2158,7 @@
         "Id":  92,
         "Value":  "Gundam Heavyarms Kai",
         "ValueJP":  "ガンダムヘビーアームズ改",
-        "ValueCN":  "重武装高达",
+        "ValueCN":  "重装高达改",
         "ValueTC":  "重砲手高達改",
         "ValueTC2":  "重武裝鋼彈改",
         "Pilot":  "Trowa Barton",
@@ -2177,6 +2195,10 @@
                       {
                           "Id":  1,
                           "Value":  "MBポーズド"
+                      },
+                      {
+                          "Id":  2,
+                          "Value":  "OBポーズド"
                       }
                   ]
     },
@@ -2340,7 +2362,7 @@
         "Id":  97,
         "Value":  "Gundam Heavyarms Custom",
         "ValueJP":  "ガンダムヘビーアームズ改(EW版)",
-        "ValueCN":  "重武装高达EW",
+        "ValueCN":  "重装高达改EW",
         "ValueTC":  "重砲手高達改 (EW版)",
         "ValueTC2":  "重武裝鋼彈改 (EW版)",
         "Pilot":  "Trowa Barton",
@@ -2617,6 +2639,10 @@
                       {
                           "Id":  1,
                           "Value":  "FBポーズド"
+                      },
+                      {
+                          "Id":  11,
+                          "Value":  "3号機風カラー"
                       }
                   ],
         "Skins":  [
@@ -3868,6 +3894,10 @@
                       },
                       {
                           "Id":  1,
+                          "Value":  "OBポーズド"
+                      },
+                      {
+                          "Id":  2,
                           "Value":  "MBONポーズド"
                       }
                   ]
@@ -4407,6 +4437,10 @@
                       {
                           "Id":  1,
                           "Value":  "MBポーズド"
+                      },
+                      {
+                          "Id":  11,
+                          "Value":  "インスペクションカラー"
                       }
                   ]
     },
@@ -4618,7 +4652,17 @@
                              "Id":  1,
                              "Value":  "インナースーツ"
                          }
-                     ]
+                     ],
+        "Poses":  [
+                      {
+                          "Id":  0,
+                          "Value":  "IBポーズド"
+                      },
+                      {
+                          "Id":  1,
+                          "Value":  "OBポーズド"
+                      }
+                  ]
     },
     {
         "Id":  157,
@@ -5327,6 +5371,10 @@
                       {
                           "Id":  2,
                           "Value":  "MBポーズド"
+                      },
+                      {
+                          "Id":  11,
+                          "Value":  "NT-1プロトカラー"
                       }
                   ],
         "Skins":  [
@@ -5960,7 +6008,7 @@
                           "Id":  1,
                           "Value":  "FBポーズド"
                       },
-                      {
+                       {
                           "Id":  2,
                           "Value":  "IBポーズドB"
                       }
@@ -6042,7 +6090,7 @@
                           "Id":  1,
                           "Value":  "MBONポーズド"
                       },
-                      {
+                       {
                           "Id":  2,
                           "Value":  "IBポーズドB"
                       }
@@ -6067,7 +6115,7 @@
         "PilotSeiyuuTC2":  "諏訪部順一",
         "Series":  "Mobile Suit Gundam Side Story: The Blue Destiny",
         "SeriesJP":  "機動戦士ガンダム外伝 THE BLUE DESTINY",
-        "SeriesCN":  "机动战士高达外传 THE BLUE DESTINY",
+        "SeriesCN":  "机动战士高达外传 蓝色命运",
         "SeriesTC":  "機動戰士高達外傳 THE BLUE DESTINY",
         "SeriesTC2":  "機動戰士鋼彈外傳 THE BLUE DESTINY",
         "Cost":  2000,
@@ -6105,7 +6153,7 @@
         "PilotSeiyuuTC2":  "速水獎",
         "Series":  "Mobile Suit Gundam Side Story: The Blue Destiny",
         "SeriesJP":  "機動戦士ガンダム外伝 THE BLUE DESTINY",
-        "SeriesCN":  "机动战士高达外传 THE BLUE DESTINY",
+        "SeriesCN":  "机动战士高达外传 蓝色命运",
         "SeriesTC":  "機動戰士高達外傳 THE BLUE DESTINY",
         "SeriesTC2":  "機動戰士鋼彈外傳 THE BLUE DESTINY",
         "Cost":  1500,
@@ -6164,7 +6212,7 @@
                       },
                       {
                           "Id":  2,
-                          "Value":  "GGGP Special"
+                          "Value":  "GGGP2024"
                       }
                   ]
     },
@@ -6209,6 +6257,10 @@
                       {
                           "Id":  1,
                           "Value":  "MBポーズド"
+                      },
+                      {
+                          "Id":  2,
+                          "Value":  "MBONポーズド"
                       }
                   ]
     },
@@ -6907,6 +6959,10 @@
                       {
                           "Id":  2,
                           "Value":  "MBONポーズド"
+                      },
+                      {
+                          "Id":  11,
+                          "Value":  "特務隊仕様"
                       }
                   ],
         "Skins":  [
@@ -7127,6 +7183,10 @@
                       {
                           "Id":  1,
                           "Value":  "MBポーズド"
+                      },
+                      {
+                          "Id":  11,
+                          "Value":  "MEMORY OF EDENカラー"
                       }
                   ],
         "Skins":  [
@@ -7315,7 +7375,7 @@
                           "Value":  "MBONポーズド"
                       },
                       {
-                          "Id":  2,
+                          "Id":  11,
                           "Value":  "EXVS. 10th ANNIVERSARYカラー"
                       }
                   ]
@@ -7769,6 +7829,10 @@
                       {
                           "Id":  1,
                           "Value":  "MBONポーズド"
+                      },
+                      {
+                          "Id":  2,
+                          "Value":  "EXVS.2ポーズド"
                       }
                   ]
     },
@@ -7803,6 +7867,10 @@
                       {
                           "Id":  1,
                           "Value":  "MBONポーズド"
+                      },
+                      {
+                          "Id":  2,
+                          "Value":  "EXVS.2ポーズド"
                       }
                   ]
     },
@@ -7851,6 +7919,10 @@
                       {
                           "Id":  2,
                           "Value":  "MBONポーズド"
+                      },
+                      {
+                          "Id":  3,
+                          "Value":  "EXVS.2ポーズド"
                       }
                   ]
     },
@@ -7895,6 +7967,10 @@
                       {
                           "Id":  1,
                           "Value":  "MBONポーズド"
+                      },
+                      {
+                          "Id":  2,
+                          "Value":  "EXVS.2ポーズド"
                       }
                   ]
     },
@@ -7987,6 +8063,10 @@
                       {
                           "Id":  2,
                           "Value":  "MBONポーズド"
+                      },
+                      {
+                          "Id":  3,
+                          "Value":  "EXVS.2ポーズド"
                       }
                   ]
     },
@@ -8021,6 +8101,10 @@
                       {
                           "Id":  1,
                           "Value":  "OBポーズドB"
+                      },
+                      {
+                          "Id":  2,
+                          "Value":  "EXVS.2ポーズド"
                       }
                   ]
     },
@@ -8427,7 +8511,7 @@
         "PilotSeiyuuTC2":  "冨樫和美",
         "Series":  "Gundam Build Fighters Try",
         "SeriesJP":  "ガンダムビルドファイターズトライ",
-        "SeriesCN":  "高达创斗者TRY",
+        "SeriesCN":  "高达创战者TRY",
         "SeriesTC":  "高達創戰者TRY",
         "SeriesTC2":  "鋼彈創鬥者TRY",
         "Cost":  2500,
@@ -8471,7 +8555,7 @@
         "PilotSeiyuuTC2":  "內田雄馬",
         "Series":  "Gundam Build Fighters Try",
         "SeriesJP":  "ガンダムビルドファイターズトライ",
-        "SeriesCN":  "高达创斗者TRY",
+        "SeriesCN":  "高达创战者TRY",
         "SeriesTC":  "高達創戰者TRY",
         "SeriesTC2":  "鋼彈創鬥者TRY",
         "Cost":  2500,
@@ -8515,7 +8599,7 @@
         "PilotSeiyuuTC2":  "牧野由依",
         "Series":  "Gundam Build Fighters Try",
         "SeriesJP":  "ガンダムビルドファイターズトライ",
-        "SeriesCN":  "高达创斗者TRY",
+        "SeriesCN":  "高达创战者TRY",
         "SeriesTC":  "高達創戰者TRY",
         "SeriesTC2":  "鋼彈創鬥者TRY",
         "Cost":  2500,
@@ -9025,6 +9109,10 @@
                       {
                           "Id":  1,
                           "Value":  "OBポーズドB"
+                      },
+                      {
+                          "Id":  2,
+                          "Value":  "EXVS.2ポーズド"
                       }
                   ]
     },
@@ -9117,6 +9205,10 @@
                       {
                           "Id":  1,
                           "Value":  "OBポーズドB"
+                      },
+                      {
+                          "Id":  11,
+                          "Value":  "獅子吼カラー"
                       }
                   ],
         "Skins":  [
@@ -9327,6 +9419,10 @@
                       {
                           "Id":  4,
                           "Value":  "OBポーズドB"
+                      },
+                      {
+                          "Id":  11,
+                          "Value":  "プライマルカラー"
                       }
                   ],
         "Skins":  [
@@ -9397,6 +9493,10 @@
                       {
                           "Id":  3,
                           "Value":  "N-EXTREME KVポーズド"
+                      },
+                      {
+                          "Id":  11,
+                          "Value":  "プライマルカラー"
                       }
                   ],
         "Skins":  [
@@ -9467,6 +9567,10 @@
                       {
                           "Id":  3,
                           "Value":  "N-EXTREME KVポーズド"
+                      },
+                      {
+                          "Id":  11,
+                          "Value":  "プライマルカラー"
                       }
                   ],
         "Skins":  [
@@ -9537,6 +9641,10 @@
                       {
                           "Id":  3,
                           "Value":  "N-EXTREME KVポーズド"
+                      },
+                      {
+                          "Id":  11,
+                          "Value":  "プライマルカラー"
                       }
                   ],
         "Skins":  [
@@ -9888,7 +9996,17 @@
                              "Id":  1,
                              "Value":  "普段着"
                          }
-                     ]
+                     ],
+        "Poses":  [
+                      {
+                          "Id":  0,
+                          "Value":  "IBポーズド"
+                      },
+                      {
+                          "Id":  1,
+                          "Value":  "OBポーズド"
+                      }
+                  ]
     },
     {
         "Id":  316,
@@ -9922,7 +10040,17 @@
                              "Id":  1,
                              "Value":  "学生服"
                          }
-                     ]
+                     ],
+        "Poses":  [
+                      {
+                          "Id":  0,
+                          "Value":  "IBポーズド"
+                      },
+                      {
+                          "Id":  1,
+                          "Value":  "OBポーズド"
+                      }
+                  ]
     },
     {
         "Id":  317,
@@ -9956,7 +10084,17 @@
                              "Id":  1,
                              "Value":  "制服"
                          }
-                     ]
+                     ],
+        "Poses":  [
+                      {
+                          "Id":  0,
+                          "Value":  "IBポーズド"
+                      },
+                      {
+                          "Id":  1,
+                          "Value":  "OBポーズド"
+                      }
+                  ]
     },
     {
         "Id":  318,
@@ -9991,16 +10129,20 @@
                              "Value":  "制服"
                          }
                      ],
-        "Poses": [
-                     {
-                         "Id": 0,
-                         "Value": "IBポーズド"
-                     },
-                     {
-                         "Id": 1,
-                         "Value": "GGGP Special"
-                     }
-                 ]
+        "Poses":  [
+                      {
+                          "Id":  0,
+                          "Value":  "IBポーズド"
+                      },
+                      {
+                          "Id":  1,
+                          "Value":  "GGGP2024"
+                      },
+                      {
+                          "Id":  2,
+                          "Value":  "OBポーズド"
+                      }
+                  ]
     },
     {
         "Id":  319,
@@ -10034,7 +10176,17 @@
                              "Id":  1,
                              "Value":  "私服"
                          }
-                     ]
+                     ],
+        "Poses":  [
+                      {
+                          "Id":  0,
+                          "Value":  "IBポーズド"
+                      },
+                      {
+                          "Id":  1,
+                          "Value":  "OBポーズド"
+                      }
+                  ]
     },
     {
         "Id":  320,
@@ -10068,7 +10220,17 @@
                              "Id":  1,
                              "Value":  "ビジネススーツ"
                          }
-                     ]
+                     ],
+        "Poses":  [
+                      {
+                          "Id":  0,
+                          "Value":  "IBポーズド"
+                      },
+                      {
+                          "Id":  1,
+                          "Value":  "OBポーズド"
+                      }
+                  ]
     },
     {
         "Id":  321,
@@ -10102,7 +10264,17 @@
                              "Id":  1,
                              "Value":  "制服"
                          }
-                     ]
+                     ],
+        "Poses":  [
+                      {
+                          "Id":  0,
+                          "Value":  "IBポーズド"
+                      },
+                      {
+                          "Id":  1,
+                          "Value":  "OBポーズド"
+                      }
+                  ]
     },
     {
         "Id":  322,
@@ -10123,10 +10295,20 @@
         "PilotSeiyuuTC2":  "鈴村健一",
         "Series":  "Gundam Build Fighters Try",
         "SeriesJP":  "ガンダムビルドファイターズトライ",
-        "SeriesCN":  "高达创斗者TRY",
+        "SeriesCN":  "高达创战者TRY",
         "SeriesTC":  "高達創戰者TRY",
         "SeriesTC2":  "鋼彈創鬥者TRY",
-        "Cost":  2500
+        "Cost":  2500,
+        "Poses":  [
+                      {
+                          "Id":  0,
+                          "Value":  "IBポーズド"
+                      },
+                      {
+                          "Id":  1,
+                          "Value":  "OBポーズド"
+                      }
+                  ]
     },
     {
         "Id":  323,
@@ -10160,7 +10342,17 @@
                              "Id":  1,
                              "Value":  "私服"
                          }
-                     ]
+                     ],
+        "Poses":  [
+                      {
+                          "Id":  0,
+                          "Value":  "IBポーズド"
+                      },
+                      {
+                          "Id":  1,
+                          "Value":  "OBポーズド"
+                      }
+                  ]
     },
     {
         "Id":  324,
@@ -10252,7 +10444,17 @@
         "SeriesCN":  "机动战士高达外传 失落的节点",
         "SeriesTC":  "機動戰士高達外傳 MISSING LINK",
         "SeriesTC2":  "機動戰士鋼彈外傳 MISSING LINK",
-        "Cost":  2500
+        "Cost":  2500,
+        "Poses":  [
+                      {
+                          "Id":  0,
+                          "Value":  "IBポーズド"
+                      },
+                      {
+                          "Id":  1,
+                          "Value":  "OBポーズド"
+                      }
+                  ]
     },
     {
         "Id":  327,
@@ -10306,7 +10508,7 @@
         "ValueTC":  "飛翼高達",
         "ValueTC2":  "飛翼鋼彈",
         "Pilot":  "Heero Yuy",
-        "PilotJP":  "ヒイロ・ユイ",
+        "PilotJP":  "ヒイロ·ユイ",
         "PilotCN":  "希罗·尤尔",
         "PilotTC":  "希羅·尤",
         "PilotTC2":  "希洛·唯",
@@ -10339,6 +10541,10 @@
                       {
                           "Id":  1,
                           "Value":  "OB→IB引継ぎキャンペーン"
+                      },
+                      {
+                          "Id":  2,
+                          "Value":  "GGGPxRAGE"
                       }
                   ]
     },
@@ -10841,7 +11047,7 @@
         "PilotSeiyuuTC2":  "/",
         "Series":  "Mobile Suit Gundam Side Story: The Blue Destiny",
         "SeriesJP":  "機動戦士ガンダム外伝 THE BLUE DESTINY",
-        "SeriesCN":  "机动战士高达外传 THE BLUE DESTINY",
+        "SeriesCN":  "机动战士高达外传 蓝色命运",
         "SeriesTC":  "機動戰士高達外傳 THE BLUE DESTINY",
         "SeriesTC2":  "機動戰士鋼彈外傳 THE BLUE DESTINY",
         "Cost":  0
@@ -11225,7 +11431,7 @@
         "PilotSeiyuuTC2":  "/",
         "Series":  "Gundam Build Fighters Try",
         "SeriesJP":  "ガンダムビルドファイターズトライ",
-        "SeriesCN":  "高达创斗者TRY",
+        "SeriesCN":  "高达创战者TRY",
         "SeriesTC":  "高達創戰者TRY",
         "SeriesTC2":  "鋼彈創鬥者TRY",
         "Cost":  0

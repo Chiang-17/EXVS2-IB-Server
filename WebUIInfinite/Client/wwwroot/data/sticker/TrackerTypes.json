@@ -180,12 +180,39 @@
     "ValueTC2": "[機體] 總合對人勝率"
   },
   {
-    "Id": 21,
+    "Id": 20,
     "Category": "Pilot",
-    "Value": "License Score",
-    "ValueJP": "ライセンススコア",
-    "ValueCN": "执照分数",
-    "ValueTC": "執照分數",
-    "ValueTC2": "執照分數"
+    "Value": "[Player] Total PvP Battle Count(OB)",
+    "ValueJP": "[プレイヤー] 総合対戦数(OB)",
+    "ValueCN": "[玩家] 总合对人场次(OB)",
+    "ValueTC": "[玩家] 總合對人場次(OB)",
+    "ValueTC2": "[玩家] 總合對人場次(OB)"
+  },
+  {
+    "Id": 22,
+    "Category": "Pilot",
+    "Value": "?",
+    "ValueJP": "[プレイヤー] クラスマッチ日間勝率(%)",
+    "ValueCN": "[玩家] 每日排位对战胜率",
+    "ValueTC": "?",
+    "ValueTC2": "?"
+  },
+  {
+    "Id": 23,
+    "Category": "Pilot",
+    "Value": "?",
+    "ValueJP": "[プレイヤー] 総合プレイ日数",
+    "ValueCN": "[玩家] 总合游玩天数",
+    "ValueTC": "?",
+    "ValueTC2": "?"
+  },
+  {
+    "Id": 24,
+    "Category": "Pilot",
+    "Value": "?",
+    "ValueJP": "[プレイヤー] デフォルト称号",
+    "ValueCN": "[玩家] 默认称号",
+    "ValueTC": "?",
+    "ValueTC2": "?"
   }
 ]

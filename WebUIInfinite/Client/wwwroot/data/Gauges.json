@@ -1,198 +1,204 @@
 ﻿[
     {
         "ID":  0,
-        "Value":  "OB_グリーン",
-        "Existence":  "OB",
+        "Value":  "デフォルト",
+        "Existence":  "IB",
         "Clues":  "最初から所持"
     },
     {
         "ID":  1,
-        "Value":  "アムロ・レイ",
-        "Existence":  "VS2",
-        "Clues":  "キャラクターミッション『νガンダム[EX]』でL.10達成"
+        "Value":  "レッド",
+        "Existence":  "IB",
+        "Clues":  "アイテムパックVol.2"
     },
     {
         "ID":  2,
-        "Value":  "アナハイム・エレクトロニクス",
-        "Existence":  "VS2"
+        "Value":  "イエロー",
+        "Existence":  "IB",
+        "Clues":  "アイテムパックVol.2"
     },
     {
         "ID":  3,
-        "Value":  "ユニコーン",
-        "Existence":  "VS2",
-        "Clues":  "キャラクターミッション『バナージ・リンクス搭乗機[EX]』でL.10達成"
+        "Value":  "ブルー",
+        "Existence":  "IB",
+        "Clues":  "アイテムパックVol.2"
     },
     {
         "ID":  4,
-        "Value":  "ペーネロペー",
-        "Existence":  "VS2"
+        "Value":  "Gauge 4",
+        "Existence":  "IB"
     },
     {
         "ID":  5,
-        "Value":  "ネオジャパン",
-        "Existence":  "VS2",
-        "Clues":  "キャラクターミッション『ドモン・カッシュ搭乗機[EX]』でL.10達成"
+        "Value":  "Gauge 5",
+        "Existence":  "IB"
     },
     {
         "ID":  6,
-        "Value":  "東方不敗",
-        "Existence":  "VS2",
-        "Clues":  "キャラクターミッション『マスターガンダム[EX]』でL.10達成"
+        "Value":  "ゴールド",
+        "Existence":  "IB",
+        "Clues":  "オーバーブーストパス INFINITE BOOST 引継ぎスペシャルでstage:50"
     },
     {
         "ID":  7,
-        "Value":  "ウイングゼロ（EW版）",
-        "Existence":  "VS2",
-        "Clues":  "キャラクターミッション『ウイングガンダムゼロ（EW版）[EX]』でL.10達成"
+        "Value":  "プラチナ",
+        "Existence":  "IB",
+        "Clues":  "オーバーブーストパス INFINITE BOOST 引継ぎスペシャルでstage:50"
     },
     {
         "ID":  8,
-        "Value":  "ガンダムエピオン",
-        "Existence":  "VS2",
-        "Clues":  "キャラクターミッション『ガンダムエピオン[EX]』でL.10達成"
+        "Value":  "ホワイト×ブラック",
+        "Existence":  "IB",
+        "Clues":  "オーバーブーストパス INFINITE BOOST 引継ぎスペシャルでstage:50"
     },
     {
         "ID":  9,
-        "Value":  "ガーベラストレート",
-        "Existence":  "VS2",
-        "Clues":  "Gスクラッチ 第4回エクストラ機体再取得キャンペーン"
+        "Value":  "オレンジ×ブラック",
+        "Existence":  "IB",
+        "Clues":  "オーバーブーストパス INFINITE BOOST 引継ぎスペシャルでstage:50"
     },
     {
         "ID":  10,
-        "Value":  "ザフト軍",
-        "Existence":  "VS2",
-        "Clues":  "総出撃回数アワード『「出撃回数」が25回へ到達』"
+        "Value":  "プラチナ×ブラック",
+        "Existence":  "IB",
+        "Clues":  "オーバーブーストパス INFINITE BOOST 引継ぎスペシャルでstage:50"
     },
     {
         "ID":  11,
-        "Value":  "フリーダム",
-        "Existence":  "VS2",
-        "Clues":  "キャラクターミッション『ストライクフリーダムガンダム[EX]』でL.10達成"
+        "Value":  "PDF2025優勝フリーダム",
+        "Existence":  "IB",
+        "Clues":  "PREMIUM DOGFIGHT 2025 優勝チーム（2名）"
     },
     {
         "ID":  12,
-        "Value":  "ダブルオー",
-        "Existence":  "VS2",
-        "Clues":  "キャラクターミッション『刹那・Ｆ・セイエイ搭乗機[EX]』でL.10達成"
+        "Value":  "PDF2025準優勝",
+        "Existence":  "IB",
+        "Clues":  "PREMIUM DOGFIGHT 2025 準優勝チーム（2名）"
     },
     {
         "ID":  13,
-        "Value":  "ソレスタルビーイング2",
-        "Existence":  "VS2",
-        "Clues":  "Gスクラッチ エクストラ機体再取得キャンペーン"
+        "Value":  "PDF2025ベスト8",
+        "Existence":  "IB",
+        "Clues":  "PREMIUM DOGFIGHT 2025 ベスト8チーム（12名）"
     },
     {
         "ID":  14,
-        "Value":  "ソレスタルビーイング3",
-        "Existence":  "VS2",
-        "Clues":  "キャラクターミッション『ガンダムサバーニャ[EX]』でL.10達成"
+        "Value":  "PDF2025本戦出場",
+        "Existence":  "IB",
+        "Clues":  "PREMIUM DOGFIGHT 2025 本戦出場チーム（102名）"
     },
     {
         "ID":  22,
-        "Value":  "ダブルオークアンタ フルセイバー",
-        "Existence":  "VS2"
+        "Value":  "ガンダム・エアリアル(改修型)",
+        "Existence":  "IB",
+        "Clues":  "ガンダム・エアリアル(改修型) 機体熟練度★6"
     },
     {
         "ID":  23,
-        "Value":  "ガンダムAGE-FX バースト",
-        "Existence":  "VS2",
-        "Clues":  "キャラクターミッション『キオ・アスノ搭乗機[EX]』でLv.10達成"
+        "Value":  "ガンダム・エアリアル(改修型) パーメットスコア・エイト",
+        "Existence":  "IB",
+        "Clues":  "ガンダム・エアリアル(改修型) パーメットスコア・エイト 機体熟練度★6"
     },
     {
         "ID":  24,
-        "Value":  "魔方陣",
-        "Existence":  "VS2",
-        "Clues":  "キャラクターミッション『エクストリームガンダムエクセリア[EX]』でL.10達成"
+        "Value":  "マイティーストライクフリーダムガンダム",
+        "Existence":  "IB",
+        "Clues":  "マイティーストライクフリーダムガンダム 機体熟練度★6"
     },
     {
         "ID":  25,
-        "Value":  "ナイチンゲール",
-        "Existence":  "VS2",
-        "Clues":  "キャラクターミッション『シャア・アズナブル搭乗機[EX]』でL.10達成"
+        "Value":  "ウイングガンダム",
+        "Existence":  "IB",
+        "Clues":  "ウイングガンダム 機体熟練度★6"
     },
     {
         "ID":  26,
-        "Value":  "ファルシア",
-        "Existence":  "VS2",
-        "Clues":  "エクストラGスクラッチ　ガンダムAGE10周年記念キャンペーン"
+        "Value":  "赤いガンダム",
+        "Existence":  "IB",
+        "Clues":  "赤いガンダム 機体熟練度★6"
     },
     {
         "ID":  27,
-        "Value":  "ガンダムヴァーチェ",
-        "Existence":  "VS2",
-        "Clues":  "キャラクターミッション『ガンダムヴァーチェ[EX]』でLv.10達成"
+        "Value":  "アムロ・レイ",
+        "Existence":  "IB",
+        "Clues":  "シーズンアイテムパックVol.6"
     },
     {
         "ID":  28,
-        "Value":  "ソレスタルビーイング1",
-        "Existence":  "VS2",
-        "Clues":  "総出撃回数アワード『「出撃回数」が5000回へ到達』"
+        "Value":  "ユニコーン",
+        "Existence":  "IB",
+        "Clues":  "シーズンアイテムパックVol.12"
     },
     {
         "ID":  29,
-        "Value":  "コックピット（AGE-1）",
-        "Existence":  "VS2",
-        "Clues":  "キャラクターミッション『ガンダムAGE-1』でLv.10達成"
+        "Value":  "ウイングゼロ（EW版）",
+        "Existence":  "IB",
+        "Clues":  "シーズンアイテムパックVol.11"
     },
     {
         "ID":  30,
-        "Value":  "コックピット（NT-D）",
-        "Existence":  "VS2",
-        "Clues":  "Gスクラッチ 第4回エクストラ機体再取得キャンペーン"
+        "Value":  "ザフト軍",
+        "Existence":  "IB",
+        "Clues":  "シーズンアイテムパックVol.9"
     },
     {
         "ID":  31,
-        "Value":  "海賊部隊",
-        "Existence":  "VS2",
-        "Clues":  "総出撃回数アワード『「出撃回数」が500回へ到達』"
+        "Value":  "ソレスタル・ビーイング",
+        "Existence":  "IB",
+        "Clues":  "シーズンアイテムパックVol.17"
     },
     {
         "ID":  32,
-        "Value":  "Akatsuki",
-        "Existence":  "VS2"
+        "Value":  "アロウズ",
+        "Existence":  "IB",
+        "Clues":  "シーズンアイテムパックVol.17"
     },
     {
         "ID":  33,
-        "Value":  "鉄華団",
-        "Existence":  "VS2",
-        "Clues":  "総出撃回数アワード『「出撃回数」が2000回へ到達』を達成後"
+        "Value":  "Gauge 33",
+        "Existence":  "IB",
+        "Clues":  ""
     },
     {
         "ID":  34,
-        "Value":  "G-アルケイン（フルドレス）",
-        "Existence":  "VS2",
-        "Clues":  "キャラクターミッション『G-アルケイン（フルドレス）[EX]』でLv.10達成"
+        "Value":  "海賊部隊",
+        "Existence":  "IB",
+        "Clues":  "シーズンアイテムパックVol.25"
     },
     {
         "ID":  35,
-        "Value":  "フルアーマー・ガンダム",
-        "Existence":  "VS2",
-        "Clues":  "キャラクターミッション『フルアーマー・ガンダム[EX]』でLv.10達成"
-    },
+        "Value":  "鉄華団",
+        "Existence":  "IB",
+        "Clues":  "「機動戦士ガンダム 鉄血のオルフェンズ」10周年記念！ カスタマイズアイテム獲得キャンペーン 1クレジットプレイ"
+    },              
     {
         "ID":  36,
-        "Value":  "Moore\u0027s Brotherhood",
-        "Existence":  "VS2"
+        "Value":  "ギャラルホルン",
+        "Existence":  "IB",
+        "Clues":  "「機動戦士ガンダム 鉄血のオルフェンズ」10周年記念！ カスタマイズアイテム獲得キャンペーン 20クレジットプレイ"
     },
     {
         "ID":  37,
-        "Value":  "ガンダム・キマリストルーパー",
-        "Existence":  "VS2"
+        "Value":  "ガンプラバトル",
+        "Existence":  "IB",
+        "Clues":  "シーズンアイテムパックVol.19"
     },
     {
         "ID":  38,
         "Value":  "ギャラルホルン",
-        "Existence":  "VS2",
-        "Clues":  "キャラクターミッション『ガンダム・バエル[EX]』でL.10達成"
+        "Existence":  "IB",
+        "Clues":  ""
     },
     {
         "ID":  44,
-        "Value":  "Birdy",
-        "Existence":  "VS2"
+        "Value":  "IBパスVol.1",
+        "Existence":  "IB",
+        "Clues":  "インフィニットブーストパスvol.1でstage:50"
     },
     {
         "ID":  45,
-        "Value":  "Space Probe",
-        "Existence":  "VS2"
+        "Value":  "IBパスVol.2",
+        "Existence":  "IB",
+        "Clues":  "インフィニットブーストパスvol.2でstage:50"
     }
 ]
