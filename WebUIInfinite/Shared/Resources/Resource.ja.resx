@@ -228,6 +228,9 @@
   <data name="bgmlistorder" xml:space="preserve">
     <value>対戦BGM設定</value>
   </data>
+  <data name="dialogtitle_bgmorder" xml:space="preserve">
+    <value>対戦BGMの追加・順序変更</value>
+  </data>
   <data name="bgmplaytype" xml:space="preserve">
     <value>再生設定</value>
   </data>

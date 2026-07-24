@@ -5,28 +5,45 @@
 @using WebUIInfinite.Shared.Dto.Common;
 
 <style>
-    .selected {
-        background-color: #1E88E5 !important;
+    /* Order list is fixed-height so the swap slide distance is predictable. */
+    .bgm-order-item {
+        --bgm-slot-h: 56px;
+        height: 48px;
+        box-sizing: border-box;
     }
 
-        .selected > td {
-            color: white !important;
-        }
+    /* After a swap, the item that ends up lower starts one slot above and slides down. */
+    .bgm-anim-from-top {
+        animation: bgm-slide-from-top 0.25s ease;
+    }
 
-            .selected > td .mud-input {
-                color: white !important;
-            }
+    /* The item that ends up higher starts one slot below and slides up. */
+    .bgm-anim-from-bottom {
+        animation: bgm-slide-from-bottom 0.25s ease;
+    }
+
+    @@keyframes bgm-slide-from-top {
+        from { transform: translateY(calc(-1 * var(--bgm-slot-h))); }
+        to { transform: translateY(0); }
+    }
+
+    @@keyframes bgm-slide-from-bottom {
+        from { transform: translateY(var(--bgm-slot-h)); }
+        to { transform: translateY(0); }
+    }
 </style>
 
 <MudDialog>
     <DialogContent>
         <MudGrid>
             <MudItem xs="8">
-                <MudTable Elevation="5" Items="@bgmList" Filter="@Filter" @ref="mudTable" @bind-SelectedItem="@SelectedTableBgm"
-                          RowClassFunc="@SelectedRowClassFunc" T="Bgm" Hover="true" FixedHeader="true">
+                <MudTable Elevation="5" Items="@bgmList" Filter="@Filter" @ref="mudTable"
+                          T="Bgm" Hover="true" FixedHeader="true">
                     <ColGroup>
                         <col style="width: 50px;"/>
                         <col/>
+                        <col/>
+                        <col style="width: 60px;"/>
                     </ColGroup>
                     <ToolBarContent>
                         <MudTextField @bind-Value="searchString" Placeholder="Search" Adornment="Adornment.Start" Immediate="false"
@@ -49,6 +66,7 @@
                                 @localizer["bgm_dialog_series"]
                             </MudTableSortLabel>
                         </MudTh>
+                        <MudTh/>
                     </HeaderContent>
                     <RowTemplate>
                         @{
@@ -57,7 +75,7 @@
                         @{
                             var lang = Thread.CurrentThread.CurrentCulture.Name;
                         }
-                        <MudTd DataLabel="Id" Class="cursor-pointer">@context.Id</MudTd>
+                        <MudTd DataLabel="Id">@context.Id</MudTd>
                         @{
                             var bgmName = context.Value;
         
@@ -81,7 +99,7 @@
                                 bgmName = context.ValueTC2;
                             }
                         }
-                        <MudTd DataLabel="@localizer["bgm_dialog_name"]" Class="cursor-pointer">@bgmName</MudTd>
+                        <MudTd DataLabel="@localizer["bgm_dialog_name"]">@bgmName</MudTd>
                         @{
                             var series = context.Series;
         
@@ -105,7 +123,15 @@
                                 series = context.SeriesTC2;
                             }
                         }
-                        <MudTd DataLabel="@localizer["bgm_dialog_series"]" Class="cursor-pointer">@series</MudTd>
+                        <MudTd DataLabel="@localizer["bgm_dialog_series"]">@series</MudTd>
+                        <MudTd Style="text-align:center;">
+                            <MudIconButton Icon="@Icons.Material.Filled.Add" Size="Size.Small"
+                                           Variant="Variant.Filled" Color="Color.Primary"
+                                           Style="border-radius:4px;"
+                                           aria-label="add"
+                                           Disabled="@IsAdded(context.Id)"
+                                           OnClick="@(() => AddBgmById(context.Id))"/>
+                        </MudTd>
                         @{
                             #pragma warning restore CS8602
                         }
@@ -116,52 +142,39 @@
                 </MudTable>
             </MudItem>
 
-            <MudStack Spacing="2" Class="align-center">
-                <MudButton Variant="Variant.Filled" Color="Color.Primary" OnClick="AddBgm">Add</MudButton>
-                @* Legacy: add by uint ID input
-                <MudNumericField T="uint" @bind-Value="_bgmIdInput" Label="@localizer["bgm_custom_id"]"
-                                 Variant="Variant.Outlined" Min="0"/>
-                <MudButton Variant="Variant.Filled" Color="Color.Primary" OnClick="AddBgmFromInput">Add</MudButton>
-                *@
-                @* Legacy: test Custom ID
-                <MudGrid Class="mt-1">
-                    <MudItem xs="8" sm="6">
-                        <MudNumericField T="uint" @bind-Value="_customBgmId" Label="@localizer["bgm_custom_id"]"
-                                         Variant="Variant.Outlined" Min="0"/>
-                    </MudItem>
-                    <MudItem xs="4" sm="3" Class="d-flex align-center">
-                        <MudButton Variant="Variant.Outlined" Color="Color.Secondary" OnClick="AddCustomBgmId">
-                            Use Custom ID
-                        </MudButton>
-                    </MudItem>
-                </MudGrid>
-                *@
-            </MudStack>
-
-            <MudItem xs="3">
-                <MudDropContainer Elevation="5" @ref="container" T="DropItem" @bind-Items="items" ItemsSelector="@((item, dropzone) => item.Identifier == dropzone)"
-                                  ItemDropped="ItemUpdated" Class="d-flex flex-wrap flex-grow-1">
-                    <ChildContent>
-                        <MudCard Class="flex-grow-1">
-                            <MudCardHeader>
-                                <CardHeaderContent>
-                                    <MudText Typo="Typo.h6">Order</MudText>
-                                </CardHeaderContent>
-                                <CardHeaderActions>
-                                    <MudDropZone T="DropItem" OnlyZone="true" Identifier="Delete">
-                                        <MudPaper Outlined="true" Class="d-flex align-center pa-3 gap-2">
-                                            <MudIcon Icon="@Icons.Material.Filled.Delete" Color="Color.Error"/>Drag here to remove
-                                        </MudPaper>
-                                    </MudDropZone>
-                                </CardHeaderActions>
-                            </MudCardHeader>
-                            <MudDropZone AllowReorder="true" T="DropItem" Identifier="Order" Class="rounded-lg border-2 border-solid mud-border-lines-default pa-6 ma-8 flex-grow-1"/>
-                        </MudCard>
-                    </ChildContent>
-                    <ItemRenderer>
-                        <MudPaper Elevation="25" Class="pa-4 my-4">@context.ValueJP</MudPaper>
-                    </ItemRenderer>
-                </MudDropContainer>
+            <MudItem xs="4" Style="position: sticky; top: 8px; align-self: flex-start;">
+                <MudPaper Elevation="5" Class="pa-2">
+                    <MudText Typo="Typo.h6" Class="pa-2">Order</MudText>
+                    @if (items.Count == 0)
+                    {
+                        <MudText Typo="Typo.body2" Class="pa-2 mud-text-secondary">—</MudText>
+                    }
+                    @for (var i = 0; i < items.Count; i++)
+                    {
+                        var item = items[i];
+                        var index = i;
+                        var animClass = _animFromTop.Contains(item.Id)
+                            ? "bgm-anim-from-top"
+                            : _animFromBottom.Contains(item.Id)
+                                ? "bgm-anim-from-bottom"
+                                : string.Empty;
+                        <MudPaper @key="item.Id" Outlined="true"
+                                  Class="@($"bgm-order-item d-flex align-center justify-space-between pa-2 my-1 {animClass}")">
+                            <MudText>@item.ValueJP</MudText>
+                            <div class="d-flex">
+                                <MudIconButton Icon="@Icons.Material.Filled.ArrowUpward" Size="Size.Small" Color="Color.Primary"
+                                               aria-label="move up" Disabled="@(index == 0)"
+                                               OnClick="@(() => MoveUp(item))"/>
+                                <MudIconButton Icon="@Icons.Material.Filled.ArrowDownward" Size="Size.Small" Color="Color.Primary"
+                                               aria-label="move down" Disabled="@(index == items.Count - 1)"
+                                               OnClick="@(() => MoveDown(item))"/>
+                                <MudIconButton Icon="@Icons.Material.Filled.Remove" Size="Size.Small" Color="Color.Error"
+                                               aria-label="remove"
+                                               OnClick="@(() => RemoveItem(item))"/>
+                            </div>
+                        </MudPaper>
+                    }
+                </MudPaper>
             </MudItem>
         </MudGrid>
     </DialogContent>
@@ -178,16 +191,9 @@
 
     private MudTable<Bgm> mudTable = null!;
 
-    private Bgm? SelectedTableBgm { get; set; }
-
-    // ReSharper disable once NotAccessedField.Local
-    private int selectedRowNumber = -1;
-
     private string searchString = string.Empty;
 
     private readonly int[] pageSizeOptions = { 10, 25, 50, 100 };
-
-    private MudDropContainer<DropItem> container = null!;
 
     [Parameter]
     public uint[] Data { get; set; } = null!;
@@ -214,7 +220,7 @@
 
     private void Submit()
     {
-        var selectedBgm = items.Where(x => x.Identifier == "Order").Select(x => x.Id).ToArray();
+        var selectedBgm = items.Select(x => x.Id).ToArray();
 
         Data = selectedBgm;
         
@@ -223,14 +229,60 @@
 
     private void Cancel() => MudDialog.Cancel();
 
-    private void AddBgm()
+    private bool IsAdded(uint id) => items.Any(x => x.Id == id);
+
+    private void AddBgmById(uint id) => TryAddToOrder(CreateDropItemFromId(id));
+
+    private void RemoveItem(DropItem item)
     {
-        if (SelectedTableBgm == null)
+        items.Remove(item);
+        StateHasChanged();
+    }
+
+    // Slide animation state: ids of items currently sliding into place.
+    private readonly HashSet<uint> _animFromTop = new();
+    private readonly HashSet<uint> _animFromBottom = new();
+    private const int SwapAnimationMs = 250;
+    private bool _isAnimating;
+
+    private Task MoveUp(DropItem item)
+    {
+        var index = items.IndexOf(item);
+        return index <= 0 ? Task.CompletedTask : AnimateSwapAsync(index - 1, index);
+    }
+
+    private Task MoveDown(DropItem item)
+    {
+        var index = items.IndexOf(item);
+        return index < 0 || index >= items.Count - 1 ? Task.CompletedTask : AnimateSwapAsync(index, index + 1);
+    }
+
+    // Swaps two adjacent items (upper < lower) and plays a slide animation on both.
+    private async Task AnimateSwapAsync(int upper, int lower)
+    {
+        if (_isAnimating)
         {
             return;
         }
 
-        TryAddToOrder(CreateDropItemFromId(SelectedTableBgm.Id));
+        _isAnimating = true;
+
+        (items[upper], items[lower]) = (items[lower], items[upper]);
+
+        _animFromTop.Clear();
+        _animFromBottom.Clear();
+        // The item now at 'lower' came from above -> slide in from the top.
+        _animFromTop.Add(items[lower].Id);
+        // The item now at 'upper' came from below -> slide in from the bottom.
+        _animFromBottom.Add(items[upper].Id);
+        StateHasChanged();
+
+        await Task.Delay(SwapAnimationMs);
+
+        _animFromTop.Clear();
+        _animFromBottom.Clear();
+        _isAnimating = false;
+        StateHasChanged();
     }
 
     // Legacy: add by uint ID input
@@ -248,20 +300,19 @@
 
     private void TryAddToOrder(DropItem dropItem)
     {
-        if (items.Count(x => x.Identifier == "Order") >= 6)
+        if (items.Count >= 6)
         {
             Snackbar.Add("Cannot add more than 6 Bgm(s)", Severity.Error);
             return;
         }
 
-        if (items.Any(x => x.Identifier == "Order" && x.Id == dropItem.Id))
+        if (items.Any(x => x.Id == dropItem.Id))
         {
             return;
         }
 
         items.Add(dropItem);
         StateHasChanged();
-        container.Refresh();
     }
 
     private DropItem CreateDropItemFromId(uint id)
@@ -270,8 +321,7 @@
         return new DropItem
         {
             Id = id,
-            ValueJP = GetBgmDisplayName(bgm, id),
-            Identifier = "Order"
+            ValueJP = GetBgmDisplayName(bgm, id)
         };
     }
 
@@ -307,13 +357,6 @@
         return bgm.ValueJP;
     }
 
-    private string SelectedRowClassFunc(Bgm element, int rowNumber)
-    {
-        if (mudTable.SelectedItem == null || !mudTable.SelectedItem.Equals(element)) return string.Empty;
-        selectedRowNumber = rowNumber;
-        return "selected";
-    }
-
     private bool Filter(Bgm? bgm)
     {
         if (bgm is null)
@@ -325,19 +368,10 @@
                aggregate.Contains(searchString, StringComparison.OrdinalIgnoreCase);
     }
 
-    private void ItemUpdated(MudItemDropInfo<DropItem> dropItem)
-    {
-        if (dropItem.Item != null)
-        {
-            dropItem.Item.Identifier = dropItem.DropzoneIdentifier;
-        }
-    }
-
     public class DropItem
     {
         public uint Id { get; init; }
         public string ValueJP { get; init; } = string.Empty;
-        public string Identifier { get; set; } = string.Empty;
     }
     
     private Func<Bgm, object> SortByBgmName()

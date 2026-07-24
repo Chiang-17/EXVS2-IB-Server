@@ -35,7 +35,6 @@
 
         <MudGrid Class="align-center">
             <MudItem xs="10" sm="11">
-                @* Legacy: dialog-based title picker
                 <MudField Label="@localizer["titles_title"]" Variant="Variant.Outlined" Disabled="@titleEditDisabled">
                     @{
                         var titleImagePath = $"images/titles/{Title.TextId}.webp";
@@ -52,33 +51,12 @@
                         <MudText Align="Align.Center">@((MarkupString)titleName)</MudText>
                     </div>
                 </MudField>
-                *@
-                <MudNumericField T="uint" @bind-Value="Title.TextId"
-                                 Label="@localizer["titles_title"]"
-                                 Variant="Variant.Outlined"
-                                 Min="0"
-                                 Disabled="@titleEditDisabled"/>
-                @{
-                    var titleImagePath = $"images/titles/{Title.TextId}.webp";
-                    var titleName = GetTitleDisplayName(Title.TextId);
-                }
-                @if (EnableImagePreview)
-                {
-                    <div class="d-flex justify-center mt-2">
-                        <MudImage ObjectPosition="ObjectPosition.Center" Src="@titleImagePath" Fluid="true" ObjectFit="ObjectFit.Cover" Class="rounded-lg" Width="250"/>
-                    </div>
-                }
-                <div class="d-flex justify-center mt-2">
-                    <MudText Align="Align.Center">@titleName</MudText>
-                </div>
             </MudItem>
-            @* Legacy: dialog edit button
             <MudItem xs="2" sm="1">
                 <MudIconButton Variant="Variant.Filled" Size="Size.Small" Icon="@Icons.Material.Filled.Edit" aria-label="edit"
                                Disabled="@titleEditDisabled"
                                OnClick="() => OpenChangeTitlesDialog(Title)"/>
             </MudItem>
-            *@
             <MudItem xs="12">
                 <MudTextField @bind-Value="Title.CustomText"
                               Immediate="true"
@@ -95,7 +73,6 @@
         <MudField Label="@DisplayLabel" Variant="Variant.Outlined">
             <MudGrid Class="align-center">
                 <MudItem xs="10" sm="5">
-                    @* Legacy: dialog-based title picker
                     <MudField Label="@localizer["titles_title"]" Variant="Variant.Outlined">
                         @{
                             var titleImagePath = $"images/titles/{Title.TextId}.webp";
@@ -112,31 +89,11 @@
                             <MudText Align="Align.Center">@((MarkupString)titleName)</MudText>
                         </div>
                     </MudField>
-                    *@
-                    <MudNumericField T="uint" @bind-Value="Title.TextId"
-                                     Label="@localizer["titles_title"]"
-                                     Variant="Variant.Outlined"
-                                     Min="0"/>
-                    @{
-                        var titleImagePath = $"images/titles/{Title.TextId}.webp";
-                        var titleName = GetTitleDisplayName(Title.TextId);
-                    }
-                    @if (EnableImagePreview)
-                    {
-                        <div class="d-flex justify-center mt-2">
-                            <MudImage ObjectPosition="ObjectPosition.Center" Src="@titleImagePath" Fluid="true" ObjectFit="ObjectFit.Cover" Class="rounded-lg" Width="250"/>
-                        </div>
-                    }
-                    <div class="d-flex justify-center mt-2">
-                        <MudText Align="Align.Center">@titleName</MudText>
-                    </div>
                 </MudItem>
-                @* Legacy: dialog edit button
                 <MudItem xs="2" sm="1">
                     <MudIconButton Variant="Variant.Filled" Size="Size.Small" Icon="@Icons.Material.Filled.Edit" aria-label="edit"
                                    OnClick="() => OpenChangeTitlesDialog(Title)"/>
                 </MudItem>
-                *@
 
                 <MudItem xs="10" sm="5">
                     <MudField Label="@localizer["titles_background"]" Variant="Variant.Outlined">
@@ -238,10 +195,6 @@
 
     private const bool ForDataCollection = false;
 
-    private static string GetTitleDisplayName(uint id) => $"Title {id}";
-
-    // Legacy: dialog-based title picker
-    /*
     private async Task OpenChangeTitlesDialog(Title title)
     {
         var parameters = new DialogParameters
@@ -262,7 +215,6 @@
             StateHasChanged();
         }
     }
-    */
 
     private async Task OpenChangeBackgroundsDialog(Title title)
     {

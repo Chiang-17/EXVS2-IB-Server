@@ -228,6 +228,9 @@
   <data name="bgmlistorder" xml:space="preserve">
     <value>BGM列表 / 顺序</value>
   </data>
+  <data name="dialogtitle_bgmorder" xml:space="preserve">
+    <value>修改BGM列表 / 顺序</value>
+  </data>
   <data name="bgmplaytype" xml:space="preserve">
     <value>BGM播放形式</value>
   </data>
