@@ -10,13 +10,11 @@ namespace ServerInfinite.Commands.LoadCard.MobileUser;
 public class MobileSuitStickerCommand : ILoadCardMobileUserCommand
 {
     private readonly ServerDbContext _context;
-    private readonly IStickerTrackerProcessor _pilotTrackerProcessor;
     private readonly IStickerTrackerProcessor _mobileSuitStickerTrackerProcessor;
 
-    public MobileSuitStickerCommand(ServerDbContext context, IStickerTrackerProcessor pilotTrackerProcessor, IStickerTrackerProcessor mobileSuitStickerTrackerProcessor)
+    public MobileSuitStickerCommand(ServerDbContext context, IStickerTrackerProcessor mobileSuitStickerTrackerProcessor)
     {
         _context = context;
-        _pilotTrackerProcessor = pilotTrackerProcessor;
         _mobileSuitStickerTrackerProcessor = mobileSuitStickerTrackerProcessor;
     }
 
@@ -59,11 +57,11 @@ public class MobileSuitStickerCommand : ILoadCardMobileUserCommand
                 StickerEffectId = mobileSuitSticker.StickerEffectId,
             };
 
-            AddTracker(msPlayerSticker, mobileSuitSticker.Tracker1Type, mobileSuitSticker.Tracker1, mobileSuitSticker.Tracker1CustomText,
+            AddTracker(msPlayerSticker, mobileSuitSticker.Tracker1,
                 cardProfile, mobileSuitSticker, playerLevel);
-            AddTracker(msPlayerSticker, mobileSuitSticker.Tracker2Type, mobileSuitSticker.Tracker2, mobileSuitSticker.Tracker2CustomText,
+            AddTracker(msPlayerSticker, mobileSuitSticker.Tracker2,
                 cardProfile, mobileSuitSticker, playerLevel);
-            AddTracker(msPlayerSticker, mobileSuitSticker.Tracker3Type, mobileSuitSticker.Tracker3, mobileSuitSticker.Tracker3CustomText,
+            AddTracker(msPlayerSticker, mobileSuitSticker.Tracker3,
                 cardProfile, mobileSuitSticker, playerLevel);
             
             mobileUserGroup.PlayerStickers.Add(msPlayerSticker);
@@ -73,9 +71,7 @@ public class MobileSuitStickerCommand : ILoadCardMobileUserCommand
     bool HasBlankSticker(MobileSuitSticker mobileSuitSticker)
     {
         var isBlankTracker = mobileSuitSticker.Tracker1 == 0 && mobileSuitSticker.Tracker2 == 0 &&
-                             mobileSuitSticker.Tracker3 == 0 &&
-                             mobileSuitSticker.Tracker1Type == 0 && mobileSuitSticker.Tracker2Type == 0 &&
-                             mobileSuitSticker.Tracker3Type == 0;
+                             mobileSuitSticker.Tracker3 == 0;
         var isBlankDisplay = mobileSuitSticker.StickerBackgroundId == 0 && mobileSuitSticker.StickerEffectId == 0 &&
                              mobileSuitSticker.SubBackgroundId == 0;
         var isWithoutPose = mobileSuitSticker.PoseId == 0 &&
@@ -87,35 +83,28 @@ public class MobileSuitStickerCommand : ILoadCardMobileUserCommand
 
     void AddTracker(
         Response.LoadCard.MobileUserGroup.PlayerSticker sticker,
-        uint type,
         uint textId,
-        string customText,
         CardProfile cardProfile,
         MobileSuitSticker mobileSuitSticker,
         PlayerLevel playerLevel)
     {
-        // Open-custom tracker: user directly controls type / text_id / custom_text.
-        // Skip only when the whole slot is blank.
-        if (type == 0 && textId == 0 && string.IsNullOrEmpty(customText))
+        // No tracker selected for this slot: skip entirely (do not add to the Tracker array).
+        if (textId == 0)
         {
             return;
         }
 
         var tracker = new Response.LoadCard.MobileUserGroup.PlayerSticker.Tracker
         {
-            Type = type,
             TextId = textId,
-            CustomText = customText ?? string.Empty
+            CustomText = string.Empty,
         };
 
-        // Look up rarity / tracker value (and mapped type) from text_id against real stats.
+        // Look up rarity / value from text_id against real MS (falling back to pilot) stats.
         ProcessMobileSuitTracker(tracker, cardProfile, mobileSuitSticker, playerLevel);
 
-        // Open-custom: preserve the user-provided type when set; otherwise keep the mapped type.
-        if (type != 0)
-        {
-            tracker.Type = type;
-        }
+        // tracker type is determined by the text_id's Category (not the value lookup).
+        tracker.Type = Constants.TrackerTypes.ResolveTypeByTextId(textId);
 
         sticker.Trackers.Add(tracker);
     }
@@ -129,12 +118,7 @@ public class MobileSuitStickerCommand : ILoadCardMobileUserCommand
                 x.MstMobileSuitId == mobileSuitSticker.MstMobileSuitId
             );
 
-        if (mobilePvPStat is null)
-        {
-            _pilotTrackerProcessor.Process(tracker, null, playerLevel);
-            return;
-        }
-        
+        // Pass through (possibly null) MS stat; MobileSuitTrackerProcessor returns early when null.
         _mobileSuitStickerTrackerProcessor.Process(tracker, mobilePvPStat, playerLevel);
     }
 }

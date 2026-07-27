@@ -39,42 +39,35 @@ public class DefaultStickerCommand : ILoadCardMobileUserCommand
         var playerLevel = _context.PlayerLevelDbSet
             .First(x => x.CardProfile == cardProfile);
         
-        AddTracker(defaultSticker, defaultStickerProfile.Tracker1Type, defaultStickerProfile.Tracker1, defaultStickerProfile.Tracker1CustomText, playerLevel);
-        AddTracker(defaultSticker, defaultStickerProfile.Tracker2Type, defaultStickerProfile.Tracker2, defaultStickerProfile.Tracker2CustomText, playerLevel);
-        AddTracker(defaultSticker, defaultStickerProfile.Tracker3Type, defaultStickerProfile.Tracker3, defaultStickerProfile.Tracker3CustomText, playerLevel);
+        AddTracker(defaultSticker, defaultStickerProfile.Tracker1, playerLevel);
+        AddTracker(defaultSticker, defaultStickerProfile.Tracker2, playerLevel);
+        AddTracker(defaultSticker, defaultStickerProfile.Tracker3, playerLevel);
         
         mobileUserGroup.PlayerStickers.Add(defaultSticker);
     }
 
     void AddTracker(
         Response.LoadCard.MobileUserGroup.PlayerSticker sticker,
-        uint type,
         uint textId,
-        string customText,
         Models.Cards.Battle.PlayerLevel playerLevel)
     {
-        // Open-custom tracker: user directly controls type / text_id / custom_text.
-        // Skip only when the whole slot is blank.
-        if (type == 0 && textId == 0 && string.IsNullOrEmpty(customText))
+        // No tracker selected for this slot: skip entirely (do not add to the Tracker array).
+        if (textId == 0)
         {
             return;
         }
 
         var tracker = new Response.LoadCard.MobileUserGroup.PlayerSticker.Tracker
         {
-            Type = type,
             TextId = textId,
-            CustomText = customText ?? string.Empty
+            CustomText = string.Empty,
         };
 
-        // Look up rarity / tracker value (and mapped type) from text_id against real stats.
+        // Look up rarity / value from text_id against real player stats.
         _stickerTrackerProcessor.Process(tracker, null, playerLevel);
 
-        // Open-custom: preserve the user-provided type when set; otherwise keep the mapped type.
-        if (type != 0)
-        {
-            tracker.Type = type;
-        }
+        // tracker type is determined by the text_id's Category (not the value lookup).
+        tracker.Type = Constants.TrackerTypes.ResolveTypeByTextId(textId);
 
         sticker.Trackers.Add(tracker);
     }

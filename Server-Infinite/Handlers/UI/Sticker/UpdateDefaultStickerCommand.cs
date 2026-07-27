@@ -53,12 +53,6 @@ public class UpdateDefaultStickerCommandHandler : IRequestHandler<UpdateDefaultS
         defaultStickerProfile.Tracker1 = stickerDto.Tracker1;
         defaultStickerProfile.Tracker2 = stickerDto.Tracker2;
         defaultStickerProfile.Tracker3 = stickerDto.Tracker3;
-        defaultStickerProfile.Tracker1Type = stickerDto.Tracker1Type;
-        defaultStickerProfile.Tracker2Type = stickerDto.Tracker2Type;
-        defaultStickerProfile.Tracker3Type = stickerDto.Tracker3Type;
-        defaultStickerProfile.Tracker1CustomText = stickerDto.Tracker1CustomText ?? string.Empty;
-        defaultStickerProfile.Tracker2CustomText = stickerDto.Tracker2CustomText ?? string.Empty;
-        defaultStickerProfile.Tracker3CustomText = stickerDto.Tracker3CustomText ?? string.Empty;
         
         _context.SaveChanges();
 

@@ -47,21 +47,6 @@ public class DefaultStickerProfile : BaseEntity
     
     [Required] 
     public uint Tracker3 { get; set; } = 0;
-
-    /// <summary>Maps to PlayerSticker.Tracker.type (tag 1). Open-custom: user-provided.</summary>
-    [Required]
-    public uint Tracker1Type { get; set; } = 0;
-
-    [Required]
-    public uint Tracker2Type { get; set; } = 0;
-
-    [Required]
-    public uint Tracker3Type { get; set; } = 0;
-
-    public string Tracker1CustomText { get; set; } = string.Empty;
-    public string Tracker2CustomText { get; set; } = string.Empty;
-    public string Tracker3CustomText { get; set; } = string.Empty;
-    
     
     public virtual CardProfile CardProfile { get; set; } = null!;
 }

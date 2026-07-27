@@ -1,12 +1,12 @@
 ﻿[
   {
     "Id": 0,
-    "Category": "All",
-    "Value": "-",
-    "ValueJP": "-",
-    "ValueCN": "-",
-    "ValueTC": "-",
-    "ValueTC2": "-"
+    "Category": "-",
+    "Value": "None",
+    "ValueJP": "なし",
+    "ValueCN": "无",
+    "ValueTC": "無",
+    "ValueTC2": "無"
   },
   {
     "Id": 1,
@@ -82,7 +82,7 @@
   },
   {
     "Id": 9,
-    "Category": "Pilot",
+    "Category": "PlayerLevel",
     "Value": "Player Level",
     "ValueJP": "プレイヤーレベル",
     "ValueCN": "玩家等级",
@@ -91,7 +91,7 @@
   },
   {
     "Id": 10,
-    "Category": "Pilot",
+    "Category": "ClassMatchSolo",
     "Value": "Class Match (Solo) Rate",
     "ValueJP": "クラスマッチ(ソロ)レート",
     "ValueCN": "单人排位积分",
@@ -100,7 +100,7 @@
   },
   {
     "Id": 11,
-    "Category": "Pilot",
+    "Category": "ClassMatchTeam",
     "Value": "Class Match (Team) Rate",
     "ValueJP": "クラスマッチ(チーム)レート",
     "ValueCN": "队伍排位积分",
@@ -181,7 +181,7 @@
   },
   {
     "Id": 20,
-    "Category": "Pilot",
+    "Category": "OB",
     "Value": "[Player] Total PvP Battle Count(OB)",
     "ValueJP": "[プレイヤー] 総合対戦数(OB)",
     "ValueCN": "[玩家] 总合对人场次(OB)",
@@ -189,30 +189,48 @@
     "ValueTC2": "[玩家] 總合對人場次(OB)"
   },
   {
+    "Id": 21,
+    "Category": "Pilot",
+    "Value": "[Player] License Score",
+    "ValueJP": "[プレイヤー] ライセンススコア",
+    "ValueCN": "[玩家] 执照分数",
+    "ValueTC": "[玩家] 執照分數",
+    "ValueTC2": "[玩家] 執照分數"
+  },
+  {
     "Id": 22,
     "Category": "Pilot",
-    "Value": "?",
+    "Value": "[Player] Class Match Daily Win Rate(%)",
     "ValueJP": "[プレイヤー] クラスマッチ日間勝率(%)",
     "ValueCN": "[玩家] 每日排位对战胜率",
-    "ValueTC": "?",
-    "ValueTC2": "?"
+    "ValueTC": "[玩家] 每日排位對戰勝率",
+    "ValueTC2": "[玩家] 每日排位對戰勝率"
   },
   {
     "Id": 23,
     "Category": "Pilot",
-    "Value": "?",
+    "Value": "[Player] Total Play Days",
     "ValueJP": "[プレイヤー] 総合プレイ日数",
     "ValueCN": "[玩家] 总合游玩天数",
-    "ValueTC": "?",
-    "ValueTC2": "?"
+    "ValueTC": "[玩家] 總合遊玩天數",
+    "ValueTC2": "[玩家] 總合遊玩天數"
   },
   {
     "Id": 24,
-    "Category": "Pilot",
-    "Value": "?",
-    "ValueJP": "[プレイヤー] デフォルト称号",
-    "ValueCN": "[玩家] 默认称号",
-    "ValueTC": "?",
-    "ValueTC2": "?"
+    "Category": "Title",
+    "Value": "Default Title",
+    "ValueJP": "デフォルト称号",
+    "ValueCN": "默认称号",
+    "ValueTC": "預設稱號",
+    "ValueTC2": "預設稱號"
+  },
+  {
+    "Id": 25,
+    "Category": "MS",
+    "Value": "[MS] Dayli Class Match Win Rate(%)",
+    "ValueJP": "[機体] クラスマッチ日間勝率(%)",
+    "ValueCN": "[机体] 每日排位对战胜率",
+    "ValueTC": "[機體] 每日排位對戰勝率",
+    "ValueTC2": "[機體] 每日排位對戰勝率"
   }
 ]
