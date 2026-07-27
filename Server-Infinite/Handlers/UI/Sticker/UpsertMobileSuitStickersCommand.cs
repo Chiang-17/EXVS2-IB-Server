@@ -66,9 +66,6 @@ public class UpsertMobileSuitStickersCommandHandler : IRequestHandler<UpsertMobi
                     Tracker1 = stickerDto.Tracker1,
                     Tracker2 = stickerDto.Tracker2,
                     Tracker3 = stickerDto.Tracker3,
-                    Tracker1CustomText = stickerDto.Tracker1CustomText ?? string.Empty,
-                    Tracker2CustomText = stickerDto.Tracker2CustomText ?? string.Empty,
-                    Tracker3CustomText = stickerDto.Tracker3CustomText ?? string.Empty,
                 });
                 
                 _context.SaveChanges();
@@ -90,9 +87,6 @@ public class UpsertMobileSuitStickersCommandHandler : IRequestHandler<UpsertMobi
             existingSticker.Tracker1 = stickerDto.Tracker1;
             existingSticker.Tracker2 = stickerDto.Tracker2;
             existingSticker.Tracker3 = stickerDto.Tracker3;
-            existingSticker.Tracker1CustomText = stickerDto.Tracker1CustomText ?? string.Empty;
-            existingSticker.Tracker2CustomText = stickerDto.Tracker2CustomText ?? string.Empty;
-            existingSticker.Tracker3CustomText = stickerDto.Tracker3CustomText ?? string.Empty;
         });
         
         _context.SaveChanges();

@@ -637,6 +637,12 @@
   <data name="tracker_custom_text" xml:space="preserve">
     <value>Tracker custom text</value>
   </data>
+  <data name="tracker_type" xml:space="preserve">
+    <value>Tracker type</value>
+  </data>
+  <data name="tracker_text_id" xml:space="preserve">
+    <value>Tracker text id</value>
+  </data>
   <data name="dialogtitle_change_sticker_background" xml:space="preserve">
     <value>Edit Sticker Background</value>
   </data>

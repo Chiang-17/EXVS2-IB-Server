@@ -39,9 +39,9 @@ public class DefaultStickerCommand : ILoadCardMobileUserCommand
         var playerLevel = _context.PlayerLevelDbSet
             .First(x => x.CardProfile == cardProfile);
         
-        AddTracker(defaultSticker, defaultStickerProfile.Tracker1, defaultStickerProfile.Tracker1CustomText, playerLevel);
-        AddTracker(defaultSticker, defaultStickerProfile.Tracker2, defaultStickerProfile.Tracker2CustomText, playerLevel);
-        AddTracker(defaultSticker, defaultStickerProfile.Tracker3, defaultStickerProfile.Tracker3CustomText, playerLevel);
+        AddTracker(defaultSticker, defaultStickerProfile.Tracker1, playerLevel);
+        AddTracker(defaultSticker, defaultStickerProfile.Tracker2, playerLevel);
+        AddTracker(defaultSticker, defaultStickerProfile.Tracker3, playerLevel);
         
         mobileUserGroup.PlayerStickers.Add(defaultSticker);
     }
@@ -49,9 +49,9 @@ public class DefaultStickerCommand : ILoadCardMobileUserCommand
     void AddTracker(
         Response.LoadCard.MobileUserGroup.PlayerSticker sticker,
         uint textId,
-        string customText,
         Models.Cards.Battle.PlayerLevel playerLevel)
     {
+        // No tracker selected for this slot: skip entirely (do not add to the Tracker array).
         if (textId == 0)
         {
             return;
@@ -60,10 +60,15 @@ public class DefaultStickerCommand : ILoadCardMobileUserCommand
         var tracker = new Response.LoadCard.MobileUserGroup.PlayerSticker.Tracker
         {
             TextId = textId,
-            CustomText = customText ?? string.Empty
+            CustomText = string.Empty,
         };
 
+        // Look up rarity / value from text_id against real player stats.
         _stickerTrackerProcessor.Process(tracker, null, playerLevel);
+
+        // tracker type is determined by the text_id's Category (not the value lookup).
+        tracker.Type = Constants.TrackerTypes.ResolveTypeByTextId(textId);
+
         sticker.Trackers.Add(tracker);
     }
 }

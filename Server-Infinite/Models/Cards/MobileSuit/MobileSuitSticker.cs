@@ -56,10 +56,6 @@ public class MobileSuitSticker : BaseEntity
     
     [Required] 
     public uint Tracker3 { get; set; } = 0;
-
-    public string Tracker1CustomText { get; set; } = string.Empty;
-    public string Tracker2CustomText { get; set; } = string.Empty;
-    public string Tracker3CustomText { get; set; } = string.Empty;
     
     public virtual CardProfile CardProfile { get; set; } = null!;
 }

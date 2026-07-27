@@ -55,6 +55,7 @@
         </MudItem>
     </MudGrid>
 </MudItem>
+@* ---- Tracker selectors: user picks text_id only; tracker type is resolved server-side from Category ---- *@
 <MudItem xs="12">
     <MudSelect @bind-Value="StickerDto.Tracker1" Margin="Margin.Normal" T="uint"
                Label="@localizer["tracker_1"]" Variant="Variant.Outlined">
@@ -78,10 +79,26 @@
                Label="@localizer["tracker_3"]" Variant="Variant.Outlined">
         @foreach (var item in GetTrackerTypeList())
         {
-             <MudSelectItem Value="item.Id">@NameService.GetLocalizedName(item)</MudSelectItem>
+            <MudSelectItem Value="item.Id">@NameService.GetLocalizedName(item)</MudSelectItem>
         }
     </MudSelect>
 </MudItem>
+
+@* ---- Open-custom tracker inputs (kept for future use: user directly sets type / text_id) ----
+<MudItem xs="12">
+    <MudText Typo="Typo.subtitle2" Class="mt-2">@localizer["tracker_1"]</MudText>
+    <MudGrid>
+        <MudItem xs="12" sm="6">
+            <MudNumericField @bind-Value="StickerDto.Tracker1Type" Min="0" T="uint" Margin="Margin.Normal"
+                             Label="@localizer["tracker_type"]" Variant="Variant.Outlined"/>
+        </MudItem>
+        <MudItem xs="12" sm="6">
+            <MudNumericField @bind-Value="StickerDto.Tracker1" Min="0" T="uint" Margin="Margin.Normal"
+                             Label="@localizer["tracker_text_id"]" Variant="Variant.Outlined"/>
+        </MudItem>
+    </MudGrid>
+</MudItem>
+---- *@
 
 @code{
     [Parameter]
@@ -115,10 +132,11 @@
 
     private IReadOnlyList<TrackerType> GetTrackerTypeList()
     {
+        // Default sticker is not tied to a specific MS, so hide MS-category trackers there.
         if (Scope == "DefaultSticker")
         {
             return StickerService.GetTrackerTypesSortedById()
-                .Where(tracker => tracker.Category is "All" or "Pilot")
+                .Where(tracker => tracker.Category != "MS")
                 .ToList();
         }
 

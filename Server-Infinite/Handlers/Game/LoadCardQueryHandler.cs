@@ -107,7 +107,7 @@ public class LoadCardQueryHandler : IRequestHandler<LoadCardQuery, Response>
             new LoadMessageCommand(_context),
             new OnlinePairCommand(_context),
             new DefaultStickerCommand(_context, pilotTrackerProcessor),
-            new MobileSuitStickerCommand(_context, pilotTrackerProcessor, msTrackerProcessor),
+            new MobileSuitStickerCommand(_context, msTrackerProcessor),
             new QuickTagCommand(_context),
             new LoadQuickStartInfoCommand(_context)
         };
