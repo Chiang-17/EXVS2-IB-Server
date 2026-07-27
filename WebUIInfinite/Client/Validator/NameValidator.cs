@@ -495,8 +495,9 @@ public class NameValidator : INameValidator
     
     private String? ValidateName(string name, string errorMessagePart)
     {
-        const string prePattern = @"^[ ";
-        const string afterPattern = @"ぁ-んァ-ンｧ-ﾝﾞﾟa-zA-Z0-9ａ-ｚＡ-Ｚ０-９-_ー＜＞＋－＊÷＝；：←／＼＿｜・＠！？＆★（）＾◇∀Ξν×†ω♪♭#∞〆→↓↑％※ⅠⅡⅢⅣⅤⅥⅦⅧⅨⅩ☆◆\[\]「」『』【】]{1,12}$";
+        // Allow both halfwidth and fullwidth forms of every previously permitted symbol.
+        const string prePattern = @"^[ 　";
+        const string afterPattern = @"ぁ-んァ-ンｧ-ﾝﾞﾟa-zA-Z0-9ａ-ｚＡ-Ｚ０-９ー－<>＜＞+＋*＊÷=＝;；:：←/／\\＼_＿|｜・･@＠!！?？&＆★()（）^＾◇∀Ξν×†ω♪♭#＃∞〆→↓↑%％※ⅠⅡⅢⅣⅤⅥⅦⅧⅨⅩ☆◆\[\]［］「」『』【】-]{1,12}$";
         const string pattern = prePattern + JpKanji + afterPattern;
         
         return name.Length switch
