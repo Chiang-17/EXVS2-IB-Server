@@ -5,7 +5,6 @@ using Throw;
 using WebUIInfinite.Client.Context.CustomizeCard;
 using WebUIInfinite.Client.Services;
 using WebUIInfinite.Client.Validator;
-using WebUIInfinite.Shared.Dto.Common;
 using WebUIInfinite.Shared.Dto.Request.Sticker;
 using WebUIInfinite.Shared.Dto.Response;
 using WebUIInfinite.Shared.Resources;
@@ -31,11 +30,6 @@ public class MobileSuitStickerSettingsSaver : ICustomizeCardContentSaver
     {
         progressContext.HideMobileSuitStickerProgress = "visible";
         stateHasChanged.Invoke();
-        
-        foreach (var sticker in customizeCardContext.MobileSuitStickerSettings)
-        {
-            StickerPilotPoolDefaults.ApplyEmptyPoolDefaultsOnSave(sticker);
-        }
 
         var dto = new UpsertMobileSuitStickersRequest()
         {
