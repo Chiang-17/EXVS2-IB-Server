@@ -2507,6 +2507,16 @@
         "SeriesTC":  "機動新世紀高達X",
         "SeriesTC2":  "機動新世紀鋼彈X",
         "Cost":  3000,
+        "Costumes":  [
+                         {
+                             "Id":  0,
+                             "Value":  "デフォルト"
+                         },
+                         {
+                             "Id":  1,
+                             "Value":  "ノーマルスーツ"
+                         }
+                     ],
         "Poses":  [
                       {
                           "Id":  0,
