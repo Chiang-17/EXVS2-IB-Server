@@ -229,7 +229,7 @@
     <value>BGM Play List / Order</value>
   </data>
   <data name="dialogtitle_bgmorder" xml:space="preserve">
-    <value>Add / Change Bgm Order</value>
+    <value>Edit BGM Order</value>
   </data>
   <data name="bgmplaytype" xml:space="preserve">
     <value>BGM Play Type</value>
@@ -555,7 +555,7 @@
     <value>BGM Safe Mode</value>
   </data>
   <data name="bgm_safe_mode_hint" xml:space="preserve">
-    <value>Enabling this setting will disable BGM Play List/Order setting</value>
+    <value>Tips: Enabling BGM Safe Mode will disable BGM play settings.</value>
   </data>
   <data name="gamepad_style" xml:space="preserve">
     <value>Operation Mode</value>
@@ -693,9 +693,6 @@
   </data>
   <data name="has_ms_sticker_pose_title" xml:space="preserve">
     <value>Extra Sticker Pose</value>
-  </data>
-  <data name="ms_sticker_pose_reminder" xml:space="preserve">
-    <value>Reminder: Please reset MS Skin Color to Default before applying MS Pose.</value>
   </data>
   <data name="sticker_pilot_image_disp" xml:space="preserve">
     <value>Pilot Image Display</value>

@@ -57,9 +57,10 @@ public class PreLoadCardQueryHandler : IRequestHandler<PreLoadCardQuery, Respons
             LastPlayedAt = (ulong)DateTimeOffset.Now.ToUnixTimeSeconds()
         };
 
-        newCardProfile.DefaultStickerProfile.Tracker1 = 1;
-        newCardProfile.DefaultStickerProfile.Tracker1 = 2;
-        newCardProfile.DefaultStickerProfile.Tracker1 = 3;
+        // Tracker slots default to None (0); player configures them in WebUI / game.
+        newCardProfile.DefaultStickerProfile.Tracker1 = 0;
+        newCardProfile.DefaultStickerProfile.Tracker2 = 0;
+        newCardProfile.DefaultStickerProfile.Tracker3 = 0;
         
         _context.CardProfiles.Add(newCardProfile);
         await _context.SaveChangesAsync(cancellationToken);

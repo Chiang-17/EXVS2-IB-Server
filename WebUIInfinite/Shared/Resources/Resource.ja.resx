@@ -229,7 +229,7 @@
     <value>対戦BGM設定</value>
   </data>
   <data name="dialogtitle_bgmorder" xml:space="preserve">
-    <value>対戦BGMの追加・順序変更</value>
+    <value>BGM順序を編集</value>
   </data>
   <data name="bgmplaytype" xml:space="preserve">
     <value>再生設定</value>
@@ -555,7 +555,7 @@
     <value>BGM セーフモード</value>
   </data>
   <data name="bgm_safe_mode_hint" xml:space="preserve">
-    <value>この設定を有効にすると、BGMプレイリスト/再生順の設定が無効になります</value>
+    <value>注意：BGMセーフモードを有効にすると、BGM再生設定が無効になります</value>
   </data>
   <data name="gamepad_style" xml:space="preserve">
     <value>Operation Mode</value>
@@ -693,9 +693,6 @@
   </data>
   <data name="has_ms_sticker_pose_title" xml:space="preserve">
     <value>機体</value>
-  </data>
-  <data name="ms_sticker_pose_reminder" xml:space="preserve">
-    <value>注意：MSポーズを適用する前に、MSのスキンカラーをデフォルトにしてください。</value>
   </data>
   <data name="sticker_pilot_image_disp" xml:space="preserve">
     <value>パイロット画像の表示</value>

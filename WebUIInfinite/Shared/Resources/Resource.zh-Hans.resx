@@ -229,7 +229,7 @@
     <value>BGM列表 / 顺序</value>
   </data>
   <data name="dialogtitle_bgmorder" xml:space="preserve">
-    <value>修改BGM列表 / 顺序</value>
+    <value>编辑 BGM 顺序</value>
   </data>
   <data name="bgmplaytype" xml:space="preserve">
     <value>BGM播放形式</value>
@@ -555,7 +555,7 @@
     <value>BGM 安全模式</value>
   </data>
   <data name="bgm_safe_mode_hint" xml:space="preserve">
-    <value>启用此设置将禁用 BGM 播放列表/顺序设置</value>
+    <value>注意：启用 BGM Safe Mode 会使 BGM 播放设置无效</value>
   </data>
   <data name="gamepad_style" xml:space="preserve">
     <value>操作模式</value>
@@ -693,9 +693,6 @@
   </data>
   <data name="has_ms_sticker_pose_title" xml:space="preserve">
     <value>额外贴纸姿势</value>
-  </data>
-  <data name="ms_sticker_pose_reminder" xml:space="preserve">
-    <value>提醒: 在套用贴纸姿势之前，请把机体颜色重设为预设。它们并不能同时生效。</value>
   </data>
   <data name="sticker_pilot_image_disp" xml:space="preserve">
     <value>驾驶员图片显示</value>

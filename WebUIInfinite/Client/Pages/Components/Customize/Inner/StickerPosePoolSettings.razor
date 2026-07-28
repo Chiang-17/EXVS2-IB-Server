@@ -13,7 +13,6 @@
             SelectedIds="@(StickerDto.PoseIds ?? new List<uint>())"
             SelectedIdsChanged="OnPoseIdsChanged"
             ImageSrcFactory="@GetPosePreviewSrc"/>
-        <MudText Color="Color.Warning" Class="mt-2">@localizer["ms_sticker_pose_reminder"]</MudText>
     </MudPaper>
 </MudItem>
 

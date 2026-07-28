@@ -90,6 +90,7 @@
                             <MudSelectItem Value="item">@bgmTypeDisplayStr</MudSelectItem>
                         }
                     </MudSelect>
+                    <MudText Typo="Typo.caption" Color="Color.Warning" Class="mt-1">@localizer["bgm_safe_mode_hint"]</MudText>
                 </MudItem>
             </MudGrid>
             <MudGrid Class="align-center">
@@ -181,7 +182,7 @@
     private async Task OpenFavMsChangeBgmOrderDialog()
     {
         var parameters = new DialogParameters { { "Data", Data.BgmList } };
-        var dialog = await DialogService.ShowAsync<ChangeBgmOrderDialog>("Add / Change bgm order", parameters, OPTIONS);
+        var dialog = await DialogService.ShowAsync<ChangeBgmOrderDialog>(localizer["dialogtitle_bgmorder"], parameters, OPTIONS);
         var result = await dialog.Result;
 
         if (!result.Canceled && result.Data != null)

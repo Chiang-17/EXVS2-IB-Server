@@ -233,8 +233,8 @@
     <data name="bgmlistorder" xml:space="preserve">
 		<value>BGM列表 / 順序</value>
 	</data>
-    <data name="dialogtitle_bgmorder" xml:space="preserve">
-		<value>修改BGM列表 / 順序</value>
+	<data name="dialogtitle_bgmorder" xml:space="preserve">
+		<value>編輯 BGM 順序</value>
 	</data>
     <data name="bgmplaytype" xml:space="preserve">
 		<value>BGM播放形式</value>
@@ -559,8 +559,8 @@
     <data name="bgm_safe_mode" xml:space="preserve">
 		<value>BGM 安全模式</value>
 	</data>
-    <data name="bgm_safe_mode_hint" xml:space="preserve">
-		<value>啟用此設定將停用 BGM 播放清單/順序設定</value>
+	<data name="bgm_safe_mode_hint" xml:space="preserve">
+		<value>注意：啟用 BGM Safe Mode 會使 BGM 播放設定無效</value>
 	</data>
     <data name="gamepad_style" xml:space="preserve">
 		<value>操作模式</value>
@@ -698,9 +698,6 @@
 	</data>
     <data name="has_ms_sticker_pose_title" xml:space="preserve">
 		<value>額外貼紙姿勢</value>
-	</data>
-	<data name="ms_sticker_pose_reminder" xml:space="preserve">
-		<value>提醒: 在套用貼紙姿勢之前，請把機體顏色重設為預設。它們並不能同時生效。</value>
 	</data>
 	<data name="sticker_pilot_image_disp" xml:space="preserve">
 		<value>駕駛員圖片顯示</value>
