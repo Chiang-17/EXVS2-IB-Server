@@ -36,6 +36,8 @@
                          Style="width: 100%; min-height: 150px; height: auto;">
                     <AlternativeCostumeChipContent
                         ImageSrc="@ImageSrcFactory(option.Id)"
+                        CutinImageSrc="@(CutinImageSrcFactory?.Invoke(option.Id) ?? string.Empty)"
+                        UseCutin="@UseCutin"
                         Label="@NameService.GetLocalizedName(option)"/>
                 </MudChip>
             </MudItem>
@@ -55,6 +57,14 @@
 
     [Parameter]
     public Func<uint, string> ImageSrcFactory { get; set; } = _ => string.Empty;
+
+    /// <summary>Optional cut-in variant factory. When null, only the normal image is rendered.</summary>
+    [Parameter]
+    public Func<uint, string>? CutinImageSrcFactory { get; set; }
+
+    /// <summary>When true, the cut-in variant is displayed instead of the normal image.</summary>
+    [Parameter]
+    public bool UseCutin { get; set; } = false;
 
     private HashSet<uint> _selectedIds = new();
 

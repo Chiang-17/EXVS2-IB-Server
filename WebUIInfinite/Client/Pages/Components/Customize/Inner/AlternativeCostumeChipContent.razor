@@ -37,7 +37,15 @@
 
 <div class="alt-costume-chip-content">
     <div class="alt-costume-preview-wrap">
-        <img src="@ImageSrc" class="alt-costume-preview" alt="@Label"/>
+        @* Both variants are rendered up-front so they are fetched together with the rest of the
+           costume resources. Toggling UseCutin only flips CSS visibility - it never re-requests. *@
+        <img src="@ImageSrc" class="alt-costume-preview" alt="@Label"
+             style="@(UseCutin && HasCutin ? "display:none;" : string.Empty)"/>
+        @if (HasCutin)
+        {
+            <img src="@CutinImageSrc" class="alt-costume-preview" alt="@Label"
+                 style="@(UseCutin ? string.Empty : "display:none;")"/>
+        }
     </div>
     <MudText Typo="Typo.caption" Class="alt-costume-label">@Label</MudText>
 </div>
@@ -46,6 +54,16 @@
     [Parameter]
     public string ImageSrc { get; set; } = string.Empty;
 
+    /// <summary>Cut-in variant of the preview image. When empty, only the normal image is shown.</summary>
+    [Parameter]
+    public string CutinImageSrc { get; set; } = string.Empty;
+
+    /// <summary>When true, show the cut-in variant instead of the normal image (display only).</summary>
+    [Parameter]
+    public bool UseCutin { get; set; } = false;
+
     [Parameter]
     public string Label { get; set; } = string.Empty;
+
+    private bool HasCutin => !string.IsNullOrEmpty(CutinImageSrc);
 }

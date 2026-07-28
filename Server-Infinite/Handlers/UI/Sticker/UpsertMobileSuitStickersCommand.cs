@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using ServerInfinite.Mapper.Card.Sticker;
 using ServerInfinite.Models.Cards.MobileSuit;
 using ServerInfinite.Persistence;
+using WebUIInfinite.Shared.Dto.Common;
 using WebUIInfinite.Shared.Dto.Request.Sticker;
 using WebUIInfinite.Shared.Dto.Response;
 
@@ -41,6 +42,8 @@ public class UpsertMobileSuitStickersCommandHandler : IRequestHandler<UpsertMobi
         
         stickerDtos.ForEach(stickerDto =>
         {
+            StickerPilotPoolDefaults.ApplyEmptyPoolDefaultsOnSave(stickerDto);
+
             var existingSticker = _context.MobileSuitStickerDbSet
                 .FirstOrDefault(x => x.CardProfile == cardProfile && x.MstMobileSuitId == stickerDto.MobileSuitId);
 

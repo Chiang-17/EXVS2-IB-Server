@@ -44,7 +44,9 @@
                             Options="@CostumeOptions"
                             SelectedIds="@(StickerDto.CostumeIds ?? new List<uint>())"
                             SelectedIdsChanged="OnCostumeIdsChanged"
-                            ImageSrcFactory="@GetCostumePreviewSrc"/>
+                            ImageSrcFactory="@GetCostumePreviewSrc"
+                            CutinImageSrcFactory="@GetCostumeCutinPreviewSrc"
+                            UseCutin="@StickerDto.CutinImageUseFlag"/>
                     </MudItem>
                 </MudGrid>
 
@@ -181,6 +183,9 @@
         };
 
     private string GetCostumePreviewSrc(uint costumeId) => $"images/pilots/{MobileSuitId}_{costumeId}.webp";
+
+    // Cut-in variant lives under the same resource path, in a "cut_in" sub-folder with the same file name.
+    private string GetCostumeCutinPreviewSrc(uint costumeId) => $"images/pilots/cut_in/{MobileSuitId}_{costumeId}.webp";
 
     private string GetStickerBackgroundDisplayName(uint id)
     {
