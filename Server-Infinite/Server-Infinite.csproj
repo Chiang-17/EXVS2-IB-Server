@@ -8,6 +8,7 @@
     <SelfContained>true</SelfContained>
     <IncludeNativeLibrariesForSelfExtract>true</IncludeNativeLibrariesForSelfExtract>
     <UseWindowsForms>true</UseWindowsForms>
+    <CetCompat>false</CetCompat>
   </PropertyGroup>
   <ItemGroup>
     <Compile Remove="Extensions\**" />
