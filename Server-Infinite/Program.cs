@@ -13,9 +13,9 @@ Log.Logger = new LoggerConfiguration()
     .CreateBootstrapLogger();
 
 Log.Information("+=====================================+");
-Log.Information("+       SERVER-INFINITE FOR IBv4      +");
+Log.Information("+       SERVER-INFINITE FOR IBv13     +");
 Log.Information("+            BY LAZYSHEEP             +");
-Log.Information("+            VERSION: 1.1             +");
+Log.Information("+          VERSION: 1.13.2            +");
 Log.Information("+        FORKED FROM EXVS2-POC        +");
 Log.Information("+                                     +");
 Log.Information("+ Disclaimer:                         +");

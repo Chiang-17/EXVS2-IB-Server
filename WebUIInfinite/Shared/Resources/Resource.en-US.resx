@@ -1122,4 +1122,37 @@
   <data name="invalid_user_login" xml:space="preserve">
     <value>Login Failed!</value>
   </data>
+  <data name="player_stats_title" xml:space="preserve">
+    <value>Player Statistics</value>
+  </data>
+  <data name="player_stats_mode" xml:space="preserve">
+    <value>Mode</value>
+  </data>
+  <data name="player_stats_offline_solo" xml:space="preserve">
+    <value>In-store Solo</value>
+  </data>
+  <data name="player_stats_offline_team" xml:space="preserve">
+    <value>In-store Team</value>
+  </data>
+  <data name="player_stats_class_solo" xml:space="preserve">
+    <value>Ranked Solo</value>
+  </data>
+  <data name="player_stats_class_team" xml:space="preserve">
+    <value>Ranked Team</value>
+  </data>
+  <data name="player_stats_battle_count" xml:space="preserve">
+    <value>Battles</value>
+  </data>
+  <data name="player_stats_win_count" xml:space="preserve">
+    <value>Wins</value>
+  </data>
+  <data name="player_stats_win_rate" xml:space="preserve">
+    <value>Win Rate</value>
+  </data>
+  <data name="player_stats_mobile_suit_title" xml:space="preserve">
+    <value>Mobile Suit Records</value>
+  </data>
+  <data name="player_stats_load_failed" xml:space="preserve">
+    <value>Failed to load statistics</value>
+  </data>
 </root>

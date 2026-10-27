@@ -1,0 +1,81 @@
+@using WebUIInfinite.Client.Services.Mastery
+@using WebUIInfinite.Shared.Dto.Statistics
+
+<MudDivider Class="my-8" />
+
+@if (_loading)
+{
+    <MudProgressLinear Indeterminate="true" Color="Color.Primary" />
+}
+else if (_errorMessage is not null)
+{
+    <MudAlert Severity="Severity.Warning" Variant="Variant.Outlined" Dense="true">@_errorMessage</MudAlert>
+}
+else if (_statistics is not null)
+{
+    <MudText Typo="Typo.h5" Class="mb-4">@localizer["player_stats_title"]</MudText>
+
+    <MudSimpleTable Dense="true" Elevation="1" Hover="true" Bordered="true">
+        <thead>
+            <tr>
+                <th>@localizer["player_stats_mode"]</th>
+                <th style="text-align: center">@localizer["player_stats_battle_count"]</th>
+                <th style="text-align: center">@localizer["player_stats_win_count"]</th>
+                <th style="text-align: center">@localizer["player_stats_win_rate"]</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var row in _modeRows)
+            {
+                <tr>
+                    <td>@localizer[row.LabelKey]</td>
+                    <td style="text-align: center">@row.Statistics.BattleCount</td>
+                    <td style="text-align: center">@row.Statistics.WinCount</td>
+                    <td style="text-align: center">@FormatRate(row.Statistics.WinRate)</td>
+                </tr>
+            }
+        </tbody>
+    </MudSimpleTable>
+
+    <MudText Typo="Typo.h6" Class="mt-8 mb-2">@localizer["player_stats_mobile_suit_title"]</MudText>
+
+    <MudTable T="MobileSuitStatisticsRow" Items="_mobileSuitRows" Dense="true" Hover="true" Elevation="2" Breakpoint="Breakpoint.Sm">
+        <HeaderContent>
+            <MudTh>@localizer["server_mobile_suit_usages_table_ms"]</MudTh>
+            <MudTh Style="text-align:center">@localizer["player_stats_battle_count"]</MudTh>
+            <MudTh Style="text-align:center">@localizer["player_stats_win_count"]</MudTh>
+            <MudTh Style="text-align:center">@localizer["player_stats_win_rate"]</MudTh>
+            <MudTh Style="text-align:center">@localizer["msdialog_mastery"]</MudTh>
+        </HeaderContent>
+        <RowTemplate>
+            <MudTd DataLabel="@localizer["server_mobile_suit_usages_table_ms"]">
+                <div class="d-flex flex-grow-1 gap-4">
+                    <div class="d-flex flex-none my-auto">
+                        <MudImage ObjectPosition="ObjectPosition.Center" Width="90" Fluid="true" ObjectFit="ObjectFit.Cover"
+                                  Src="@($"images/mobile_suits/{context.MstMobileSuitId}.webp")" />
+                    </div>
+                    <div class="d-flex flex-none my-auto">
+                        @context.Name
+                    </div>
+                </div>
+            </MudTd>
+            <MudTd DataLabel="@localizer["player_stats_battle_count"]" Style="text-align:center">@context.BattleCount</MudTd>
+            <MudTd DataLabel="@localizer["player_stats_win_count"]" Style="text-align:center">@context.WinCount</MudTd>
+            <MudTd DataLabel="@localizer["player_stats_win_rate"]" Style="text-align:center">@FormatRate(context.WinRate)</MudTd>
+            <MudTd DataLabel="@localizer["msdialog_mastery"]" Style="text-align:center">
+                @if (context.Mastery.UseDescription)
+                {
+                    <span style="font-style: italic; font-weight: bold; color: #fe0;">@context.Mastery.Description</span>
+                }
+                else
+                {
+                    <MudImage ObjectPosition="ObjectPosition.Center" Width="70" Fluid="true" ObjectFit="ObjectFit.Cover"
+                              Src="@($"images/mastery/mobile_suit/{context.Mastery.Id}.webp")" />
+                }
+            </MudTd>
+        </RowTemplate>
+        <NoRecordsContent>
+            <MudText Class="pa-2">-</MudText>
+        </NoRecordsContent>
+    </MudTable>
+}

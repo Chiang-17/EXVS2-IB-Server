@@ -1,204 +1,360 @@
-﻿[
-    {
-        "ID":  0,
-        "Value":  "デフォルト",
-        "Existence":  "IB",
-        "Clues":  "最初から所持"
-    },
-    {
-        "ID":  1,
-        "Value":  "レッド",
-        "Existence":  "IB",
-        "Clues":  "アイテムパックVol.2"
-    },
-    {
-        "ID":  2,
-        "Value":  "イエロー",
-        "Existence":  "IB",
-        "Clues":  "アイテムパックVol.2"
-    },
-    {
-        "ID":  3,
-        "Value":  "ブルー",
-        "Existence":  "IB",
-        "Clues":  "アイテムパックVol.2"
-    },
-    {
-        "ID":  4,
-        "Value":  "Gauge 4",
-        "Existence":  "IB"
-    },
-    {
-        "ID":  5,
-        "Value":  "Gauge 5",
-        "Existence":  "IB"
-    },
-    {
-        "ID":  6,
-        "Value":  "ゴールド",
-        "Existence":  "IB",
-        "Clues":  "オーバーブーストパス INFINITE BOOST 引継ぎスペシャルでstage:50"
-    },
-    {
-        "ID":  7,
-        "Value":  "プラチナ",
-        "Existence":  "IB",
-        "Clues":  "オーバーブーストパス INFINITE BOOST 引継ぎスペシャルでstage:50"
-    },
-    {
-        "ID":  8,
-        "Value":  "ホワイト×ブラック",
-        "Existence":  "IB",
-        "Clues":  "オーバーブーストパス INFINITE BOOST 引継ぎスペシャルでstage:50"
-    },
-    {
-        "ID":  9,
-        "Value":  "オレンジ×ブラック",
-        "Existence":  "IB",
-        "Clues":  "オーバーブーストパス INFINITE BOOST 引継ぎスペシャルでstage:50"
-    },
-    {
-        "ID":  10,
-        "Value":  "プラチナ×ブラック",
-        "Existence":  "IB",
-        "Clues":  "オーバーブーストパス INFINITE BOOST 引継ぎスペシャルでstage:50"
-    },
-    {
-        "ID":  11,
-        "Value":  "PDF2025優勝フリーダム",
-        "Existence":  "IB",
-        "Clues":  "PREMIUM DOGFIGHT 2025 優勝チーム（2名）"
-    },
-    {
-        "ID":  12,
-        "Value":  "PDF2025準優勝",
-        "Existence":  "IB",
-        "Clues":  "PREMIUM DOGFIGHT 2025 準優勝チーム（2名）"
-    },
-    {
-        "ID":  13,
-        "Value":  "PDF2025ベスト8",
-        "Existence":  "IB",
-        "Clues":  "PREMIUM DOGFIGHT 2025 ベスト8チーム（12名）"
-    },
-    {
-        "ID":  14,
-        "Value":  "PDF2025本戦出場",
-        "Existence":  "IB",
-        "Clues":  "PREMIUM DOGFIGHT 2025 本戦出場チーム（102名）"
-    },
-    {
-        "ID":  22,
-        "Value":  "ガンダム・エアリアル(改修型)",
-        "Existence":  "IB",
-        "Clues":  "ガンダム・エアリアル(改修型) 機体熟練度★6"
-    },
-    {
-        "ID":  23,
-        "Value":  "ガンダム・エアリアル(改修型) パーメットスコア・エイト",
-        "Existence":  "IB",
-        "Clues":  "ガンダム・エアリアル(改修型) パーメットスコア・エイト 機体熟練度★6"
-    },
-    {
-        "ID":  24,
-        "Value":  "マイティーストライクフリーダムガンダム",
-        "Existence":  "IB",
-        "Clues":  "マイティーストライクフリーダムガンダム 機体熟練度★6"
-    },
-    {
-        "ID":  25,
-        "Value":  "ウイングガンダム",
-        "Existence":  "IB",
-        "Clues":  "ウイングガンダム 機体熟練度★6"
-    },
-    {
-        "ID":  26,
-        "Value":  "赤いガンダム",
-        "Existence":  "IB",
-        "Clues":  "赤いガンダム 機体熟練度★6"
-    },
-    {
-        "ID":  27,
-        "Value":  "アムロ・レイ",
-        "Existence":  "IB",
-        "Clues":  "シーズンアイテムパックVol.6"
-    },
-    {
-        "ID":  28,
-        "Value":  "ユニコーン",
-        "Existence":  "IB",
-        "Clues":  "シーズンアイテムパックVol.12"
-    },
-    {
-        "ID":  29,
-        "Value":  "ウイングゼロ（EW版）",
-        "Existence":  "IB",
-        "Clues":  "シーズンアイテムパックVol.11"
-    },
-    {
-        "ID":  30,
-        "Value":  "ザフト軍",
-        "Existence":  "IB",
-        "Clues":  "シーズンアイテムパックVol.9"
-    },
-    {
-        "ID":  31,
-        "Value":  "ソレスタル・ビーイング",
-        "Existence":  "IB",
-        "Clues":  "シーズンアイテムパックVol.17"
-    },
-    {
-        "ID":  32,
-        "Value":  "アロウズ",
-        "Existence":  "IB",
-        "Clues":  "シーズンアイテムパックVol.17"
-    },
-    {
-        "ID":  33,
-        "Value":  "Gauge 33",
-        "Existence":  "IB",
-        "Clues":  ""
-    },
-    {
-        "ID":  34,
-        "Value":  "海賊部隊",
-        "Existence":  "IB",
-        "Clues":  "シーズンアイテムパックVol.25"
-    },
-    {
-        "ID":  35,
-        "Value":  "鉄華団",
-        "Existence":  "IB",
-        "Clues":  "「機動戦士ガンダム 鉄血のオルフェンズ」10周年記念！ カスタマイズアイテム獲得キャンペーン 1クレジットプレイ"
-    },              
-    {
-        "ID":  36,
-        "Value":  "ギャラルホルン",
-        "Existence":  "IB",
-        "Clues":  "「機動戦士ガンダム 鉄血のオルフェンズ」10周年記念！ カスタマイズアイテム獲得キャンペーン 20クレジットプレイ"
-    },
-    {
-        "ID":  37,
-        "Value":  "ガンプラバトル",
-        "Existence":  "IB",
-        "Clues":  "シーズンアイテムパックVol.19"
-    },
-    {
-        "ID":  38,
-        "Value":  "ギャラルホルン",
-        "Existence":  "IB",
-        "Clues":  ""
-    },
-    {
-        "ID":  44,
-        "Value":  "IBパスVol.1",
-        "Existence":  "IB",
-        "Clues":  "インフィニットブーストパスvol.1でstage:50"
-    },
-    {
-        "ID":  45,
-        "Value":  "IBパスVol.2",
-        "Existence":  "IB",
-        "Clues":  "インフィニットブーストパスvol.2でstage:50"
-    }
+[
+  {
+    "ID": 0,
+    "Value": "デフォルト",
+    "Existence": "IB",
+    "Clues": "最初から所持"
+  },
+  {
+    "ID": 1,
+    "Value": "レッド",
+    "Existence": "IB",
+    "Clues": "アイテムパックVol.2"
+  },
+  {
+    "ID": 2,
+    "Value": "イエロー",
+    "Existence": "IB",
+    "Clues": "アイテムパックVol.2"
+  },
+  {
+    "ID": 3,
+    "Value": "ブルー",
+    "Existence": "IB",
+    "Clues": "アイテムパックVol.2"
+  },
+  {
+    "ID": 4,
+    "Value": "Gauge 4",
+    "Existence": "IB"
+  },
+  {
+    "ID": 5,
+    "Value": "Gauge 5",
+    "Existence": "IB"
+  },
+  {
+    "ID": 6,
+    "Value": "ゴールド",
+    "Existence": "IB",
+    "Clues": "オーバーブーストパス INFINITE BOOST 引継ぎスペシャルでstage:50"
+  },
+  {
+    "ID": 7,
+    "Value": "プラチナ",
+    "Existence": "IB",
+    "Clues": "オーバーブーストパス INFINITE BOOST 引継ぎスペシャルでstage:50"
+  },
+  {
+    "ID": 8,
+    "Value": "ホワイト×ブラック",
+    "Existence": "IB",
+    "Clues": "オーバーブーストパス INFINITE BOOST 引継ぎスペシャルでstage:50"
+  },
+  {
+    "ID": 9,
+    "Value": "オレンジ×ブラック",
+    "Existence": "IB",
+    "Clues": "オーバーブーストパス INFINITE BOOST 引継ぎスペシャルでstage:50"
+  },
+  {
+    "ID": 10,
+    "Value": "プラチナ×ブラック",
+    "Existence": "IB",
+    "Clues": "オーバーブーストパス INFINITE BOOST 引継ぎスペシャルでstage:50"
+  },
+  {
+    "ID": 11,
+    "Value": "PDF2025優勝フリーダム",
+    "Existence": "IB",
+    "Clues": "PREMIUM DOGFIGHT 2025 優勝チーム（2名）"
+  },
+  {
+    "ID": 12,
+    "Value": "PDF2025準優勝",
+    "Existence": "IB",
+    "Clues": "PREMIUM DOGFIGHT 2025 準優勝チーム（2名）"
+  },
+  {
+    "ID": 13,
+    "Value": "PDF2025ベスト8",
+    "Existence": "IB",
+    "Clues": "PREMIUM DOGFIGHT 2025 ベスト8チーム（12名）"
+  },
+  {
+    "ID": 14,
+    "Value": "PDF2025本戦出場",
+    "Existence": "IB",
+    "Clues": "PREMIUM DOGFIGHT 2025 本戦出場チーム（102名）"
+  },
+  {
+    "ID": 22,
+    "Value": "ガンダム・エアリアル(改修型)",
+    "Existence": "IB",
+    "Clues": "ガンダム・エアリアル(改修型) 機体熟練度★6"
+  },
+  {
+    "ID": 23,
+    "Value": "ガンダム・エアリアル(改修型) パーメットスコア・エイト",
+    "Existence": "IB",
+    "Clues": "ガンダム・エアリアル(改修型) パーメットスコア・エイト 機体熟練度★6"
+  },
+  {
+    "ID": 24,
+    "Value": "マイティーストライクフリーダムガンダム",
+    "Existence": "IB",
+    "Clues": "マイティーストライクフリーダムガンダム 機体熟練度★6"
+  },
+  {
+    "ID": 25,
+    "Value": "ウイングガンダム",
+    "Existence": "IB",
+    "Clues": "ウイングガンダム 機体熟練度★6"
+  },
+  {
+    "ID": 26,
+    "Value": "赤いガンダム",
+    "Existence": "IB",
+    "Clues": "赤いガンダム 機体熟練度★6"
+  },
+  {
+    "ID": 27,
+    "Value": "アムロ・レイ",
+    "Existence": "IB",
+    "Clues": "シーズンアイテムパックVol.6"
+  },
+  {
+    "ID": 28,
+    "Value": "ユニコーン",
+    "Existence": "IB",
+    "Clues": "シーズンアイテムパックVol.12"
+  },
+  {
+    "ID": 29,
+    "Value": "ウイングゼロ（EW版）",
+    "Existence": "IB",
+    "Clues": "シーズンアイテムパックVol.11"
+  },
+  {
+    "ID": 30,
+    "Value": "ザフト軍",
+    "Existence": "IB",
+    "Clues": "シーズンアイテムパックVol.9"
+  },
+  {
+    "ID": 31,
+    "Value": "ソレスタル・ビーイング",
+    "Existence": "IB",
+    "Clues": "シーズンアイテムパックVol.17"
+  },
+  {
+    "ID": 32,
+    "Value": "アロウズ",
+    "Existence": "IB",
+    "Clues": "シーズンアイテムパックVol.17"
+  },
+  {
+    "ID": 33,
+    "Value": "Gauge 33",
+    "Existence": "IB",
+    "Clues": ""
+  },
+  {
+    "ID": 34,
+    "Value": "海賊部隊",
+    "Existence": "IB",
+    "Clues": "シーズンアイテムパックVol.25"
+  },
+  {
+    "ID": 35,
+    "Value": "鉄華団",
+    "Existence": "IB",
+    "Clues": "「機動戦士ガンダム 鉄血のオルフェンズ」10周年記念！ カスタマイズアイテム獲得キャンペーン 1クレジットプレイ"
+  },
+  {
+    "ID": 36,
+    "Value": "ギャラルホルン",
+    "Existence": "IB",
+    "Clues": "「機動戦士ガンダム 鉄血のオルフェンズ」10周年記念！ カスタマイズアイテム獲得キャンペーン 20クレジットプレイ"
+  },
+  {
+    "ID": 37,
+    "Value": "ガンプラバトル",
+    "Existence": "IB",
+    "Clues": "シーズンアイテムパックVol.19"
+  },
+  {
+    "ID": 38,
+    "Value": "ギャラルホルン",
+    "Existence": "IB",
+    "Clues": ""
+  },
+  {
+    "ID": 39,
+    "Value": "ゲージ 39",
+    "Existence": "IB",
+    "Clues": ""
+  },
+  {
+    "ID": 40,
+    "Value": "ゲージ 40",
+    "Existence": "IB",
+    "Clues": ""
+  },
+  {
+    "ID": 41,
+    "Value": "ゲージ 41",
+    "Existence": "IB",
+    "Clues": ""
+  },
+  {
+    "ID": 42,
+    "Value": "ゲージ 42",
+    "Existence": "IB",
+    "Clues": ""
+  },
+  {
+    "ID": 43,
+    "Value": "ゲージ 43",
+    "Existence": "IB",
+    "Clues": ""
+  },
+  {
+    "ID": 44,
+    "Value": "IBパスVol.1",
+    "Existence": "IB",
+    "Clues": "インフィニットブーストパスvol.1でstage:50"
+  },
+  {
+    "ID": 45,
+    "Value": "IBパスVol.2",
+    "Existence": "IB",
+    "Clues": "インフィニットブーストパスvol.2でstage:50"
+  },
+  {
+    "ID": 46,
+    "Value": "ゲージ 46",
+    "Existence": "IB",
+    "Clues": ""
+  },
+  {
+    "ID": 47,
+    "Value": "ゲージ 47",
+    "Existence": "IB",
+    "Clues": ""
+  },
+  {
+    "ID": 48,
+    "Value": "ゲージ 48",
+    "Existence": "IB",
+    "Clues": ""
+  },
+  {
+    "ID": 54,
+    "Value": "ゲージ 54",
+    "Existence": "IB",
+    "Clues": ""
+  },
+  {
+    "ID": 55,
+    "Value": "ゲージ 55",
+    "Existence": "IB",
+    "Clues": ""
+  },
+  {
+    "ID": 56,
+    "Value": "ゲージ 56",
+    "Existence": "IB",
+    "Clues": ""
+  },
+  {
+    "ID": 57,
+    "Value": "ゲージ 57",
+    "Existence": "IB",
+    "Clues": ""
+  },
+  {
+    "ID": 60,
+    "Value": "ゲージ 60",
+    "Existence": "IB",
+    "Clues": ""
+  },
+  {
+    "ID": 61,
+    "Value": "ゲージ 61",
+    "Existence": "IB",
+    "Clues": ""
+  },
+  {
+    "ID": 62,
+    "Value": "ゲージ 62",
+    "Existence": "IB",
+    "Clues": ""
+  },
+  {
+    "ID": 63,
+    "Value": "ゲージ 63",
+    "Existence": "IB",
+    "Clues": ""
+  },
+  {
+    "ID": 64,
+    "Value": "ゲージ 64",
+    "Existence": "IB",
+    "Clues": ""
+  },
+  {
+    "ID": 71,
+    "Value": "ゲージ 71",
+    "Existence": "IB",
+    "Clues": ""
+  },
+  {
+    "ID": 72,
+    "Value": "ゲージ 72",
+    "Existence": "IB",
+    "Clues": ""
+  },
+  {
+    "ID": 73,
+    "Value": "ゲージ 73",
+    "Existence": "IB",
+    "Clues": ""
+  },
+  {
+    "ID": 74,
+    "Value": "ゲージ 74",
+    "Existence": "IB",
+    "Clues": ""
+  },
+  {
+    "ID": 75,
+    "Value": "ゲージ 75",
+    "Existence": "IB",
+    "Clues": ""
+  },
+  {
+    "ID": 76,
+    "Value": "ゲージ 76",
+    "Existence": "IB",
+    "Clues": ""
+  },
+  {
+    "ID": 77,
+    "Value": "ゲージ 77",
+    "Existence": "IB",
+    "Clues": ""
+  },
+  {
+    "ID": 78,
+    "Value": "ゲージ 78",
+    "Existence": "IB",
+    "Clues": ""
+  },
+  {
+    "ID": 79,
+    "Value": "ゲージ 79",
+    "Existence": "IB",
+    "Clues": ""
+  }
 ]

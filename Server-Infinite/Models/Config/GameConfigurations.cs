@@ -7,4 +7,5 @@ public class GameConfigurations
     public uint[]? UpdatedMobileSuits { get; set; } = null;
     public FesConfigurations FesConfigurations { get; set; } = new();
     public TriadConfigurations TriadConfigurations { get; set; } = new();
+    public RouteBattleConfigurations RouteBattleConfigurations { get; set; } = new();
 }

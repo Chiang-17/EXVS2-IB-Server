@@ -1127,4 +1127,37 @@
     <data name="invalid_user_login" xml:space="preserve">
 		<value>登入失敗</value>
 	</data>
+  <data name="player_stats_title" xml:space="preserve">
+    <value>玩家戰績</value>
+  </data>
+  <data name="player_stats_mode" xml:space="preserve">
+    <value>模式</value>
+  </data>
+  <data name="player_stats_offline_solo" xml:space="preserve">
+    <value>店內單人對戰</value>
+  </data>
+  <data name="player_stats_offline_team" xml:space="preserve">
+    <value>店內組隊對戰</value>
+  </data>
+  <data name="player_stats_class_solo" xml:space="preserve">
+    <value>排位單人對戰</value>
+  </data>
+  <data name="player_stats_class_team" xml:space="preserve">
+    <value>排位組隊對戰</value>
+  </data>
+  <data name="player_stats_battle_count" xml:space="preserve">
+    <value>場數</value>
+  </data>
+  <data name="player_stats_win_count" xml:space="preserve">
+    <value>勝場</value>
+  </data>
+  <data name="player_stats_win_rate" xml:space="preserve">
+    <value>勝率</value>
+  </data>
+  <data name="player_stats_mobile_suit_title" xml:space="preserve">
+    <value>各機體戰績</value>
+  </data>
+  <data name="player_stats_load_failed" xml:space="preserve">
+    <value>戰績載入失敗</value>
+  </data>
 </root>

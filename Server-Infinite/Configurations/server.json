@@ -15,10 +15,12 @@
         "SundayType": "UnlimitedExBurst"
       },
       "TriadConfigurations": {
-        "TargetMsList": [72],
+        "TargetMsList": [ 72 ],
         "TimeAttackCourse": 212,
         "HighScoreCourse": 212
-      }
+      },
+      "RouteBattleConfigurations": { "ResetBadgeExpOnChange": false },
+      "NewMobileSuits": [ 330, 331, 332, 333, 334, 335 ]
     }
   }
 }

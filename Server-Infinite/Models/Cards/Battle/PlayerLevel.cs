@@ -29,6 +29,14 @@ public class PlayerLevel : BaseEntity
     [Required] 
     // True = Will be special alert
     public bool LevelMaxDispFlag { get; set; } = false;
+
+    /// <summary>Route battle badge (vsac29 PreLoadCard.MobileUserGroup.badge_id = 13).</summary>
+    [Required]
+    public uint BadgeId { get; set; }
+
+    /// <summary>Route battle badge exp (vsac29 PreLoadCard.MobileUserGroup.badge_exp = 14, sint32, may be negative).</summary>
+    [Required]
+    public int BadgeExp { get; set; }
     
     public virtual CardProfile CardProfile { get; set; } = null!;
 }

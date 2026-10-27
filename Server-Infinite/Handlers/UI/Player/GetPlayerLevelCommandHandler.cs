@@ -37,6 +37,8 @@ public class GetPlayerLevelCommandHandler : IRequestHandler<GetPlayerLevelComman
             PlayerLevel = playerLevel.PlayerLevelId,
             CurrentExp = playerLevel.PlayerExp,
             AbleToStepUpRound = playerLevel.LevelMaxDispFlag,
+            BadgeId = playerLevel.BadgeId,
+            BadgeExp = playerLevel.BadgeExp,
             ExpRequirement = new ExpRequirement()
             {
                 Round1Exp = PlayerLevelExp.Round1Exp,

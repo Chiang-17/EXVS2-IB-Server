@@ -23,8 +23,20 @@
             <MudItem xs="12" sm="3" Class="my-auto">
                 @{
                     var levelImage = $"images/player_level/{CustomizeCardContext.PlayerLevelProfile.RoundLevel}/{CustomizeCardContext.PlayerLevelProfile.PlayerLevel}.webp";
+                    var badgeImage = GetBadgeImage(CustomizeCardContext.PlayerLevelProfile.BadgeId);
                 }
-                <MudImage ObjectPosition="ObjectPosition.Center" Src="@levelImage" Width="150" Fluid="true" ObjectFit="ObjectFit.Cover"/>
+                <div class="d-flex align-center justify-center" style="gap: 8px;">
+                    @if (badgeImage != null)
+                    {
+                        @* Route battle badge: images/Badge/{BadgeId}.webp -> .png -> hidden *@
+                        <img src="@badgeImage" alt="badge @CustomizeCardContext.PlayerLevelProfile.BadgeId"
+                             title="Badge @CustomizeCardContext.PlayerLevelProfile.BadgeId"
+                             style="height: 56px; width: auto; flex: 0 0 auto;"
+                             data-hide-on-error="false"
+                             @onerror="OnBadgeImageError"/>
+                    }
+                    <MudImage ObjectPosition="ObjectPosition.Center" Src="@levelImage" Width="150" Fluid="true" ObjectFit="ObjectFit.Cover"/>
+                </div>
             </MudItem>
             <MudItem xs="12" sm="9" Class="mx-auto my-auto">
                 <MudProgressLinear Rounded="true" Color="Color.Tertiary" Striped="true" Size="Size.Large"
@@ -60,6 +72,29 @@
     
     [Parameter]
     public EventCallback OnChanged { get; set; }
+
+    // Badge image fallback: 0 = .webp, 1 = .png, 2 = no image (hidden).
+    private static readonly string[] BadgeImageExtensions = { "webp", "png" };
+    private uint _badgeIdForImage;
+    private int _badgeImageStep;
+
+    private string? GetBadgeImage(uint badgeId)
+    {
+        if (badgeId != _badgeIdForImage)
+        {
+            _badgeIdForImage = badgeId;
+            _badgeImageStep = 0;
+        }
+
+        return _badgeImageStep < BadgeImageExtensions.Length
+            ? $"images/Badge/{badgeId}.{BadgeImageExtensions[_badgeImageStep]}"
+            : null;
+    }
+
+    private void OnBadgeImageError()
+    {
+        _badgeImageStep++;
+    }
 
     private uint GetTargetExp(PlayerLevelProfile playerLevelProfile)
     {

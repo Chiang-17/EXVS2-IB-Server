@@ -1,4 +1,4 @@
-﻿@page "/Cards/SingularCardMenu/{ChipId}"
+@page "/Cards/SingularCardMenu/{ChipId}"
 
 @inject ISnackbar Snackbar
 @inject NavigationManager NavManager
@@ -34,4 +34,14 @@
         </MudGrid>
     </MudItem>
     <MudItem xs="2" Class="my-auto"></MudItem>
+</MudGrid>
+
+<MudGrid Class="mb-8">
+    <MudItem xs="2"></MudItem>
+    <MudItem xs="8">
+        <WebUIInfinite.Client.Pages.Components.Statistics.PlayerStatisticsComponent
+            AccessCode="@AccessCode"
+            ChipId="@ChipId"/>
+    </MudItem>
+    <MudItem xs="2"></MudItem>
 </MudGrid>

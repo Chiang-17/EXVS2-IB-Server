@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "Id": 0,
     "Value": "None",
@@ -2208,6 +2208,36 @@
     "Category": ""
   },
   {
+    "Id": 378,
+    "Value": "IBパスvol.3_ガンダムＷ",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 379,
+    "Value": "IBパスvol.4_1",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 380,
+    "Value": "IBパスvol.4_2",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 381,
+    "Value": "IBパスvol.5_1",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 382,
+    "Value": "IBパスvol.5_2",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
     "Id": 391,
     "Value": "EXTREMEクラスGrade∞",
     "Existence": "IB",
@@ -2244,8 +2274,80 @@
     "Category": ""
   },
   {
+    "Id": 397,
+    "Value": "EXTREMEクラス GRADE∞到達_vol.3",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 398,
+    "Value": "EXTREMEクラス GRADE5 到達_vol.3",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 399,
+    "Value": "EXTREMEクラス 到達_vol.3",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 400,
+    "Value": "EXTREMEクラス GRADE∞到達_vol.4",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 401,
+    "Value": "EXTREMEクラス GRADE5 到達_vol.4",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 402,
+    "Value": "EXTREMEクラス 到達_vol.4",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 403,
+    "Value": "EXTREMEクラス GRADE∞到達_vol.5",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 404,
+    "Value": "EXTREMEクラス GRADE5 到達_vol.5",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 405,
+    "Value": "EXTREMEクラス 到達_vol.5",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
     "Id": 421,
     "Value": "1機体で機体熟練度★LEGEND",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 422,
+    "Value": "GGGP×RAGE　優勝",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 423,
+    "Value": "GGGP×RAGE　準優勝",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 424,
+    "Value": "GGGP×RAGE　3位",
     "Existence": "IB",
     "Category": ""
   },
@@ -2258,6 +2360,108 @@
   {
     "Id": 426,
     "Value": "GGGP2024　優勝イラスト",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 427,
+    "Value": "GGGP×RAGE INVITATION部門 【Crazy Raccoon】",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 428,
+    "Value": "GGGP×RAGE INVITATION部門 【DetonatioN FocusMe】",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 429,
+    "Value": "GGGP×RAGE INVITATION部門 【ZETA DIVISION】",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 430,
+    "Value": "GGGP×RAGE INVITATION部門 【REJECT】",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 431,
+    "Value": "EXVS.2 IB TOKYO Showdown ウォームアップマッチ報酬",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 432,
+    "Value": "TOKYO Showdown 優勝",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 433,
+    "Value": "TOKYO Showdown 準優勝",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 434,
+    "Value": "TOKYO Showdown 本戦出場",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 435,
+    "Value": "マルイポップアップストア購入者特典",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 436,
+    "Value": "EVO JAPAN 2026 優勝",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 437,
+    "Value": "EVO JAPAN 2026 準優勝",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 438,
+    "Value": "EVO JAPAN 2026 本戦出場",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 439,
+    "Value": "エクストリームファン投票_ダブルオークアンタ フルセイバー",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 440,
+    "Value": "エクストリームファン投票_GQuuuuuuX",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 441,
+    "Value": "エクストリームファン投票_ガンダムエクシア",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 442,
+    "Value": "エクストリームファン投票_イフリート改",
+    "Existence": "IB",
+    "Category": ""
+  },
+  {
+    "Id": 443,
+    "Value": "EVO JAPAN 2026 来場者プレゼント",
     "Existence": "IB",
     "Category": ""
   }

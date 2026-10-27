@@ -42,7 +42,9 @@ public class LoadGameDataQueryHandler : IRequestHandler<LoadGameDataQuery, Respo
             new TriadCourseCommand(),
             new TriadWantedDataCommand(_config),
             new FesDataCommand(_config),
-            new FreeMatchDataCommand()
+            new FreeMatchDataCommand(),
+            // Route battle / badge parameters (LoadGameData 21-36, 38) and Fes playable dates.
+            new RouteBattleSettingCommand(_config)
         };
         
         loadGameDataCommands.ForEach(command => command.Fill(loadGameData));

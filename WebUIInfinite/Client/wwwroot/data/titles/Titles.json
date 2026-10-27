@@ -3,8 +3,7 @@
     "Id": 0,
     "Value": "None",
     "Existence": "VS2"
-  }
-  ,
+  },
   {
     "Id": 1,
     "Value": "VSTG PROJECT (Black)",
@@ -5807,7 +5806,7 @@
     "Value": "GNソードⅡブラスター",
     "Existence": "VS2",
     "Category": "機体別称号",
-    "Clues": "ダブルオーガンダム セブンソード\/G",
+    "Clues": "ダブルオーガンダム セブンソード/G",
     "Clues2": "EXVS.2 ~ EXVS.2OBで 機体熟練度★5だった称号"
   },
   {
@@ -5815,7 +5814,7 @@
     "Value": "二つ付き",
     "Existence": "VS2",
     "Category": "機体別称号",
-    "Clues": "ダブルオーガンダム セブンソード\/G",
+    "Clues": "ダブルオーガンダム セブンソード/G",
     "Clues2": "★3"
   },
   {
@@ -5823,7 +5822,7 @@
     "Value": "革新者の剣",
     "Existence": "VS2",
     "Category": "機体別称号",
-    "Clues": "ダブルオーガンダム セブンソード\/G",
+    "Clues": "ダブルオーガンダム セブンソード/G",
     "Clues2": "★15"
   },
   {
@@ -5831,7 +5830,7 @@
     "Value": "七本の剣",
     "Existence": "VS2",
     "Category": "機体別称号",
-    "Clues": "ダブルオーガンダム セブンソード\/G",
+    "Clues": "ダブルオーガンダム セブンソード/G",
     "Clues2": "★20"
   },
   {
@@ -5839,7 +5838,7 @@
     "Value": "進化したセブンソード",
     "Existence": "VS2",
     "Category": "機体別称号",
-    "Clues": "ダブルオーガンダム セブンソード\/G",
+    "Clues": "ダブルオーガンダム セブンソード/G",
     "Clues2": "★MASTER"
   },
   {
@@ -5847,7 +5846,7 @@
     "Value": "合体不可",
     "Existence": "VS2",
     "Category": "機体別称号",
-    "Clues": "ダブルオーガンダム セブンソード\/G",
+    "Clues": "ダブルオーガンダム セブンソード/G",
     "Clues2": "Lv.15&30"
   },
   {
@@ -5897,7 +5896,7 @@
     "Category": "機体別称号",
     "Clues": "ティエレンタオツー",
     "Clues2": "Lv.15&30"
-  }, 
+  },
   {
     "Id": 745,
     "Value": "先制の一",
@@ -17906,7 +17905,7 @@
     "Category": "",
     "Clues": "",
     "Clues2": ""
-  }, 
+  },
   {
     "Id": 2274,
     "Value": "ついて来い",
@@ -18076,6 +18075,55 @@
     "Clues": "stage:90"
   },
   {
+    "Id": 2296,
+    "Value": "IBパスvol.3_1",
+    "Existence": "IB",
+    "Category": "",
+    "Clues": ""
+  },
+  {
+    "Id": 2297,
+    "Value": "IBパスvol.3_2",
+    "Existence": "IB",
+    "Category": "",
+    "Clues": ""
+  },
+  {
+    "Id": 2298,
+    "Value": "IBパスvol.3_3",
+    "Existence": "IB",
+    "Category": "",
+    "Clues": ""
+  },
+  {
+    "Id": 2299,
+    "Value": "IBパスvol.4_1",
+    "Existence": "IB",
+    "Category": "",
+    "Clues": ""
+  },
+  {
+    "Id": 2300,
+    "Value": "IBパスvol.4_2",
+    "Existence": "IB",
+    "Category": "",
+    "Clues": ""
+  },
+  {
+    "Id": 2301,
+    "Value": "IBパス枠14",
+    "Existence": "IB",
+    "Category": "",
+    "Clues": ""
+  },
+  {
+    "Id": 2302,
+    "Value": "IBパス枠15",
+    "Existence": "IB",
+    "Category": "",
+    "Clues": ""
+  },
+  {
     "Id": 2318,
     "Value": "覇王再臨",
     "Existence": "IB",
@@ -18090,6 +18138,27 @@
     "Clues": "ルートバトルランキング20位以内"
   },
   {
+    "Id": 2320,
+    "Value": "EXTREMEランキング ソロ/チーム20以内入賞vol.3",
+    "Existence": "IB",
+    "Category": "",
+    "Clues": ""
+  },
+  {
+    "Id": 2321,
+    "Value": "EXTREMEランキング ソロ/チーム20以内入賞vol.4",
+    "Existence": "IB",
+    "Category": "",
+    "Clues": ""
+  },
+  {
+    "Id": 2322,
+    "Value": "EXTREMEランキング ソロ/チーム20以内入賞vol.5",
+    "Existence": "IB",
+    "Category": "",
+    "Clues": ""
+  },
+  {
     "Id": 2328,
     "Value": "全能へ至る道",
     "Existence": "IB",
@@ -18102,6 +18171,27 @@
     "Existence": "IB",
     "Category": "シーズンミッション",
     "Clues": "ルートバトルランキング20位以内"
+  },
+  {
+    "Id": 2330,
+    "Value": "VS.ルートバトルランキング　20位以内vol.3",
+    "Existence": "IB",
+    "Category": "",
+    "Clues": ""
+  },
+  {
+    "Id": 2331,
+    "Value": "VS.ルートバトルランキング　20位以内vol.4",
+    "Existence": "IB",
+    "Category": "",
+    "Clues": ""
+  },
+  {
+    "Id": 2332,
+    "Value": "VS.ルートバトルランキング　20位以内vol.5",
+    "Existence": "IB",
+    "Category": "",
+    "Clues": ""
   },
   {
     "Id": 2338,
@@ -18381,6 +18471,244 @@
     "Clues2": "★MASTER"
   },
   {
+    "Id": 2373,
+    "Value": "オーガスタ研所属",
+    "Existence": "IB",
+    "Category": "",
+    "Clues": ""
+  },
+  {
+    "Id": 2374,
+    "Value": "大推力モビルアーマー",
+    "Existence": "IB",
+    "Category": "",
+    "Clues": ""
+  },
+  {
+    "Id": 2375,
+    "Value": "宇宙が落ちる夢",
+    "Existence": "IB",
+    "Category": "",
+    "Clues": ""
+  },
+  {
+    "Id": 2376,
+    "Value": "私に敵うのか？",
+    "Existence": "IB",
+    "Category": "",
+    "Clues": ""
+  },
+  {
+    "Id": 2377,
+    "Value": "下駄履きとは違うんだよ！",
+    "Existence": "IB",
+    "Category": "",
+    "Clues": ""
+  },
+  {
+    "Id": 2378,
+    "Value": "ORXシリーズ",
+    "Existence": "IB",
+    "Category": "",
+    "Clues": ""
+  },
+  {
+    "Id": 2379,
+    "Value": "チーム[ネメシス]",
+    "Existence": "IB",
+    "Category": "",
+    "Clues": ""
+  },
+  {
+    "Id": 2380,
+    "Value": "フラナ機関の最高傑作",
+    "Existence": "IB",
+    "Category": "",
+    "Clues": ""
+  },
+  {
+    "Id": 2381,
+    "Value": "無敗神話",
+    "Existence": "IB",
+    "Category": "",
+    "Clues": ""
+  },
+  {
+    "Id": 2382,
+    "Value": "きらめく粒子の中で",
+    "Existence": "IB",
+    "Category": "",
+    "Clues": ""
+  },
+  {
+    "Id": 2383,
+    "Value": "第三の才能",
+    "Existence": "IB",
+    "Category": "",
+    "Clues": ""
+  },
+  {
+    "Id": 2384,
+    "Value": "ジャパニーズベントウ",
+    "Existence": "IB",
+    "Category": "",
+    "Clues": ""
+  },
+  {
+    "Id": 2385,
+    "Value": "宇宙って、自由ですか？",
+    "Existence": "IB",
+    "Category": "",
+    "Clues": ""
+  },
+  {
+    "Id": 2386,
+    "Value": "ポメラニアンズ",
+    "Existence": "IB",
+    "Category": "",
+    "Clues": ""
+  },
+  {
+    "Id": 2387,
+    "Value": "可愛いバイトさん",
+    "Existence": "IB",
+    "Category": "",
+    "Clues": ""
+  },
+  {
+    "Id": 2388,
+    "Value": "キラキラ",
+    "Existence": "IB",
+    "Category": "",
+    "Clues": ""
+  },
+  {
+    "Id": 2389,
+    "Value": "マヴになろう！",
+    "Existence": "IB",
+    "Category": "",
+    "Clues": ""
+  },
+  {
+    "Id": 2390,
+    "Value": "Let's get the Beginning.",
+    "Existence": "IB",
+    "Category": "",
+    "Clues": ""
+  },
+  {
+    "Id": 2391,
+    "Value": "自らの意思で晒そう",
+    "Existence": "IB",
+    "Category": "",
+    "Clues": ""
+  },
+  {
+    "Id": 2392,
+    "Value": "熾天使",
+    "Existence": "IB",
+    "Category": "",
+    "Clues": ""
+  },
+  {
+    "Id": 2393,
+    "Value": "僕は人間だ！",
+    "Existence": "IB",
+    "Category": "",
+    "Clues": ""
+  },
+  {
+    "Id": 2394,
+    "Value": "見つけたぞ、世界の歪みを",
+    "Existence": "IB",
+    "Category": "",
+    "Clues": ""
+  },
+  {
+    "Id": 2395,
+    "Value": "共に未来を創る存在",
+    "Existence": "IB",
+    "Category": "",
+    "Clues": ""
+  },
+  {
+    "Id": 2396,
+    "Value": "あの頃のまま",
+    "Existence": "IB",
+    "Category": "",
+    "Clues": ""
+  },
+  {
+    "Id": 2397,
+    "Value": "潔い男",
+    "Existence": "IB",
+    "Category": "",
+    "Clues": ""
+  },
+  {
+    "Id": 2398,
+    "Value": "レーン隊",
+    "Existence": "IB",
+    "Category": "",
+    "Clues": ""
+  },
+  {
+    "Id": 2399,
+    "Value": "エクスペリメンタル・モデル",
+    "Existence": "IB",
+    "Category": "",
+    "Clues": ""
+  },
+  {
+    "Id": 2400,
+    "Value": "僕が感じ取ったんだ！",
+    "Existence": "IB",
+    "Category": "",
+    "Clues": ""
+  },
+  {
+    "Id": 2401,
+    "Value": "重なる幻影",
+    "Existence": "IB",
+    "Category": "",
+    "Clues": ""
+  },
+  {
+    "Id": 2402,
+    "Value": "ガンダムモドキめーっ！",
+    "Existence": "IB",
+    "Category": "",
+    "Clues": ""
+  },
+  {
+    "Id": 2403,
+    "Value": "GGGP×RAGE　優勝",
+    "Existence": "IB",
+    "Category": "",
+    "Clues": ""
+  },
+  {
+    "Id": 2404,
+    "Value": "GGGP×RAGE　準優勝",
+    "Existence": "IB",
+    "Category": "",
+    "Clues": ""
+  },
+  {
+    "Id": 2405,
+    "Value": "GGGP×RAGE　3位",
+    "Existence": "IB",
+    "Category": "",
+    "Clues": ""
+  },
+  {
+    "Id": 2406,
+    "Value": "GGGP×RAGE　大会出場",
+    "Existence": "IB",
+    "Category": "",
+    "Clues": ""
+  },
+  {
     "Id": 2407,
     "Value": "GGGP",
     "Existence": "",
@@ -18388,11 +18716,465 @@
     "Clues": "特殊"
   },
   {
+    "Id": 2408,
+    "Value": "GGGP×RAGE　配信視聴特典２（仮）",
+    "Existence": "IB",
+    "Category": "",
+    "Clues": ""
+  },
+  {
     "Id": 2410,
     "Value": "GUNDAM FANCLUB",
     "Existence": "",
     "Category": "ガンダムファンクラブインタビュー記事掲載記念",
     "Clues": "GFC通信2025エクバシリーズ15周年記念プロデューサーインタビューのプロモーションコード入力「GFANCLUB」"
+  },
+  {
+    "Id": 2412,
+    "Value": "どっちを選ぶ？",
+    "Existence": "IB",
+    "Category": "",
+    "Clues": ""
+  },
+  {
+    "Id": 2413,
+    "Value": "双頭",
+    "Existence": "IB",
+    "Category": "",
+    "Clues": ""
+  },
+  {
+    "Id": 2414,
+    "Value": "こっちを選ぶぜ！",
+    "Existence": "IB",
+    "Category": "",
+    "Clues": ""
+  },
+  {
+    "Id": 2415,
+    "Value": "選択の天秤",
+    "Existence": "IB",
+    "Category": "",
+    "Clues": ""
+  },
+  {
+    "Id": 2416,
+    "Value": "デュアルマスター",
+    "Existence": "IB",
+    "Category": "",
+    "Clues": ""
+  },
+  {
+    "Id": 2417,
+    "Value": "正々堂々勝負！",
+    "Existence": "IB",
+    "Category": "",
+    "Clues": ""
+  },
+  {
+    "Id": 2418,
+    "Value": "孤高の戦士",
+    "Existence": "IB",
+    "Category": "",
+    "Clues": ""
+  },
+  {
+    "Id": 2419,
+    "Value": "両雄激突",
+    "Existence": "IB",
+    "Category": "",
+    "Clues": ""
+  },
+  {
+    "Id": 2420,
+    "Value": "1対1の極意",
+    "Existence": "IB",
+    "Category": "",
+    "Clues": ""
+  },
+  {
+    "Id": 2421,
+    "Value": "単騎出撃",
+    "Existence": "IB",
+    "Category": "",
+    "Clues": ""
+  },
+  {
+    "Id": 2422,
+    "Value": "数字こそ正義",
+    "Existence": "IB",
+    "Category": "",
+    "Clues": ""
+  },
+  {
+    "Id": 2423,
+    "Value": "数字で勝負",
+    "Existence": "IB",
+    "Category": "",
+    "Clues": ""
+  },
+  {
+    "Id": 2424,
+    "Value": "オーバースコア",
+    "Existence": "IB",
+    "Category": "",
+    "Clues": ""
+  },
+  {
+    "Id": 2425,
+    "Value": "スコアキング",
+    "Existence": "IB",
+    "Category": "",
+    "Clues": ""
+  },
+  {
+    "Id": 2426,
+    "Value": "稼ぎまくれ！",
+    "Existence": "IB",
+    "Category": "",
+    "Clues": ""
+  },
+  {
+    "Id": 2427,
+    "Value": "攻めるが勝ち",
+    "Existence": "IB",
+    "Category": "",
+    "Clues": ""
+  },
+  {
+    "Id": 2428,
+    "Value": "苛烈な攻め",
+    "Existence": "IB",
+    "Category": "",
+    "Clues": ""
+  },
+  {
+    "Id": 2429,
+    "Value": "攻めの美学",
+    "Existence": "IB",
+    "Category": "",
+    "Clues": ""
+  },
+  {
+    "Id": 2430,
+    "Value": "攻撃特化",
+    "Existence": "IB",
+    "Category": "",
+    "Clues": ""
+  },
+  {
+    "Id": 2431,
+    "Value": "攻めまくれ！",
+    "Existence": "IB",
+    "Category": "",
+    "Clues": ""
+  },
+  {
+    "Id": 2432,
+    "Value": "リベンジ",
+    "Existence": "IB",
+    "Category": "",
+    "Clues": ""
+  },
+  {
+    "Id": 2433,
+    "Value": "死中に活あり",
+    "Existence": "IB",
+    "Category": "",
+    "Clues": ""
+  },
+  {
+    "Id": 2434,
+    "Value": "七転び八起き",
+    "Existence": "IB",
+    "Category": "",
+    "Clues": ""
+  },
+  {
+    "Id": 2435,
+    "Value": "再出撃の鬼",
+    "Existence": "IB",
+    "Category": "",
+    "Clues": ""
+  },
+  {
+    "Id": 2436,
+    "Value": "起死回生の力",
+    "Existence": "IB",
+    "Category": "",
+    "Clues": ""
+  },
+  {
+    "Id": 2437,
+    "Value": "∞",
+    "Existence": "IB",
+    "Category": "",
+    "Clues": ""
+  },
+  {
+    "Id": 2438,
+    "Value": "溜まったら押せ！",
+    "Existence": "IB",
+    "Category": "",
+    "Clues": ""
+  },
+  {
+    "Id": 2439,
+    "Value": "無尽蔵の力",
+    "Existence": "IB",
+    "Category": "",
+    "Clues": ""
+  },
+  {
+    "Id": 2440,
+    "Value": "EXバースト無双",
+    "Existence": "IB",
+    "Category": "",
+    "Clues": ""
+  },
+  {
+    "Id": 2441,
+    "Value": "無限の咆哮",
+    "Existence": "IB",
+    "Category": "",
+    "Clues": ""
+  },
+  {
+    "Id": 2442,
+    "Value": "雨が降ろうと弾が降ろうと",
+    "Existence": "IB",
+    "Category": "",
+    "Clues": ""
+  },
+  {
+    "Id": 2443,
+    "Value": "撃ちまくり",
+    "Existence": "IB",
+    "Category": "",
+    "Clues": ""
+  },
+  {
+    "Id": 2444,
+    "Value": "砲台",
+    "Existence": "IB",
+    "Category": "",
+    "Clues": ""
+  },
+  {
+    "Id": 2445,
+    "Value": "射撃特化",
+    "Existence": "IB",
+    "Category": "",
+    "Clues": ""
+  },
+  {
+    "Id": 2446,
+    "Value": "shooooooting",
+    "Existence": "IB",
+    "Category": "",
+    "Clues": ""
+  },
+  {
+    "Id": 2447,
+    "Value": "フルパワー！",
+    "Existence": "IB",
+    "Category": "",
+    "Clues": ""
+  },
+  {
+    "Id": 2448,
+    "Value": "最初から全開！",
+    "Existence": "IB",
+    "Category": "",
+    "Clues": ""
+  },
+  {
+    "Id": 2449,
+    "Value": "孤影の猛者",
+    "Existence": "IB",
+    "Category": "",
+    "Clues": ""
+  },
+  {
+    "Id": 2450,
+    "Value": "限界突破",
+    "Existence": "IB",
+    "Category": "",
+    "Clues": ""
+  },
+  {
+    "Id": 2451,
+    "Value": "エターナルバースト",
+    "Existence": "IB",
+    "Category": "",
+    "Clues": ""
+  },
+  {
+    "Id": 2452,
+    "Value": "STANDBY",
+    "Existence": "IB",
+    "Category": "",
+    "Clues": ""
+  },
+  {
+    "Id": 2453,
+    "Value": "OVER LIMIT",
+    "Existence": "IB",
+    "Category": "",
+    "Clues": ""
+  },
+  {
+    "Id": 2454,
+    "Value": "逆転の一手",
+    "Existence": "IB",
+    "Category": "",
+    "Clues": ""
+  },
+  {
+    "Id": 2455,
+    "Value": "極限状態",
+    "Existence": "IB",
+    "Category": "",
+    "Clues": ""
+  },
+  {
+    "Id": 2456,
+    "Value": "打ち破れ！",
+    "Existence": "IB",
+    "Category": "",
+    "Clues": ""
+  },
+  {
+    "Id": 2457,
+    "Value": "RAGE大会参加賞",
+    "Existence": "IB",
+    "Category": "",
+    "Clues": ""
+  },
+  {
+    "Id": 2458,
+    "Value": "RAGEサポーター",
+    "Existence": "IB",
+    "Category": "",
+    "Clues": ""
+  },
+  {
+    "Id": 2459,
+    "Value": "リンクスタート",
+    "Existence": "IB",
+    "Category": "",
+    "Clues": ""
+  },
+  {
+    "Id": 2460,
+    "Value": "集いし仲間たち",
+    "Existence": "IB",
+    "Category": "",
+    "Clues": ""
+  },
+  {
+    "Id": 2461,
+    "Value": "フタツメ",
+    "Existence": "IB",
+    "Category": "",
+    "Clues": ""
+  },
+  {
+    "Id": 2462,
+    "Value": "ELダイバー",
+    "Existence": "IB",
+    "Category": "",
+    "Clues": ""
+  },
+  {
+    "Id": 2463,
+    "Value": "私の使命",
+    "Existence": "IB",
+    "Category": "",
+    "Clues": ""
+  },
+  {
+    "Id": 2464,
+    "Value": "引き継がれるもの",
+    "Existence": "IB",
+    "Category": "",
+    "Clues": ""
+  },
+  {
+    "Id": 2465,
+    "Value": "一撃離脱 ELダイバーメイ",
+    "Existence": "IB",
+    "Category": "",
+    "Clues": ""
+  },
+  {
+    "Id": 2466,
+    "Value": "想いのカタチ",
+    "Existence": "IB",
+    "Category": "",
+    "Clues": ""
+  },
+  {
+    "Id": 2473,
+    "Value": "TOKYO Showdown 優勝",
+    "Existence": "IB",
+    "Category": "",
+    "Clues": ""
+  },
+  {
+    "Id": 2474,
+    "Value": "TOKYO Showdown 準優勝",
+    "Existence": "IB",
+    "Category": "",
+    "Clues": ""
+  },
+  {
+    "Id": 2475,
+    "Value": "TOKYO Showdown 本戦出場",
+    "Existence": "IB",
+    "Category": "",
+    "Clues": ""
+  },
+  {
+    "Id": 2476,
+    "Value": "鉄血10周年記念",
+    "Existence": "IB",
+    "Category": "",
+    "Clues": ""
+  },
+  {
+    "Id": 2477,
+    "Value": "EVO JAPAN 2026 優勝",
+    "Existence": "IB",
+    "Category": "",
+    "Clues": ""
+  },
+  {
+    "Id": 2478,
+    "Value": "EVO JAPAN 2026 準優勝",
+    "Existence": "IB",
+    "Category": "",
+    "Clues": ""
+  },
+  {
+    "Id": 2479,
+    "Value": "EVO JAPAN 2026 本戦出場",
+    "Existence": "IB",
+    "Category": "",
+    "Clues": ""
+  },
+  {
+    "Id": 2504,
+    "Value": "楽しんだもん勝ち",
+    "Existence": "IB",
+    "Category": "",
+    "Clues": ""
+  },
+  {
+    "Id": 2505,
+    "Value": "ゴールデンコンビ",
+    "Existence": "IB",
+    "Category": "",
+    "Clues": ""
   }
-   
 ]

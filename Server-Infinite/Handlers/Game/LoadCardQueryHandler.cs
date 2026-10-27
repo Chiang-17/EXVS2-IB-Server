@@ -72,6 +72,7 @@ public class LoadCardQueryHandler : IRequestHandler<LoadCardQuery, Response>
             new SoloClassMatchCommand(_context),
             new TeamClassMatchCommand(_context),
             new LicenseScoreCommand(_context),
+            new RouteBattleHighScoreCommand(_context),
             new AppendTeamCommand(playerLeaderTeamAppendStrategy),
             new AppendTeamCommand(playerPartnerTeamAppendStrategy)
         };
@@ -109,7 +110,8 @@ public class LoadCardQueryHandler : IRequestHandler<LoadCardQuery, Response>
             new DefaultStickerCommand(_context, pilotTrackerProcessor),
             new MobileSuitStickerCommand(_context, msTrackerProcessor),
             new QuickTagCommand(_context),
-            new LoadQuickStartInfoCommand(_context)
+            new LoadQuickStartInfoCommand(_context),
+            new LoadStageSaveDataCommand(_context)
         };
         
         mobileUserCommands.ForEach(command => command.Fill(cardProfile, mobileUserGroup));

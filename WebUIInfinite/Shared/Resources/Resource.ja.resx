@@ -1083,4 +1083,37 @@
   <data name="invalid_user_login" xml:space="preserve">
     <value>Login Failed!</value>
   </data>
+  <data name="player_stats_title" xml:space="preserve">
+    <value>プレイヤー戦績</value>
+  </data>
+  <data name="player_stats_mode" xml:space="preserve">
+    <value>モード</value>
+  </data>
+  <data name="player_stats_offline_solo" xml:space="preserve">
+    <value>店内シングル戦</value>
+  </data>
+  <data name="player_stats_offline_team" xml:space="preserve">
+    <value>店内チーム戦</value>
+  </data>
+  <data name="player_stats_class_solo" xml:space="preserve">
+    <value>ランクマッチ シングル</value>
+  </data>
+  <data name="player_stats_class_team" xml:space="preserve">
+    <value>ランクマッチ チーム</value>
+  </data>
+  <data name="player_stats_battle_count" xml:space="preserve">
+    <value>対戦数</value>
+  </data>
+  <data name="player_stats_win_count" xml:space="preserve">
+    <value>勝利数</value>
+  </data>
+  <data name="player_stats_win_rate" xml:space="preserve">
+    <value>勝率</value>
+  </data>
+  <data name="player_stats_mobile_suit_title" xml:space="preserve">
+    <value>機体戦績</value>
+  </data>
+  <data name="player_stats_load_failed" xml:space="preserve">
+    <value>戦績の読み込みに失敗しました</value>
+  </data>
 </root>

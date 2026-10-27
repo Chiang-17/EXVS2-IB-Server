@@ -67,6 +67,10 @@ namespace ServerInfinite.Persistence
         public DbSet<QuickStartSetting> QuickStartSettingDbSet { get; set; }
         public DbSet<TeamSetting> TeamSettingDbSet { get; set; }
         
+        // Route Battle Domain (vsac29)
+        public DbSet<StageSaveData> StageSaveDataDbSet { get; set; }
+        public DbSet<RouteBattleHighScore> RouteBattleHighScoreDbSet { get; set; }
+        
         // Message Domain
         public DbSet<MessageSetting> MessageSettingDbSet { get; set; }
         public DbSet<OpeningMessage> OpeningMessageDbSet { get; set; }

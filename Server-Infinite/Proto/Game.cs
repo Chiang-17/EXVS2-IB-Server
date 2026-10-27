@@ -1694,8 +1694,9 @@ namespace nue.protocol.exvs
                 [global::ProtoBuf.ProtoMember(18, Name = @"player_level_id", IsRequired = true)]
                 public uint PlayerLevelId { get; set; }
 
-                [global::ProtoBuf.ProtoMember(19, Name = @"prestige_id", IsRequired = true)]
-                public uint PrestigeId { get; set; }
+                // Tag 19 is `badge_id` in the vsac29 schema (was prestige_id).
+                [global::ProtoBuf.ProtoMember(19, Name = @"badge_id", IsRequired = true)]
+                public uint BadgeId { get; set; }
 
                 [global::ProtoBuf.ProtoMember(20, Name = @"level_exp", IsRequired = true)]
                 public uint LevelExp { get; set; }
@@ -1865,8 +1866,9 @@ namespace nue.protocol.exvs
                 public void ResetSleepSec() => __pbn__SleepSec = null;
                 private uint? __pbn__SleepSec;
 
-                [global::ProtoBuf.ProtoMember(69, Name = @"obtained_score", DataFormat = global::ProtoBuf.DataFormat.ZigZag, IsRequired = true)]
-                public int ObtainedScore { get; set; }
+                // Tag 69 is `obtained_badge_point` in the vsac29 schema (was obtained_score).
+                [global::ProtoBuf.ProtoMember(69, Name = @"obtained_badge_point", DataFormat = global::ProtoBuf.DataFormat.ZigZag, IsRequired = true)]
+                public int ObtainedBadgePoint { get; set; }
 
                 [global::ProtoBuf.ProtoContract()]
                 public partial class ClassMatchResult : global::ProtoBuf.IExtensible
@@ -2024,6 +2026,12 @@ namespace nue.protocol.exvs
 
                 [global::ProtoBuf.ProtoMember(25, Name = @"obtained_badge_point", DataFormat = global::ProtoBuf.DataFormat.ZigZag, IsRequired = true)]
                 public int ObtainedBadgePoint { get; set; }
+
+                [global::ProtoBuf.ProtoMember(26, Name = @"one_on_one_flag")]
+                public bool OneOnOneFlag { get; set; }
+
+                [global::ProtoBuf.ProtoMember(27, Name = @"battle_option")]
+                public uint[] BattleOptions { get; set; }
 
                 // Legacy EXVS2 server fields (tags 50+); not sent by the current client.
 
@@ -3509,8 +3517,9 @@ namespace nue.protocol.exvs
             [global::ProtoBuf.ProtoMember(5, Name = @"player_level_id", IsRequired = true)]
             public uint PlayerLevelId { get; set; }
 
-            [global::ProtoBuf.ProtoMember(6, Name = @"prestige_id", IsRequired = true)]
-            public uint PrestigeId { get; set; }
+            // Tag 6 is `badge_id` in the vsac29 schema (was prestige_id).
+            [global::ProtoBuf.ProtoMember(6, Name = @"badge_id", IsRequired = true)]
+            public uint BadgeId { get; set; }
 
             [global::ProtoBuf.ProtoMember(7, Name = @"consective_win", IsRequired = true)]
             public uint ConsectiveWin { get; set; }
@@ -4651,6 +4660,8 @@ namespace nue.protocol.exvs
             global::ProtoBuf.IExtension global::ProtoBuf.IExtensible.GetExtensionObject(bool createIfMissing)
                 => global::ProtoBuf.Extensible.GetExtensionObject(ref __pbn__extensionData, createIfMissing);
 
+            // Field numbers aligned with vsac29 (PROTOBUF_MESSAGE_REVISION 141).
+            // Legacy server-only fields were moved to tags >= 1000 (the game skips them as unknown fields).
             [global::ProtoBuf.ProtoMember(1, Name = @"release_ms_id")]
             public uint[] ReleaseMsIds { get; set; }
 
@@ -4660,100 +4671,100 @@ namespace nue.protocol.exvs
             [global::ProtoBuf.ProtoMember(3, Name = @"displayable_ms_id")]
             public uint[] DisplayableMsIds { get; set; }
 
-            [global::ProtoBuf.ProtoMember(5, Name = @"release_guest_nav_id")]
+            [global::ProtoBuf.ProtoMember(4, Name = @"release_guest_nav_id")]
             public uint[] ReleaseGuestNavIds { get; set; }
 
-            [global::ProtoBuf.ProtoMember(7, Name = @"release_game_rule")]
+            [global::ProtoBuf.ProtoMember(1007, Name = @"release_game_rule")]
             public uint[] ReleaseGameRules { get; set; }
 
-            [global::ProtoBuf.ProtoMember(18, IsRequired = true)]
+            [global::ProtoBuf.ProtoMember(5, IsRequired = true)]
             public OnVsInfo on_vs_info { get; set; }
 
-            [global::ProtoBuf.ProtoMember(19, Name = @"update_ms_id")]
+            [global::ProtoBuf.ProtoMember(6, Name = @"update_ms_id")]
             public uint[] UpdateMsIds { get; set; }
 
-            [global::ProtoBuf.ProtoMember(22)]
+            [global::ProtoBuf.ProtoMember(1022)]
             public MedalInfo medal_info { get; set; }
 
-            [global::ProtoBuf.ProtoMember(23, Name = @"release_cpu_course")]
+            [global::ProtoBuf.ProtoMember(1023, Name = @"release_cpu_course")]
             public global::System.Collections.Generic.List<ReleaseCpuCourse> ReleaseCpuCourses { get; } = new global::System.Collections.Generic.List<ReleaseCpuCourse>();
 
-            [global::ProtoBuf.ProtoMember(24, Name = @"release_cpu_scene")]
+            [global::ProtoBuf.ProtoMember(1024, Name = @"release_cpu_scene")]
             public uint[] ReleaseCpuScenes { get; set; }
 
-            [global::ProtoBuf.ProtoMember(25, Name = @"mst_mobile_suit_id")]
+            [global::ProtoBuf.ProtoMember(1025, Name = @"mst_mobile_suit_id")]
             public uint[] MstMobileSuitIds { get; set; }
 
-            [global::ProtoBuf.ProtoMember(27)]
+            [global::ProtoBuf.ProtoMember(7)]
             public WeeklyRankInfo weekly_rank_info { get; set; }
 
-            [global::ProtoBuf.ProtoMember(30, Name = @"training_time_limit", IsRequired = true)]
+            [global::ProtoBuf.ProtoMember(8, Name = @"training_time_limit", IsRequired = true)]
             public uint TrainingTimeLimit { get; set; }
 
-            [global::ProtoBuf.ProtoMember(33, Name = @"newcard_campaign_flag", IsRequired = true)]
+            [global::ProtoBuf.ProtoMember(9, Name = @"newcard_campaign_flag", IsRequired = true)]
             public bool NewcardCampaignFlag { get; set; }
 
-            [global::ProtoBuf.ProtoMember(34, Name = @"free_matching_tables")]
+            [global::ProtoBuf.ProtoMember(10, Name = @"free_matching_tables")]
             public global::System.Collections.Generic.List<FreeMatchingTable> FreeMatchingTables { get; } = new global::System.Collections.Generic.List<FreeMatchingTable>();
 
-            [global::ProtoBuf.ProtoMember(35, Name = @"free_match_rank_tables")]
+            [global::ProtoBuf.ProtoMember(11, Name = @"free_match_rank_tables")]
             public global::System.Collections.Generic.List<FreeMatchingRankTable> FreeMatchRankTables { get; } = new global::System.Collections.Generic.List<FreeMatchingRankTable>();
 
-            [global::ProtoBuf.ProtoMember(36, Name = @"score_display_interval")]
+            [global::ProtoBuf.ProtoMember(12, Name = @"score_display_interval")]
             public uint[] ScoreDisplayIntervals { get; set; }
 
-            [global::ProtoBuf.ProtoMember(37, Name = @"base_win_point", IsRequired = true)]
+            [global::ProtoBuf.ProtoMember(1037, Name = @"base_win_point", IsRequired = true)]
             public uint BaseWinPoint { get; set; }
 
-            [global::ProtoBuf.ProtoMember(38, Name = @"base_lose_point", IsRequired = true)]
+            [global::ProtoBuf.ProtoMember(1038, Name = @"base_lose_point", IsRequired = true)]
             public uint BaseLosePoint { get; set; }
 
-            [global::ProtoBuf.ProtoMember(39, Name = @"win_bonus", IsRequired = true)]
+            [global::ProtoBuf.ProtoMember(1039, Name = @"win_bonus", IsRequired = true)]
             public uint WinBonus { get; set; }
 
-            [global::ProtoBuf.ProtoMember(40, Name = @"win_result_top_bonus", IsRequired = true)]
+            [global::ProtoBuf.ProtoMember(1040, Name = @"win_result_top_bonus", IsRequired = true)]
             public uint WinResultTopBonus { get; set; }
 
-            [global::ProtoBuf.ProtoMember(41, Name = @"lose_result_top_bonus", IsRequired = true)]
+            [global::ProtoBuf.ProtoMember(1041, Name = @"lose_result_top_bonus", IsRequired = true)]
             public uint LoseResultTopBonus { get; set; }
 
-            [global::ProtoBuf.ProtoMember(42, Name = @"player_level_exp_2", IsRequired = true)]
+            [global::ProtoBuf.ProtoMember(1042, Name = @"player_level_exp_2", IsRequired = true)]
             public uint PlayerLevelExp2 { get; set; }
 
-            [global::ProtoBuf.ProtoMember(43, Name = @"player_level_exp_3", DataFormat = global::ProtoBuf.DataFormat.ZigZag, IsRequired = true)]
+            [global::ProtoBuf.ProtoMember(1043, Name = @"player_level_exp_3", DataFormat = global::ProtoBuf.DataFormat.ZigZag, IsRequired = true)]
             public int PlayerLevelExp3 { get; set; }
 
-            [global::ProtoBuf.ProtoMember(44, Name = @"wanted_attack_level", IsRequired = true)]
+            [global::ProtoBuf.ProtoMember(1044, Name = @"wanted_attack_level", IsRequired = true)]
             public uint WantedAttackLevel { get; set; }
 
-            [global::ProtoBuf.ProtoMember(45, Name = @"wanted_ps_attack_level", IsRequired = true)]
+            [global::ProtoBuf.ProtoMember(1045, Name = @"wanted_ps_attack_level", IsRequired = true)]
             public uint WantedPsAttackLevel { get; set; }
 
-            [global::ProtoBuf.ProtoMember(46, Name = @"wanted_ps_defence_level", IsRequired = true)]
+            [global::ProtoBuf.ProtoMember(1046, Name = @"wanted_ps_defence_level", IsRequired = true)]
             public uint WantedPsDefenceLevel { get; set; }
 
-            [global::ProtoBuf.ProtoMember(47, Name = @"wanted_down_level", IsRequired = true)]
+            [global::ProtoBuf.ProtoMember(1047, Name = @"wanted_down_level", IsRequired = true)]
             public uint WantedDownLevel { get; set; }
 
-            [global::ProtoBuf.ProtoMember(48, Name = @"fes_setting")]
+            [global::ProtoBuf.ProtoMember(13, Name = @"fes_setting")]
             public XrossFesSetting FesSetting { get; set; }
 
-            [global::ProtoBuf.ProtoMember(49, Name = @"load_game_data_ver", IsRequired = true)]
+            [global::ProtoBuf.ProtoMember(14, Name = @"load_game_data_ver", IsRequired = true)]
             public uint LoadGameDataVer { get; set; }
 
-            [global::ProtoBuf.ProtoMember(50, IsRequired = true)]
+            [global::ProtoBuf.ProtoMember(15, IsRequired = true)]
             public ScoreBattlePoint score_battle_point { get; set; }
 
-            [global::ProtoBuf.ProtoMember(51, IsRequired = true)]
+            [global::ProtoBuf.ProtoMember(16, IsRequired = true)]
             public AttackScoreSetting attack_score_setting { get; set; }
 
-            [global::ProtoBuf.ProtoMember(52, Name = @"gp_boost_setting")]
+            [global::ProtoBuf.ProtoMember(1052, Name = @"gp_boost_setting")]
             public GpBoostEvent GpBoostSetting { get; set; }
 
-            [global::ProtoBuf.ProtoMember(53, Name = @"player_point_bonus_setting")]
+            [global::ProtoBuf.ProtoMember(18, Name = @"player_point_bonus_setting")]
             public PlayerPointBonusEvent PlayerPointBonusSetting { get; set; }
 
-            [global::ProtoBuf.ProtoMember(54, Name = @"ob_pass_bonus_gp")]
+            [global::ProtoBuf.ProtoMember(1054, Name = @"ob_pass_bonus_gp")]
             public uint ObPassBonusGp
             {
                 get => __pbn__ObPassBonusGp.GetValueOrDefault();
@@ -4763,14 +4774,67 @@ namespace nue.protocol.exvs
             public void ResetObPassBonusGp() => __pbn__ObPassBonusGp = null;
             private uint? __pbn__ObPassBonusGp;
 
-            [global::ProtoBuf.ProtoMember(55, Name = @"player_level_exp_4", IsRequired = true)]
+            [global::ProtoBuf.ProtoMember(1055, Name = @"player_level_exp_4", IsRequired = true)]
             public uint PlayerLevelExp4 { get; set; }
 
-            [global::ProtoBuf.ProtoMember(56, Name = @"p_level_bonus_rate", IsRequired = true)]
+            [global::ProtoBuf.ProtoMember(1056, Name = @"p_level_bonus_rate", IsRequired = true)]
             public float PLevelBonusRate { get; set; }
 
-            [global::ProtoBuf.ProtoMember(57, Name = @"mobile_suit_blocklist")]
+            [global::ProtoBuf.ProtoMember(20, Name = @"mobile_suit_blocklist")]
             public uint[] MobileSuitBlocklists { get; set; }
+
+            // ---- Route battle / badge parameters (vsac29, PROTOBUF_MESSAGE_REVISION 141) ----
+
+            [global::ProtoBuf.ProtoMember(21, Name = @"vs_player_level_point", IsRequired = true)]
+            public uint VsPlayerLevelPoint { get; set; }
+
+            [global::ProtoBuf.ProtoMember(22, Name = @"cpu_player_level_point", IsRequired = true)]
+            public uint CpuPlayerLevelPoint { get; set; }
+
+            [global::ProtoBuf.ProtoMember(23, Name = @"class_win_badge_point", IsRequired = true)]
+            public uint ClassWinBadgePoint { get; set; }
+
+            [global::ProtoBuf.ProtoMember(24, Name = @"class_lose_badge_point", DataFormat = global::ProtoBuf.DataFormat.ZigZag, IsRequired = true)]
+            public int ClassLoseBadgePoint { get; set; }
+
+            [global::ProtoBuf.ProtoMember(25, Name = @"class_win_badge_bonus1", IsRequired = true)]
+            public uint ClassWinBadgeBonus1 { get; set; }
+
+            [global::ProtoBuf.ProtoMember(26, Name = @"class_win_badge_bonus2", DataFormat = global::ProtoBuf.DataFormat.ZigZag, IsRequired = true)]
+            public int ClassWinBadgeBonus2 { get; set; }
+
+            [global::ProtoBuf.ProtoMember(27, Name = @"class_lose_badge_bonus", IsRequired = true)]
+            public uint ClassLoseBadgeBonus { get; set; }
+
+            [global::ProtoBuf.ProtoMember(28, Name = @"root_win_badge_point1", IsRequired = true)]
+            public uint RootWinBadgePoint1 { get; set; }
+
+            [global::ProtoBuf.ProtoMember(29, Name = @"root_win_badge_point2", IsRequired = true)]
+            public uint RootWinBadgePoint2 { get; set; }
+
+            [global::ProtoBuf.ProtoMember(30, Name = @"root_win_badge_point3", IsRequired = true)]
+            public uint RootWinBadgePoint3 { get; set; }
+
+            [global::ProtoBuf.ProtoMember(31, Name = @"root_win_badge_point4", IsRequired = true)]
+            public uint RootWinBadgePoint4 { get; set; }
+
+            [global::ProtoBuf.ProtoMember(32, Name = @"root_lose_badge_point", DataFormat = global::ProtoBuf.DataFormat.ZigZag, IsRequired = true)]
+            public int RootLoseBadgePoint { get; set; }
+
+            [global::ProtoBuf.ProtoMember(33, Name = @"root_difficulty_badge_bonus1", IsRequired = true)]
+            public uint RootDifficultyBadgeBonus1 { get; set; }
+
+            [global::ProtoBuf.ProtoMember(34, Name = @"root_difficulty_badge_bonus2", IsRequired = true)]
+            public uint RootDifficultyBadgeBonus2 { get; set; }
+
+            [global::ProtoBuf.ProtoMember(35, Name = @"root_difficulty_badge_bonus3", IsRequired = true)]
+            public uint RootDifficultyBadgeBonus3 { get; set; }
+
+            [global::ProtoBuf.ProtoMember(36, Name = @"root_pattern_id", IsRequired = true)]
+            public uint RootPatternId { get; set; }
+
+            [global::ProtoBuf.ProtoMember(38, Name = @"gpu_health_check_report_available_flag", IsRequired = true)]
+            public bool GpuHealthCheckReportAvailableFlag { get; set; }
 
             [global::ProtoBuf.ProtoContract()]
             public partial class OnVsInfo : global::ProtoBuf.IExtensible
@@ -4925,6 +4989,12 @@ namespace nue.protocol.exvs
 
                 [global::ProtoBuf.ProtoMember(7, Name = @"mobile_suit_blocklist")]
                 public uint[] MobileSuitBlocklists { get; set; }
+
+                [global::ProtoBuf.ProtoMember(8, Name = @"playable_start_date", IsRequired = true)]
+                public ulong PlayableStartDate { get; set; }
+
+                [global::ProtoBuf.ProtoMember(9, Name = @"playable_end_date", IsRequired = true)]
+                public ulong PlayableEndDate { get; set; }
 
             }
 
@@ -5760,6 +5830,9 @@ namespace nue.protocol.exvs
                 [global::ProtoBuf.ProtoMember(43, Name = @"grade_1_team", IsRequired = true)]
                 public bool Grade1Team { get; set; }
 
+                [global::ProtoBuf.ProtoMember(44, Name = @"top_point_double_num", IsRequired = true)]
+                public uint TopPointDoubleNum { get; set; }
+
             }
 
             [global::ProtoBuf.ProtoContract()]
@@ -6516,6 +6589,9 @@ namespace nue.protocol.exvs
                 public bool ShouldSerializeSupportTicketRemains() => __pbn__SupportTicketRemains != null;
                 public void ResetSupportTicketRemains() => __pbn__SupportTicketRemains = null;
                 private uint? __pbn__SupportTicketRemains;
+
+                [global::ProtoBuf.ProtoMember(47, Name = @"marker_color_id", IsRequired = true)]
+                public int MarkerColorId { get; set; }
 
                 [global::ProtoBuf.ProtoContract()]
                 public partial class CustomizeGroup : global::ProtoBuf.IExtensible

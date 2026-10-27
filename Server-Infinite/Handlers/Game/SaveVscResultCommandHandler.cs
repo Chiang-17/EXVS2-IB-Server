@@ -6,7 +6,9 @@ using ServerInfinite.Commands.SaveBattle;
 using ServerInfinite.Commands.SaveBattle.Common;
 using ServerInfinite.Commands.SaveBattle.Triad;
 using ServerInfinite.Commands.SaveBattle.Triad.Ranking;
+using ServerInfinite.Context.Battle;
 using ServerInfinite.Mapper.Context;
+using ServerInfinite.Models.Cards;
 using ServerInfinite.Models.Config;
 using ServerInfinite.Persistence;
 using WebUIInfinite.Shared.Dto.Enum;
@@ -58,6 +60,12 @@ public class SaveVscResultCommandHandler : IRequestHandler<SaveVscResultCommand,
             battleResultContext.MobileSuitMasteryDomain.MasteryMobileSuitId = playResultGroup.SkillPointMobileSuitId;
 
         battleResultContext.CommonDomain.BattleMode = BattleModeConstant.Triad;
+
+        if (!playResultGroup.ShouldSerializeCourseId())
+        {
+            // vsac29 route battle: no Triad course fields (50+) are sent.
+            return Task.FromResult(SaveRouteBattle(request, cardProfile, playResultGroup, battleResultContext));
+        }
         
         var saveBattleDataCommands = new List<ISaveBattleDataCommand>()
         {
@@ -81,6 +89,7 @@ public class SaveVscResultCommandHandler : IRequestHandler<SaveVscResultCommand,
         
         saveBattleDataCommands.ForEach(command => command.Save(cardProfile, battleResultContext));
 
+        new SaveBadgeCommand(_context, _config, _logger).Save(cardProfile, playResultGroup.ObtainedBadgePoint);
         new SaveQuickStartSettingCommand(_context).Save(cardProfile, playResultGroup.QuickStartInfo);
         
         _context.SaveChanges();
@@ -92,5 +101,41 @@ public class SaveVscResultCommandHandler : IRequestHandler<SaveVscResultCommand,
             Error = Error.Success,
             save_vsc_result = new Response.SaveVscResult()
         });
+    }
+
+    /// <summary>
+    /// Route battle result (vsac29). Saves GP / player level / navi / mastery,
+    /// adds obtained_badge_point (tag 25) to BadgeExp and saves the quick start setting.
+    /// </summary>
+    private Response SaveRouteBattle(SaveVscResultCommand request, CardProfile cardProfile,
+        Request.SaveVscResult.PlayResultGroup result, BattleResultContext battleResultContext)
+    {
+        _logger.LogInformation("SaveVscResult(route) CardId={CardId} stage={Stage} phase={Phase} type={Type} difficulty={Difficulty} win={Win} gauge={Before}->{After} level={LvBefore}->{LvAfter} exp+{Exp} badge_point={Badge} one_on_one={OneOnOne} options=[{Options}]",
+            cardProfile.Id, result.StageNum, result.PhaseNum, result.BattleType, result.Difficulty, result.WinFlag,
+            result.BeforeGauge, result.AfterGauge, result.LevelId, result.PlayerLevelId, result.LevelExp,
+            result.ObtainedBadgePoint, result.OneOnOneFlag, string.Join(",", result.BattleOptions ?? Array.Empty<uint>()));
+
+        var routeBattleCommands = new List<ISaveBattleDataCommand>()
+        {
+            new SaveGpCommand(_context),
+            new SavePlayerLevelCommand(_context),
+            new SaveNaviCommand(_context),
+            new SaveMobileSuitMasteryCommand(_context)
+        };
+
+        routeBattleCommands.ForEach(command => command.Save(cardProfile, battleResultContext));
+
+        new SaveBadgeCommand(_context, _config, _logger).Save(cardProfile, result.ObtainedBadgePoint);
+        new SaveQuickStartSettingCommand(_context).Save(cardProfile, result.QuickStartInfo);
+
+        _context.SaveChanges();
+
+        return new Response
+        {
+            Type = request.Request.Type,
+            RequestId = request.Request.RequestId,
+            Error = Error.Success,
+            save_vsc_result = new Response.SaveVscResult()
+        };
     }
 }

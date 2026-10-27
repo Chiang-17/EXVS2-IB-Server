@@ -101,10 +101,14 @@ public class PreLoadCardQueryHandler : IRequestHandler<PreLoadCardQuery, Respons
         var gamepadSetting = await _context.GamepadSettingDbSet
             .FirstAsync(x => x.CardProfile == cardProfile);
 
+        // Route battle badge (tags 13/14) is stored on the player level row.
+        var badgeLevel = await _context.PlayerLevelDbSet
+            .FirstOrDefaultAsync(x => x.CardProfile == cardProfile);
+
         var mobileUserGroup = new Response.PreLoadCard.MobileUserGroup()
         {
-            BadgeId = 0,
-            BadgeExp = 0,
+            BadgeId = badgeLevel?.BadgeId ?? 0,
+            BadgeExp = badgeLevel?.BadgeExp ?? 0,
             AuthFlag = true,
             GamePadStyle = gamepadSetting.GamePadStyle,
             customize_group = new Response.PreLoadCard.MobileUserGroup.CustomizeGroup()

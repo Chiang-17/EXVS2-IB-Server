@@ -4,6 +4,7 @@ using ServerInfinite.Dtos.Request;
 using ServerInfinite.Handlers.UI.Card;
 using WebUIInfinite.Shared.Dto.Request;
 using WebUIInfinite.Shared.Dto.Response;
+using WebUIInfinite.Shared.Dto.Statistics;
 
 namespace ServerInfinite.Controllers.UI;
 
@@ -55,6 +56,14 @@ public class CardController : BaseController<CardController>
     public async Task<ActionResult<BasicResponse>> UpdateBasicProfile([FromBody] UpdateBasicProfileRequest request)
     {
         var response = await _mediator.Send(new UpdateBasicProfileCommand(request));
+        return response;
+    }
+
+    [HttpGet("statistics/{accessCode}/{chipId}")]
+    [Produces("application/json")]
+    public async Task<ActionResult<PlayerStatisticsDto>> GetStatistics(String accessCode, String chipId)
+    {
+        var response = await _mediator.Send(new GetPlayerStatisticsCommand(accessCode, chipId));
         return response;
     }
 }
