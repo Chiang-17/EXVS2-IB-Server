@@ -7,7 +7,7 @@ using ServerInfinite.Constants;
 using ServerInfinite.Context.Tracker;
 using ServerInfinite.Persistence;
 using ServerInfinite.Processor.Tracker;
-using ServerInfinite.Processor.Tracker.Rarity;
+using Microsoft.EntityFrameworkCore;
 using ServerInfinite.Strategy.Team;
 
 namespace ServerInfinite.Handlers.Game;
@@ -18,11 +18,13 @@ public class LoadCardQueryHandler : IRequestHandler<LoadCardQuery, Response>
 {
     private readonly ILogger<LoadCardQueryHandler> _logger;
     private readonly ServerDbContext _context;
+    private readonly ITrackerCatalog _trackerCatalog;
 
-    public LoadCardQueryHandler(ILogger<LoadCardQueryHandler> logger, ServerDbContext context)
+    public LoadCardQueryHandler(ILogger<LoadCardQueryHandler> logger, ServerDbContext context, ITrackerCatalog? trackerCatalog = null)
     {
         _logger = logger;
         _context = context;
+        _trackerCatalog = trackerCatalog ?? TrackerCatalog.FromOutput();
     }
 
     public Task<Response> Handle(LoadCardQuery query, CancellationToken cancellationToken)
@@ -64,6 +66,7 @@ public class LoadCardQueryHandler : IRequestHandler<LoadCardQuery, Response>
             new PilotMobileSuitUsageCommand(_context),
             new TriadMiscInfoCommand(_context),
             new TriadCourseDataCommand(_context),
+            new RouteBattleHighScoreCommand(_context),
             new TriadTimeAttackRankRibbonCommand(_context),
             new TriadHighScoreRankRibbonCommand(_context),
             new TriadTargetDestroyRankRibbonCommand(_context),
@@ -88,14 +91,18 @@ public class LoadCardQueryHandler : IRequestHandler<LoadCardQuery, Response>
             // corresponding subsystems (pcoin economy, player groups) are wired to real data.
             PcoinTicketNum = 0,
             GroupId = 0,
+            MarkerColorId = _context.GeneralSettingDbSet.First(x => x.CardProfile == cardProfile).MarkerColorId,
             online_tag_info = new Response.LoadCard.MobileUserGroup.OnlineTagInfo()
         };
         
         var pilotTrackerContextGenerator = new PilotTrackerContextGenerator(_context);
         var pilotTrackerContext = pilotTrackerContextGenerator.Generate(cardProfile);
-        var rarityProcessor = new OverboostRarityProcessor();
-        var pilotTrackerProcessor = new PilotTrackerProcessor(pilotTrackerContext, rarityProcessor);
-        var msTrackerProcessor = new MobileSuitTrackerProcessor(pilotTrackerProcessor);
+        var titleTrackerResolver = new TitleTrackerResolver(_context, cardProfile);
+        var msStats = _context.MobileSuitPvPStatisticDbSet.AsNoTracking()
+            .Where(x => x.CardId == cardProfile.Id).ToDictionary(x => x.MstMobileSuitId);
+        var msUsage = _context.MobileSuitUsageDbSet.AsNoTracking()
+            .Where(x => x.CardId == cardProfile.Id).ToDictionary(x => x.MstMobileSuitId, x => x.MsUsedNum);
+        var trackers = new StickerTrackerFactory(_trackerCatalog, pilotTrackerContext, titleTrackerResolver, msStats, msUsage);
 
         var mobileUserCommands = new List<ILoadCardMobileUserCommand>()
         {
@@ -106,10 +113,11 @@ public class LoadCardQueryHandler : IRequestHandler<LoadCardQuery, Response>
             new LoadTitleCommand(_context),
             new LoadMessageCommand(_context),
             new OnlinePairCommand(_context),
-            new DefaultStickerCommand(_context, pilotTrackerProcessor),
-            new MobileSuitStickerCommand(_context, msTrackerProcessor),
+            new DefaultStickerCommand(_context, trackers),
+            new MobileSuitStickerCommand(_context, trackers),
             new QuickTagCommand(_context),
-            new LoadQuickStartInfoCommand(_context)
+            new LoadQuickStartInfoCommand(_context),
+            new LoadStageSaveDataCommand(_context)
         };
         
         mobileUserCommands.ForEach(command => command.Fill(cardProfile, mobileUserGroup));

@@ -33,10 +33,10 @@ public class GetPlayerLevelCommandHandler : IRequestHandler<GetPlayerLevelComman
 
         var playerLevelProfile = new PlayerLevelProfile()
         {
-            RoundLevel = playerLevel.PrestigeId,
+            RoundLevel = 0, // Legacy DTO field; rounds are not used by the current client.
             PlayerLevel = playerLevel.PlayerLevelId,
             CurrentExp = playerLevel.PlayerExp,
-            AbleToStepUpRound = playerLevel.LevelMaxDispFlag,
+            AbleToStepUpRound = false,
             ExpRequirement = new ExpRequirement()
             {
                 Round1Exp = PlayerLevelExp.Round1Exp,

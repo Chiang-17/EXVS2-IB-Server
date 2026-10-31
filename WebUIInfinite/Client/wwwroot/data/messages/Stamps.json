@@ -780,7 +780,7 @@
     },
     {
         "ID":  130,
-        "Value":  "マシンの性能差か…！",
+        "Value":  "EXAMの名の下に 葬ってやる",
         "Existence":  "VS2",
         "Clues":  "イフリート改"
     },
@@ -822,7 +822,7 @@
     },
     {
         "ID":  137,
-        "Value":  "失敗作のオレに…相応しい負け方だ",
+        "Value":  "生きている内は負けじゃない!!",
         "Existence":  "VS2",
         "Clues":  "ハイペリオンガンダム"
     },
@@ -858,8 +858,9 @@
     },
     {
         "ID":  143,
-        "Value":  "Dummy",
-        "Existence":  "VS2"
+        "Value":  "ALICE",
+        "Existence":  "VS2",
+        "Clues":  "Ex-Sガンダム"
     },
     {
         "ID":  144,
@@ -2382,6 +2383,12 @@
         "Clues": "特定Lv.到達で獲得PLv.610"
     },
     {
+        "ID": 427,
+        "Value": "極めちまった かもな…",
+        "Existence": "IB",
+        "Clues": "特定Lv.到達で獲得PLv.810"
+    },
+    {
         "ID":  433,
         "Value":  "ミク、いっきまーす！",
         "Existence":  "IB",
@@ -2412,9 +2419,123 @@
         "Clues": "インフィニットブーストパスVol2 stage:30"
     },
     {
+        "ID": 442,
+        "Value": "世間はクリスマスだってのに 働き者はいるもんだ",
+        "Existence": "IB",
+        "Clues": "インフィニットブーストパスVol3 stage:30"
+    },
+    {
+        "ID": 443,
+        "Value": "いつかまた会えるって ガンダムが言ってる",
+        "Existence": "IB",
+        "Clues": "インフィニットブーストパスVol4 stage:30"
+    },
+    {
+        "ID": 444,
+        "Value": "もう少し付き合ってもらうぜ 相棒！！",
+        "Existence": "IB",
+        "Clues": "インフィニットブーストパスVol5 stage:30"
+    },
+    {
         "ID": 450,
         "Value": "気張って行けよ！",
         "Existence": "IB",
         "Clues": "チュアチュリー・パンランチ"
+    },
+    {
+        "Id": 451,
+        "Value": "恩は返さねばなりません",
+        "Existence": "IB",
+        "Clues": "ギャプラン"
+    },
+    {
+        "Id": 452,
+        "Value": "私がどれだけ強いか見せてあげるわ！",
+        "Existence": "IB",
+        "Clues": "キュベレイパピヨン"
+    },
+    {
+        "Id": 453,
+        "Value": "よくわかんないけど、なんかわかった！",
+        "Existence": "IB",
+        "Clues": "GQuuuuuuX"
+    },
+    {
+        "Id": 454,
+        "Value": "切り札はある!!",
+        "Existence": "IB",
+        "Clues": "セラヴィーガンダム"
+    },
+    {
+        "Id": 455,
+        "Value": "大人どもにも…",
+        "Existence": "IB",
+        "Clues": "TX-ff104 アリュゼウス"
+    },
+    {
+        "Id": 456,
+        "Value": "泣きたいなら、好きなだけ泣けばいい…",
+        "Existence": "IB",
+        "Clues": "ウォドムポッド+"
+    },
+    {
+        "Id": 461,
+        "Value": "出発準備よし 進行、出発！",
+        "Existence": "IB",
+        "Clues": "TOKYO Showdown 本戦ライブ配信"
+    },
+    {
+        "Id": 462,
+        "Value": "あともう一戦やりませんか？",
+        "Existence": "IB",
+        "Clues": "参加してアクセスコードを貰う"
+    },
+    {
+        "Id": 463,
+        "Value": "サイス連携",
+        "Existence": "IB",
+        "Clues": "参加してアクセスコードを貰う"
+    },
+    {
+        "Id": 464,
+        "Value": "あけましておめでとうございます！",
+        "Existence": "IB",
+        "Clues": "お年玉キャンペーン"
+    },
+    {
+        "Id": 465,
+        "Value": "本年もよろしくお願いいたします！",
+        "Existence": "IB",
+        "Clues": "お年玉キャンペーン"
+    },
+    {
+        "Id": 466,
+        "Value": "今年もエクバやろうぜ！！",
+        "Existence": "IB",
+        "Clues": "お年玉キャンペーン"
+    },
+    {
+        "Id": 471,
+        "Value": "それでこそ私のライバルだ！",
+        "Existence": "IB",
+        "Clues": "シリーズ15周年記念POP UP EVENT 大阪会場"
+    },
+    {
+        "Id": 472,
+        "Value": "僕らはまた挑むよ",
+        "Existence": "IB",
+        "Clues": "シリーズ15周年記念POP UP EVENT 大阪会場"
+    },
+    {
+        "Id": 474,
+        "Value": "今日は冴えてる",
+        "Existence": "IB",
+        "Clues": "参加してアクセスコードを貰う"
+    },
+    {
+        "Id": 475,
+        "Value": "希望が見えた…！",
+        "Existence": "IB",
+        "Clues": "参加してアクセスコードを貰う"
     }
 ]

@@ -43,10 +43,7 @@ else
                     </HeaderContent>
                     <RowTemplate>
                         @{
-                            var targetExp = GetTargetExp(context);
-                            var playerLevelClass = GetPlayerLevelClass(context);
-
-                            var styleClass = $"player-level {playerLevelClass}";
+                            var targetExp = _playerLevelRankData.ExpRequirement.Round1Exp;
 
                             var totalBattles = context.TotalWin + context.TotalLose;
                             double winRate = 0;
@@ -80,14 +77,18 @@ else
                         <MudTd DataLabel="@localizer["server_player_level_ranks_leaderboard_level"]" Class="cursor-pointer" Style="text-align:center; min-width:80px">
                             <MudItem xs="12" Class="my-auto">
                                 @{
-                                    var levelImage = $"images/player_level/{context.PrestigeId}/{context.PlayerLevelId}.webp";
+                                    var levelImage = $"images/player_level/0/{context.PlayerLevelId}.webp";
                                 }
-                                <MudImage ObjectPosition="ObjectPosition.Center" Src="@levelImage" Width="90" Fluid="true" ObjectFit="ObjectFit.Cover"/>
+                                @if (context.PlayerLevelId is >= 1 and <= 1000)
+                                {
+                                    <MudImage ObjectPosition="ObjectPosition.Center" Src="@levelImage" Width="90" Fluid="true" ObjectFit="ObjectFit.Cover"/>
+                                }
+                                <MudText Align="Align.Center">Lv. @context.PlayerLevelId</MudText>
                             </MudItem>
                         </MudTd>
                         <MudTd DataLabel="@localizer["server_player_level_ranks_leaderboard_level"]" Class="cursor-pointer" Style="text-align:center">
                             <MudProgressLinear Rounded="true" Color="Color.Tertiary" Striped="true" Size="Size.Large"
-                                               Min="0" Max="@targetExp"
+                                               Min="0" Max="@(Math.Max(1u, targetExp))"
                                                Value="@context.PlayerExp" Class="my-2">
                             </MudProgressLinear>
                             <MudText Typo="Typo.subtitle2" Align="Align.Center">

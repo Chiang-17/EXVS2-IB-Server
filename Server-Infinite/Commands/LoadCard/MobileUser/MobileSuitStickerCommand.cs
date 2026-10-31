@@ -1,6 +1,5 @@
 using nue.protocol.exvs;
 using ServerInfinite.Models.Cards;
-using ServerInfinite.Models.Cards.Battle;
 using ServerInfinite.Models.Cards.MobileSuit;
 using ServerInfinite.Persistence;
 using ServerInfinite.Processor.Tracker;
@@ -10,19 +9,16 @@ namespace ServerInfinite.Commands.LoadCard.MobileUser;
 public class MobileSuitStickerCommand : ILoadCardMobileUserCommand
 {
     private readonly ServerDbContext _context;
-    private readonly IStickerTrackerProcessor _mobileSuitStickerTrackerProcessor;
+    private readonly StickerTrackerFactory _trackers;
 
-    public MobileSuitStickerCommand(ServerDbContext context, IStickerTrackerProcessor mobileSuitStickerTrackerProcessor)
+    public MobileSuitStickerCommand(ServerDbContext context, StickerTrackerFactory trackers)
     {
         _context = context;
-        _mobileSuitStickerTrackerProcessor = mobileSuitStickerTrackerProcessor;
+        _trackers = trackers;
     }
 
     public void Fill(CardProfile cardProfile, Response.LoadCard.MobileUserGroup mobileUserGroup)
     {
-        var playerLevel = _context.PlayerLevelDbSet
-            .First(x => x.CardProfile == cardProfile);
-        
         var mobileSuitStickers = _context.MobileSuitStickerDbSet
             .Where(x => x.CardProfile == cardProfile)
             .OrderBy(x => x.MstMobileSuitId)
@@ -44,6 +40,8 @@ public class MobileSuitStickerCommand : ILoadCardMobileUserCommand
             var costumeIds = mobileSuitSticker.PilotImageDispFlag
                 ? Mapper.Card.Sticker.StickerDtoMapping.ParseCsv(mobileSuitSticker.CostumeIds)
                 : new List<uint>();
+            if (mobileSuitSticker.PilotImageDispFlag && mobileSuitSticker.CutinImageUseFlag && costumeIds.Count == 0)
+                costumeIds.Add(0); // Client requires a costume candidate to enable cutin.
 
             var msPlayerSticker = new Response.LoadCard.MobileUserGroup.PlayerSticker()
             {
@@ -57,13 +55,9 @@ public class MobileSuitStickerCommand : ILoadCardMobileUserCommand
                 StickerEffectId = mobileSuitSticker.StickerEffectId,
             };
 
-            AddTracker(msPlayerSticker, mobileSuitSticker.Tracker1,
-                cardProfile, mobileSuitSticker, playerLevel);
-            AddTracker(msPlayerSticker, mobileSuitSticker.Tracker2,
-                cardProfile, mobileSuitSticker, playerLevel);
-            AddTracker(msPlayerSticker, mobileSuitSticker.Tracker3,
-                cardProfile, mobileSuitSticker, playerLevel);
-            
+            foreach (var id in new[] { mobileSuitSticker.Tracker1, mobileSuitSticker.Tracker2, mobileSuitSticker.Tracker3 })
+                if (_trackers.Create(id, mobileSuitSticker.MstMobileSuitId) is { } tracker) msPlayerSticker.Trackers.Add(tracker);
+
             mobileUserGroup.PlayerStickers.Add(msPlayerSticker);
         });
     }
@@ -81,44 +75,4 @@ public class MobileSuitStickerCommand : ILoadCardMobileUserCommand
         return isBlankTracker && isBlankDisplay && isWithoutPose && isWithoutPilotImage;
     }
 
-    void AddTracker(
-        Response.LoadCard.MobileUserGroup.PlayerSticker sticker,
-        uint textId,
-        CardProfile cardProfile,
-        MobileSuitSticker mobileSuitSticker,
-        PlayerLevel playerLevel)
-    {
-        // No tracker selected for this slot: skip entirely (do not add to the Tracker array).
-        if (textId == 0)
-        {
-            return;
-        }
-
-        var tracker = new Response.LoadCard.MobileUserGroup.PlayerSticker.Tracker
-        {
-            TextId = textId,
-            CustomText = string.Empty,
-        };
-
-        // Look up rarity / value from text_id against real MS (falling back to pilot) stats.
-        ProcessMobileSuitTracker(tracker, cardProfile, mobileSuitSticker, playerLevel);
-
-        // tracker type is determined by the text_id's Category (not the value lookup).
-        tracker.Type = Constants.TrackerTypes.ResolveTypeByTextId(textId);
-
-        sticker.Trackers.Add(tracker);
-    }
-
-    void ProcessMobileSuitTracker(Response.LoadCard.MobileUserGroup.PlayerSticker.Tracker tracker, 
-        CardProfile cardProfile, MobileSuitSticker mobileSuitSticker, PlayerLevel playerLevel)
-    {
-        var mobilePvPStat = _context.MobileSuitPvPStatisticDbSet
-            .FirstOrDefault(x =>
-                x.CardProfile == cardProfile &&
-                x.MstMobileSuitId == mobileSuitSticker.MstMobileSuitId
-            );
-
-        // Pass through (possibly null) MS stat; MobileSuitTrackerProcessor returns early when null.
-        _mobileSuitStickerTrackerProcessor.Process(tracker, mobilePvPStat, playerLevel);
-    }
 }

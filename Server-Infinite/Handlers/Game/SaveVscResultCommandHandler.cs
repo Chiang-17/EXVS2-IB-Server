@@ -67,19 +67,32 @@ public class SaveVscResultCommandHandler : IRequestHandler<SaveVscResultCommand,
             new SaveNaviCommand(_context),
             new SaveMobileSuitMasteryCommand(_context),
             new SaveTeamCommand(_context),
-            // Triad Mode Exclusive Commands
-            new SaveTriadPartnerCommand(_context),
-            new SaveTriadMiscInfoCommand(_context),
-            new SaveTriadCourseScoreCommand(_context),
-            new AddReleaseTriadCourseCommand(_context),
-            // Triad Ranking Commands
-            new SaveTriadRankTargetCommand(_context, currentYear, currentMonth),
-            new SaveTriadRankWantedCommand(_context, currentYear, currentMonth),
-            new SaveTriadRankHighScoreCommand(_context, _config, currentYear, currentMonth),
-            new SaveTriadRankClearTimeCommand(_context, _config, currentYear, currentMonth)
         };
+
+        // The revision 141 request has stage_num/phase_num/battle_type, but
+        // no course_id, scene_seq, course_score or legacy unlock/ranking data.
+        // Do not manufacture a course 0 record from absent legacy fields.
+        // Keep the old path only for explicitly populated internal callers.
+        if (playResultGroup.ShouldSerializeCourseId())
+        {
+            if (playResultGroup.Partner is not null)
+                saveBattleDataCommands.Add(new SaveTriadPartnerCommand(_context));
+
+            saveBattleDataCommands.AddRange(new ISaveBattleDataCommand[]
+            {
+                new SaveTriadMiscInfoCommand(_context),
+                new SaveTriadCourseScoreCommand(_context),
+                new AddReleaseTriadCourseCommand(_context),
+                new SaveTriadRankTargetCommand(_context, currentYear, currentMonth),
+                new SaveTriadRankWantedCommand(_context, currentYear, currentMonth),
+                new SaveTriadRankHighScoreCommand(_context, _config, currentYear, currentMonth),
+                new SaveTriadRankClearTimeCommand(_context, _config, currentYear, currentMonth)
+            });
+        }
         
         saveBattleDataCommands.ForEach(command => command.Save(cardProfile, battleResultContext));
+
+        new SaveBadgeCommand(_context, _config, _logger).Save(cardProfile, playResultGroup.ObtainedBadgePoint);
 
         new SaveQuickStartSettingCommand(_context).Save(cardProfile, playResultGroup.QuickStartInfo);
         

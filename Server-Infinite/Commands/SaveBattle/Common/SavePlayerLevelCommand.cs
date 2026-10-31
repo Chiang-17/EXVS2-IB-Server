@@ -8,8 +8,6 @@ namespace ServerInfinite.Commands.SaveBattle.Common;
 public class SavePlayerLevelCommand : ISaveBattleDataCommand
 {
     private readonly ServerDbContext _context;
-    private const uint NormalMaxLv = 200;
-    private const uint ExMaxLv = 999;
 
     public SavePlayerLevelCommand(ServerDbContext context)
     {
@@ -20,37 +18,13 @@ public class SavePlayerLevelCommand : ISaveBattleDataCommand
     {
         var playerLevelDomain = battleResultContext.PlayerLevelDomain;
         var playerLevelData = _context.PlayerLevelDbSet.First(x => x.CardProfile == cardProfile);
-        var maxLevel = GetMaxLevel(playerLevelData);
-
-        // Skip Processing if LevelIdBefore >= 200 / 999, because EXP can't be further incremented
-        if (playerLevelDomain.LevelIdBefore >= maxLevel)
-        {
-            return;
-        }
-
+        // The current client owns the level value. Do not apply legacy round
+        // offsets, caps, resets, or comparisons against a locally inferred level.
         if (playerLevelDomain.LevelIdBefore == playerLevelDomain.LevelIdAfter)
-        {
             playerLevelData.PlayerExp += playerLevelDomain.ExpIncrement;
-            return;
-        }
-
+        else
+            playerLevelData.PlayerExp = 0;
         playerLevelData.PlayerLevelId = playerLevelDomain.LevelIdAfter;
-        playerLevelData.PlayerExp = 0;
-
-        // If Level After >= 200 and PrestigeId < 3, eligible to increment Prestige ID and reset Player Lv to 1 through Web UI
-        if (playerLevelDomain.LevelIdAfter >= 200 && playerLevelDomain.PrestigeId < 3)
-        {
-            playerLevelData.LevelMaxDispFlag = true;
-        }
-    }
-
-    private uint GetMaxLevel(PlayerLevel playerLevelData)
-    {
-        if (playerLevelData.PrestigeId < 3)
-        {
-            return NormalMaxLv;
-        }
-
-        return ExMaxLv;
+        playerLevelData.LevelMaxDispFlag = false;
     }
 }

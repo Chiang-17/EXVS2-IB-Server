@@ -67,6 +67,12 @@
     <Folder Include="wwwroot\_framework\zh-Hans\" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="..\WebUIInfinite\Client\wwwroot\data\sticker\TrackerTypes.json"
+          Link="wwwroot\data\sticker\TrackerTypes.json" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="Never" />
+    <None Include="..\WebUIInfinite\Client\wwwroot\data\mastery\MobileSuitFamiliarity.json"
+          Link="wwwroot\data\mastery\MobileSuitFamiliarity.json" CopyToOutputDirectory="PreserveNewest" CopyToPublishDirectory="Never" />
+  </ItemGroup>
+  <ItemGroup>
     <ProjectReference Include="..\WebUIInfinite\Client\WebUIInfinite.Client.csproj" />
     <ProjectReference Include="..\WebUIInfinite\Shared\WebUIInfinite.Shared.csproj" />
   </ItemGroup>

@@ -470,6 +470,12 @@ namespace ServerInfinite.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
+                    b.Property<int>("BadgeExp")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<uint>("BadgeId")
+                        .HasColumnType("INTEGER");
+
                     b.Property<int>("CardId")
                         .HasColumnType("INTEGER");
 
@@ -499,6 +505,58 @@ namespace ServerInfinite.Migrations
                     b.HasIndex("Id");
 
                     b.ToTable("exvs2ob_battle_player_level");
+                });
+
+            modelBuilder.Entity("ServerInfinite.Models.Cards.Battle.RouteBattleHighScore", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("CardId")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<uint>("ClearScore1")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<uint>("ClearScore2")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<uint>("ClearScore3")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<uint>("ClearTime1")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<uint>("ClearTime2")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<uint>("ClearTime3")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<DateTime>("CreateTime")
+                        .HasColumnType("TEXT");
+
+                    b.Property<uint>("Difficulty")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<uint>("TotalClearScore")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<uint>("TotalClearTime")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<DateTime>("UpdateTime")
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("Id");
+
+                    b.HasIndex("CardId", "Difficulty")
+                        .IsUnique();
+
+                    b.ToTable("exvs2ob_route_battle_high_score");
                 });
 
             modelBuilder.Entity("ServerInfinite.Models.Cards.Battle.SoloClassMatchRecord", b =>
@@ -1302,10 +1360,13 @@ namespace ServerInfinite.Migrations
 
                     b.Property<uint>("Tracker1")
                         .HasColumnType("INTEGER");
+
                     b.Property<uint>("Tracker2")
                         .HasColumnType("INTEGER");
+
                     b.Property<uint>("Tracker3")
                         .HasColumnType("INTEGER");
+
                     b.Property<DateTime>("UpdateTime")
                         .HasColumnType("TEXT");
 
@@ -1486,12 +1547,18 @@ namespace ServerInfinite.Migrations
                     b.Property<uint>("StickerEffectId")
                         .HasColumnType("INTEGER");
 
+                    b.Property<uint>("SubBackgroundId")
+                        .HasColumnType("INTEGER");
+
                     b.Property<uint>("Tracker1")
                         .HasColumnType("INTEGER");
+
                     b.Property<uint>("Tracker2")
                         .HasColumnType("INTEGER");
+
                     b.Property<uint>("Tracker3")
                         .HasColumnType("INTEGER");
+
                     b.Property<DateTime>("UpdateTime")
                         .HasColumnType("TEXT");
 
@@ -1891,6 +1958,9 @@ namespace ServerInfinite.Migrations
                     b.Property<bool>("FixPositionRadar")
                         .HasColumnType("INTEGER");
 
+                    b.Property<int>("MarkerColorId")
+                        .HasColumnType("INTEGER");
+
                     b.Property<DateTime>("UpdateTime")
                         .HasColumnType("TEXT");
 
@@ -2047,6 +2117,63 @@ namespace ServerInfinite.Migrations
                     b.HasIndex("Id");
 
                     b.ToTable("exvs2ob_quick_start_setting");
+                });
+
+            modelBuilder.Entity("ServerInfinite.Models.Cards.Settings.StageSaveData", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<uint>("BossId1")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<uint?>("BossId2")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("CardId")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<DateTime>("CreateTime")
+                        .HasColumnType("TEXT");
+
+                    b.Property<uint>("CurrentGauge")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("CustomChipIds")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<uint>("Difficulty")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<uint>("MaxGauge")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<uint>("MstMobileSuitId")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<uint>("PatternId")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("SaveDataUrl")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<uint>("StageNum")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<DateTime>("UpdateTime")
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("CardId")
+                        .IsUnique();
+
+                    b.HasIndex("Id");
+
+                    b.ToTable("exvs2ob_stage_save_data");
                 });
 
             modelBuilder.Entity("ServerInfinite.Models.Cards.Settings.TeamSetting", b =>
@@ -2361,6 +2488,88 @@ namespace ServerInfinite.Migrations
                         .IsUnique();
 
                     b.ToTable("exvs2ob_user_default_title");
+                });
+
+            modelBuilder.Entity("ServerInfinite.Models.Cards.Titles.User.UserSubTitle1", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<DateTime>("CreateTime")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("CustomText")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<uint>("TitleBackgroundPartsId")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<uint>("TitleEffectId")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<uint>("TitleOrnamentId")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<uint>("TitleTextId")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<DateTime>("UpdateTime")
+                        .HasColumnType("TEXT");
+
+                    b.Property<int>("UserTitleSettingId")
+                        .HasColumnType("INTEGER");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("Id");
+
+                    b.HasIndex("UserTitleSettingId")
+                        .IsUnique();
+
+                    b.ToTable("exvs2ob_user_sub_title_1");
+                });
+
+            modelBuilder.Entity("ServerInfinite.Models.Cards.Titles.User.UserSubTitle2", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<DateTime>("CreateTime")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("CustomText")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<uint>("TitleBackgroundPartsId")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<uint>("TitleEffectId")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<uint>("TitleOrnamentId")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<uint>("TitleTextId")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<DateTime>("UpdateTime")
+                        .HasColumnType("TEXT");
+
+                    b.Property<int>("UserTitleSettingId")
+                        .HasColumnType("INTEGER");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("Id");
+
+                    b.HasIndex("UserTitleSettingId")
+                        .IsUnique();
+
+                    b.ToTable("exvs2ob_user_sub_title_2");
                 });
 
             modelBuilder.Entity("ServerInfinite.Models.Cards.Titles.User.UserTitleSetting", b =>
@@ -3112,6 +3321,17 @@ namespace ServerInfinite.Migrations
                     b.Navigation("CardProfile");
                 });
 
+            modelBuilder.Entity("ServerInfinite.Models.Cards.Battle.RouteBattleHighScore", b =>
+                {
+                    b.HasOne("ServerInfinite.Models.Cards.CardProfile", "CardProfile")
+                        .WithMany()
+                        .HasForeignKey("CardId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("CardProfile");
+                });
+
             modelBuilder.Entity("ServerInfinite.Models.Cards.Battle.SoloClassMatchRecord", b =>
                 {
                     b.HasOne("ServerInfinite.Models.Cards.CardProfile", "CardProfile")
@@ -3427,6 +3647,17 @@ namespace ServerInfinite.Migrations
                     b.Navigation("CardProfile");
                 });
 
+            modelBuilder.Entity("ServerInfinite.Models.Cards.Settings.StageSaveData", b =>
+                {
+                    b.HasOne("ServerInfinite.Models.Cards.CardProfile", "CardProfile")
+                        .WithOne()
+                        .HasForeignKey("ServerInfinite.Models.Cards.Settings.StageSaveData", "CardId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("CardProfile");
+                });
+
             modelBuilder.Entity("ServerInfinite.Models.Cards.Settings.TeamSetting", b =>
                 {
                     b.HasOne("ServerInfinite.Models.Cards.CardProfile", "CardProfile")
@@ -3506,6 +3737,28 @@ namespace ServerInfinite.Migrations
                     b.HasOne("ServerInfinite.Models.Cards.Titles.User.UserTitleSetting", "UserTitleSetting")
                         .WithOne("UserDefaultTitle")
                         .HasForeignKey("ServerInfinite.Models.Cards.Titles.User.UserDefaultTitle", "UserTitleSettingId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("UserTitleSetting");
+                });
+
+            modelBuilder.Entity("ServerInfinite.Models.Cards.Titles.User.UserSubTitle1", b =>
+                {
+                    b.HasOne("ServerInfinite.Models.Cards.Titles.User.UserTitleSetting", "UserTitleSetting")
+                        .WithOne("UserSubTitle1")
+                        .HasForeignKey("ServerInfinite.Models.Cards.Titles.User.UserSubTitle1", "UserTitleSettingId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("UserTitleSetting");
+                });
+
+            modelBuilder.Entity("ServerInfinite.Models.Cards.Titles.User.UserSubTitle2", b =>
+                {
+                    b.HasOne("ServerInfinite.Models.Cards.Titles.User.UserTitleSetting", "UserTitleSetting")
+                        .WithOne("UserSubTitle2")
+                        .HasForeignKey("ServerInfinite.Models.Cards.Titles.User.UserSubTitle2", "UserTitleSettingId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
@@ -3773,6 +4026,12 @@ namespace ServerInfinite.Migrations
                         .IsRequired();
 
                     b.Navigation("UserDefaultTitle")
+                        .IsRequired();
+
+                    b.Navigation("UserSubTitle1")
+                        .IsRequired();
+
+                    b.Navigation("UserSubTitle2")
                         .IsRequired();
 
                     b.Navigation("UserTriadTitle")

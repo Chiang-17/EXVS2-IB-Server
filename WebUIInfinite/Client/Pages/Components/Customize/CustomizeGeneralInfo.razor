@@ -4,7 +4,6 @@
 @using WebUIInfinite.Client.Constants
 @using WebUIInfinite.Client.Pages.Dialogs
 @using WebUIInfinite.Client.Services.Common
-@using WebUIInfinite.Client.Services.Display
 @using WebUIInfinite.Client.Services.Name
 @inherits BasicCustomizeComponent
 
@@ -13,9 +12,23 @@
 @inject ISnackbar Snackbar
 @inject IDialogService DialogService
 @inject INameValidator NameValidator
-@inject IDisplayOptionDataService DisplayOptionDataService
 @inject ICommonDataService CommonDataService
 @inject INameService NameService
+
+<style>
+    .lock-on-marker-options .mud-chip-content {
+        width: 100%;
+    }
+
+    .lock-on-marker-options .alt-costume-preview-wrap {
+        height: auto;
+    }
+
+    .lock-on-marker-options .alt-costume-preview {
+        width: 100%;
+        max-height: none;
+    }
+</style>
 
 <MudGrid xs="12">
     <MudItem xs="12">
@@ -39,22 +52,11 @@
                             <MudTextField @bind-Value="CustomizeCardContext.BasicProfile.UserName"
                                           Immediate="true"
                                           Variant="Variant.Outlined"
-                                          Counter="@((int) NameLength.PlayerNameMaxLength)"
-                                          MaxLength="@((int) NameLength.PlayerNameMaxLength)"
                                           Label="@localizer["playername"]"
                                           Validation="NameValidator.ValidatePlayerName" />
                         </MudForm>
                     </MudItem>
                     
-                    <MudItem xs="12">
-                        <MudSelect Label="@localizer["playerrecorddisplay"]" @bind-Value="CustomizeCardContext.BasicProfile.OpenRecord" T="uint" SelectedValuesChanged="(selectedIds) => OnOpenRecordChanged(selectedIds, CustomizeCardContext.BasicProfile)" Variant="Variant.Outlined">
-                            @foreach (var openRecord in DisplayOptionDataService.GetDisplayOptionsSortedById())
-                            {
-                                <MudSelectItem Value="openRecord.Id">@openRecord.Value</MudSelectItem>
-                            }
-                        </MudSelect>
-                    </MudItem>
-
                     <MudItem xs="12">
                         <MudGrid Class="align-center">
                             <MudItem xs="6" Class="my-auto mud-typography mud-typography-body1">
@@ -73,6 +75,29 @@
                             CustomizeCardContext="@CustomizeCardContext"
                             EnableImagePreview="@EnableImagePreview"
                             OnChanged="@(() => StateHasChanged())" />
+                    </MudItem>
+                    <MudItem xs="12">
+                        <MudText Typo="Typo.body1" Class="mb-2">@localizer["marker_color"]</MudText>
+                        <MudCard Outlined="true" Class="my-2" Elevation="5">
+                            <MudCardContent>
+                                <MudChipSet T="int" @bind-SelectedValue="CustomizeCardContext.BasicProfile.MarkerColorId"
+                                            SelectionMode="SelectionMode.SingleSelection" Class="lock-on-marker-options" Style="width: 100%;">
+                                    <MudGrid Spacing="2" Style="width: 100%; margin: 0;">
+                                        @foreach (var marker in CommonDataService.GetLockOnMarkers())
+                                        {
+                                            <MudItem xs="3" @key="marker.Id">
+                                                <MudChip T="int" Variant="Variant.Text" Color="Color.Primary" Value="@(checked((int)marker.Id))"
+                                                         Style="width: 100%; min-height: 150px; height: auto;">
+                                                    <WebUIInfinite.Client.Pages.Components.Customize.Inner.AlternativeCostumeChipContent
+                                                        ImageSrc="@($"images/lock_on_markers/{marker.Id}.webp")"
+                                                        Label="@NameService.GetLocalizedName(marker)"/>
+                                                </MudChip>
+                                            </MudItem>
+                                        }
+                                    </MudGrid>
+                                </MudChipSet>
+                            </MudCardContent>
+                        </MudCard>
                     </MudItem>
                     <MudItem xs="12">
                         <MudGrid>
@@ -100,7 +125,7 @@
                         </MudGrid>
                     </MudItem>
                     
-                    @* Client-aligned new field: BGM Safe Mode toggle (CustomizeGroup tag 5). *@
+                    @* Game Commentary Mode toggle (CustomizeGroup tag 5). *@
                     <MudItem xs="12">
                         <MudPaper Class="pa-4 my-2" Elevation="2">
                             <MudGrid Class="align-center">
@@ -170,13 +195,24 @@
                     </MudItem>
                     
                     <MudExpansionPanels>
-                        <MudExpansionPanel Text="@localizer["default_titles"]">
+                        <MudExpansionPanel Text="@localizer["main_title"]">
                             <WebUIInfinite.Client.Pages.Components.Customize.Inner.TitleComponent
                                 Title="@CustomizeCardContext.BasicProfile.DefaultTitle"
                                 EnableImagePreview="@EnableImagePreview"
                                 TitleOnly="true" />
 
-                            @* Legacy server-only: triad/class titles (LoadCard MobileUserGroup tags 82–83). Client does not read. *@
+                        </MudExpansionPanel>
+                        <MudExpansionPanel Text="@localizer["sub_title_1"]">
+                            <WebUIInfinite.Client.Pages.Components.Customize.Inner.TitleComponent
+                                Title="@SubTitle1"
+                                EnableImagePreview="@EnableImagePreview"
+                                TitleOnly="true" />
+                        </MudExpansionPanel>
+                        <MudExpansionPanel Text="@localizer["sub_title_2"]">
+                            <WebUIInfinite.Client.Pages.Components.Customize.Inner.TitleComponent
+                                Title="@SubTitle2"
+                                EnableImagePreview="@EnableImagePreview"
+                                TitleOnly="true" />
                         </MudExpansionPanel>
                     </MudExpansionPanels>
 
@@ -193,6 +229,9 @@
     
     Func<BgmPlayingMethod, string> converter = p => p.ToString();
 
+    private Title SubTitle1 => CustomizeCardContext.BasicProfile.SubTitle1 ??= new();
+    private Title SubTitle2 => CustomizeCardContext.BasicProfile.SubTitle2 ??= new();
+
     private async Task OpenProfileChangeBgmOrderDialog()
     {
         var parameters = new DialogParameters { { "Data", CustomizeCardContext.BasicProfile.DefaultBgmList } };
@@ -206,11 +245,6 @@
         }
     }
     
-    private async Task OnOpenRecordChanged(IEnumerable<uint> selectedIds, BasicProfile basicProfile)
-    {
-        basicProfile.OpenRecord = selectedIds.FirstOrDefault();
-    }
-
     /// <summary>
     /// Maps <see cref="BasicProfile.OpenEchelon"/> to PreLoadCard <c>open_player_level</c> (bool):
     /// 1 = on/true, 0 = off/false. Field name kept for DB compatibility.

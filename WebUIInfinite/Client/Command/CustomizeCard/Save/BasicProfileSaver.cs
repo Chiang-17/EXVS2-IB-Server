@@ -34,7 +34,10 @@ public class BasicProfileSaver : ICustomizeCardContentSaver
             return;
         }
         
-        if (_nameValidator.ValidateCustomizeTitle(customizeCardContext.BasicProfile.DefaultTitle.CustomText) is not null)
+        if (new[] { customizeCardContext.BasicProfile.DefaultTitle, customizeCardContext.BasicProfile.SubTitle1,
+                customizeCardContext.BasicProfile.SubTitle2, customizeCardContext.BasicProfile.TriadTitle,
+                customizeCardContext.BasicProfile.ClassMatchTitle }
+            .Any(title => title is not null && _nameValidator.ValidateCustomizeTitle(title.CustomText) is not null))
         {
             _responseSnackService.ShowBasicResponseSnack(snackbar, new BasicResponse { Success = false }, _localizer["save_hint_cardinfo"]);
             return;

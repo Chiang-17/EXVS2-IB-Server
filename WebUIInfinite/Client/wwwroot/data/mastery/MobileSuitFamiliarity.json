@@ -177,10 +177,10 @@
     },
     {
         "Id":  22,
-        "UseDescription":  false,
-        "Description":  "★0",
-        "Level":  0,
-        "ColorCode":  "0",
+        "UseDescription":  true,
+        "Description":  "LEGEND",
+        "Level":  99,
+        "ColorCode":  "#000000",
         "MinimumPoint":  10000
     }
 ]

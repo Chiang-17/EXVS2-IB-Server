@@ -18,6 +18,7 @@ public class CommonDataService : ICommonDataService
     private List<Bgm> _sortedBgmList = new();
     private List<GeneralPreview> _sortedGaugeList = new();
     private List<GeneralPreview> _sortedStageList = new();
+    private List<IdValuePair> _lockOnMarkers = new();
     
     public CommonDataService(HttpClient client, IGeneralPreviewService generalPreviewService, ILogger<CommonDataService> logger)
     {
@@ -42,6 +43,10 @@ public class CommonDataService : ICommonDataService
         stageList.ThrowIfNull();
         _stage = _generalPreviewService.CreateGeneralPreviewDictionary(stageList);
         _sortedStageList = _generalPreviewService.CreateSortedGeneralPreviewList(stageList);
+
+        var lockOnMarkers = await _client.GetFromJsonAsync<List<IdValuePair>>("data/lock_on_markers/lock_on_markers.json");
+        lockOnMarkers.ThrowIfNull();
+        _lockOnMarkers = lockOnMarkers;
     }
     
     public IReadOnlyList<Bgm> GetBgmSortedById()
@@ -73,4 +78,6 @@ public class CommonDataService : ICommonDataService
     {
         return _stage.GetValueOrDefault(id);
     }
+
+    public IReadOnlyList<IdValuePair> GetLockOnMarkers() => _lockOnMarkers;
 }

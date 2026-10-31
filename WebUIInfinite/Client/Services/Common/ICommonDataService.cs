@@ -11,4 +11,5 @@ public interface ICommonDataService
     public IReadOnlyList<GeneralPreview> GetGaugesSortedById();
     public GeneralPreview? GetStageById(uint id);
     public IReadOnlyList<GeneralPreview> GetStagesSortedById();
+    public IReadOnlyList<IdValuePair> GetLockOnMarkers();
 }

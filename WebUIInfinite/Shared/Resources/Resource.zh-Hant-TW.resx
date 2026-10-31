@@ -557,10 +557,10 @@
 		<value>通訊貼紙ID（結束）</value>
 	</data>
     <data name="bgm_safe_mode" xml:space="preserve">
-		<value>BGM 安全模式</value>
+		<value>遊戲實況模式</value>
 	</data>
 	<data name="bgm_safe_mode_hint" xml:space="preserve">
-		<value>注意：啟用 BGM Safe Mode 會使 BGM 播放設定無效</value>
+		<value>注意：啟用遊戲實況模式會使 BGM 播放設定無效</value>
 	</data>
     <data name="gamepad_style" xml:space="preserve">
 		<value>操作模式</value>
@@ -1127,4 +1127,8 @@
     <data name="invalid_user_login" xml:space="preserve">
 		<value>登入失敗</value>
 	</data>
+  <data name="marker_color" xml:space="preserve"><value>鎖定標記顏色</value></data>
+  <data name="main_title" xml:space="preserve"><value>主稱號</value></data>
+  <data name="sub_title_1" xml:space="preserve"><value>副稱號1</value></data>
+  <data name="sub_title_2" xml:space="preserve"><value>副稱號2</value></data>
 </root>

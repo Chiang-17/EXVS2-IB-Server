@@ -28,7 +28,7 @@
 
                 var gaugeImagePath = $"images/gauges/{gaugeId}.webp";
                 var gauge = CommonDataService.GetGaugeById(gaugeId);
-                var gaugeName = $"Gauge {gaugeId}";
+                var gaugeName = gauge?.Value ?? $"Custom ID: {gaugeId}";
             }
             <MudItem xs="10" sm="11">
                 <MudField Label="@DisplayLabel" Variant="Variant.Outlined">

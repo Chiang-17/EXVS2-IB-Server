@@ -255,9 +255,9 @@
     "ValueTC2": "光軸のなぞるもの",
     "SeriesJP": "∀ガンダム",
     "Series": "Turn A Gundam",
-    "SeriesCN": "∀高达",
-    "SeriesTC": "∀高達",
-    "SeriesTC2": "∀鋼彈"
+    "SeriesCN": "逆A高达",
+    "SeriesTC": "逆A高達",
+    "SeriesTC2": "逆A鋼彈"
   },
   {
     "Id": 28,
@@ -268,9 +268,9 @@
     "ValueTC2": "地よりはずめと",
     "SeriesJP": "∀ガンダム",
     "Series": "Turn A Gundam",
-    "SeriesCN": "∀高达",
-    "SeriesTC": "∀高達",
-    "SeriesTC2": "∀鋼彈"
+    "SeriesCN": "逆A高达",
+    "SeriesTC": "逆A高達",
+    "SeriesTC2": "逆A鋼彈"
   },
   {
     "Id": 29,
@@ -424,7 +424,7 @@
     "ValueTC2": "FINAL MISSION ～ QUANTAM BURST",
     "SeriesJP": "劇場版 機動戦士ガンダム00 -A wakening of the Trailblazer-",
     "Series": "Mobile Suit Gundam 00 The Movie -Awakening of the Trailblazer-",
-    "SeriesCN": "剧场版 机动战士高达00 -先驱者的觉醒-",
+    "SeriesCN": "机动战士高达00 剧场版 -先驱者的觉醒-",
     "SeriesTC": "劇場版 機動戰士高達00 -先驅者的覺醒-",
     "SeriesTC2": "劇場版 機動戰士鋼彈00 -先驅者的覺醒-"
   },
@@ -437,7 +437,7 @@
     "ValueTC2": "INNOVADE & INNOVATOR",
     "SeriesJP": "劇場版 機動戦士ガンダム00 -A wakening of the Trailblazer-",
     "Series": "Mobile Suit Gundam 00 The Movie -Awakening of the Trailblazer-",
-    "SeriesCN": "剧场版 机动战士高达00 -先驱者的觉醒-",
+    "SeriesCN": "机动战士高达00 剧场版 -先驱者的觉醒-",
     "SeriesTC": "劇場版 機動戰士高達00 -先驅者的覺醒-",
     "SeriesTC2": "劇場版 機動戰士鋼彈00 -先驅者的覺醒-"
   },
@@ -450,7 +450,7 @@
     "ValueTC2": "UNICORN",
     "SeriesJP": "機動戦士ガンダムUC",
     "Series": "Mobile Suit Gundam Unicorn",
-    "SeriesCN": "机动战士高达UC",
+    "SeriesCN": "机动战士高达 独角兽",
     "SeriesTC": "機動戰士高達UC",
     "SeriesTC2": "機動戰士鋼彈UC"
   },
@@ -463,7 +463,7 @@
     "ValueTC2": "MOBILE SUIT",
     "SeriesJP": "機動戦士ガンダムUC",
     "Series": "Mobile Suit Gundam Unicorn",
-    "SeriesCN": "机动战士高达UC",
+    "SeriesCN": "机动战士高达 独角兽",
     "SeriesTC": "機動戰士高達UC",
     "SeriesTC2": "機動戰士鋼彈UC"
   },
@@ -502,7 +502,7 @@
     "ValueTC2": "コア・ファイターと共に",
     "SeriesJP": "ガンダム Gのレコンギスタ",
     "Series": "Gundam Reconguista in G",
-    "SeriesCN": "高达G之复国运动",
+    "SeriesCN": "高达 Reconguista in G",
     "SeriesTC": "高達 Reconguista in G",
     "SeriesTC2": "鋼彈 Reconguista in G"
   },
@@ -515,7 +515,7 @@
     "ValueTC2": "ふたりのまほう",
     "SeriesJP": "ガンダム Gのレコンギスタ",
     "Series": "Gundam Reconguista in G",
-    "SeriesCN": "高达G之复国运动",
+    "SeriesCN": "高达 Reconguista in G",
     "SeriesTC": "高達 Reconguista in G",
     "SeriesTC2": "鋼彈 Reconguista in G"
   },
@@ -606,9 +606,9 @@
     "ValueTC2": "MEN OF DESTINY",
     "SeriesJP": "機動戦士ガンダム0083 STARDUST MEMORY",
     "Series": "Mobile Suit Gundam 0083: Stardust Memory",
-    "SeriesCN": "机动战士高达0083: 星尘的回忆",
-    "SeriesTC": "機動戰士高達0083: 星塵的回憶",
-    "SeriesTC2": "機動戰士鋼彈0083: 星塵回憶"
+    "SeriesCN": "机动战士高达0083 星尘作战回忆录",
+    "SeriesTC": "機動戰士高達0083 星塵作戰回憶錄",
+    "SeriesTC2": "機動戰士鋼彈0083 STARDUST MEMORY"
   },
   {
     "Id": 61,
@@ -1087,7 +1087,7 @@
     "ValueTC2": "閉ざされた世界",
     "SeriesJP": "劇場版 機動戦士ガンダム00 -A wakening of the Trailblazer-",
     "Series": "Mobile Suit Gundam 00 The Movie -Awakening of the Trailblazer-",
-    "SeriesCN": "剧场版 机动战士高达00 -先驱者的觉醒-",
+    "SeriesCN": "机动战士高达00 剧场版 -先驱者的觉醒-",
     "SeriesTC": "劇場版 機動戰士高達00 -先驅者的覺醒-",
     "SeriesTC2": "劇場版 機動戰士鋼彈00 -先驅者的覺醒-"
   },
@@ -1256,7 +1256,7 @@
     "ValueTC2": "天気晴朗なり",
     "SeriesJP": "ガンダム Gのレコンギスタ",
     "Series": "Gundam Reconguista in G",
-    "SeriesCN": "高达G之复国运动",
+    "SeriesCN": "高达 Reconguista in G",
     "SeriesTC": "高達 Reconguista in G",
     "SeriesTC2": "鋼彈 Reconguista in G"
   },
@@ -1571,5 +1571,18 @@
     "SeriesCN": "机动战士高达 EXTREME VS.2 INFINITE BOOST",
     "SeriesTC": "機動戰士高達 EXTREME VS.2 INFINITE BOOST",
     "SeriesTC2": "機動戰士鋼彈 EXTREME VS.2 INFINITE BOOST"
+  },
+  {
+    "Id": 141,
+    "ValueJP": "[THE SORCERY OF NYMPH CIRCE] SUITE-No.3: SUI",
+    "Value": "[THE SORCERY OF NYMPH CIRCE] SUITE-No.3: SUI",
+    "ValueCN": "[THE SORCERY OF NYMPH CIRCE] SUITE-No.3: SUI",
+    "ValueTC": "[THE SORCERY OF NYMPH CIRCE] SUITE-No.3: SUI",
+    "ValueTC2": "[THE SORCERY OF NYMPH CIRCE] SUITE-No.3: SUI",
+    "SeriesJP": "機動戦士ガンダム 閃光のハサウェイ(劇場版)  ",
+    "Series": "Mobile Suit Gundam: Hathaway's Flash(movie)",
+    "SeriesCN": "机动战士高达 闪光的哈萨维(剧场版)",
+    "SeriesTC": "機動戰士高達 閃光之凱薩衛(剧场版)",
+    "SeriesTC2": "機動戰士鋼彈 閃光的哈薩威(剧场版)"
   }
 ]

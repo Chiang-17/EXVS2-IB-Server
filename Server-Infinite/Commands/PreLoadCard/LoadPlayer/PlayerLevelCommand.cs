@@ -19,8 +19,7 @@ public class PlayerLevelCommand : IPreLoadPlayerCommand
             .First(x => x.CardProfile == cardProfile);
 
         loadPlayer.PlayerLevelId = playerLevel.PlayerLevelId;
-        // loadPlayer.PrestigeId = playerLevel.PrestigeId; // not on client PreLoadCard.LoadPlayer wire
+        // Badge data belongs to PreLoadCard.MobileUserGroup in revision 141.
         loadPlayer.PlayerExp = playerLevel.PlayerExp;
-        loadPlayer.LevelMaxDispFlag = playerLevel.LevelMaxDispFlag;
     }
 }

@@ -17,7 +17,7 @@
                     var stickerBackgroundImgPath = $"images/sticker/background/{StickerDto.StickerBackgroundId}.webp";
                     var stickerBackgroundName = GetStickerBackgroundDisplayName(StickerDto.StickerBackgroundId);
                 }
-                @if (StickerDto.StickerBackgroundId > 0 && EnableImagePreview)
+                @if (EnableImagePreview)
                 {
                     <div class="d-flex justify-center">
                         <MudImage ObjectPosition="ObjectPosition.Center" Src="@stickerBackgroundImgPath" Fluid="true" ObjectFit="ObjectFit.Cover" Class="rounded-lg"/>
@@ -38,7 +38,7 @@
                     var stickerEffectImgPath = $"images/sticker/effect/{StickerDto.StickerEffectId}.webp";
                     var stickerEffectName = GetStickerEffectDisplayName(StickerDto.StickerEffectId);
                 }
-                @if (StickerDto.StickerEffectId > 0 && EnableImagePreview)
+                @if (EnableImagePreview)
                 {
                     <div class="d-flex justify-center">
                         <MudImage ObjectPosition="ObjectPosition.Center" Src="@stickerEffectImgPath" Fluid="true" ObjectFit="ObjectFit.Cover" Class="rounded-lg"/>
@@ -55,7 +55,7 @@
         </MudItem>
     </MudGrid>
 </MudItem>
-@* ---- Tracker selectors: user picks text_id only; tracker type is resolved server-side from Category ---- *@
+@* ---- Tracker selectors: user picks a catalog ID; type comes from the same JSON on server and WebUI ---- *@
 <MudItem xs="12">
     <MudSelect @bind-Value="StickerDto.Tracker1" Margin="Margin.Normal" T="uint"
                Label="@localizer["tracker_1"]" Variant="Variant.Outlined">
@@ -132,11 +132,11 @@
 
     private IReadOnlyList<TrackerType> GetTrackerTypeList()
     {
-        // Default sticker is not tied to a specific MS, so hide MS-category trackers there.
+        // Default sticker is not tied to a specific MS, so hide both external MS types.
         if (Scope == "DefaultSticker")
         {
             return StickerService.GetTrackerTypesSortedById()
-                .Where(tracker => tracker.Category != "MS")
+                .Where(tracker => tracker.Type is not (2 or 3))
                 .ToList();
         }
 

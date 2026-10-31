@@ -8,12 +8,12 @@ namespace ServerInfinite.Commands.LoadCard.MobileUser;
 public class DefaultStickerCommand : ILoadCardMobileUserCommand
 {
     private readonly ServerDbContext _context;
-    private readonly IStickerTrackerProcessor _stickerTrackerProcessor;
+    private readonly StickerTrackerFactory _trackers;
 
-    public DefaultStickerCommand(ServerDbContext context, IStickerTrackerProcessor stickerTrackerProcessor)
+    public DefaultStickerCommand(ServerDbContext context, StickerTrackerFactory trackers)
     {
         _context = context;
-        _stickerTrackerProcessor = stickerTrackerProcessor;
+        _trackers = trackers;
     }
 
     public void Fill(CardProfile cardProfile, Response.LoadCard.MobileUserGroup mobileUserGroup)
@@ -25,10 +25,14 @@ public class DefaultStickerCommand : ILoadCardMobileUserCommand
         {
             MstMobileSuitId = 0,
             PoseIds = global::System.Array.Empty<uint>(),
-            CostumeIds = global::System.Array.Empty<uint>(),
+            // Client 7AAA40 disables cutin when the costume pool is empty.
+            // A single default costume makes the requested cutin deterministic.
+            CostumeIds = defaultStickerProfile.PilotImageDispFlag && defaultStickerProfile.CutinImageUseFlag
+                ? new uint[] { 0 } : global::System.Array.Empty<uint>(),
             PilotImageDispFlag = defaultStickerProfile.PilotImageDispFlag,
             CutinImageUseFlag = defaultStickerProfile.PilotImageDispFlag && defaultStickerProfile.CutinImageUseFlag,
             StickerBackgroundId = defaultStickerProfile.StickerBackgroundId,
+            SubBackgroundId = defaultStickerProfile.SubBackgroundId,
             StickerEffectId = defaultStickerProfile.StickerEffectId,
             // Legacy server-only fields retained for WebUI editing round-trip.
             BasePanelId = defaultStickerProfile.BasePanelId,
@@ -36,39 +40,10 @@ public class DefaultStickerCommand : ILoadCardMobileUserCommand
             CommentPartsBId = defaultStickerProfile.CommentPartsBId,
         };
 
-        var playerLevel = _context.PlayerLevelDbSet
-            .First(x => x.CardProfile == cardProfile);
-        
-        AddTracker(defaultSticker, defaultStickerProfile.Tracker1, playerLevel);
-        AddTracker(defaultSticker, defaultStickerProfile.Tracker2, playerLevel);
-        AddTracker(defaultSticker, defaultStickerProfile.Tracker3, playerLevel);
-        
+        foreach (var id in new[] { defaultStickerProfile.Tracker1, defaultStickerProfile.Tracker2, defaultStickerProfile.Tracker3 })
+            if (_trackers.Create(id) is { } tracker) defaultSticker.Trackers.Add(tracker);
+
         mobileUserGroup.PlayerStickers.Add(defaultSticker);
     }
 
-    void AddTracker(
-        Response.LoadCard.MobileUserGroup.PlayerSticker sticker,
-        uint textId,
-        Models.Cards.Battle.PlayerLevel playerLevel)
-    {
-        // No tracker selected for this slot: skip entirely (do not add to the Tracker array).
-        if (textId == 0)
-        {
-            return;
-        }
-
-        var tracker = new Response.LoadCard.MobileUserGroup.PlayerSticker.Tracker
-        {
-            TextId = textId,
-            CustomText = string.Empty,
-        };
-
-        // Look up rarity / value from text_id against real player stats.
-        _stickerTrackerProcessor.Process(tracker, null, playerLevel);
-
-        // tracker type is determined by the text_id's Category (not the value lookup).
-        tracker.Type = Constants.TrackerTypes.ResolveTypeByTextId(textId);
-
-        sticker.Trackers.Add(tracker);
-    }
 }

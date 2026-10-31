@@ -31,8 +31,6 @@ public class DefaultStickerSettingSaver : ICustomizeCardContentSaver
         progressContext.HideDefaultStickerProgress = "visible";
         stateHasChanged.Invoke();
         
-        customizeCardContext.DefaultStickerSetting.CutinImageUseFlag = false;
-
         var dto = new UpdateDefaultStickerRequest()
         {
             AccessCode = customizeCardContext.AccessCode,

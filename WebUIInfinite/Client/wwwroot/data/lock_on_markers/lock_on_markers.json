@@ -1,0 +1,18 @@
+[
+    {
+        "Id": 0,
+        "Value": "Default"
+    },
+    {
+        "Id": 1,
+        "Value": "Type 1"
+    },
+    {
+        "Id": 2,
+        "Value": "Type 2"
+    },
+    {
+        "Id": 3,
+        "Value": "Type 3"
+    }
+]

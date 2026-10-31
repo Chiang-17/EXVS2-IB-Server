@@ -190,15 +190,165 @@
         "Clues":  ""
     },
     {
-        "ID":  44,
-        "Value":  "IBパスVol.1",
-        "Existence":  "IB",
-        "Clues":  "インフィニットブーストパスvol.1でstage:50"
+        "Id": 39,
+        "Value": "HADES",
+        "Existence": "IB",
+        "Clues": "シーズンアイテムパックVol.22"
     },
     {
-        "ID":  45,
-        "Value":  "IBパスVol.2",
-        "Existence":  "IB",
-        "Clues":  "インフィニットブーストパスvol.2でstage:50"
+        "Id": 40,
+        "Value": "宇宙海賊",
+        "Existence": "IB",
+        "Clues": "シーズンアイテムパックVol.31"
+    },
+    {
+        "Id": 41,
+        "Value": "GBN",
+        "Existence": "IB",
+        "Clues": "シーズンアイテムパックVol.20"
+    },
+    {
+        "Id": 42,
+        "Value": "Zガンダムバイオセンサー",
+        "Existence": "IB",
+        "Clues": "シーズンアイテムパックVol.5"
+    },
+    {
+        "Id": 43,
+        "Value": "ネオ・ジオン",
+        "Existence": "IB",
+        "Clues": "シーズンアイテムパックVol.28"
+    },
+    {
+        "Id": 44,
+        "Value": "IBパスVol.1",
+        "Existence": "IB",
+        "Clues": "インフィニットブーストパスvol.1でstage:50"
+    },
+    {
+        "Id": 45,
+        "Value": "IBパスVol.2",
+        "Existence": "IB",
+        "Clues": "インフィニットブーストパスvol.2でstage:50"
+    },
+    {
+        "Id": 46,
+        "Value": "IBパスVol.3",
+        "Existence": "IB",
+        "Clues": "インフィニットブーストパスvol.3でstage:50"
+    },
+    {
+        "Id": 47,
+        "Value": "IBパスVol.4",
+        "Existence": "IB",
+        "Clues": "インフィニットブーストパスvol.4でstage:50"
+    },
+    {
+        "Id": 48,
+        "Value": "IBパスVol.5",
+        "Existence": "IB",
+        "Clues": "インフィニットブーストパスvol.5でstage:50"
+    },
+    {
+        "Id": 54,
+        "Value": "ギャプラン",
+        "Existence": "IB",
+        "Clues": "ギャプラン 機体熟練度★6"
+    },
+    {
+        "Id": 55,
+        "Value": "キュベレイパピヨン",
+        "Existence": "IB",
+        "Clues": "ギャプラン 機体熟練度★6"
+    },
+    {
+        "Id": 56,
+        "Value": "セラヴィーガンダム",
+        "Existence": "IB",
+        "Clues": "セラヴィーガンダム 機体熟練度★6"
+    },
+    {
+        "Id": 57,
+        "Value": "GQuuuuuuX",
+        "Existence": "IB",
+        "Clues": "GQuuuuuuX 機体熟練度★6"
+    },
+    {
+        "Id": 60,
+        "Value": "TX-ff104 アリュゼウス",
+        "Existence": "IB",
+        "Clues": "TX-ff104 アリュゼウス 機体熟練度★6"
+    },
+    {
+        "Id": 61,
+        "Value": "レッドフレーム（全部載せ）",
+        "Existence": "IB",
+        "Clues": "シーズンアイテムパックVol.13"
+    },
+    {
+        "Id": 62,
+        "Value": "サザビー",
+        "Existence": "IB",
+        "Clues": "シーズンアイテムパックVol.16"
+    },
+    {
+        "Id": 63,
+        "Value": "ガンダム・バルバトスルプスレクス",
+        "Existence": "IB",
+        "Clues": "「機動戦士ガンダム 鉄血のオルフェンズ」10周年記念！ カスタマイズアイテム獲得キャンペーン 20クレジットプレイ"
+    },
+    {
+        "Id": 71,
+        "Value": "EXVS.プレイヤーズリンク報酬（2026冬）",
+        "Existence": "IB",
+        "Clues": "EXVS.プレイヤーズリンク シーズン1各大会の優勝チーム（2名）"
+    },
+    {
+        "Id": 72,
+        "Value": "メタリック",
+        "Existence": "IB",
+        "Clues": "お年玉キャンペーンおみくじを引く"
+    },
+    {
+        "Id": 73,
+        "Value": "クリアカラー",
+        "Existence": "IB",
+        "Clues": "お年玉キャンペーンおみくじを引く"
+    },
+    {
+        "Id": 74,
+        "Value": "正月（2026）",
+        "Existence": "IB",
+        "Clues": "お年玉キャンペーンおみくじを引く"
+    },
+    {
+        "Id": 75,
+        "Value": "TOKYOShowdown優勝",
+        "Existence": "IB",
+        "Clues": "TOKYO Showdown優勝チーム（2名）"
+    },
+    {
+        "Id": 76,
+        "Value": "TOKYOShowdown準優勝",
+        "Existence": "IB",
+        "Clues": "TOKYO Showdown準優勝チーム（2名）"
+    },
+    {
+        "Id": 77,
+        "Value": "EXVS.プレイヤーズリンク報酬（2026春）",
+        "Existence": "IB",
+        "Clues": "EXVS.プレイヤーズリンク シーズン2各大会の優勝チーム（2名）"
+    },
+    {
+        "Id": 78,
+        "Value": "TOKYOShowdown本戦出場",
+        "Existence": "IB",
+        "Clues": "TOKYO Showdown本戦出場チーム（28名）"
+    },
+    {
+        "Id": 79,
+        "Value": "ウォドムポッド+",
+        "Existence": "IB",
+        "Clues": "ウォドムポッド+ 機体熟練度★6"
     }
 ]

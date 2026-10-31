@@ -22,10 +22,12 @@ public enum TrackerName : uint
     MsTotalNoDamageBattleCount = 17,
     MsTotalExBurstDamage = 18,
     MsTotalWinRate = 19,
-    XbBattleCount = 20,
+    ObBattleCount = 20,
     LicenseScore = 21,
     PilotClassMatchDailyWinRate = 22,
     PilotTotalPlayDays = 23,
-    DefaultTitle = 24,
-    MsClassMatchDailyWinRate = 25
+    MsClassMatchDailyWinRate = 25,
+    DefaultTitle = 100,
+    SubTitle1 = 101,
+    SubTitle2 = 102
 }

@@ -48,6 +48,7 @@ public class UpdateDefaultStickerCommandHandler : IRequestHandler<UpdateDefaultS
         defaultStickerProfile.CutinImageUseFlag = stickerDto.PilotImageDispFlag && stickerDto.CutinImageUseFlag;
 
         defaultStickerProfile.StickerBackgroundId = stickerDto.StickerBackgroundId;
+        defaultStickerProfile.SubBackgroundId = stickerDto.SubBackgroundId;
         defaultStickerProfile.StickerEffectId = stickerDto.StickerEffectId;
         
         defaultStickerProfile.Tracker1 = stickerDto.Tracker1;

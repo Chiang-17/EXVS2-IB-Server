@@ -18,6 +18,12 @@ public class UserTitleSetting
 
     [Required] 
     public UserDefaultTitle UserDefaultTitle { get; set; } = new();
+
+    [Required]
+    public UserSubTitle1 UserSubTitle1 { get; set; } = new();
+
+    [Required]
+    public UserSubTitle2 UserSubTitle2 { get; set; } = new();
     
     [Required] 
     public UserTriadTitle UserTriadTitle { get; set; } = new();

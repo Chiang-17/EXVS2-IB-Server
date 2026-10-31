@@ -37,6 +37,7 @@ public static class StickerDtoMapping
         {
             MobileSuitId = 0,
             StickerBackgroundId = sticker.StickerBackgroundId,
+            SubBackgroundId = sticker.SubBackgroundId,
             StickerEffectId = sticker.StickerEffectId,
             Tracker1 = sticker.Tracker1,
             Tracker2 = sticker.Tracker2,

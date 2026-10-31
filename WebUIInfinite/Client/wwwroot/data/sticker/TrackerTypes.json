@@ -1,7 +1,7 @@
-﻿[
+[
   {
     "Id": 0,
-    "Category": "-",
+    "Type": 8,
     "Value": "None",
     "ValueJP": "なし",
     "ValueCN": "无",
@@ -10,79 +10,135 @@
   },
   {
     "Id": 1,
-    "Category": "Pilot",
+    "Type": 1,
     "Value": "[Player] Total PvP Battle Count",
     "ValueJP": "[プレイヤー] 総合対戦数",
     "ValueCN": "[玩家] 总合对人场次",
     "ValueTC": "[玩家] 總合對人場次",
-    "ValueTC2": "[玩家] 總合對人場次"
+    "ValueTC2": "[玩家] 總合對人場次",
+    "Threshold": [
+      0,
+      310,
+      520,
+      720,
+      900
+    ]
   },
   {
     "Id": 2,
-    "Category": "Pilot",
+    "Type": 1,
     "Value": "[Player] Total PvP Win Count",
     "ValueJP": "[プレイヤー] 総合勝利数",
     "ValueCN": "[玩家] 总合对人胜场",
     "ValueTC": "[玩家] 總合對人勝場",
-    "ValueTC2": "[玩家] 總合對人勝場"
+    "ValueTC2": "[玩家] 總合對人勝場",
+    "Threshold": [
+      0,
+      230,
+      440,
+      640,
+      850
+    ]
   },
   {
     "Id": 3,
-    "Category": "Pilot",
+    "Type": 1,
     "Value": "[Player] Total PvP Damage Delivered",
     "ValueJP": "[プレイヤー] 総合与ダメージ数",
     "ValueCN": "[玩家] 总合对人输出",
     "ValueTC": "[玩家] 總合對人輸出",
-    "ValueTC2": "[玩家] 總合對人輸出"
+    "ValueTC2": "[玩家] 總合對人輸出",
+    "Threshold": [
+      0,
+      260,
+      460,
+      670,
+      900
+    ]
   },
   {
     "Id": 4,
-    "Category": "Pilot",
+    "Type": 1,
     "Value": "[Player] Total PvP Foes Defeated",
     "ValueJP": "[プレイヤー] 総合敵撃破数",
     "ValueCN": "[玩家] 总合对人击破数",
     "ValueTC": "[玩家] 總合對人擊破數",
-    "ValueTC2": "[玩家] 總合對人擊破數"
+    "ValueTC2": "[玩家] 總合對人擊破數",
+    "Threshold": [
+      0,
+      290,
+      490,
+      710,
+      950
+    ]
   },
   {
     "Id": 5,
-    "Category": "Pilot",
+    "Type": 1,
     "Value": "[Player] Total 10 Consecutive Wins Achived in Class Match",
     "ValueJP": "[プレイヤー] 総合クラスマッチ10連勝達成数",
     "ValueCN": "[玩家] 总合排位10连胜次数",
     "ValueTC": "[玩家] 總合排位10連勝次數",
-    "ValueTC2": "[玩家] 總合排位10連勝次數"
+    "ValueTC2": "[玩家] 總合排位10連勝次數",
+    "Threshold": [
+      0,
+      340,
+      550,
+      750,
+      960
+    ]
   },
   {
     "Id": 6,
-    "Category": "Pilot",
+    "Type": 1,
     "Value": "[Player] Total Count on PvP No Damage Battles",
     "ValueJP": "[プレイヤー] 総合ノーダメージバトル数",
     "ValueCN": "[玩家] 总合对人无伤场数",
     "ValueTC": "[玩家] 總合對人無傷場數",
-    "ValueTC2": "[玩家] 總合對人無傷場數"
+    "ValueTC2": "[玩家] 總合對人無傷場數",
+    "Threshold": [
+      0,
+      360,
+      560,
+      770,
+      980
+    ]
   },
   {
     "Id": 7,
-    "Category": "Pilot",
+    "Type": 1,
     "Value": "[Player] Total EX Burst Damage Delivered in PvP",
     "ValueJP": "[プレイヤー] 総合EXバーストダメージ数",
     "ValueCN": "[玩家] 总合觉醒时对人输出",
     "ValueTC": "[玩家] 總合覺醒時對人輸出",
-    "ValueTC2": "[玩家] 總合覺醒時對人輸出"
+    "ValueTC2": "[玩家] 總合覺醒時對人輸出",
+    "Threshold": [
+      0,
+      330,
+      530,
+      740,
+      950
+    ]
   },
   {
     "Id": 8,
-    "Category": "Pilot",
+    "Type": 1,
     "Value": "[Player] Total PvP Win Rate",
     "ValueJP": "[プレイヤー] 総合勝率",
     "ValueCN": "[玩家] 总合对人胜率",
     "ValueTC": "[玩家] 總合對人勝率",
-    "ValueTC2": "[玩家] 總合對人勝率"
+    "ValueTC2": "[玩家] 總合對人勝率",
+    "Threshold": [
+      0,
+      370,
+      580,
+      780,
+      970
+    ]
   },
   {
     "Id": 9,
-    "Category": "PlayerLevel",
+    "Type": 4,
     "Value": "Player Level",
     "ValueJP": "プレイヤーレベル",
     "ValueCN": "玩家等级",
@@ -91,7 +147,7 @@
   },
   {
     "Id": 10,
-    "Category": "ClassMatchSolo",
+    "Type": 5,
     "Value": "Class Match (Solo) Rate",
     "ValueJP": "クラスマッチ(ソロ)レート",
     "ValueCN": "单人排位积分",
@@ -100,7 +156,7 @@
   },
   {
     "Id": 11,
-    "Category": "ClassMatchTeam",
+    "Type": 6,
     "Value": "Class Match (Team) Rate",
     "ValueJP": "クラスマッチ(チーム)レート",
     "ValueCN": "队伍排位积分",
@@ -109,79 +165,135 @@
   },
   {
     "Id": 12,
-    "Category": "MS",
+    "Type": 2,
     "Value": "[MS] Total PvP Battle Count",
     "ValueJP": "[機体] 総合対戦数",
     "ValueCN": "[机体] 总合对人场次",
     "ValueTC": "[機體] 總合對人場次",
-    "ValueTC2": "[機體] 總合對人場次"
+    "ValueTC2": "[機體] 總合對人場次",
+    "Threshold": [
+      0,
+      6,
+      11,
+      16,
+      22
+    ]
   },
   {
     "Id": 13,
-    "Category": "MS",
+    "Type": 2,
     "Value": "[MS] Total PvP Win Count",
     "ValueJP": "[機体] 総合勝利数",
     "ValueCN": "[机体] 总合对人胜场",
     "ValueTC": "[機體] 總合對人勝場",
-    "ValueTC2": "[機體] 總合對人勝場"
+    "ValueTC2": "[機體] 總合對人勝場",
+    "Threshold": [
+      0,
+      6,
+      11,
+      16,
+      22
+    ]
   },
   {
     "Id": 14,
-    "Category": "MS",
+    "Type": 2,
     "Value": "[MS] Total PvP Damage Delivered",
     "ValueJP": "[機体] 総合与ダメージ数",
     "ValueCN": "[机体] 总合对人输出",
     "ValueTC": "[機體] 總合對人輸出",
-    "ValueTC2": "[機體] 總合對人輸出"
+    "ValueTC2": "[機體] 總合對人輸出",
+    "Threshold": [
+      0,
+      6,
+      11,
+      16,
+      22
+    ]
   },
   {
     "Id": 15,
-    "Category": "MS",
+    "Type": 2,
     "Value": "[MS] Total PvP Foes Defeated",
     "ValueJP": "[機体] 総合敵撃破数",
     "ValueCN": "[机体] 总合对人击破数",
     "ValueTC": "[機體] 總合對人擊破數",
-    "ValueTC2": "[機體] 總合對人擊破數"
+    "ValueTC2": "[機體] 總合對人擊破數",
+    "Threshold": [
+      0,
+      6,
+      11,
+      16,
+      22
+    ]
   },
   {
     "Id": 16,
-    "Category": "MS",
+    "Type": 2,
     "Value": "[MS] Total 10 Consecutive Wins Achived in Class Match",
     "ValueJP": "[機体] 総合クラスマッチ10連勝達成数",
     "ValueCN": "[机体] 总合排位10连胜次数",
     "ValueTC": "[機體] 總合排位10連勝次數",
-    "ValueTC2": "[機體] 總合排位10連勝次數"
+    "ValueTC2": "[機體] 總合排位10連勝次數",
+    "Threshold": [
+      0,
+      6,
+      11,
+      16,
+      22
+    ]
   },
   {
     "Id": 17,
-    "Category": "MS",
+    "Type": 2,
     "Value": "[MS] Total Count on PvP No Damage Battles",
     "ValueJP": "[機体] 総合ノーダメージバトル数",
     "ValueCN": "[机体] 总合对人无伤场数",
     "ValueTC": "[機體] 總合對人無傷場數",
-    "ValueTC2": "[機體] 總合對人無傷場數"
+    "ValueTC2": "[機體] 總合對人無傷場數",
+    "Threshold": [
+      0,
+      6,
+      11,
+      16,
+      22
+    ]
   },
   {
     "Id": 18,
-    "Category": "MS",
+    "Type": 2,
     "Value": "[MS] Total EX Burst Damage Delivered in PvP",
     "ValueJP": "[機体] 総合EXバーストダメージ数",
     "ValueCN": "[机体] 总合觉醒时对人输出",
     "ValueTC": "[機體] 總合覺醒時對人輸出",
-    "ValueTC2": "[機體] 總合覺醒時對人輸出"
+    "ValueTC2": "[機體] 總合覺醒時對人輸出",
+    "Threshold": [
+      0,
+      6,
+      11,
+      16,
+      22
+    ]
   },
   {
     "Id": 19,
-    "Category": "MS",
+    "Type": 2,
     "Value": "[MS] Total PvP Win Rate",
     "ValueJP": "[機体] 総合勝率",
     "ValueCN": "[机体] 总合对人胜率",
     "ValueTC": "[機體] 總合對人勝率",
-    "ValueTC2": "[機體] 總合對人勝率"
+    "ValueTC2": "[機體] 總合對人勝率",
+    "Threshold": [
+      0,
+      6,
+      11,
+      16,
+      22
+    ]
   },
   {
     "Id": 20,
-    "Category": "OB",
+    "Type": 7,
     "Value": "[Player] Total PvP Battle Count(OB)",
     "ValueJP": "[プレイヤー] 総合対戦数(OB)",
     "ValueCN": "[玩家] 总合对人场次(OB)",
@@ -189,48 +301,99 @@
     "ValueTC2": "[玩家] 總合對人場次(OB)"
   },
   {
-    "Id": 21,
-    "Category": "Pilot",
-    "Value": "[Player] License Score",
-    "ValueJP": "[プレイヤー] ライセンススコア",
-    "ValueCN": "[玩家] 执照分数",
-    "ValueTC": "[玩家] 執照分數",
-    "ValueTC2": "[玩家] 執照分數"
-  },
-  {
     "Id": 22,
-    "Category": "Pilot",
+    "Type": 1,
     "Value": "[Player] Class Match Daily Win Rate(%)",
     "ValueJP": "[プレイヤー] クラスマッチ日間勝率(%)",
     "ValueCN": "[玩家] 每日排位对战胜率",
     "ValueTC": "[玩家] 每日排位對戰勝率",
-    "ValueTC2": "[玩家] 每日排位對戰勝率"
+    "ValueTC2": "[玩家] 每日排位對戰勝率",
+    "Threshold": [
+      0,
+      220,
+      420,
+      630,
+      750
+    ]
   },
   {
     "Id": 23,
-    "Category": "Pilot",
+    "Type": 1,
     "Value": "[Player] Total Play Days",
     "ValueJP": "[プレイヤー] 総合プレイ日数",
     "ValueCN": "[玩家] 总合游玩天数",
     "ValueTC": "[玩家] 總合遊玩天數",
-    "ValueTC2": "[玩家] 總合遊玩天數"
-  },
-  {
-    "Id": 24,
-    "Category": "Title",
-    "Value": "Default Title",
-    "ValueJP": "デフォルト称号",
-    "ValueCN": "默认称号",
-    "ValueTC": "預設稱號",
-    "ValueTC2": "預設稱號"
+    "ValueTC2": "[玩家] 總合遊玩天數",
+    "Threshold": [
+      0,
+      200,
+      400,
+      600,
+      800
+    ]
   },
   {
     "Id": 25,
-    "Category": "MS",
-    "Value": "[MS] Dayli Class Match Win Rate(%)",
+    "Type": 2,
+    "Value": "[MS] Class Match Daily Win Rate(%)",
     "ValueJP": "[機体] クラスマッチ日間勝率(%)",
     "ValueCN": "[机体] 每日排位对战胜率",
     "ValueTC": "[機體] 每日排位對戰勝率",
-    "ValueTC2": "[機體] 每日排位對戰勝率"
+    "ValueTC2": "[機體] 每日排位對戰勝率",
+    "Threshold": [
+      0,
+      6,
+      11,
+      16,
+      22
+    ]
+  },
+  {
+    "Id": 100,
+    "Type": 9,
+    "Value": "Main Title",
+    "ValueJP": "メイン称号",
+    "ValueCN": "主要称号",
+    "ValueTC": "主要稱號",
+    "ValueTC2": "主要稱號",
+    "Threshold": [
+      0,
+      90,
+      270,
+      480,
+      680
+    ]
+  },
+  {
+    "Id": 101,
+    "Type": 9,
+    "Value": "Sub Title 1",
+    "ValueJP": "サブ称号1",
+    "ValueCN": "副称号1",
+    "ValueTC": "副稱號1",
+    "ValueTC2": "副稱號1",
+    "Threshold": [
+      0,
+      90,
+      270,
+      480,
+      680
+    ]
+  },
+  {
+    "Id": 102,
+    "Type": 9,
+    "Value": "Sub Title 2",
+    "ValueJP": "サブ称号2",
+    "ValueCN": "副称号2",
+    "ValueTC": "副稱號2",
+    "ValueTC2": "副稱號2",
+    "Threshold": [
+      0,
+      90,
+      270,
+      480,
+      680
+    ]
   }
 ]

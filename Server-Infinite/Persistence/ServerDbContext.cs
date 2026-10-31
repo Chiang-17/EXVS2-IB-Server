@@ -45,6 +45,8 @@ namespace ServerInfinite.Persistence
         public DbSet<UserTitleSetting> UserTitleSettingDbSet { get; set; }
         
         public DbSet<PlayerLevel> PlayerLevelDbSet { get; set; }
+        public DbSet<RouteBattleHighScore> RouteBattleHighScoreDbSet { get; set; }
+        public DbSet<StageSaveData> StageSaveDataDbSet { get; set; }
         public DbSet<Navi> NaviDbSet { get; set; }
         public DbSet<MobileSuitUsage> MobileSuitUsageDbSet { get; set; }
         public DbSet<FavouriteMobileSuit> FavouriteMobileSuitDbSet { get; set; }

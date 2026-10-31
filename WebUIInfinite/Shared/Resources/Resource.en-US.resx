@@ -552,10 +552,10 @@
     <value>End Stamp ID</value>
   </data>
   <data name="bgm_safe_mode" xml:space="preserve">
-    <value>BGM Safe Mode</value>
+    <value>Game Commentary Mode</value>
   </data>
   <data name="bgm_safe_mode_hint" xml:space="preserve">
-    <value>Tips: Enabling BGM Safe Mode will disable BGM play settings.</value>
+    <value>Tips: Enabling Game Commentary Mode will disable BGM play settings.</value>
   </data>
   <data name="gamepad_style" xml:space="preserve">
     <value>Operation Mode</value>
@@ -1122,4 +1122,8 @@
   <data name="invalid_user_login" xml:space="preserve">
     <value>Login Failed!</value>
   </data>
+  <data name="marker_color" xml:space="preserve"><value>Lock-on Marker Color</value></data>
+  <data name="main_title" xml:space="preserve"><value>Main Title</value></data>
+  <data name="sub_title_1" xml:space="preserve"><value>Sub Title 1</value></data>
+  <data name="sub_title_2" xml:space="preserve"><value>Sub Title 2</value></data>
 </root>

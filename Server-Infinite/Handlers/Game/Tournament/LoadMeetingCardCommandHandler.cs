@@ -61,12 +61,11 @@ public class LoadMeetingCardCommandHandler : IRequestHandler<LoadMeetingCardComm
         response.load_meeting_card = new Response.LoadMeetingCard()
         {
             IsNewCard = false,
-            LoadPlayer = new LoadPlayer()
+            load_player = new Response.LoadMeetingCard.LoadPlayer()
             {
                 LastPlayedAt = cardProfile.LastPlayedAt,
                 PilotId = (uint)cardProfile.Id,
                 PlayerLevelId = playerLevel.PlayerLevelId,
-                PrestigeId = playerLevel.PrestigeId,
                 TotalWin = winLossRecord.TotalWin,
                 TotalLose = winLossRecord.TotalLose,
             },
@@ -75,7 +74,8 @@ public class LoadMeetingCardCommandHandler : IRequestHandler<LoadMeetingCardComm
             {
                 UserId = (uint)cardProfile.Id,
                 PlayerName = cardProfile.UserName,
-                OpenEchelon = playerProfile.OpenEchelon,
+                OpenPlayerLevel = playerProfile.OpenEchelon != 0,
+                BadgeId = playerLevel.BadgeId,
                 OpenRecord = playerProfile.OpenRecord,
                 DefaultTitleCustomize = titleSetting.UserDefaultTitle.ToTitleCustomize()
             }
@@ -84,8 +84,8 @@ public class LoadMeetingCardCommandHandler : IRequestHandler<LoadMeetingCardComm
         var playerLeaderTeamAppendStrategy = new PlayerLeaderTeamAppendStrategy(_context);
         var playerPartnerTeamAppendStrategy = new PlayerPartnerTeamAppendStrategy(_context);
         
-        playerLeaderTeamAppendStrategy.Append(cardProfile, response.load_meeting_card.LoadPlayer.TagTeams);
-        playerPartnerTeamAppendStrategy.Append(cardProfile, response.load_meeting_card.LoadPlayer.TagTeams);
+        playerLeaderTeamAppendStrategy.Append(cardProfile, response.load_meeting_card.User.tag_teams);
+        playerPartnerTeamAppendStrategy.Append(cardProfile, response.load_meeting_card.User.tag_teams);
         
         return Task.FromResult(response);
     }

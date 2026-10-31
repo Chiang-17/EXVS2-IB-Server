@@ -387,8 +387,7 @@
                aggregate.Contains(searchString, StringComparison.OrdinalIgnoreCase);
     }
 
-    private string GetDisplayValue(GeneralPreview item) =>
-        Mode == "Gauges" ? $"Gauge {item.Id}" : item.Value;
+    private string GetDisplayValue(GeneralPreview item) => item.Value;
 
     private string GetDisplayClues(GeneralPreview item)
     {

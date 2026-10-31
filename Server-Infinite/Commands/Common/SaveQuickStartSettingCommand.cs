@@ -14,7 +14,7 @@ public class SaveQuickStartSettingCommand
         _context = context;
     }
 
-    public void Save(CardProfile cardProfile, Response.LoadCard.MobileUserGroup.QuickStartInfo? quickStartInfo)
+    public void Save(CardProfile cardProfile, QuickStartInfo? quickStartInfo)
     {
         if (quickStartInfo is null)
             return;

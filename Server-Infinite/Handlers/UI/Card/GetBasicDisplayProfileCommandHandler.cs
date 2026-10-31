@@ -43,6 +43,8 @@ public class GetBasicDisplayProfileCommandHandler : IRequestHandler<GetBasicDisp
 
         var userTitleSetting = _context.UserTitleSettingDbSet
             .Include(x => x.UserDefaultTitle)
+            .Include(x => x.UserSubTitle1)
+            .Include(x => x.UserSubTitle2)
             .Include(x => x.UserTriadTitle)
             .Include(x => x.UserClassMatchTitle)
             .First(x => x.CardProfile == cardProfile);
@@ -68,10 +70,13 @@ public class GetBasicDisplayProfileCommandHandler : IRequestHandler<GetBasicDisp
             DefaultBgmList = Array.ConvertAll(ArrayUtil.FromString(customizeProfile.DefaultBgmSettings), Convert.ToUInt32),
             StageRandoms = stageRandoms.ToArray(),
             DefaultTitle = userTitleSetting.UserDefaultTitle.ToTitle(),
+            SubTitle1 = userTitleSetting.UserSubTitle1.ToTitle(),
+            SubTitle2 = userTitleSetting.UserSubTitle2.ToTitle(),
             TriadTitle = userTitleSetting.UserTriadTitle.ToTitle(),
             ClassMatchTitle = userTitleSetting.UserClassMatchTitle.ToTitle(),
             IsFixedRadar = generalSetting.FixPositionRadar,
             EnableQuickStart = generalSetting.EnableQuickStart,
+            MarkerColorId = generalSetting.MarkerColorId,
             Gp = cardProfile.Gp,
             BgmSafeMode = customizeProfile.BgmSafeMode,
         };

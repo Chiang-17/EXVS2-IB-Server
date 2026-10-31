@@ -39,17 +39,18 @@ public class PrivateRoomCommand : IPreLoadCardCommand
             return;
         }
         
-        preLoadCard.MatchingTag = new MatchingTag()
+        preLoadCard.matching_tag = new Response.PreLoadCard.MatchingTag()
         {
             Id = (uint) participatedPrivateRoomId,
             TagName = privateRoom.TagName,
             TagType = privateRoom.TagType, // 1 = Without MS Restriction, 2 = With MS Restriction
             MatchingType = privateRoom.MatchingType, // 1 = SOLO, 2 = TEAM
             MatchingAttribute = 1,
-            TagMatchingNum = 1,
-            RuleType = 0,
-            SelectableMsIds = ArrayUtil.FromString(privateRoom.SelectableMsIds),
+            EndDate = (ulong)DateTimeOffset.UtcNow.AddDays(1).ToUnixTimeSeconds(),
+            OncompeMatchingFlag = false,
+            RuleType = privateRoom.RuleType,
             RevengeFlag = privateRoom.RevengeFlag
         };
+        preLoadCard.matching_tag.SelectableMsId.AddRange(ArrayUtil.FromString(privateRoom.SelectableMsIds));
     }
 }

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
 	<!-- 
 		Microsoft ResX Schema
@@ -98,4 +98,14 @@
 	<resheader name="writer">
 		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
 	</resheader>
+  <data name="marker_color" xml:space="preserve"><value>Lock-on Marker Color</value></data>
+  <data name="main_title" xml:space="preserve"><value>Main Title</value></data>
+  <data name="sub_title_1" xml:space="preserve"><value>Sub Title 1</value></data>
+  <data name="sub_title_2" xml:space="preserve"><value>Sub Title 2</value></data>
+  <data name="bgm_safe_mode" xml:space="preserve">
+    <value>Game Commentary Mode</value>
+  </data>
+  <data name="bgm_safe_mode_hint" xml:space="preserve">
+    <value>Tips: Enabling Game Commentary Mode will disable BGM play settings.</value>
+  </data>
 </root>

@@ -1,5 +1,29 @@
 ﻿[
     {
+        "Id":  0,
+        "Value":  "-",
+        "ValueJP":  "-",
+        "ValueCN":  "-",
+        "ValueTC":  "-",
+        "ValueTC2":  "-",
+        "Pilot":  "-",
+        "PilotJP":  "-",
+        "PilotCN":  "-",
+        "PilotTC":  "-",
+        "PilotTC2":  "-",
+        "PilotSeiyuu":  "-",
+        "PilotSeiyuuJP":  "-",
+        "PilotSeiyuuCN":  "-",
+        "PilotSeiyuuTC":  "-",
+        "PilotSeiyuuTC2":  "-",
+        "Series":  "-",
+        "SeriesJP":  "-",
+        "SeriesCN":  "-",
+        "SeriesTC":  "-",
+        "SeriesTC2":  "-",
+        "Cost":  0
+    },
+    {
         "Id":  1,
         "Value":  "Gundam RX-78",
         "ValueJP":  "ガンダム",
@@ -31,6 +55,7 @@
                           "Id":  1,
                           "Value":  "G-3カラー"
                       }
+        
                   ],
         "Poses":  [
                       {
@@ -50,6 +75,14 @@
                           "Value":  "OB→IB引継ぎキャンペーン"
                       },
                       {
+                          "Id":  4,
+                          "Value":  "GGGP記念"
+                      },
+                      {
+                          "Id":  5,
+                          "Value":  "FBポーズド"
+                      },
+                      {
                           "Id":  11,
                           "Value":  "G-3カラー"
                       }
@@ -57,7 +90,7 @@
     },
     {
         "Id":  2,
-        "Value":  "Char\u0027s Gelgoog",
+        "Value":  "Char'ss Gelgoog",
         "ValueJP":  "シャア専用ゲルググ",
         "ValueCN":  "夏亚专用勇士",
         "ValueTC":  "馬沙專用格魯古古",
@@ -86,6 +119,10 @@
                       {
                           "Id":  1,
                           "Value":  "EXVS.ポーズド"
+                      },
+                      {
+                          "Id":  2,
+                          "Value":  "MBポーズド"
                       }
                   ]
     },
@@ -120,6 +157,10 @@
                       {
                           "Id":  1,
                           "Value":  "MBONポーズド"
+                      },
+                      {
+                          "Id":  2,
+                          "Value":  "EXVS.ポーズド"
                       }
                   ]
     },
@@ -158,6 +199,10 @@
                       {
                           "Id":  2,
                           "Value":  "MBONポーズド"
+                      },
+                      {
+                          "Id":  3,
+                          "Value":  "MBポーズド"
                       }
                   ]
     },
@@ -168,7 +213,7 @@
         "ValueCN":  "强人",
         "ValueTC":  "强人",
         "ValueTC2":  "强人",
-        "Pilot":  "M\u0027qube",
+        "Pilot":  "M'sqube",
         "PilotJP":  "マ・クベ",
         "PilotCN":  "马·克贝",
         "PilotTC":  "馬·克貝",
@@ -196,6 +241,10 @@
                       {
                           "Id":  2,
                           "Value":  "MBONポーズド"
+                      },
+                      {
+                          "Id":  3,
+                          "Value":  "FBポーズド"
                       }
                   ]
     },
@@ -203,7 +252,7 @@
         "Id":  6,
         "Value":  "Gundam (G-Mecha)",
         "ValueJP":  "ガンダム(Gメカ)",
-        "ValueCN":  "高达（G战机）",
+        "ValueCN":  "高达 (G战机)",
         "ValueTC":  "高達 (G戰機)",
         "ValueTC2":  "鋼彈 (G戰機)",
         "Pilot":  "Amuro Ray",
@@ -236,10 +285,10 @@
     {
         "Id":  7,
         "Value":  "Zaku II Ground Type",
-        "ValueJP":  "ザクII(ドアン機)",
-        "ValueCN":  "多安扎古2",
-        "ValueTC":  "渣古II (德安機)",
-        "ValueTC2":  "薩克II (德安機)",
+        "ValueJP":  "ザクII",
+        "ValueCN":  "扎古 II",
+        "ValueTC":  "渣古 II",
+        "ValueTC2":  "薩克 II",
         "Pilot":  "Cucuruz Doan",
         "PilotJP":  "ククルス・ドアン",
         "PilotCN":  "库库鲁斯·多安",
@@ -273,11 +322,11 @@
     },
     {
         "Id":  8,
-        "Value":  "Char\u0027s Zaku II",
+        "Value":  "Char'ss Zaku II",
         "ValueJP":  "シャア専用ザクII",
-        "ValueCN":  "夏亚专用扎古2",
-        "ValueTC":  "馬沙專用渣古II",
-        "ValueTC2":  "夏亞專用薩克II",
+        "ValueCN":  "夏亚专用扎古 II",
+        "ValueTC":  "馬沙專用渣古 II",
+        "ValueTC2":  "夏亞專用薩克 II",
         "Pilot":  "Char Aznable",
         "PilotJP":  "シャア・アズナブル",
         "PilotCN":  "夏亚·阿兹纳布尔",
@@ -301,6 +350,10 @@
                       {
                           "Id":  1,
                           "Value":  "FBポーズド"
+                      },
+                      {
+                          "Id":  2,
+                          "Value":  "MBONポーズド"
                       }
                   ]
     },
@@ -371,6 +424,17 @@
         "SeriesTC":  "機動戰士Z高達",
         "SeriesTC2":  "機動戰士Z鋼彈",
         "Cost":  2500,
+        "Skins":  [
+                      {
+                          "Id":  0,
+                          "Value":  "デフォルト"
+                      },
+                      {
+                          "Id":  1,
+                          "Value":  "鹵獲カラー"
+                      }
+        
+                  ],
         "Costumes":  [
                          {
                              "Id":  0,
@@ -397,6 +461,10 @@
                       {
                           "Id":  3,
                           "Value":  "アーセナルベースコラボ"
+                      },
+                      {
+                          "Id":  11,
+                          "Value":  "鹵獲カラー"
                       }
                   ]
     },
@@ -409,7 +477,7 @@
         "ValueTC2":  "百式",
         "Pilot":  "Quattro Bajeena",
         "PilotJP":  "クワトロ・バジーナ",
-        "PilotCN":  "柯特罗·巴吉纳",
+        "PilotCN":  "克瓦特罗·巴吉纳",
         "PilotTC":  "古華多羅·巴茲拿",
         "PilotTC2":  "克瓦特羅·巴吉納",
         "PilotSeiyuu":  "Ikeda Shūichi",
@@ -445,6 +513,10 @@
                       {
                           "Id":  2,
                           "Value":  "MBポーズド"
+                      },
+                      {
+                          "Id":  3,
+                          "Value":  "MBONポーズド"
                       }
                   ]
     },
@@ -478,7 +550,7 @@
                          },
                          {
                              "Id":  1,
-                             "Value":  "ティターンズ制服（白）"
+                             "Value":  "ティターンズ制服 (白)"
                          }
                      ],
         "Poses":  [
@@ -526,7 +598,7 @@
                          },
                          {
                              "Id":  1,
-                             "Value":  "ティターンズ制服（黒）"
+                             "Value":  "ティターンズ制服 (黒)"
                          }
                      ],
         "Poses":  [
@@ -586,12 +658,12 @@
         "Id":  24,
         "Value":  "Hambrabi",
         "ValueJP":  "ハンブラビ",
-        "ValueCN":  "汉谟拉比",
+        "ValueCN":  "汉布拉比",
         "ValueTC":  "漢布拉比",
         "ValueTC2":  "漢摩拉比",
         "Pilot":  "Yazan Gable",
         "PilotJP":  "ヤザン・ゲーブル",
-        "PilotCN":  "亚赞·盖博",
+        "PilotCN":  "亚赞·伽布鲁",
         "PilotTC":  "日札·基保",
         "PilotTC2":  "亞桑·蓋布爾",
         "PilotSeiyuu":  "Ōtsuka Hōchū",
@@ -628,12 +700,12 @@
         "Id":  31,
         "Value":  "Marasai",
         "ValueJP":  "マラサイ",
-        "ValueCN":  "马拉赛",
+        "ValueCN":  "玛拉塞",
         "ValueTC":  "姆歷沙",
         "ValueTC2":  "馬拉賽",
         "Pilot":  "Jerid Messa",
         "PilotJP":  "ジェリド・メサ",
-        "PilotCN":  "捷利德·梅萨",
+        "PilotCN":  "杰里德·梅萨",
         "PilotTC":  "尊尼特·密沙",
         "PilotTC2":  "傑利特·梅薩",
         "PilotSeiyuu":  "Inoue Kazuhiko",
@@ -666,12 +738,12 @@
         "Id":  32,
         "Value":  "Gabthley",
         "ValueJP":  "ガブスレイ",
-        "ValueCN":  "加布斯雷",
+        "ValueCN":  "卡普斯利",
         "ValueTC":  "葛士尼",
-        "ValueTC2":  "蓋普斯雷",
+        "ValueTC2":  "加布斯雷",
         "Pilot":  "Jerid Messa",
         "PilotJP":  "ジェリド・メサ",
-        "PilotCN":  "捷利德·梅萨",
+        "PilotCN":  "杰里德·梅萨",
         "PilotTC":  "尊尼特·密沙",
         "PilotTC2":  "傑利特·梅薩",
         "PilotSeiyuu":  "Inoue Kazuhiko",
@@ -709,7 +781,7 @@
         "ValueTC2":  "獵犬",
         "Pilot":  "Jerid Messa",
         "PilotJP":  "ジェリド・メサ",
-        "PilotCN":  "捷利德·梅萨",
+        "PilotCN":  "杰里德·梅萨",
         "PilotTC":  "尊尼特·密沙",
         "PilotTC2":  "傑利特·梅薩",
         "PilotSeiyuu":  "Inoue Kazuhiko",
@@ -742,7 +814,7 @@
         "Id":  36,
         "Value":  "Full Armor ZZ Gundam",
         "ValueJP":  "フルアーマーZZガンダム",
-        "ValueCN":  "全装甲型ZZ高达",
+        "ValueCN":  "全装甲ZZ高达",
         "ValueTC":  "全裝甲ZZ高達",
         "ValueTC2":  "全裝甲ZZ鋼彈",
         "Pilot":  "Judau Ashta",
@@ -788,14 +860,14 @@
     },
     {
         "Id":  37,
-        "Value":  "Qubeley MK-II (Ple Two)",
-        "ValueJP":  "キュベレイMk-II(プルツー)",
-        "ValueCN":  "丘贝雷MK-II（普露兹）",
-        "ValueTC":  "卡碧尼MK-II (波蕾二世專用)",
-        "ValueTC2":  "丘貝雷MK-II (普露二世專用)",
+        "Value":  "Qubeley MK-II",
+        "ValueJP":  "キュベレイMk-II",
+        "ValueCN":  "卡碧尼MK-II",
+        "ValueTC":  "邱貝雷MK-II",
+        "ValueTC2":  "丘貝雷MK-II",
         "Pilot":  "Ple Two",
         "PilotJP":  "プルツー",
-        "PilotCN":  "普露兹",
+        "PilotCN":  "璞露兹",
         "PilotTC":  "波蕾二世",
         "PilotTC2":  "普露二世",
         "PilotSeiyuu":  "Honda Yōko",
@@ -827,6 +899,10 @@
                       {
                           "Id":  1,
                           "Value":  "EXVSポーズド"
+                      },
+                      {
+                          "Id":  2,
+                          "Value":  "MBOINポーズド"
                       }
                   ]
     },
@@ -834,8 +910,8 @@
         "Id":  38,
         "Value":  "Qubeley",
         "ValueJP":  "キュベレイ",
-        "ValueCN":  "丘贝雷",
-        "ValueTC":  "卡碧尼",
+        "ValueCN":  "卡碧尼",
+        "ValueTC":  "邱貝雷",
         "ValueTC2":  "丘貝雷",
         "Pilot":  "Haman Karn",
         "PilotJP":  "ハマーン・カーン",
@@ -882,15 +958,15 @@
         "Id":  39,
         "Value":  "Zaku III Custom",
         "ValueJP":  "ザクIII改",
-        "ValueCN":  "扎古3改",
-        "ValueTC":  "渣古III 特裝型",
-        "ValueTC2":  "薩克III改",
+        "ValueCN":  "扎古 III改",
+        "ValueTC":  "渣古 III 特裝型",
+        "ValueTC2":  "薩克 III改",
         "Pilot":  "Mashymre Cello",
         "PilotJP":  "マシュマー・セロ",
         "PilotCN":  "玛修曼·塞罗",
         "PilotTC":  "馬士文·世羅",
         "PilotTC2":  "馬休曼·賽羅",
-        "PilotSeiyuu":  "Horiuchi Ken\u0027yū",
+        "PilotSeiyuu":  "Horiuchi Ken'syū",
         "PilotSeiyuuJP":  "堀内賢雄",
         "PilotSeiyuuCN":  "堀内贤雄",
         "PilotSeiyuuTC":  "堀内賢雄",
@@ -916,9 +992,9 @@
         "Id":  40,
         "Value":  "Acguy (Haman Karn)",
         "ValueJP":  "アッガイ(ハマーン搭乗)",
-        "ValueCN":  "龟霸（哈曼）",
-        "ValueTC":  "龜霸 (哈曼)",
-        "ValueTC2":  "亞凱 (哈曼)",
+        "ValueCN":  "龟霸 (哈曼搭乘)",
+        "ValueTC":  "龜霸 (哈曼搭乘)",
+        "ValueTC2":  "亞凱 (哈曼搭乘)",
         "Pilot":  "Haman Karn",
         "PilotJP":  "ハマーン・カーン",
         "PilotCN":  "哈曼·卡恩",
@@ -950,9 +1026,9 @@
         "Id":  41,
         "Value":  "Zeta Gundam (Roux Louka)",
         "ValueJP":  "Zガンダム(ルー搭乗)",
-        "ValueCN":  "Z高达（露）",
-        "ValueTC":  "Z高達 (露)",
-        "ValueTC2":  "Z鋼彈 (露)",
+        "ValueCN":  "Z高达 (露搭乘)",
+        "ValueTC":  "Z高達 (露搭乘)",
+        "ValueTC2":  "Z鋼彈 (露搭乘)",
         "Pilot":  "Roux Louka",
         "PilotJP":  "ルー・ルカ",
         "PilotCN":  "露·鲁卡",
@@ -1036,14 +1112,14 @@
     },
     {
         "Id":  48,
-        "Value":  "Qubeley MK-II (Elpeo Ple)",
-        "ValueJP":  "キュベレイMk-II(プル)",
-        "ValueCN":  "丘贝雷MK-II（普露）",
-        "ValueTC":  "卡碧尼MK-II (愛羅比·普露專用)",
-        "ValueTC2":  "丘貝雷MK-II (愛羅比·普露專用)",
+        "Value":  "Qubeley MK-II",
+        "ValueJP":  "キュベレイMk-II",
+        "ValueCN":  "卡碧尼MK-II",
+        "ValueTC":  "邱貝雷MK-II",
+        "ValueTC2":  "丘貝雷MK-II",
         "Pilot":  "Elpeo Ple",
         "PilotJP":  "エルピー・プル",
-        "PilotCN":  "艾露比·普露",
+        "PilotCN":  "艾露比·璞露",
         "PilotTC":  "愛羅比·普露",
         "PilotTC2":  "愛羅比·普露",
         "PilotSeiyuu":  "Honda Yōko",
@@ -1072,12 +1148,12 @@
         "Id":  50,
         "Value":  "Doven Wolf",
         "ValueJP":  "ドーベン・ウルフ",
-        "ValueCN":  "飚狼",
+        "ValueCN":  "飙狼",
         "ValueTC":  "達希魯夫",
         "ValueTC2":  "杜班·烏爾夫",
         "Pilot":  "Rakan Dahkaran",
         "PilotJP":  "ラカン・ダカラン",
-        "PilotCN":  "拉坎·巴卡拉",
+        "PilotCN":  "拉坎·达卡兰",
         "PilotTC":  "拉坎·達卡蘭",
         "PilotTC2":  "拉坎·達卡蘭",
         "PilotSeiyuu":  "Ōbayashi Ryūsuke",
@@ -1106,7 +1182,7 @@
         "Id":  52,
         "Value":  "Nu Gundam",
         "ValueJP":  "νガンダム",
-        "ValueCN":  "牛高达",
+        "ValueCN":  "ν高达",
         "ValueTC":  "ν高達",
         "ValueTC2":  "ν鋼彈",
         "Pilot":  "Amuro Ray",
@@ -1119,7 +1195,7 @@
         "PilotSeiyuuCN":  "古谷彻",
         "PilotSeiyuuTC":  "古谷徹",
         "PilotSeiyuuTC2":  "古谷徹",
-        "Series":  "Mobile Suit Gundam: Char\u0027s Counterattack",
+        "Series":  "Mobile Suit Gundam: Char'ss Counterattack",
         "SeriesJP":  "機動戦士ガンダム 逆襲のシャア",
         "SeriesCN":  "机动战士高达 逆袭的夏亚",
         "SeriesTC":  "機動戰士高達 馬沙之反擊",
@@ -1147,6 +1223,10 @@
                       {
                           "Id":  2,
                           "Value":  "EXVSポーズド"
+                      },
+                      {
+                          "Id":  3,
+                          "Value":  "MBONポーズド"
                       }
                   ]
     },
@@ -1167,7 +1247,7 @@
         "PilotSeiyuuCN":  "池田秀一",
         "PilotSeiyuuTC":  "池田秀一",
         "PilotSeiyuuTC2":  "池田秀一",
-        "Series":  "Mobile Suit Gundam: Char\u0027s Counterattack",
+        "Series":  "Mobile Suit Gundam: Char'ss Counterattack",
         "SeriesJP":  "機動戦士ガンダム 逆襲のシャア",
         "SeriesCN":  "机动战士高达 逆袭的夏亚",
         "SeriesTC":  "機動戰士高達 馬沙之反擊",
@@ -1211,7 +1291,7 @@
         "PilotSeiyuuCN":  "折笠富美子",
         "PilotSeiyuuTC":  "折笠富美子",
         "PilotSeiyuuTC2":  "折笠富美子",
-        "Series":  "Mobile Suit Gundam: Char\u0027s Counterattack",
+        "Series":  "Mobile Suit Gundam: Char'ss Counterattack",
         "SeriesJP":  "機動戦士ガンダム 逆襲のシャア",
         "SeriesCN":  "机动战士高达 逆袭的夏亚",
         "SeriesTC":  "機動戰士高達 馬沙之反擊",
@@ -1229,6 +1309,10 @@
                       {
                           "Id":  2,
                           "Value":  "FBポーズド"
+                      },
+                      {
+                          "Id":  3,
+                          "Value":  "FBポーズドB"
                       }
                   ]
     },
@@ -1249,7 +1333,7 @@
         "PilotSeiyuuCN":  "山寺宏一",
         "PilotSeiyuuTC":  "山寺宏一",
         "PilotSeiyuuTC2":  "山寺宏一",
-        "Series":  "Mobile Suit Gundam: Char\u0027s Counterattack",
+        "Series":  "Mobile Suit Gundam: Char'ss Counterattack",
         "SeriesJP":  "機動戦士ガンダム 逆襲のシャア",
         "SeriesCN":  "机动战士高达 逆袭的夏亚",
         "SeriesTC":  "機動戰士高達 馬沙之反擊",
@@ -1263,6 +1347,10 @@
                       {
                           "Id":  1,
                           "Value":  "MBONポーズド"
+                      },
+                      {
+                          "Id":  2,
+                          "Value":  "EXVS2.ポーズド"
                       }
                   ]
     },
@@ -1275,7 +1363,7 @@
         "ValueTC2":  "鋼彈F91",
         "Pilot":  "Seabook Arno",
         "PilotJP":  "シーブック・アノー",
-        "PilotCN":  "西布克·亚诺",
+        "PilotCN":  "西布克·阿诺",
         "PilotTC":  "西布頓·亞諾",
         "PilotTC2":  "西布克·亞諾",
         "PilotSeiyuu":  "Tsujitani Kōji",
@@ -1355,6 +1443,10 @@
                       {
                           "Id":  1,
                           "Value":  "FBポーズド"
+                      },
+                      {
+                          "Id":  2,
+                          "Value":  "EXVS.ポーズド"
                       }
                   ]
     },
@@ -1367,7 +1459,7 @@
         "ValueTC2":  "V2鋼彈",
         "Pilot":  "Uso Ewin",
         "PilotJP":  "ウッソ・エヴィン",
-        "PilotCN":  "胡索·艾宾",
+        "PilotCN":  "胡索·艾文",
         "PilotTC":  "胡索·艾賓",
         "PilotTC2":  "胡索·艾溫",
         "PilotSeiyuu":  "Sakaguchi Daisuke",
@@ -1399,6 +1491,10 @@
                       {
                           "Id":  1,
                           "Value":  "EXVSポーズド"
+                      },
+                      {
+                          "Id":  2,
+                          "Value":  "MBポーズド"
                       }
                   ]
     },
@@ -1411,7 +1507,7 @@
         "ValueTC2":  "鋼伊基",
         "Pilot":  "Junko Jenko",
         "PilotJP":  "ジュンコ・ジェンコ",
-        "PilotCN":  "纯子·杰恩科",
+        "PilotCN":  "纯子·简克",
         "PilotTC":  "純子·積戈",
         "PilotTC2":  "純子·積戈",
         "PilotSeiyuu":  "Kobayashi Yūko",
@@ -1433,6 +1529,10 @@
                       {
                           "Id":  1,
                           "Value":  "MBONポーズド"
+                      },
+                      {
+                          "Id":  2,
+                          "Value":  "FBポーズド"
                       }
                   ]
     },
@@ -1440,12 +1540,12 @@
         "Id":  63,
         "Value":  "Gottrlatan",
         "ValueJP":  "ゴトラタン",
-        "ValueCN":  "高特拉坦",
+        "ValueCN":  "哥特拉坦",
         "ValueTC":  "高特拉坦",
-        "ValueTC2":  "高特拉坦",
+        "ValueTC2":  "葛拉坦",
         "Pilot":  "Katejina Loos",
         "PilotJP":  "カテジナ・ルース",
-        "PilotCN":  "卡提珍娜·露丝",
+        "PilotCN":  "卡特吉娜·露丝",
         "PilotTC":  "卡迪珍娜·路殊",
         "PilotTC2":  "卡提吉娜·路斯",
         "PilotSeiyuu":  "Watanabe Kumiko",
@@ -1466,7 +1566,7 @@
                          },
                          {
                              "Id":  1,
-                             "Value":  "パイロットスーツ（最終決戦）"
+                             "Value":  "パイロットスーツ (最終決戦)"
                          }
                      ],
         "Poses":  [
@@ -1481,6 +1581,10 @@
                       {
                           "Id":  2,
                           "Value":  "MBポーズド"
+                      },
+                      {
+                          "Id":  3,
+                          "Value":  "EXVSポーズド"
                       }
                   ]
     },
@@ -1493,7 +1597,7 @@
         "ValueTC2":  "V鋼彈",
         "Pilot":  "Uso Ewin",
         "PilotJP":  "ウッソ・エヴィン",
-        "PilotCN":  "胡索·艾宾",
+        "PilotCN":  "胡索·艾文",
         "PilotTC":  "胡索·艾賓",
         "PilotTC2":  "胡索·艾溫",
         "PilotSeiyuu":  "Sakaguchi Daisuke",
@@ -1532,12 +1636,12 @@
         "Id":  72,
         "Value":  "Rig Contio",
         "ValueJP":  "リグ・コンティオ",
-        "ValueCN":  "利克·康提奥",
+        "ValueCN":  "里格·康提奥",
         "ValueTC":  "利古·康提奧",
         "ValueTC2":  "里格·孔提歐",
         "Pilot":  "Cronicle Asher",
         "PilotJP":  "クロノクル・アシャー",
-        "PilotCN":  "克罗诺克尔·艾夏",
+        "PilotCN":  "克罗诺克尔·阿夏",
         "PilotTC":  "古羅洛古路·亞薩",
         "PilotTC2":  "庫羅諾克·亞設",
         "PilotSeiyuu":  "Takumi Yasuaki",
@@ -1581,7 +1685,7 @@
         "ValueTC2":  "蓋德夫",
         "Pilot":  "Katejina Loos",
         "PilotJP":  "カテジナ・ルース",
-        "PilotCN":  "卡提珍娜·露丝",
+        "PilotCN":  "卡特吉娜·露丝",
         "PilotTC":  "卡迪珍娜·路殊",
         "PilotTC2":  "卡提吉娜·路斯",
         "PilotSeiyuu":  "Watanabe Kumiko",
@@ -1602,7 +1706,7 @@
                          },
                          {
                              "Id":  1,
-                             "Value":  "パイロットスーツ（最終決戦）"
+                             "Value":  "パイロットスーツ (最終決戦)"
                          }
                      ],
         "Poses":  [
@@ -1661,6 +1765,10 @@
                       {
                           "Id":  2,
                           "Value":  "OBポーズドB"
+                      },
+                      {
+                          "Id":  3,
+                          "Value":  "MBポーズド"
                       }
                   ]
     },
@@ -1673,7 +1781,7 @@
         "ValueTC2":  "天龍鋼彈",
         "Pilot":  "Sai Saici",
         "PilotJP":  "サイ・サイシー",
-        "PilotCN":  "蔡采施",
+        "PilotCN":  "蔡赛西",
         "PilotTC":  "蔡采施",
         "PilotTC2":  "賽采之",
         "PilotSeiyuu":  "Yamaguchi Kappei",
@@ -1709,6 +1817,10 @@
                       {
                           "Id":  2,
                           "Value":  "FBポーズド"
+                      },
+                      {
+                          "Id":  3,
+                          "Value":  "MBONポーズド"
                       }
                   ]
     },
@@ -1717,12 +1829,12 @@
         "Value":  "Master Gundam",
         "ValueJP":  "マスターガンダム",
         "ValueCN":  "尊者高达",
-        "ValueTC":  "盟主高達",
+        "ValueTC":  "宗師高達",
         "ValueTC2":  "宗師鋼彈",
         "Pilot":  "Touhou Fuhai Master Asia",
         "PilotJP":  "東方不敗マスター・アジア",
-        "PilotCN":  "东方不败",
-        "PilotTC":  "東方不敗亞洲盟主",
+        "PilotCN":  "东方不败·亚洲尊者",
+        "PilotTC":  "東方不敗亞洲天王",
         "PilotTC2":  "東方不敗亞洲盟主",
         "PilotSeiyuu":  "Akimoto Yōsuke",
         "PilotSeiyuuJP":  "秋元羊介",
@@ -1753,6 +1865,10 @@
                       {
                           "Id":  1,
                           "Value":  "EXVSポーズド"
+                      },
+                      {
+                          "Id":  2,
+                          "Value":  "MBポーズド"
                       }
                   ]
     },
@@ -1765,7 +1881,7 @@
         "ValueTC2":  "明鏡鋼彈",
         "Pilot":  "Schwarz Bruder",
         "PilotJP":  "シュバルツ・ブルーダー",
-        "PilotCN":  "修巴鲁兹·布鲁达",
+        "PilotCN":  "舒瓦兹·布鲁达",
         "PilotTC":  "史巴路·保路特",
         "PilotTC2":  "舒瓦茲·布魯德",
         "PilotSeiyuu":  "Hori Hideyuki",
@@ -1796,6 +1912,10 @@
                       },
                       {
                           "Id":  1,
+                          "Value":  "FBポーズド"
+                      },
+                      {
+                          "Id":  2,
                           "Value":  "FBポーズド"
                       }
                   ]
@@ -1916,12 +2036,12 @@
         "Id":  81,
         "Value":  "Gundam Maxter",
         "ValueJP":  "ガンダムマックスター",
-        "ValueCN":  "高达麦克之星",
+        "ValueCN":  "美国巨星高达",
         "ValueTC":  "高達巨星",
         "ValueTC2":  "鋼彈巨星",
         "Pilot":  "Chibodee Crocket",
         "PilotJP":  "チボデー・クロケット",
-        "PilotCN":  "奇波迪·库罗克特",
+        "PilotCN":  "奇波迪·克洛凯特",
         "PilotTC":  "卓波迪·古洛特",
         "PilotTC2":  "奇波迪·克洛凱特",
         "PilotSeiyuu":  "Ōtsuka Hōchū",
@@ -1960,9 +2080,9 @@
         "Id":  82,
         "Value":  "Wing Gundam Zero",
         "ValueJP":  "ウイングガンダムゼロ",
-        "ValueCN":  "飞翼零式高达",
-        "ValueTC":  "飛翼高達零式",
-        "ValueTC2":  "飛翼鋼彈零式",
+        "ValueCN":  "飞翼高达 零式",
+        "ValueTC":  "飛翼高達 零式",
+        "ValueTC2":  "飛翼鋼彈 零式",
         "Pilot":  "Heero Yuy",
         "PilotJP":  "ヒイロ・ユイ",
         "PilotCN":  "希罗·尤尔",
@@ -2013,7 +2133,7 @@
         "ValueTC2":  "次代鋼彈",
         "Pilot":  "Milliardo Peacecraft",
         "PilotJP":  "ミリアルド・ピースクラフト",
-        "PilotCN":  "米利亚尔特·匹斯克拉福特",
+        "PilotCN":  "米利亚尔·匹斯克拉弗特",
         "PilotTC":  "美利安多·卑斯賴多",
         "PilotTC2":  "米利亞爾特·匹斯克拉福特",
         "PilotSeiyuu":  "Koyasu Takehito",
@@ -2049,6 +2169,10 @@
                       {
                           "Id":  2,
                           "Value":  "OBポーズドB"
+                      },
+                      {
+                          "Id":  3,
+                          "Value":  "MBポーズド"
                       }
                   ]
     },
@@ -2083,6 +2207,10 @@
                       {
                           "Id":  1,
                           "Value":  "FBポーズド"
+                      },
+                      {
+                          "Id":  2,
+                          "Value":  "MBポーズド"
                       }
                   ]
     },
@@ -2090,12 +2218,12 @@
         "Id":  91,
         "Value":  "Gundam Sandrock Custom",
         "ValueJP":  "ガンダムサンドロック改",
-        "ValueCN":  "沙漠高达改",
-        "ValueTC":  "沙漠高達改",
-        "ValueTC2":  "沙漠鋼彈改",
+        "ValueCN":  "沙漠高达 改",
+        "ValueTC":  "沙漠高達 改",
+        "ValueTC2":  "沙漠鋼彈 改",
         "Pilot":  "Quatre Raberba Winner",
         "PilotJP":  "カトル・ラバーバ・ウィナー",
-        "PilotCN":  "卡特尔·拉巴·维娜",
+        "PilotCN":  "卡特尔·拉巴伯·温拿",
         "PilotTC":  "卡多魯·魯賓·溫拿",
         "PilotTC2":  "卡特爾·拉巴伯·溫拿",
         "PilotSeiyuu":  "Orikasa Ai",
@@ -2134,9 +2262,9 @@
         "Id":  92,
         "Value":  "Gundam Heavyarms Kai",
         "ValueJP":  "ガンダムヘビーアームズ改",
-        "ValueCN":  "重装高达改",
-        "ValueTC":  "重砲手高達改",
-        "ValueTC2":  "重武裝鋼彈改",
+        "ValueCN":  "重装高达 改",
+        "ValueTC":  "重砲手高達 改",
+        "ValueTC2":  "重武裝鋼彈 改",
         "Pilot":  "Trowa Barton",
         "PilotJP":  "トロワ・バートン",
         "PilotCN":  "特洛瓦·巴顿",
@@ -2187,7 +2315,7 @@
         "ValueTC2":  "地獄死神鋼彈",
         "Pilot":  "Duo Maxwell",
         "PilotJP":  "デュオ・マックスウェル",
-        "PilotCN":  "迪奥·麦克斯维尔",
+        "PilotCN":  "迪奥·麦克斯韦尔",
         "PilotTC":  "狄奧·麥韋",
         "PilotTC2":  "迪歐·麥斯威爾",
         "PilotSeiyuu":  "Seki Toshihiko",
@@ -2226,7 +2354,7 @@
         "Id":  94,
         "Value":  "Tallgeese II",
         "ValueJP":  "トールギスII",
-        "ValueCN":  "托鲁基斯2",
+        "ValueCN":  "多鲁基斯II",
         "ValueTC":  "多魯基斯II",
         "ValueTC2":  "托爾吉斯II",
         "Pilot":  "Treize Khushrenada",
@@ -2260,12 +2388,12 @@
         "Id":  95,
         "Value":  "Tallgeese",
         "ValueJP":  "トールギス",
-        "ValueCN":  "托鲁基斯",
+        "ValueCN":  "多鲁基斯",
         "ValueTC":  "多魯基斯",
         "ValueTC2":  "托爾吉斯",
         "Pilot":  "Zechs Merquise",
         "PilotJP":  "ゼクス・マーキス",
-        "PilotCN":  "积古斯·马其士",
+        "PilotCN":  "杰克斯·马吉斯",
         "PilotTC":  "薩古斯·瑪基斯",
         "PilotTC2":  "傑克斯·馬吉斯",
         "PilotSeiyuu":  "Koyasu Takehito",
@@ -2294,9 +2422,9 @@
         "Id":  96,
         "Value":  "Wing Gundam Zero EW",
         "ValueJP":  "ウイングガンダムゼロ(EW版)",
-        "ValueCN":  "飞翼零式高达EW",
-        "ValueTC":  "飛翼高達零式 (EW版)",
-        "ValueTC2":  "飛翼鋼彈零式 (EW版)",
+        "ValueCN":  "飞翼高达 零式 (EW版)",
+        "ValueTC":  "飛翼高達 零式 (EW版)",
+        "ValueTC2":  "飛翼鋼彈 零式 (EW版)",
         "Pilot":  "Heero Yuy",
         "PilotJP":  "ヒイロ・ユイ",
         "PilotCN":  "希罗·尤尔",
@@ -2331,6 +2459,10 @@
                       {
                           "Id":  1,
                           "Value":  "EXVSポーズド"
+                      },
+                      {
+                          "Id":  2,
+                          "Value":  "FBポーズド"
                       }
                   ]
     },
@@ -2338,9 +2470,9 @@
         "Id":  97,
         "Value":  "Gundam Heavyarms Custom",
         "ValueJP":  "ガンダムヘビーアームズ改(EW版)",
-        "ValueCN":  "重装高达改EW",
-        "ValueTC":  "重砲手高達改 (EW版)",
-        "ValueTC2":  "重武裝鋼彈改 (EW版)",
+        "ValueCN":  "重装高达 改 (EW版)",
+        "ValueTC":  "重砲手高達 改 (EW版)",
+        "ValueTC2":  "重武裝鋼彈 改 (EW版)",
         "Pilot":  "Trowa Barton",
         "PilotJP":  "トロワ・バートン",
         "PilotCN":  "特洛瓦·巴顿",
@@ -2365,6 +2497,10 @@
                       {
                           "Id":  1,
                           "Value":  "MBONポーズド"
+                      },
+                      {
+                          "Id":  2,
+                          "Value":  "EXVSポーズド"
                       }
                   ]
     },
@@ -2372,12 +2508,12 @@
         "Id":  98,
         "Value":  "Tallgeese III",
         "ValueJP":  "トールギスIII",
-        "ValueCN":  "托鲁基斯3",
+        "ValueCN":  "多鲁基斯Ⅲ",
         "ValueTC":  "多魯基斯III",
         "ValueTC2":  "托爾吉斯III",
         "Pilot":  "Zechs Merquise",
         "PilotJP":  "ゼクス・マーキス",
-        "PilotCN":  "积古斯·马其士",
+        "PilotCN":  "杰克斯·马吉斯",
         "PilotTC":  "薩古斯·瑪基斯",
         "PilotTC2":  "傑克斯·馬吉斯",
         "PilotSeiyuu":  "Koyasu Takehito",
@@ -2409,6 +2545,10 @@
                       {
                           "Id":  1,
                           "Value":  "MBポーズド"
+                      },
+                      {
+                          "Id":  2,
+                          "Value":  "MBONポーズド"
                       }
                   ]
     },
@@ -2416,12 +2556,12 @@
         "Id":  99,
         "Value":  "Gundam Deathscythe Hell EW",
         "ValueJP":  "ガンダムデスサイズヘル(EW版)",
-        "ValueCN":  "地狱死神高达EW",
+        "ValueCN":  "地狱死神高达 (EW版)",
         "ValueTC":  "地獄死神高達 (EW版)",
         "ValueTC2":  "地獄死神鋼彈 (EW版)",
         "Pilot":  "Duo Maxwell",
         "PilotJP":  "デュオ・マックスウェル",
-        "PilotCN":  "迪奥·麦克斯维尔",
+        "PilotCN":  "迪奥·麦克斯韦尔",
         "PilotTC":  "狄奧·麥韋",
         "PilotTC2":  "迪歐·麥斯威爾",
         "PilotSeiyuu":  "Seki Toshihiko",
@@ -2457,6 +2597,10 @@
                       {
                           "Id":  2,
                           "Value":  "FBポーズド"
+                      },
+                      {
+                          "Id":  3,
+                          "Value":  "MBOnポーズド"
                       }
                   ]
     },
@@ -2464,19 +2608,19 @@
         "Id":  100,
         "Value":  "Gundam DX",
         "ValueJP":  "ガンダムDX",
-        "ValueCN":  "DX高达",
+        "ValueCN":  "高达DX",
         "ValueTC":  "高達DX",
         "ValueTC2":  "鋼彈DX",
-        "Pilot":  "Garrod Ran \u0026 Tiffa Adill",
-        "PilotJP":  "ガロード・ラン \u0026 ティファ・アディール",
-        "PilotCN":  "卡洛德·兰 \u0026 蒂法·亚迪尔",
-        "PilotTC":  "卡洛·萊 \u0026 荻花·艾迪洛",
-        "PilotTC2":  "嘉羅德·蘭 \u0026 蒂法·安迪爾",
-        "PilotSeiyuu":  "Takagi Wataru \u0026 Kanai Mika",
-        "PilotSeiyuuJP":  "高木渉 \u0026 かないみか",
-        "PilotSeiyuuCN":  "高木涉 \u0026 金井美香",
-        "PilotSeiyuuTC":  "高木涉 \u0026 金井美香",
-        "PilotSeiyuuTC2":  "高木涉 \u0026 金井美香",
+        "Pilot":  "Garrod Ran&Tiffa Adill",
+        "PilotJP":  "ガロード・ラン&ティファ・アディール",
+        "PilotCN":  "加罗德·兰&蒂法·安迪尔",
+        "PilotTC":  "卡洛·萊&荻花·艾迪洛",
+        "PilotTC2":  "嘉羅德·蘭&蒂法·安迪爾",
+        "PilotSeiyuu":  "Takagi Wataru&Kanai Mika",
+        "PilotSeiyuuJP":  "高木渉&かないみか",
+        "PilotSeiyuuCN":  "高木涉&金井美香",
+        "PilotSeiyuuTC":  "高木涉&金井美香",
+        "PilotSeiyuuTC2":  "高木涉&金井美香",
         "Series":  "After War Gundam X",
         "SeriesJP":  "機動新世紀ガンダムX",
         "SeriesCN":  "机动新世纪高达X",
@@ -2512,7 +2656,7 @@
         "Id":  101,
         "Value":  "Gundam Virsago Chest Break",
         "ValueJP":  "ガンダムヴァサーゴ・チェストブレイク",
-        "ValueCN":  "高达华沙哥破坏者",
+        "ValueCN":  "华沙哥高达破坏者",
         "ValueTC":  "華沙哥高達破壞者",
         "ValueTC2":  "華沙哥鋼彈破壞者",
         "Pilot":  "Shagia Frost",
@@ -2555,10 +2699,10 @@
         "ValueTC2":  "鋼彈X分裂者",
         "Pilot":  "Jamil Neate",
         "PilotJP":  "ジャミル・ニート",
-        "PilotCN":  "加密鲁·尼多",
+        "PilotCN":  "加米尔·尼特",
         "PilotTC":  "舒文·尼特",
         "PilotTC2":  "賈米爾·尼特",
-        "PilotSeiyuu":  "Horiuchi Ken\u0027yū",
+        "PilotSeiyuu":  "Horiuchi Ken'syū",
         "PilotSeiyuuJP":  "堀内賢雄",
         "PilotSeiyuuCN":  "堀内贤雄",
         "PilotSeiyuuTC":  "堀內賢雄",
@@ -2588,19 +2732,19 @@
         "Id":  103,
         "Value":  "Gundam X",
         "ValueJP":  "ガンダムX",
-        "ValueCN":  "X高达",
+        "ValueCN":  "高达X",
         "ValueTC":  "高達X",
         "ValueTC2":  "鋼彈X",
-        "Pilot":  "Garrod Ran \u0026 Tiffa Adill",
-        "PilotJP":  "ガロード・ラン \u0026 ティファ・アディール",
-        "PilotCN":  "卡洛德·兰 \u0026 蒂法·亚迪尔",
-        "PilotTC":  "卡洛·萊 \u0026 荻花·艾迪洛",
-        "PilotTC2":  "嘉羅德·蘭 \u0026 蒂法·安迪爾",
-        "PilotSeiyuu":  "Takagi Wataru \u0026 Kanai Mika",
-        "PilotSeiyuuJP":  "高木渉 \u0026 かないみか",
-        "PilotSeiyuuCN":  "高木涉 \u0026 金井美香",
-        "PilotSeiyuuTC":  "高木涉 \u0026 金井美香",
-        "PilotSeiyuuTC2":  "高木涉 \u0026 金井美香",
+        "Pilot":  "Garrod Ran&Tiffa Adill",
+        "PilotJP":  "ガロード・ラン&ティファ・アディール",
+        "PilotCN":  "加罗德·兰&蒂法·安迪尔",
+        "PilotTC":  "卡洛·萊&荻花·艾迪洛",
+        "PilotTC2":  "嘉羅德·蘭&蒂法·安迪爾",
+        "PilotSeiyuu":  "Takagi Wataru&Kanai Mika",
+        "PilotSeiyuuJP":  "高木渉&かないみか",
+        "PilotSeiyuuCN":  "高木涉&金井美香",
+        "PilotSeiyuuTC":  "高木涉&金井美香",
+        "PilotSeiyuuTC2":  "高木涉&金井美香",
         "Series":  "After War Gundam X",
         "SeriesJP":  "機動新世紀ガンダムX",
         "SeriesCN":  "机动新世纪高达X",
@@ -2647,8 +2791,8 @@
         "Value":  "Turn A Gundam",
         "ValueJP":  "∀ガンダム",
         "ValueCN":  "逆A高达",
-        "ValueTC":  "∀高達",
-        "ValueTC2":  "∀鋼彈",
+        "ValueTC":  "逆A高達",
+        "ValueTC2":  "逆A鋼彈",
         "Pilot":  "Rolan Cehack",
         "PilotJP":  "ロラン・セアック",
         "PilotCN":  "罗兰·瑟亚克",
@@ -2661,9 +2805,9 @@
         "PilotSeiyuuTC2":  "朴璐美",
         "Series":  "Turn A Gundam",
         "SeriesJP":  "∀ガンダム",
-        "SeriesCN":  "∀高达",
-        "SeriesTC":  "∀高達",
-        "SeriesTC2":  "∀鋼彈",
+        "SeriesCN":  "逆A高达",
+        "SeriesTC":  "逆A高達",
+        "SeriesTC2":  "逆A鋼彈",
         "Cost":  3000,
         "Costumes":  [
                          {
@@ -2709,9 +2853,9 @@
         "PilotSeiyuuTC2":  "子安武人",
         "Series":  "Turn A Gundam",
         "SeriesJP":  "∀ガンダム",
-        "SeriesCN":  "∀高达",
-        "SeriesTC":  "∀高達",
-        "SeriesTC2":  "∀鋼彈",
+        "SeriesCN":  "逆A高达",
+        "SeriesTC":  "逆A高達",
+        "SeriesTC2":  "逆A鋼彈",
         "Cost":  3000,
         "Poses":  [
                       {
@@ -2732,12 +2876,12 @@
         "Id":  107,
         "Value":  "Gold SUMO",
         "ValueJP":  "ゴールドスモー",
-        "ValueCN":  "金斯摩",
-        "ValueTC":  "金斯摩",
-        "ValueTC2":  "金斯摩",
+        "ValueCN":  "金色苏摩",
+        "ValueTC":  "金色斯摩",
+        "ValueTC2":  "金色斯摩",
         "Pilot":  "Harry Ord",
         "PilotJP":  "ハリー・オード",
-        "PilotCN":  "哈利·欧德",
+        "PilotCN":  "哈利·奥德",
         "PilotTC":  "哈利·歐德",
         "PilotTC2":  "哈利·歐德",
         "PilotSeiyuu":  "Inada Tetsu",
@@ -2747,9 +2891,9 @@
         "PilotSeiyuuTC2":  "稻田徹",
         "Series":  "Turn A Gundam",
         "SeriesJP":  "∀ガンダム",
-        "SeriesCN":  "∀高达",
-        "SeriesTC":  "∀高達",
-        "SeriesTC2":  "∀鋼彈",
+        "SeriesCN":  "逆A高达",
+        "SeriesTC":  "逆A高達",
+        "SeriesTC2":  "逆A鋼彈",
         "Cost":  2500,
         "Costumes":  [
                          {
@@ -2769,6 +2913,10 @@
                       {
                           "Id":  1,
                           "Value":  "EXVSポーズド"
+                      },
+                      {
+                          "Id":  2,
+                          "Value":  "FBポーズド"
                       }
                   ]
     },
@@ -2776,7 +2924,7 @@
         "Id":  108,
         "Value":  "Kapool",
         "ValueJP":  "カプル",
-        "ValueCN":  "卡普尔（绿）",
+        "ValueCN":  "卡普尔",
         "ValueTC":  "卡普爾",
         "ValueTC2":  "卡普爾",
         "Pilot":  "Sochie Heim",
@@ -2791,9 +2939,9 @@
         "PilotSeiyuuTC2":  "村田秋乃",
         "Series":  "Turn A Gundam",
         "SeriesJP":  "∀ガンダム",
-        "SeriesCN":  "∀高达",
-        "SeriesTC":  "∀高達",
-        "SeriesTC2":  "∀鋼彈",
+        "SeriesCN":  "逆A高达",
+        "SeriesTC":  "逆A高達",
+        "SeriesTC2":  "逆A鋼彈",
         "Cost":  1500,
         "Costumes":  [
                          {
@@ -2818,14 +2966,14 @@
     },
     {
         "Id":  109,
-        "Value":  "Koren\u0027s Kapool",
+        "Value":  "Koren'ss Kapool",
         "ValueJP":  "コレンカプル",
-        "ValueCN":  "卡普尔（红）",
+        "ValueCN":  "哥连卡普尔",
         "ValueTC":  "哥連卡普魯",
         "ValueTC2":  "科倫卡普爾",
         "Pilot":  "Corin Nander",
         "PilotJP":  "コレン・ナンダー",
-        "PilotCN":  "柯连·南达",
+        "PilotCN":  "哥连·那达",
         "PilotTC":  "哥連·南達",
         "PilotTC2":  "科倫·南德爾",
         "PilotSeiyuu":  "Kawazu Yasuhiko",
@@ -2835,9 +2983,9 @@
         "PilotSeiyuuTC2":  "川津泰彥",
         "Series":  "Turn A Gundam",
         "SeriesJP":  "∀ガンダム",
-        "SeriesCN":  "∀高达",
-        "SeriesTC":  "∀高達",
-        "SeriesTC2":  "∀鋼彈",
+        "SeriesCN":  "逆A高达",
+        "SeriesTC":  "逆A高達",
+        "SeriesTC2":  "逆A鋼彈",
         "Cost":  2000,
         "Poses":  [
                       {
@@ -2910,11 +3058,11 @@
         "PilotCN":  "夏尼·安德拉斯",
         "PilotTC":  "沙里·安多拉士",
         "PilotTC2":  "夏尼·安德拉斯",
-        "PilotSeiyuu":  "Shunn",
-        "PilotSeiyuuJP":  "Shunn",
-        "PilotSeiyuuCN":  "Shunn",
-        "PilotSeiyuuTC":  "Shunn",
-        "PilotSeiyuuTC2":  "Shunn",
+        "PilotSeiyuu":  "Miyamoto Shunichi",
+        "PilotSeiyuuJP":  "宫本骏一",
+        "PilotSeiyuuCN":  "宫本骏一",
+        "PilotSeiyuuTC":  "宫本骏一",
+        "PilotSeiyuuTC2":  "宫本骏一",
         "Series":  "Mobile Suit Gundam SEED",
         "SeriesJP":  "機動戦士ガンダムSEED",
         "SeriesCN":  "机动战士高达SEED",
@@ -2943,6 +3091,10 @@
                       {
                           "Id":  2,
                           "Value":  "FBポーズド"
+                      },
+                      {
+                          "Id":  3,
+                          "Value":  "MBポーズド"
                       }
                   ]
     },
@@ -2987,6 +3139,10 @@
                       {
                           "Id":  1,
                           "Value":  "MBポーズド"
+                      },
+                      {
+                          "Id":  2,
+                          "Value":  "XBポーズド"
                       }
                   ]
     },
@@ -2994,7 +3150,7 @@
         "Id":  114,
         "Value":  "LaGOWE",
         "ValueJP":  "ラゴゥ",
-        "ValueCN":  "拉古",
+        "ValueCN":  "拉寇",
         "ValueTC":  "拉哥",
         "ValueTC2":  "拉寇",
         "Pilot":  "Andrew Waltfeld",
@@ -3021,6 +3177,10 @@
                       {
                           "Id":  1,
                           "Value":  "EXVSポーズド"
+                      },
+                      {
+                          "Id":  2,
+                          "Value":  "MBポーズド"
                       }
                   ]
     },
@@ -3076,9 +3236,9 @@
         "Id":  116,
         "Value":  "Duel Gundam",
         "ValueJP":  "デュエルガンダムアサルトシュラウド",
-        "ValueCN":  "决斗高达强袭尸装",
-        "ValueTC":  "決鬥高達高火力推進型",
-        "ValueTC2":  "決鬥鋼彈 突擊護甲",
+        "ValueCN":  "决斗高达 强袭尸装",
+        "ValueTC":  "決鬥高達 (強襲護甲裝備)",
+        "ValueTC2":  "決鬥鋼彈突擊護甲",
         "Pilot":  "Yzak Jule",
         "PilotJP":  "イザーク・ジュール",
         "PilotCN":  "伊扎克·玖尔",
@@ -3124,9 +3284,9 @@
         "Id":  118,
         "Value":  "Perfect Strike Gundam",
         "ValueJP":  "パーフェクトストライクガンダム",
-        "ValueCN":  "完美强袭高达",
-        "ValueTC":  "完美突擊高達",
-        "ValueTC2":  "完美攻擊鋼彈",
+        "ValueCN":  "完美型强袭高达",
+        "ValueTC":  "完美型突擊高達",
+        "ValueTC2":  "完美型攻擊鋼彈",
         "Pilot":  "Mu La Flaga",
         "PilotJP":  "ムウ・ラ・フラガ",
         "PilotCN":  "穆·拉·弗拉格",
@@ -3385,6 +3545,10 @@
                       {
                           "Id":  1,
                           "Value":  "EXVS.ポーズド"
+                      },
+                      {
+                          "Id":  2,
+                          "Value":  "FBポーズド"
                       }
                   ]
     },
@@ -3433,6 +3597,10 @@
                       {
                           "Id":  2,
                           "Value":  "EXVSポーズド"
+                      },
+                      {
+                          "Id":  3,
+                          "Value":  "XBポーズド"
                       }
                   ]
     },
@@ -3529,6 +3697,10 @@
                       {
                           "Id":  1,
                           "Value":  "MBONポーズド"
+                      },
+                      {
+                          "Id":  2,
+                          "Value":  "EXVS.2ポーズド"
                       }
                   ]
     },
@@ -3617,6 +3789,10 @@
                       {
                           "Id":  1,
                           "Value":  "FBポーズド"
+                      },
+                      {
+                          "Id":  2,
+                          "Value":  "MBポーズド"
                       }
                   ]
     },
@@ -3668,9 +3844,9 @@
         "Id":  130,
         "Value":  "Impulse Gundam (Lunamaria Hawke)",
         "ValueJP":  "インパルスガンダム(ルナマリア搭乗)",
-        "ValueCN":  "脉冲高达（露娜）",
-        "ValueTC":  "衝擊高達 (露娜瑪利亞)",
-        "ValueTC2":  "脈衝鋼彈 (露娜瑪莉亞)",
+        "ValueCN":  "脉冲高达 (露娜搭乘)",
+        "ValueTC":  "衝擊高達 (露娜搭乘)",
+        "ValueTC2":  "脈衝鋼彈 (露娜搭乘)",
         "Pilot":  "Lunamaria Hawke",
         "PilotJP":  "ルナマリア・ホーク",
         "PilotCN":  "露娜玛莉亚·霍克",
@@ -3712,9 +3888,9 @@
         "Id":  131,
         "Value":  "Infinite Justice Gundam (Lacus Clyne)",
         "ValueJP":  "インフィニットジャスティスガンダム(ラクス搭乗)",
-        "ValueCN":  "无限正义高达（拉克丝）",
-        "ValueTC":  "無限正義高達 (莉古絲)",
-        "ValueTC2":  "無限正義鋼彈 (拉克絲)",
+        "ValueCN":  "无限正义高达 (拉克丝搭乘)",
+        "ValueTC":  "無限正義高達 (莉古絲搭乘)",
+        "ValueTC2":  "無限正義鋼彈 (拉克絲搭乘)",
         "Pilot":  "Lacus Clyne",
         "PilotJP":  "ラクス・クライン",
         "PilotCN":  "拉克丝·克莱茵",
@@ -3756,7 +3932,7 @@
         "Id":  133,
         "Value":  "Gouf Ignited",
         "ValueJP":  "グフイグナイテッド",
-        "ValueCN":  "烈焰老虎",
+        "ValueCN":  "老虎烈焰型",
         "ValueTC":  "烈焰老虎",
         "ValueTC2":  "古夫烈焰型",
         "Pilot":  "Heine Westtenfluss",
@@ -3800,7 +3976,7 @@
         "Id":  134,
         "Value":  "Strike Rogue Ootori",
         "ValueJP":  "ストライクルージュ(オオトリ装備)",
-        "ValueCN":  "嫣红强袭高达（大鹫装备）",
+        "ValueCN":  "嫣红强袭高达 (凤装背包)",
         "ValueTC":  "嫣紅突擊高達 (鳳凰裝備)",
         "ValueTC2":  "嫣紅攻擊鋼彈 (鳳型背包)",
         "Pilot":  "Cagalli Yula Athha",
@@ -3890,9 +4066,9 @@
     },
     {
         "Id":  137,
-        "Value":  "Akatsuki Gundam",
+        "Value":  "Akatsuki",
         "ValueJP":  "アカツキ",
-        "ValueCN":  "拂晓高达",
+        "ValueCN":  "拂晓",
         "ValueTC":  "曉",
         "ValueTC2":  "曉",
         "Pilot":  "Mu La Flaga",
@@ -3981,6 +4157,10 @@
                       {
                           "Id":  3,
                           "Value":  "イベントKVポーズド"
+                      },
+                      {
+                          "Id":  4,
+                          "Value":  "エクストリームファン投票"
                       }
                   ]
     },
@@ -4029,6 +4209,10 @@
                       {
                           "Id":  2,
                           "Value":  "MBポーズド"
+                      },
+                      {
+                          "Id":  3,
+                          "Value":  "MBONポーズド"
                       }
                   ]
     },
@@ -4073,6 +4257,10 @@
                       {
                           "Id":  1,
                           "Value":  "FBポーズド"
+                      },
+                      {
+                          "Id":  2,
+                          "Value":  "MBポーズド"
                       }
                   ]
     },
@@ -4083,12 +4271,12 @@
         "ValueCN":  "智天使高达",
         "ValueTC":  "基路迪高達",
         "ValueTC2":  "智天使鋼彈",
-        "Pilot":  "Lockon Stratos (Lyle Dylandy)",
-        "PilotJP":  "ロックオン・ストラトス (ライル・ディランディ)",
-        "PilotCN":  "洛克昂·史特拉托斯 (莱尔·狄兰迪)",
-        "PilotTC":  "洛奧·史當斯 (萊爾·狄蘭提)",
-        "PilotTC2":  "洛克昂·史特拉托斯 (萊爾·狄蘭迪)",
-        "PilotSeiyuu":  "Miki Shin\u0027ichirō",
+        "Pilot":  "Lockon Stratos",
+        "PilotJP":  "ロックオン・ストラトス",
+        "PilotCN":  "洛克昂·史特拉托斯",
+        "PilotTC":  "洛奧·史當斯",
+        "PilotTC2":  "洛克昂·史特拉托斯",
+        "PilotSeiyuu":  "Miki Shin'sichirō",
         "PilotSeiyuuJP":  "三木眞一郎",
         "PilotSeiyuuCN":  "三木真一郎",
         "PilotSeiyuuTC":  "三木真一郎",
@@ -4121,8 +4309,13 @@
                       {
                           "Id":  2,
                           "Value":  "MBONポーズド"
+                      },
+                      {
+                          "Id":  3,
+                          "Value":  "FBポーズド"
                       }
                   ]
+                  
     },
     {
         "Id":  142,
@@ -4156,7 +4349,21 @@
                              "Id":  1,
                              "Value":  "スーツ"
                          }
-                     ]
+                     ],
+        "Poses":  [
+                      {
+                          "Id":  0,
+                          "Value":  "IBポーズド"
+                      },
+                      {
+                          "Id":  1,
+                          "Value":  "FBポーズド"
+                      },
+                      {
+                          "Id":  2,
+                          "Value":  "MBポーズド"
+                      }
+                  ]
     },
     {
         "Id":  143,
@@ -4165,12 +4372,12 @@
         "ValueCN":  "力天使高达",
         "ValueTC":  "高達戴勒米",
         "ValueTC2":  "力天使鋼彈",
-        "Pilot":  "Lockon Stratos (Neil Dylandy)",
-        "PilotJP":  "ロックオン・ストラトス (ニール・ディランディ)",
-        "PilotCN":  "洛克昂·史特拉托斯 (尼尔·狄兰迪)",
-        "PilotTC":  "洛奧·史當斯 (尼爾·狄蘭提)",
-        "PilotTC2":  "洛克昂·史特拉托斯 (尼爾·狄蘭迪)",
-        "PilotSeiyuu":  "Miki Shin\u0027ichirō",
+        "Pilot":  "Lockon Stratos",
+        "PilotJP":  "ロックオン・ストラトス",
+        "PilotCN":  "洛克昂·史特拉托斯",
+        "PilotTC":  "洛奧·史當斯",
+        "PilotTC2":  "洛克昂·史特拉托斯",
+        "PilotSeiyuu":  "Miki Shin'sichirō",
         "PilotSeiyuuJP":  "三木眞一郎",
         "PilotSeiyuuCN":  "三木真一郎",
         "PilotSeiyuuTC":  "三木真一郎",
@@ -4188,7 +4395,7 @@
                          },
                          {
                              "Id":  1,
-                             "Value":  "私服（眼帯）"
+                             "Value":  "私服 (眼帯)"
                          }
                      ],
         "Poses":  [
@@ -4247,6 +4454,10 @@
                       {
                           "Id":  2,
                           "Value":  "FBポーズド"
+                      },
+                      {
+                          "Id":  3,
+                          "Value":  "MBONポーズド"
                       }
                   ]
     },
@@ -4254,7 +4465,7 @@
         "Id":  145,
         "Value":  "Gundam Throne Drei",
         "ValueJP":  "ガンダムスローネドライ",
-        "ValueCN":  "座天使高达3号机",
+        "ValueCN":  "座天使高达三型",
         "ValueTC":  "高達斯洛尼三型",
         "ValueTC2":  "座天使鋼彈三型",
         "Pilot":  "Nena Trinity",
@@ -4317,6 +4528,16 @@
         "SeriesTC":  "機動戰士高達00",
         "SeriesTC2":  "機動戰士鋼彈00",
         "Cost":  2500,
+        "Costumes":  [
+                         {
+                             "Id":  0,
+                             "Value":  "デフォルト"
+                         },
+                         {
+                             "Id":  1,
+                             "Value":  "CB制服"
+                         }
+                     ],
         "Poses":  [
                       {
                           "Id":  0,
@@ -4325,6 +4546,10 @@
                       {
                           "Id":  1,
                           "Value":  "FBポーズド"
+                      },
+                      {
+                          "Id":  2,
+                          "Value":  "EXVS.ポーズド"
                       }
                   ]
     },
@@ -4376,7 +4601,7 @@
         "Id":  149,
         "Value":  "00 Gundam Seven Sword/G",
         "ValueJP":  "ダブルオーガンダム セブンソード／G",
-        "ValueCN":  "00高达七剑",
+        "ValueCN":  "七剑型00高达/G",
         "ValueTC":  "七劍型00高達/G",
         "ValueTC2":  "七劍型00鋼彈/G",
         "Pilot":  "Setsuna F. Seiei",
@@ -4592,7 +4817,7 @@
                          },
                          {
                              "Id":  1,
-                             "Value":  "ドレス"
+                             "Value":  "私服"
                          }
                      ],
         "Poses":  [
@@ -4652,14 +4877,14 @@
     },
     {
         "Id":  157,
-        "Value":  "Graham\u0027s Union Flag Custom",
+        "Value":  "Graham'ss Union Flag Custom",
         "ValueJP":  "グラハム専用ユニオンフラッグカスタム",
         "ValueCN":  "格拉汉姆专用联合旗帜式",
         "ValueTC":  "古萊哈姆專用聯邦布勒特裝型",
         "ValueTC2":  "葛拉漢專用聯合旗幟式特裝型",
         "Pilot":  "Graham Aker",
         "PilotJP":  "グラハム・エーカー",
-        "PilotCN":  "葛拉汉·耶卡",
+        "PilotCN":  "格拉汉姆·艾卡",
         "PilotTC":  "古萊哈姆·依卡",
         "PilotTC2":  "葛拉漢·耶卡",
         "PilotSeiyuu":  "Nakamura Yuichi",
@@ -4698,7 +4923,7 @@
         "Id":  162,
         "Value":  "00 Qan[T]",
         "ValueJP":  "ダブルオークアンタ",
-        "ValueCN":  "00高达量子型",
+        "ValueCN":  "量子型00高达",
         "ValueTC":  "量子型00高達",
         "ValueTC2":  "量子型00鋼彈",
         "Pilot":  "Setsuna F. Seiei",
@@ -4713,7 +4938,7 @@
         "PilotSeiyuuTC2":  "宮野真守",
         "Series":  "Mobile Suit Gundam 00 The Movie -Awakening of the Trailblazer-",
         "SeriesJP":  "劇場版 機動戦士ガンダム00 -A wakening of the Trailblazer-",
-        "SeriesCN":  "剧场版 机动战士高达00 -觉醒的先驱者-",
+        "SeriesCN":  "机动战士高达00 剧场版 -先驱者的觉醒-",
         "SeriesTC":  "劇場版 機動戰士高達00 -先驅者的覺醒-",
         "SeriesTC2":  "劇場版 機動戰士鋼彈00 -先驅者的覺醒-",
         "Cost":  3000,
@@ -4761,7 +4986,7 @@
         "PilotSeiyuuTC2":  "神谷浩史",
         "Series":  "Mobile Suit Gundam 00 The Movie -Awakening of the Trailblazer-",
         "SeriesJP":  "劇場版 機動戦士ガンダム00 -A wakening of the Trailblazer-",
-        "SeriesCN":  "剧场版 机动战士高达00 -觉醒的先驱者-",
+        "SeriesCN":  "机动战士高达00 剧场版 -先驱者的觉醒-",
         "SeriesTC":  "劇場版 機動戰士高達00 -先驅者的覺醒-",
         "SeriesTC2":  "劇場版 機動戰士鋼彈00 -先驅者的覺醒-",
         "Cost":  2500,
@@ -4799,7 +5024,7 @@
         "ValueTC2":  "勇者式指揮官用試驗機",
         "Pilot":  "Graham Aker",
         "PilotJP":  "グラハム・エーカー",
-        "PilotCN":  "葛拉汉·耶卡",
+        "PilotCN":  "格拉汉姆·艾卡",
         "PilotTC":  "古萊哈姆·依卡",
         "PilotTC2":  "葛拉漢·耶卡",
         "PilotSeiyuu":  "Nakamura Yuichi",
@@ -4809,7 +5034,7 @@
         "PilotSeiyuuTC2":  "中村悠一",
         "Series":  "Mobile Suit Gundam 00 The Movie -Awakening of the Trailblazer-",
         "SeriesJP":  "劇場版 機動戦士ガンダム00 -A wakening of the Trailblazer-",
-        "SeriesCN":  "剧场版 机动战士高达00 -觉醒的先驱者-",
+        "SeriesCN":  "机动战士高达00 剧场版 -先驱者的觉醒-",
         "SeriesTC":  "劇場版 機動戰士高達00 -先驅者的覺醒-",
         "SeriesTC2":  "劇場版 機動戰士鋼彈00 -先驅者的覺醒-",
         "Cost":  2500,
@@ -4831,6 +5056,10 @@
                       {
                           "Id":  1,
                           "Value":  "MBONポーズド"
+                      },
+                      {
+                          "Id":  2,
+                          "Value":  "MBポーズド"
                       }
                   ]
     },
@@ -4838,7 +5067,7 @@
         "Id":  165,
         "Value":  "00 Qan[T] Full Saber",
         "ValueJP":  "ダブルオークアンタ フルセイバー",
-        "ValueCN":  "00高达量子型全刃式",
+        "ValueCN":  "量子型00高达全刃式",
         "ValueTC":  "量子型00高達全刃式",
         "ValueTC2":  "量子型00鋼彈全刃式",
         "Pilot":  "Setsuna F. Seiei",
@@ -4875,6 +5104,10 @@
                       {
                           "Id":  1,
                           "Value":  "MBポーズド"
+                      },
+                      {
+                          "Id":  2,
+                          "Value":  "エクストリームファン投票"
                       }
                   ]
     },
@@ -4885,19 +5118,19 @@
         "ValueCN":  "狱天使高达",
         "ValueTC":  "高達沙巴尼亞",
         "ValueTC2":  "獄天使鋼彈",
-        "Pilot":  "Lockon Stratos (Lyle Dylandy)",
-        "PilotJP":  "ロックオン・ストラトス (ライル・ディランディ)",
-        "PilotCN":  "洛克昂·史特拉托斯 (莱尔·狄兰迪)",
-        "PilotTC":  "洛奧·史當斯 (萊爾·狄蘭提)",
-        "PilotTC2":  "洛克昂·史特拉托斯 (萊爾·狄蘭迪)",
-        "PilotSeiyuu":  "Miki Shin\u0027ichirō",
+        "Pilot":  "Lockon Stratos",
+        "PilotJP":  "ロックオン・ストラトス",
+        "PilotCN":  "洛克昂·史特拉托斯",
+        "PilotTC":  "洛奧·史當斯",
+        "PilotTC2":  "洛克昂·史特拉托斯",
+        "PilotSeiyuu":  "Miki Shin'sichirō",
         "PilotSeiyuuJP":  "三木眞一郎",
         "PilotSeiyuuCN":  "三木真一郎",
         "PilotSeiyuuTC":  "三木真一郎",
         "PilotSeiyuuTC2":  "三木真一郎",
         "Series":  "Mobile Suit Gundam 00 The Movie -Awakening of the Trailblazer-",
         "SeriesJP":  "劇場版 機動戦士ガンダム00 -A wakening of the Trailblazer-",
-        "SeriesCN":  "剧场版 机动战士高达00 -觉醒的先驱者-",
+        "SeriesCN":  "机动战士高达00 剧场版 -先驱者的觉醒-",
         "SeriesTC":  "劇場版 機動戰士高達00 -先驅者的覺醒-",
         "SeriesTC2":  "劇場版 機動戰士鋼彈00 -先驅者的覺醒-",
         "Cost":  3000,
@@ -4919,6 +5152,10 @@
                       {
                           "Id":  1,
                           "Value":  "MBONポーズド"
+                      },
+                      {
+                          "Id":  2,
+                          "Value":  "MBポーズド"
                       }
                   ]
     },
@@ -4929,22 +5166,32 @@
         "ValueCN":  "妖天使高达",
         "ValueTC":  "高達哈魯托",
         "ValueTC2":  "妖天使鋼彈",
-        "Pilot":  "Allelujah Haptism \u0026 Marie Parfacy",
-        "PilotJP":  "アレルヤ・ハプティズム \u0026 マリー・パーファシー",
-        "PilotCN":  "阿雷路亚·帕普提兹姆 \u0026 玛丽·帕珐西",
-        "PilotTC":  "阿路耶·哈帝姆 \u0026 瑪莉·珀華詩",
-        "PilotTC2":  "阿雷路亞·帕普提茲姆 \u0026 瑪莉·帕法西",
-        "PilotSeiyuu":  "Yoshino Hiroyuki \u0026 Ogasawara Arisa",
-        "PilotSeiyuuJP":  "吉野裕行 \u0026 小笠原亜里沙",
-        "PilotSeiyuuCN":  "吉野裕行 \u0026 小笠原亚理沙",
-        "PilotSeiyuuTC":  "吉野裕行 \u0026 小笠原亞里沙",
-        "PilotSeiyuuTC2":  "吉野裕行 \u0026 小笠原亞里沙",
+        "Pilot":  "Allelujah Haptism&Marie Parfacy",
+        "PilotJP":  "アレルヤ・ハプティズム&マリー・パーファシー",
+        "PilotCN":  "阿雷路亚·帕普提兹姆&玛丽·帕珐西",
+        "PilotTC":  "阿路耶·哈帝姆&瑪莉·珀華詩",
+        "PilotTC2":  "阿雷路亞·帕普提茲姆&瑪莉·帕法西",
+        "PilotSeiyuu":  "Yoshino Hiroyuki&Ogasawara Arisa",
+        "PilotSeiyuuJP":  "吉野裕行&小笠原亜里沙",
+        "PilotSeiyuuCN":  "吉野裕行&小笠原亚理沙",
+        "PilotSeiyuuTC":  "吉野裕行&小笠原亞里沙",
+        "PilotSeiyuuTC2":  "吉野裕行&小笠原亞里沙",
         "Series":  "Mobile Suit Gundam 00 The Movie -Awakening of the Trailblazer-",
         "SeriesJP":  "劇場版 機動戦士ガンダム00 -A wakening of the Trailblazer-",
-        "SeriesCN":  "剧场版 机动战士高达00 -觉醒的先驱者-",
+        "SeriesCN":  "机动战士高达00 剧场版 -先驱者的觉醒-",
         "SeriesTC":  "劇場版 機動戰士高達00 -先驅者的覺醒-",
         "SeriesTC2":  "劇場版 機動戰士鋼彈00 -先驅者的覺醒-",
         "Cost":  3000,
+        "Costumes":  [
+                         {
+                             "Id":  0,
+                             "Value":  "デフォルト"
+                         },
+                         {
+                             "Id":  1,
+                             "Value":  "私服"
+                         }
+                     ],
         "Poses":  [
                       {
                           "Id":  0,
@@ -4975,7 +5222,7 @@
         "PilotSeiyuuTC2":  "內山昂輝",
         "Series":  "Mobile Suit Gundam Unicorn",
         "SeriesJP":  "機動戦士ガンダムUC",
-        "SeriesCN":  "机动战士高达UC",
+        "SeriesCN":  "机动战士高达 独角兽",
         "SeriesTC":  "機動戰士高達UC",
         "SeriesTC2":  "機動戰士鋼彈UC",
         "Cost":  3000,
@@ -5023,7 +5270,7 @@
         "PilotSeiyuuTC2":  "甲斐田裕子",
         "Series":  "Mobile Suit Gundam Unicorn",
         "SeriesJP":  "機動戦士ガンダムUC",
-        "SeriesCN":  "机动战士高达UC",
+        "SeriesCN":  "机动战士高达 独角兽",
         "SeriesTC":  "機動戰士高達UC",
         "SeriesTC2":  "機動戰士鋼彈UC",
         "Cost":  2000,
@@ -5071,7 +5318,7 @@
         "PilotSeiyuuTC2":  "池田秀一",
         "Series":  "Mobile Suit Gundam Unicorn",
         "SeriesJP":  "機動戦士ガンダムUC",
-        "SeriesCN":  "机动战士高达UC",
+        "SeriesCN":  "机动战士高达 独角兽",
         "SeriesTC":  "機動戰士高達UC",
         "SeriesTC2":  "機動戰士鋼彈UC",
         "Cost":  3000,
@@ -5104,9 +5351,9 @@
         "Id":  171,
         "Value":  "Delta Plus",
         "ValueJP":  "デルタプラス",
-        "ValueCN":  "德尔塔Plus",
-        "ValueTC":  "Delta Plus",
-        "ValueTC2":  "德爾塔Plus",
+        "ValueCN":  "德尔塔普拉斯",
+        "ValueTC":  "德爾塔普拉斯",
+        "ValueTC2":  "德爾塔普拉斯",
         "Pilot":  "Riddhe Marcenas",
         "PilotJP":  "リディ・マーセナス",
         "PilotCN":  "利迪·马瑟纳斯",
@@ -5119,7 +5366,7 @@
         "PilotSeiyuuTC2":  "浪川大輔",
         "Series":  "Mobile Suit Gundam Unicorn",
         "SeriesJP":  "機動戦士ガンダムUC",
-        "SeriesCN":  "机动战士高达UC",
+        "SeriesCN":  "机动战士高达 独角兽",
         "SeriesTC":  "機動戰士高達UC",
         "SeriesTC2":  "機動戰士鋼彈UC",
         "Cost":  2000,
@@ -5131,6 +5378,10 @@
                       {
                           "Id":  1,
                           "Value":  "MBポーズド"
+                      },
+                      {
+                          "Id":  2,
+                          "Value":  "MBONポーズド"
                       }
                   ]
     },
@@ -5139,8 +5390,8 @@
         "Value":  "Unicorn Gundam Banshee",
         "ValueJP":  "バンシィ",
         "ValueCN":  "报丧女妖",
-        "ValueTC":  "獨角獸高達2號機報喪女妖",
-        "ValueTC2":  "獨角獸鋼彈2號機報喪女妖",
+        "ValueTC":  "報喪女妖",
+        "ValueTC2":  "報喪女妖",
         "Pilot":  "Marida Cruz",
         "PilotJP":  "マリーダ・クルス",
         "PilotCN":  "玛莉妲·库鲁斯",
@@ -5153,7 +5404,7 @@
         "PilotSeiyuuTC2":  "甲斐田裕子",
         "Series":  "Mobile Suit Gundam Unicorn",
         "SeriesJP":  "機動戦士ガンダムUC",
-        "SeriesCN":  "机动战士高达UC",
+        "SeriesCN":  "机动战士高达 独角兽",
         "SeriesTC":  "機動戰士高達UC",
         "SeriesTC2":  "機動戰士鋼彈UC",
         "Cost":  2500,
@@ -5179,6 +5430,10 @@
                       {
                           "Id":  2,
                           "Value":  "FBポーズド"
+                      },
+                      {
+                          "Id":  3,
+                          "Value":  "MBONポーズド"
                       }
                   ]
     },
@@ -5186,7 +5441,7 @@
         "Id":  173,
         "Value":  "Rozen Zulu",
         "ValueJP":  "ローゼン・ズール",
-        "ValueCN":  "玫瑰·祖鲁",
+        "ValueCN":  "罗森·祖鲁",
         "ValueTC":  "羅森·祖魯",
         "ValueTC2":  "羅森·祖魯",
         "Pilot":  "Angelo Sauper",
@@ -5201,7 +5456,7 @@
         "PilotSeiyuuTC2":  "柿原徹也",
         "Series":  "Mobile Suit Gundam Unicorn",
         "SeriesJP":  "機動戦士ガンダムUC",
-        "SeriesCN":  "机动战士高达UC",
+        "SeriesCN":  "机动战士高达 独角兽",
         "SeriesTC":  "機動戰士高達UC",
         "SeriesTC2":  "機動戰士鋼彈UC",
         "Cost":  2000,
@@ -5223,6 +5478,10 @@
                       {
                           "Id":  1,
                           "Value":  "FBポーズド"
+                      },
+                      {
+                          "Id":  2,
+                          "Value":  "MBONポーズド"
                       }
                   ]
     },
@@ -5230,7 +5489,7 @@
         "Id":  175,
         "Value":  "Full Armor Unicorn Gundam",
         "ValueJP":  "フルアーマー・ユニコーンガンダム",
-        "ValueCN":  "全装甲型独角兽高达",
+        "ValueCN":  "全装甲独角兽高达",
         "ValueTC":  "全武裝獨角獸高達",
         "ValueTC2":  "全裝甲型獨角獸鋼彈",
         "Pilot":  "Banagher Links",
@@ -5245,7 +5504,7 @@
         "PilotSeiyuuTC2":  "內山昂輝",
         "Series":  "Mobile Suit Gundam Unicorn",
         "SeriesJP":  "機動戦士ガンダムUC",
-        "SeriesCN":  "机动战士高达UC",
+        "SeriesCN":  "机动战士高达 独角兽",
         "SeriesTC":  "機動戰士高達UC",
         "SeriesTC2":  "機動戰士鋼彈UC",
         "Cost":  3000,
@@ -5279,8 +5538,8 @@
         "Value":  "Unicorn Gundam Banshee Norn",
         "ValueJP":  "バンシィ・ノルン",
         "ValueCN":  "报丧女妖·命运女神",
-        "ValueTC":  "獨角獸高達2號機報喪女妖·命運女神",
-        "ValueTC2":  "獨角獸鋼彈2號機報喪女妖·命運女神",
+        "ValueTC":  "報喪女妖·命運女神",
+        "ValueTC2":  "報喪女妖·命運女神",
         "Pilot":  "Riddhe Marcenas",
         "PilotJP":  "リディ・マーセナス",
         "PilotCN":  "利迪·马瑟纳斯",
@@ -5293,7 +5552,7 @@
         "PilotSeiyuuTC2":  "浪川大輔",
         "Series":  "Mobile Suit Gundam Unicorn",
         "SeriesJP":  "機動戦士ガンダムUC",
-        "SeriesCN":  "机动战士高达UC",
+        "SeriesCN":  "机动战士高达 独角兽",
         "SeriesTC":  "機動戰士高達UC",
         "SeriesTC2":  "機動戰士鋼彈UC",
         "Cost":  3000,
@@ -5316,12 +5575,12 @@
         "Id":  180,
         "Value":  "Alex",
         "ValueJP":  "アレックス",
-        "ValueCN":  "高达NT-1 阿历克斯",
-        "ValueTC":  "高達NT-1 亞歷斯",
-        "ValueTC2":  "鋼彈NT-1 亞雷克斯",
+        "ValueCN":  "亚历克斯",
+        "ValueTC":  "亞歷斯",
+        "ValueTC2":  "亞雷克斯",
         "Pilot":  "Christina Mackenzie",
         "PilotJP":  "クリスチーナ・マッケンジー",
-        "PilotCN":  "克莉丝汀娜·玛肯吉",
+        "PilotCN":  "克莉丝蒂娜·马坎基",
         "PilotTC":  "姬絲汀娜·麥奇茲",
         "PilotTC2":  "克莉絲汀娜·麥肯錫",
         "PilotSeiyuu":  "Hayashihara Megumi",
@@ -5359,6 +5618,10 @@
                           "Value":  "MBポーズド"
                       },
                       {
+                          "Id":  3,
+                          "Value":  "FBポーズド"
+                      },
+                      {
                           "Id":  11,
                           "Value":  "NT-1プロトカラー"
                       }
@@ -5377,13 +5640,13 @@
     {
         "Id":  181,
         "Value":  "Zaku II Custom",
-        "ValueJP":  "ザクII改",
-        "ValueCN":  "扎古2改",
-        "ValueTC":  "渣古2改",
-        "ValueTC2":  "薩克II改",
+        "ValueJP":  "ザクII 改",
+        "ValueCN":  "扎古 II 改",
+        "ValueTC":  "渣古 II 改",
+        "ValueTC2":  "薩克 II改",
         "Pilot":  "Bernard Wiseman",
         "PilotJP":  "バーナード・ワイズマン",
-        "PilotCN":  "巴纳德·魏茨曼",
+        "PilotCN":  "巴纳德·维兹曼",
         "PilotTC":  "巴拿特·華捷文",
         "PilotTC2":  "伯納德·懷茲曼",
         "PilotSeiyuu":  "Tsujitani Kōji",
@@ -5421,7 +5684,7 @@
         "ValueTC2":  "肯普法",
         "Pilot":  "Mikhail Kaminsky",
         "PilotJP":  "ミハイル・カミンスキー",
-        "PilotCN":  "米哈伊尔·卡明斯基",
+        "PilotCN":  "米海尔·卡明斯基",
         "PilotTC":  "米海爾·卡明斯基",
         "PilotTC2":  "米海爾·卡明斯基",
         "PilotSeiyuu":  "Shimaka Yū",
@@ -5450,9 +5713,9 @@
         "Id":  184,
         "Value":  "Gundam Zephyranthes Full Burnern",
         "ValueJP":  "ガンダム試作1号機フルバーニアン",
-        "ValueCN":  "高达试作1号机FB",
-        "ValueTC":  "高達試作1號機 全方位推進型",
-        "ValueTC2":  "鋼彈試作1號機 全方位推進型",
+        "ValueCN":  "高达试做1号机全方位推进型",
+        "ValueTC":  "高達試作1號機全方位推進型",
+        "ValueTC2":  "鋼彈試作1號機全方位推進型",
         "Pilot":  "Kou Uraki",
         "PilotJP":  "コウ・ウラキ",
         "PilotCN":  "浦木宏",
@@ -5465,9 +5728,9 @@
         "PilotSeiyuuTC2":  "堀川亮",
         "Series":  "Mobile Suit Gundam 0083: Stardust Memory",
         "SeriesJP":  "機動戦士ガンダム0083 STARDUST MEMORY",
-        "SeriesCN":  "机动战士高达0083: 星尘的回忆",
-        "SeriesTC":  "機動戰士高達0083: 星塵的回憶",
-        "SeriesTC2":  "機動戰士鋼彈0083: 星塵回憶",
+        "SeriesCN":  "机动战士高达0083 星尘作战回忆录",
+        "SeriesTC":  "機動戰士高達0083 星塵作戰回憶錄",
+        "SeriesTC2":  "機動戰士鋼彈0083 STARDUST MEMORY",
         "Cost":  2000,
         "Poses":  [
                       {
@@ -5488,9 +5751,9 @@
         "Id":  185,
         "Value":  "Gundam Prototype No.2",
         "ValueJP":  "ガンダム試作2号機",
-        "ValueCN":  "高达试作2号机",
-        "ValueTC":  "高達試作2號機 (賽薩里斯)",
-        "ValueTC2":  "鋼彈試作2號機 (賽薩里斯)",
+        "ValueCN":  "高达试做2号机",
+        "ValueTC":  "高達試作2號機",
+        "ValueTC2":  "鋼彈試作2號機",
         "Pilot":  "Anavel Gato",
         "PilotJP":  "アナベル・ガトー",
         "PilotCN":  "阿纳贝尔·卡多",
@@ -5503,9 +5766,9 @@
         "PilotSeiyuuTC2":  "大塚明夫",
         "Series":  "Mobile Suit Gundam 0083: Stardust Memory",
         "SeriesJP":  "機動戦士ガンダム0083 STARDUST MEMORY",
-        "SeriesCN":  "机动战士高达0083: 星尘的回忆",
-        "SeriesTC":  "機動戰士高達0083: 星塵的回憶",
-        "SeriesTC2":  "機動戰士鋼彈0083: 星塵回憶",
+        "SeriesCN":  "机动战士高达0083 星尘作战回忆录",
+        "SeriesTC":  "機動戰士高達0083 星塵作戰回憶錄",
+        "SeriesTC2":  "機動戰士鋼彈0083 STARDUST MEMORY",
         "Cost":  2500,
         "Poses":  [
                       {
@@ -5519,6 +5782,10 @@
                       {
                           "Id":  2,
                           "Value":  "アーセナルベースコラボ"
+                      },
+                      {
+                          "Id":  3,
+                          "Value":  "FBポーズド"
                       }
                   ]
     },
@@ -5526,7 +5793,7 @@
         "Id":  186,
         "Value":  "Gerbera Tetra",
         "ValueJP":  "ガーベラ・テトラ",
-        "ValueCN":  "红色角马",
+        "ValueCN":  "加贝拉·迪特",
         "ValueTC":  "加貝拉·迪特",
         "ValueTC2":  "卡貝拉·迪特拉",
         "Pilot":  "Cima Garahau",
@@ -5541,9 +5808,9 @@
         "PilotSeiyuuTC2":  "真柴摩利",
         "Series":  "Mobile Suit Gundam 0083: Stardust Memory",
         "SeriesJP":  "機動戦士ガンダム0083 STARDUST MEMORY",
-        "SeriesCN":  "机动战士高达0083: 星尘的回忆",
-        "SeriesTC":  "機動戰士高達0083: 星塵的回憶",
-        "SeriesTC2":  "機動戰士鋼彈0083: 星塵回憶",
+        "SeriesCN":  "机动战士高达0083 星尘作战回忆录",
+        "SeriesTC":  "機動戰士高達0083 星塵作戰回憶錄",
+        "SeriesTC2":  "機動戰士鋼彈0083 STARDUST MEMORY",
         "Cost":  2000,
         "Poses":  [
                       {
@@ -5564,9 +5831,9 @@
         "Id":  187,
         "Value":  "Gundam Prototype No. 3",
         "ValueJP":  "ガンダム試作3号機",
-        "ValueCN":  "高达试作3号机",
-        "ValueTC":  "高達試作3號機 (史迪蒙)",
-        "ValueTC2":  "鋼彈試作3號機 (史迪蒙)",
+        "ValueCN":  "高达试做3号机",
+        "ValueTC":  "高達試作3號機",
+        "ValueTC2":  "鋼彈試作3號機",
         "Pilot":  "Kou Uraki",
         "PilotJP":  "コウ・ウラキ",
         "PilotCN":  "浦木宏",
@@ -5579,9 +5846,9 @@
         "PilotSeiyuuTC2":  "堀川亮",
         "Series":  "Mobile Suit Gundam 0083: Stardust Memory",
         "SeriesJP":  "機動戦士ガンダム0083 STARDUST MEMORY",
-        "SeriesCN":  "机动战士高达0083: 星尘的回忆",
-        "SeriesTC":  "機動戰士高達0083: 星塵的回憶",
-        "SeriesTC2":  "機動戰士鋼彈0083: 星塵回憶",
+        "SeriesCN":  "机动战士高达0083 星尘作战回忆录",
+        "SeriesTC":  "機動戰士高達0083 星塵作戰回憶錄",
+        "SeriesTC2":  "機動戰士鋼彈0083 STARDUST MEMORY",
         "Cost":  2500,
         "Poses":  [
                       {
@@ -5591,6 +5858,10 @@
                       {
                           "Id":  1,
                           "Value":  "MBポーズド"
+                      },
+                      {
+                          "Id":  2,
+                          "Value":  "EXVS.ポーズド"
                       }
                   ]
     },
@@ -5603,7 +5874,7 @@
         "ValueTC2":  "鋼彈Ez8",
         "Pilot":  "Shiro Amada",
         "PilotJP":  "シロー・アマダ",
-        "PilotCN":  "天田士郎",
+        "PilotCN":  "西罗·亚马达",
         "PilotTC":  "斯羅·阿瑪達",
         "PilotTC2":  "天田士郎",
         "PilotSeiyuu":  "Hiyama Nobuyuki",
@@ -5689,9 +5960,9 @@
         "PilotSeiyuuTC2":  "土師孝也",
         "Series":  "Mobile Suit Gundam MS IGLOO",
         "SeriesJP":  "機動戦士ガンダム MS IGLOO",
-        "SeriesCN":  "机动战士高达 MS IGLOO 一年战争秘录",
-        "SeriesTC":  "機動戰士高達 MS IGLOO 一年戰爭秘錄",
-        "SeriesTC2":  "機動戰士鋼彈 MS IGLOO 一年戰爭秘錄",
+        "SeriesCN":  "机动战士高达 MS IGLOO",
+        "SeriesTC":  "機動戰士高達 MS IGLOO",
+        "SeriesTC2":  "機動戰士鋼彈 MS IGLOO",
         "Cost":  1500,
         "Poses":  [
                       {
@@ -5701,6 +5972,10 @@
                       {
                           "Id":  1,
                           "Value":  "EXVSポーズド"
+                      },
+                      {
+                          "Id":  2,
+                          "Value":  "MBポーズド"
                       }
                   ]
     },
@@ -5713,7 +5988,7 @@
         "ValueTC2":  "戰狼",
         "Pilot":  "Demeziere Sonnen",
         "PilotJP":  "デメジエール・ソンネン",
-        "PilotCN":  "迪梅吉艾尔·宋仁",
+        "PilotCN":  "艾梅杰尔·索尼希",
         "PilotTC":  "迪梅契爾‧索尼恩",
         "PilotTC2":  "迪梅契爾‧索尼恩",
         "PilotSeiyuu":  "Amada Masuo",
@@ -5723,9 +5998,9 @@
         "PilotSeiyuuTC2":  "天田益男",
         "Series":  "Mobile Suit Gundam MS IGLOO",
         "SeriesJP":  "機動戦士ガンダム MS IGLOO",
-        "SeriesCN":  "机动战士高达 MS IGLOO 一年战争秘录",
-        "SeriesTC":  "機動戰士高達 MS IGLOO 一年戰爭秘錄",
-        "SeriesTC2":  "機動戰士鋼彈 MS IGLOO 一年戰爭秘錄",
+        "SeriesCN":  "机动战士高达 MS IGLOO",
+        "SeriesTC":  "機動戰士高達 MS IGLOO",
+        "SeriesTC2":  "機動戰士鋼彈 MS IGLOO",
         "Cost":  1500,
         "Poses":  [
                       {
@@ -5735,6 +6010,10 @@
                       {
                           "Id":  1,
                           "Value":  "MBONポーズド"
+                      },
+                      {
+                          "Id":  2,
+                          "Value":  "MBポーズド"
                       }
                   ]
     },
@@ -5742,9 +6021,9 @@
         "Id":  197,
         "Value":  "Zaku II High Mobility Type (Johnny Ridden)",
         "ValueJP":  "高機動型ザクII後期型(ジョニー・ライデン機)",
-        "ValueCN":  "高机动型扎古2后期型（强尼·莱汀）",
-        "ValueTC":  "尊尼·萊登專用高機動型渣古II後期型",
-        "ValueTC2":  "尊尼·萊登専用高機動薩克II後期型",
+        "ValueCN":  "高机动型扎古 II 后期型 (强尼·莱汀机)",
+        "ValueTC":  "尊尼·萊登專用高機動型渣古 II後期型",
+        "ValueTC2":  "尊尼·萊登専用高機動薩克 II後期型",
         "Pilot":  "Johnny Ridden",
         "PilotJP":  "ジョニー・ライデン",
         "PilotCN":  "强尼·莱汀",
@@ -5780,9 +6059,9 @@
         "Id":  198,
         "Value":  "Zaku II High Mobility Type (Shin Matsunaga)",
         "ValueJP":  "高機動型ザクII改(シン・マツナガ機)",
-        "ValueCN":  "高机动型扎古2改（松永真）",
-        "ValueTC":  "松永真專用高機動型渣古II",
-        "ValueTC2":  "松永真專用高機動型薩克II",
+        "ValueCN":  "高机动型扎古 II 改 (松永真机)",
+        "ValueTC":  "松永真專用高機動型渣古 II",
+        "ValueTC2":  "松永真專用高機動型薩克 II",
         "Pilot":  "Shin Matsunaga",
         "PilotJP":  "シン・マツナガ",
         "PilotCN":  "松永真",
@@ -5823,7 +6102,7 @@
         "ValueTC2":  "海盜鋼彈X1改",
         "Pilot":  "Kincade Nau",
         "PilotJP":  "キンケドゥ・ナウ",
-        "PilotCN":  "金凯杜·那乌",
+        "PilotCN":  "金凯度·纳乌",
         "PilotTC":  "金格度·那烏",
         "PilotTC2":  "金凱杜·那烏",
         "PilotSeiyuu":  "Tsujitani Kōji",
@@ -5863,6 +6142,10 @@
                       {
                           "Id":  3,
                           "Value":  "IBポーズドB"
+                      },
+                      {
+                          "Id":  4,
+                          "Value":  "FBポーズド"
                       }
                   ]
     },
@@ -6004,12 +6287,12 @@
         "Id":  206,
         "Value":  "Vigna Ghina II",
         "ValueJP":  "ビギナ・ギナII(木星決戦仕様)",
-        "ValueCN":  "维基娜·吉娜II（木星决战式样）",
+        "ValueCN":  "维基娜·吉娜II (木星决战式样)",
         "ValueTC":  "比基納·吉那II (木星決戰規格)",
         "ValueTC2":  "比基納·吉那II (木星決戰規格)",
         "Pilot":  "Giri Gadeucca Aspis",
         "PilotJP":  "ギリ・ガデューカ・アスピス",
-        "PilotCN":  "基利·加度嘉·亚史皮斯",
+        "PilotCN":  "基理·加度嘉·亚史皮斯",
         "PilotTC":  "基利·加度嘉·亞史皮斯",
         "PilotTC2":  "吉理·加度嘉·亞史皮斯",
         "PilotSeiyuu":  "Iwanaga Tetsuya",
@@ -6053,7 +6336,7 @@
         "ValueTC2":  "幻影鋼彈",
         "Pilot":  "Font Bo",
         "PilotJP":  "フォント・ボー",
-        "PilotCN":  "溤特·波",
+        "PilotCN":  "冯特·波",
         "PilotTC":  "溤特·波",
         "PilotTC2":  "溤特·波",
         "PilotSeiyuu":  "Ishikawa Kaito",
@@ -6101,7 +6384,7 @@
         "PilotSeiyuuTC2":  "諏訪部順一",
         "Series":  "Mobile Suit Gundam Side Story: The Blue Destiny",
         "SeriesJP":  "機動戦士ガンダム外伝 THE BLUE DESTINY",
-        "SeriesCN":  "机动战士高达外传 蓝色命运",
+        "SeriesCN":  "机动战士高达外传 THE BLUE DESTINY",
         "SeriesTC":  "機動戰士高達外傳 THE BLUE DESTINY",
         "SeriesTC2":  "機動戰士鋼彈外傳 THE BLUE DESTINY",
         "Cost":  2000,
@@ -6117,6 +6400,10 @@
                       {
                           "Id":  2,
                           "Value":  "FBポーズド"
+                      },
+                      {
+                          "Id":  3,
+                          "Value":  "MBONポーズド"
                       }
                   ]
     },
@@ -6124,14 +6411,14 @@
         "Id":  209,
         "Value":  "Efreet Custom",
         "ValueJP":  "イフリート改",
-        "ValueCN":  "伊芙利特改",
+        "ValueCN":  "伊夫里特改",
         "ValueTC":  "伊夫利特改",
         "ValueTC2":  "伊弗利特改",
         "Pilot":  "Nimbus Schterzen",
         "PilotJP":  "ニムバス・シュターゼン",
-        "PilotCN":  "尼姆巴斯·施泰森",
-        "PilotTC":  "尼姆巴斯·施泰森",
-        "PilotTC2":  "尼姆巴斯·施泰森",
+        "PilotCN":  "尼姆巴斯・修塔森",
+        "PilotTC":  "尼姆巴斯‧舒特森",
+        "PilotTC2":  "尼姆巴斯‧舒特森",
         "PilotSeiyuu":  "Hayami Shō",
         "PilotSeiyuuJP":  "速水奨",
         "PilotSeiyuuCN":  "速水奖",
@@ -6139,7 +6426,7 @@
         "PilotSeiyuuTC2":  "速水獎",
         "Series":  "Mobile Suit Gundam Side Story: The Blue Destiny",
         "SeriesJP":  "機動戦士ガンダム外伝 THE BLUE DESTINY",
-        "SeriesCN":  "机动战士高达外传 蓝色命运",
+        "SeriesCN":  "机动战士高达外传 THE BLUE DESTINY",
         "SeriesTC":  "機動戰士高達外傳 THE BLUE DESTINY",
         "SeriesTC2":  "機動戰士鋼彈外傳 THE BLUE DESTINY",
         "Cost":  1500,
@@ -6151,6 +6438,10 @@
                       {
                           "Id":  1,
                           "Value":  "FBポーズド"
+                      },
+                      {
+                          "Id":  2,
+                          "Value":  "エクストリームファン投票"
                       }
                   ]
     },
@@ -6158,7 +6449,7 @@
         "Id":  210,
         "Value":  "Hi-Nu Gundam",
         "ValueJP":  "Hi-νガンダム",
-        "ValueCN":  "海牛高达",
+        "ValueCN":  "Hi-ν高达",
         "ValueTC":  "Hi-ν高達",
         "ValueTC2":  "Hi-ν鋼彈",
         "Pilot":  "Amuro Ray",
@@ -6171,7 +6462,7 @@
         "PilotSeiyuuCN":  "古谷彻",
         "PilotSeiyuuTC":  "古谷徹",
         "PilotSeiyuuTC2":  "古谷徹",
-        "Series":  "Mobile Suit Gundam Char\u0027s Counter Attack - Beltorchika\u0027s Children",
+        "Series":  "Mobile Suit Gundam Char'ss Counter Attack - Beltorchika'ss Children",
         "SeriesJP":  "機動戦士ガンダム 逆襲のシャア ベルトーチカ・チルドレン",
         "SeriesCN":  "机动战士高达 逆袭的夏亚 贝托蒂嘉的子嗣",
         "SeriesTC":  "機動戰士高達 馬沙之反擊 貝積加的孩子",
@@ -6199,6 +6490,10 @@
                       {
                           "Id":  2,
                           "Value":  "GGGP2024"
+                      },
+                      {
+                          "Id":  3,
+                          "Value":  "EXVS.ポーズド"
                       }
                   ]
     },
@@ -6219,7 +6514,7 @@
         "PilotSeiyuuCN":  "池田秀一",
         "PilotSeiyuuTC":  "池田秀一",
         "PilotSeiyuuTC2":  "池田秀一",
-        "Series":  "Mobile Suit Gundam Char\u0027s Counter Attack - Beltorchika\u0027s Children",
+        "Series":  "Mobile Suit Gundam Char'ss Counter Attack - Beltorchika'ss Children",
         "SeriesJP":  "機動戦士ガンダム 逆襲のシャア ベルトーチカ・チルドレン",
         "SeriesCN":  "机动战士高达 逆袭的夏亚 贝托蒂嘉的子嗣",
         "SeriesTC":  "機動戰士高達 馬沙之反擊 貝積加的孩子",
@@ -6254,7 +6549,7 @@
         "Id":  212,
         "Value":  "Gundam Astray Red Frame",
         "ValueJP":  "アストレイレッドフレーム",
-        "ValueCN":  "红异端",
+        "ValueCN":  "异端高达红色机",
         "ValueTC":  "迷惘高達紅色機",
         "ValueTC2":  "異端鋼彈紅色機",
         "Pilot":  "Lowe Guele",
@@ -6302,12 +6597,12 @@
         "Id":  213,
         "Value":  "Gundam Astray Blue Frame Second L",
         "ValueJP":  "アストレイブルーフレームセカンドL",
-        "ValueCN":  "蓝异端2L",
+        "ValueCN":  "异端高达蓝色机 二型L",
         "ValueTC":  "迷惘高達藍色機 二型L",
         "ValueTC2":  "異端鋼彈藍色機 二型L",
         "Pilot":  "Murakumo Gai",
         "PilotJP":  "叢雲劾",
-        "PilotCN":  "叢雲劾",
+        "PilotCN":  "丛云劾",
         "PilotTC":  "叢雲劾",
         "PilotTC2":  "叢雲劾",
         "PilotSeiyuu":  "Inoue Kazuhiko",
@@ -6354,12 +6649,12 @@
         "Id":  214,
         "Value":  "Gundam Astray Gold Frame Amatsu",
         "ValueJP":  "アストレイゴールドフレーム天",
-        "ValueCN":  "金异端天",
-        "ValueTC":  "迷惘高達金色機天",
-        "ValueTC2":  "異端鋼彈金色機天",
+        "ValueCN":  "异端高达金色机 天",
+        "ValueTC":  "迷惘高達金色機 天",
+        "ValueTC2":  "異端鋼彈金色機 天",
         "Pilot":  "Rondo Gina Sahaku",
         "PilotJP":  "ロンド・ギナ・サハク",
-        "PilotCN":  "隆特·吉纳·萨哈克",
+        "PilotCN":  "隆德·吉纳·萨哈克",
         "PilotTC":  "隆特·吉納·薩哈古",
         "PilotTC2":  "隆德·吉納·薩哈克",
         "PilotSeiyuu":  "Tobita Nobuo",
@@ -6406,12 +6701,12 @@
         "Id":  215,
         "Value":  "Gundam Astray Gold Frame Amatsu Mina",
         "ValueJP":  "アストレイゴールドフレーム天ミナ",
-        "ValueCN":  "金异端天蜜娜",
-        "ValueTC":  "迷惘高達金色機天蜜娜",
-        "ValueTC2":  "異端鋼彈金色機天蜜娜",
+        "ValueCN":  "异端高达金色机 天蜜娜",
+        "ValueTC":  "迷惘高達金色機 天蜜娜",
+        "ValueTC2":  "異端鋼彈金色機 天蜜娜",
         "Pilot":  "Rondo Mina Sahaku",
         "PilotJP":  "ロンド・ミナ・サハク",
-        "PilotCN":  "隆特·蜜纳·萨哈克",
+        "PilotCN":  "隆德·蜜纳·萨哈克",
         "PilotTC":  "隆特·蜜娜·薩哈古",
         "PilotTC2":  "隆德·蜜娜·薩哈克",
         "PilotSeiyuu":  "Katsuki Masako",
@@ -6437,6 +6732,10 @@
                       {
                           "Id":  2,
                           "Value":  "FBポーズド"
+                      },
+                      {
+                          "Id":  3,
+                          "Value":  "MBポーズド"
                       }
                   ]
     },
@@ -6444,7 +6743,7 @@
         "Id":  216,
         "Value":  "Dreadnought Gundam (X-Astray)",
         "ValueJP":  "ドレッドノートガンダム(Xアストレイ)",
-        "ValueCN":  "勇士高达（X异端）",
+        "ValueCN":  "勇士高达 (X异端)",
         "ValueTC":  "勇士高達 (X迷惘高達)",
         "ValueTC2":  "勇士鋼彈 (X異端鋼彈)",
         "Pilot":  "Prayer Reverie",
@@ -6530,7 +6829,7 @@
         "Id":  218,
         "Value":  "Gundam Astray Red Frame Kai",
         "ValueJP":  "アストレイレッドフレーム改",
-        "ValueCN":  "红异端改",
+        "ValueCN":  "异端高达红色机改",
         "ValueTC":  "迷惘高達紅色機改",
         "ValueTC2":  "異端鋼彈紅色機改",
         "Pilot":  "Lowe Guele",
@@ -6574,9 +6873,9 @@
         "Id":  220,
         "Value":  "Gundam Astray Red Frame Dragon",
         "ValueJP":  "アストレイレッドフレーム(レッドドラゴン)",
-        "ValueCN":  "红异端（红龙）",
-        "ValueTC":  "迷惘高達紅色機 紅龍形態",
-        "ValueTC2":  "異端鋼彈紅色機 紅龍形態",
+        "ValueCN":  "异端高达红色机红龙型",
+        "ValueTC":  "迷惘高達紅色機紅龍形態",
+        "ValueTC2":  "異端鋼彈紅色機紅龍形態",
         "Pilot":  "Lowe Guele",
         "PilotJP":  "ロウ・ギュール",
         "PilotCN":  "罗·裘尔",
@@ -6618,12 +6917,12 @@
         "Id":  221,
         "Value":  "Gundam Astray Blue Frame D",
         "ValueJP":  "アストレイブルーフレームD",
-        "ValueCN":  "蓝异端D",
+        "ValueCN":  "异端高达蓝色机D",
         "ValueTC":  "迷惘高達藍色機D",
         "ValueTC2":  "異端鋼彈藍色機D",
         "Pilot":  "Murakumo Gai",
         "PilotJP":  "叢雲劾",
-        "PilotCN":  "叢雲劾",
+        "PilotCN":  "从云劾",
         "PilotTC":  "叢雲劾",
         "PilotTC2":  "叢雲劾",
         "PilotSeiyuu":  "Inoue Kazuhiko",
@@ -6709,16 +7008,16 @@
         "ValueCN":  "观星者高达",
         "ValueTC":  "觀星者高達",
         "ValueTC2":  "觀星者鋼彈",
-        "Pilot":  "Sol Lyne L\u0027ange \u0026 Selene McGriff",
-        "PilotJP":  "ソル・リューネ・ランジュ \u0026 セレーネ・マクグリフ",
-        "PilotCN":  "索尔·琉尼·兰裘 \u0026 赛雷妮·马克古里夫",
-        "PilotTC":  "索爾·琉尼·蘭裘 \u0026 賽雷妮·馬克古里夫",
-        "PilotTC2":  "索爾·琉尼·蘭裘 \u0026 賽雷妮·馬克古里夫",
-        "PilotSeiyuu":  "Fukuyama Jun \u0026 Ōhara Sayaka",
-        "PilotSeiyuuJP":  "福山潤 \u0026 大原さやか",
-        "PilotSeiyuuCN":  "福山润 \u0026 大原沙耶香",
-        "PilotSeiyuuTC":  "福山潤 \u0026 大原沙耶香",
-        "PilotSeiyuuTC2":  "福山潤 \u0026 大原沙耶香",
+        "Pilot":  "Sol'sange&Selene",
+        "PilotJP":  "ソル&セレーネ",
+        "PilotCN":  "索尔&赛雷妮",
+        "PilotTC":  "索爾&賽雷妮",
+        "PilotTC2":  "索爾&賽雷妮",
+        "PilotSeiyuu":  "Fukuyama Jun&Ōhara Sayaka",
+        "PilotSeiyuuJP":  "福山潤&大原さやか",
+        "PilotSeiyuuCN":  "福山润&大原沙耶香",
+        "PilotSeiyuuTC":  "福山潤&大原沙耶香",
+        "PilotSeiyuuTC2":  "福山潤&大原沙耶香",
         "Series":  "Mobile Suit Gundam SEED C.E. 73: Stargazer",
         "SeriesJP":  "機動戦士ガンダムSEED C.E.73 STARGAZER",
         "SeriesCN":  "机动战士高达SEED C.E.73 STARGAZER",
@@ -6743,6 +7042,10 @@
                       {
                           "Id":  1,
                           "Value":  "MBポーズド"
+                      },
+                      {
+                          "Id":  2,
+                          "Value":  "MBONポーズド"
                       }
                   ]
     },
@@ -6788,7 +7091,7 @@
         "Id":  225,
         "Value":  "Xi Gundam",
         "ValueJP":  "Ξガンダム",
-        "ValueCN":  "柯西高达",
+        "ValueCN":  "Ξ高达",
         "ValueTC":  "Ξ高達",
         "ValueTC2":  "Ξ鋼彈",
         "Pilot":  "Mafty Navue Erin",
@@ -6801,7 +7104,7 @@
         "PilotSeiyuuCN":  "佐佐木望",
         "PilotSeiyuuTC":  "佐佐木望",
         "PilotSeiyuuTC2":  "佐佐木望",
-        "Series":  "Mobile Suit Gundam: Hathaway\u0027s Flash",
+        "Series":  "Mobile Suit Gundam: Hathaway'ss Flash",
         "SeriesJP":  "機動戦士ガンダム 閃光のハサウェイ",
         "SeriesCN":  "机动战士高达 闪光的哈萨维",
         "SeriesTC":  "機動戰士高達 閃光之凱薩衛",
@@ -6819,6 +7122,10 @@
                       {
                           "Id":  2,
                           "Value":  "MBONポーズド"
+                      },
+                      {
+                          "Id":  3,
+                          "Value":  "EXVS.ポーズド"
                       }
                   ]
     },
@@ -6839,7 +7146,7 @@
         "PilotSeiyuuCN":  "水岛大宙",
         "PilotSeiyuuTC":  "水島大宙",
         "PilotSeiyuuTC2":  "水島大宙",
-        "Series":  "Mobile Suit Gundam: Hathaway\u0027s Flash",
+        "Series":  "Mobile Suit Gundam: Hathaway'ss Flash",
         "SeriesJP":  "機動戦士ガンダム 閃光のハサウェイ",
         "SeriesCN":  "机动战士高达 闪光的哈萨维",
         "SeriesTC":  "機動戰士高達 閃光之凱薩衛",
@@ -6853,6 +7160,10 @@
                       {
                           "Id":  1,
                           "Value":  "FBポーズド"
+                      },
+                      {
+                          "Id":  2,
+                          "Value":  "MBポーズド"
                       }
                   ]
     },
@@ -6897,6 +7208,10 @@
                       {
                           "Id":  1,
                           "Value":  "MBポーズド"
+                      },
+                      {
+                          "Id":  2,
+                          "Value":  "MBONポーズド"
                       }
                   ]
     },
@@ -7101,16 +7416,16 @@
         "ValueCN":  "法尔西娅",
         "ValueTC":  "法老西亞",
         "ValueTC2":  "法爾西亞",
-        "Pilot":  "Yurin L\u0027Ciel (\u0026 Desil Galette)",
-        "PilotJP":  "ユリン・ルシェル (\u0026 デシル・ガレット)",
-        "PilotCN":  "尤琳·露歇尔 (\u0026 德西尔·格雷特)",
-        "PilotTC":  "尤琳·魯修魯 (\u0026 德西爾·加列圖)",
-        "PilotTC2":  "尤琳·路歇爾 (\u0026 德西爾·加列特)",
-        "PilotSeiyuu":  "Hayami Saori (\u0026 Takagaki Ayahi)",
-        "PilotSeiyuuJP":  "早見沙織 (\u0026 高垣彩陽)",
-        "PilotSeiyuuCN":  "早见沙织 (\u0026 高垣彩阳)",
-        "PilotSeiyuuTC":  "早見沙織 (\u0026 高垣彩陽)",
-        "PilotSeiyuuTC2":  "早見沙織 (\u0026 高垣彩陽)",
+        "Pilot":  "Yurin L'sCiel&Desil Galette",
+        "PilotJP":  "ユリン・ルシェル&デシル・ガレット",
+        "PilotCN":  "尤琳·露歇尔&德西尔·格雷特",
+        "PilotTC":  "尤琳·魯修魯&德西爾·加列圖",
+        "PilotTC2":  "尤琳·路歇爾&德西爾·加列特",
+        "PilotSeiyuu":  "Hayami Saori&Takagaki Ayahi",
+        "PilotSeiyuuJP":  "早見沙織&高垣彩陽",
+        "PilotSeiyuuCN":  "早见沙织&高垣彩阳",
+        "PilotSeiyuuTC":  "早見沙織&高垣彩陽",
+        "PilotSeiyuuTC2":  "早見沙織&高垣彩陽",
         "Series":  "Mobile Suit Gundam AGE",
         "SeriesJP":  "機動戦士ガンダムAGE",
         "SeriesCN":  "机动战士高达AGE",
@@ -7158,7 +7473,7 @@
                          },
                          {
                              "Id":  1,
-                             "Value":  "制服（演説時）"
+                             "Value":  "制服 (演説時)"
                          }
                      ],
         "Poses":  [
@@ -7190,7 +7505,7 @@
         "Id":  235,
         "Value":  "Gundam AGE-2 Dark Hound",
         "ValueJP":  "ガンダムAGE-2 ダークハウンド",
-        "ValueCN":  "高达AGE-2 黑猎犬",
+        "ValueCN":  "高达AGE-2 黑暗猎犬",
         "ValueTC":  "高達AGE-2 黑獵犬型",
         "ValueTC2":  "鋼彈AGE-2 黑獵犬型",
         "Pilot":  "Captain Ash",
@@ -7224,7 +7539,7 @@
         "Id":  237,
         "Value":  "Gundam AGE-1 Glansa",
         "ValueJP":  "ガンダムAGE-1 フルグランサ",
-        "ValueCN":  "高达AGE-1 全备光辉型",
+        "ValueCN":  "高达AGE-1 全装备光辉型",
         "ValueTC":  "高達AGE-1 全備古蘭沙型",
         "ValueTC2":  "鋼彈AGE-1 全備光輝型",
         "Pilot":  "Flit Asuno",
@@ -7268,7 +7583,7 @@
         "Id":  238,
         "Value":  "Fawn Farsia",
         "ValueJP":  "フォーンファルシア",
-        "ValueCN":  "冯法尔西娅",
+        "ValueCN":  "梵·法尔西娅",
         "ValueTC":  "梵法老西亞",
         "ValueTC2":  "馮恩法爾西亞",
         "Pilot":  "Fram Nara",
@@ -7359,6 +7674,10 @@
                       {
                           "Id":  1,
                           "Value":  "MBONポーズド"
+                      },
+                      {
+                          "Id":  2,
+                          "Value":  "FBポーズド"
                       },
                       {
                           "Id":  11,
@@ -7506,12 +7825,12 @@
         "Id":  244,
         "Value":  "Extreme Gundam Sthesia Excellia",
         "ValueJP":  "エクストリームガンダム エクセリア",
-        "ValueCN":  "极限高达赛西娅Excellia",
-        "ValueTC":  "極限高達 Exzelia",
-        "ValueTC2":  "極限鋼彈 Exzelia",
+        "ValueCN":  "极限高达 EXZELIA",
+        "ValueTC":  "極限高達 愛克賽莉亞",
+        "ValueTC2":  "極限鋼彈 愛克賽莉亞",
         "Pilot":  "Sthesia Awar",
         "PilotJP":  "セシア・アウェア",
-        "PilotCN":  "赛西娅·阿维亚",
+        "PilotCN":  "塞西娅·阿维亚",
         "PilotTC":  "賽西亞·艾維亞",
         "PilotTC2":  "賽西亞·艾維亞",
         "PilotSeiyuu":  "Taketatsu Ayana",
@@ -7552,11 +7871,11 @@
     },
     {
         "Id":  248,
-        "Value":  "Gundam G-Self",
+        "Value":  "G-Self",
         "ValueJP":  "G-セルフ",
-        "ValueCN":  "高达G-self",
+        "ValueCN":  "G-Self",
         "ValueTC":  "G些路夫",
-        "ValueTC2":  "鋼彈G自我",
+        "ValueTC2":  "G自我",
         "Pilot":  "Bellri Zenam",
         "PilotJP":  "ベルリ・ゼナム",
         "PilotCN":  "贝尔利·杰纳姆",
@@ -7569,7 +7888,7 @@
         "PilotSeiyuuTC2":  "石井馬克",
         "Series":  "Gundam Reconguista in G",
         "SeriesJP":  "ガンダム Gのレコンギスタ",
-        "SeriesCN":  "高达G之复国运动",
+        "SeriesCN":  "高达 Reconguista in G",
         "SeriesTC":  "高達 Reconguista in G",
         "SeriesTC2":  "鋼彈 Reconguista in G",
         "Cost":  2500,
@@ -7598,7 +7917,7 @@
         "Id":  249,
         "Value":  "Mack Knife",
         "ValueJP":  "マックナイフ(マスク機)",
-        "ValueCN":  "马克刀（马克斯机）",
+        "ValueCN":  "马克刀 (面具机)",
         "ValueTC":  "麥克刀 (鐵面上尉機)",
         "ValueTC2":  "馬克刀 (面具機)",
         "Pilot":  "Mask",
@@ -7613,7 +7932,7 @@
         "PilotSeiyuuTC2":  "佐藤拓也",
         "Series":  "Gundam Reconguista in G",
         "SeriesJP":  "ガンダム Gのレコンギスタ",
-        "SeriesCN":  "高达G之复国运动",
+        "SeriesCN":  "高达 Reconguista in G",
         "SeriesTC":  "高達 Reconguista in G",
         "SeriesTC2":  "鋼彈 Reconguista in G",
         "Cost":  2000,
@@ -7640,11 +7959,11 @@
     },
     {
         "Id":  250,
-        "Value":  "Gundam G-Self Perfect Pack",
+        "Value":  "G-Self Perfect Pack",
         "ValueJP":  "G-セルフ(パーフェクトパック)",
-        "ValueCN":  "高达G-self（完美背包）",
-        "ValueTC":  "G些路夫 (完全背包)",
-        "ValueTC2":  "鋼彈G自我 (完全背包)",
+        "ValueCN":  "G-Self 完美背包",
+        "ValueTC":  "G些路夫 (完全背包裝備型)",
+        "ValueTC2":  "G自我 (完全背包)",
         "Pilot":  "Bellri Zenam",
         "PilotJP":  "ベルリ・ゼナム",
         "PilotCN":  "贝尔利·杰纳姆",
@@ -7657,7 +7976,7 @@
         "PilotSeiyuuTC2":  "石井馬克",
         "Series":  "Gundam Reconguista in G",
         "SeriesJP":  "ガンダム Gのレコンギスタ",
-        "SeriesCN":  "高达G之复国运动",
+        "SeriesCN":  "高达 Reconguista in G",
         "SeriesTC":  "高達 Reconguista in G",
         "SeriesTC2":  "鋼彈 Reconguista in G",
         "Cost":  3000,
@@ -7688,11 +8007,11 @@
     },
     {
         "Id":  251,
-        "Value":  "Gundam G-Arcane (Full Dress)",
+        "Value":  "G-Arcane (Full Dress)",
         "ValueJP":  "G-アルケイン(フルドレス)",
-        "ValueCN":  "高达G-奥秘（盛装式）",
-        "ValueTC":  "高達G阿魯勤 正裝",
-        "ValueTC2":  "鋼彈G奧秘 正裝",
+        "ValueCN":  "G-奥秘 正装",
+        "ValueTC":  "G阿魯勤 正裝",
+        "ValueTC2":  "G奧秘 正裝",
         "Pilot":  "Aida Surugan",
         "PilotJP":  "アイーダ・スルガン",
         "PilotCN":  "阿依达·休冈",
@@ -7705,7 +8024,7 @@
         "PilotSeiyuuTC2":  "嵨村侑",
         "Series":  "Gundam Reconguista in G",
         "SeriesJP":  "ガンダム Gのレコンギスタ",
-        "SeriesCN":  "高达G之复国运动",
+        "SeriesCN":  "高达 Reconguista in G",
         "SeriesTC":  "高達 Reconguista in G",
         "SeriesTC2":  "鋼彈 Reconguista in G",
         "Cost":  2000,
@@ -7739,7 +8058,7 @@
         "ValueTC2":  "蒙特羅",
         "Pilot":  "Klim Nick",
         "PilotJP":  "クリム・ニック",
-        "PilotCN":  "克宁·尼克",
+        "PilotCN":  "克里姆·尼克",
         "PilotTC":  "古廉·尼克",
         "PilotTC2":  "克寧·尼克",
         "PilotSeiyuu":  "Oosaka Ryouta",
@@ -7749,7 +8068,7 @@
         "PilotSeiyuuTC2":  "逢坂良太",
         "Series":  "Gundam Reconguista in G",
         "SeriesJP":  "ガンダム Gのレコンギスタ",
-        "SeriesCN":  "高达G之复国运动",
+        "SeriesCN":  "高达 Reconguista in G",
         "SeriesTC":  "高達 Reconguista in G",
         "SeriesTC2":  "鋼彈 Reconguista in G",
         "Cost":  2000,
@@ -7778,12 +8097,12 @@
         "Id":  253,
         "Value":  "Gundam Barbatos",
         "ValueJP":  "ガンダム・バルバトス",
-        "ValueCN":  "高达巴巴托斯",
+        "ValueCN":  "高达·巴巴托斯",
         "ValueTC":  "高達巴巴托司",
         "ValueTC2":  "獵魔鋼彈",
         "Pilot":  "Mikazuki Augus",
         "PilotJP":  "三日月・オーガス",
-        "PilotCN":  "三日月·奥格斯",
+        "PilotCN":  "三日月·奥古斯",
         "PilotTC":  "三日月·奧格斯",
         "PilotTC2":  "三日月·奧古斯",
         "PilotSeiyuu":  "Kawanishi Kengo",
@@ -7819,6 +8138,10 @@
                       {
                           "Id":  2,
                           "Value":  "EXVS.2ポーズド"
+                      },
+                      {
+                          "Id":  3,
+                          "Value":  "IBポーズドB"
                       }
                   ]
     },
@@ -7826,7 +8149,7 @@
         "Id":  256,
         "Value":  "Gundam Kimaris Trooper",
         "ValueJP":  "ガンダム・キマリストルーパー",
-        "ValueCN":  "高达锡蒙利骑兵",
+        "ValueCN":  "高达·锡蒙力 冲锋型",
         "ValueTC":  "高達錫蒙力騎兵",
         "ValueTC2":  "騎兵型搜魔鋼彈",
         "Pilot":  "Gaelio Bauduin",
@@ -7864,12 +8187,12 @@
         "Id":  257,
         "Value":  "Gundam Barbatos Lupus",
         "ValueJP":  "ガンダム・バルバトスルプス",
-        "ValueCN":  "高达巴巴托斯天狼型",
+        "ValueCN":  "高达·巴巴托斯 天狼型",
         "ValueTC":  "高達巴巴托司狼式",
         "ValueTC2":  "天狼型獵魔鋼彈",
         "Pilot":  "Mikazuki Augus",
         "PilotJP":  "三日月・オーガス",
-        "PilotCN":  "三日月·奥格斯",
+        "PilotCN":  "三日月·奥古斯",
         "PilotTC":  "三日月·奧格斯",
         "PilotTC2":  "三日月·奧古斯",
         "PilotSeiyuu":  "Kawanishi Kengo",
@@ -7916,7 +8239,7 @@
         "Id":  258,
         "Value":  "Gundam Gusion Rebake Full City",
         "ValueJP":  "ガンダム・グシオンリベイクフルシティ",
-        "ValueCN":  "高达古辛深度重锻型",
+        "ValueCN":  "高达·古辛 深度重锻型",
         "ValueTC":  "高達古辛重鍛型FC",
         "ValueTC2":  "重鍛開鋒型智魔鋼彈",
         "Pilot":  "Akihiro Altland",
@@ -7964,7 +8287,7 @@
         "Id":  259,
         "Value":  "Gundam Bael",
         "ValueJP":  "ガンダム・バエル",
-        "ValueCN":  "高达巴耶力",
+        "ValueCN":  "高达·巴耶力",
         "ValueTC":  "高達巴力",
         "ValueTC2":  "主魔鋼彈",
         "Pilot":  "McGillis Fareed",
@@ -8001,6 +8324,10 @@
                       {
                           "Id":  1,
                           "Value":  "OBポーズドB"
+                      },
+                      {
+                          "Id":  2,
+                          "Value":  "EXVS.2ポーズド"
                       }
                   ]
     },
@@ -8008,12 +8335,12 @@
         "Id":  260,
         "Value":  "Gundam Barbatos Lupus Rex",
         "ValueJP":  "ガンダム・バルバトスルプスレクス",
-        "ValueCN":  "高达巴巴托斯天狼王型",
+        "ValueCN":  "高达·巴巴托斯天狼型 帝王型态",
         "ValueTC":  "高達巴巴托司狼王式",
         "ValueTC2":  "天狼王型獵魔鋼彈",
         "Pilot":  "Mikazuki Augus",
         "PilotJP":  "三日月・オーガス",
-        "PilotCN":  "三日月·奥格斯",
+        "PilotCN":  "三日月·奥古斯",
         "PilotTC":  "三日月·奧格斯",
         "PilotTC2":  "三日月·奧古斯",
         "PilotSeiyuu":  "Kawanishi Kengo",
@@ -8060,7 +8387,7 @@
         "Id":  261,
         "Value":  "Gundam Kimaris Vidar",
         "ValueJP":  "ガンダム・キマリスヴィダール",
-        "ValueCN":  "高达锡蒙利维达尔",
+        "ValueCN":  "高达·锡蒙力维达尔",
         "ValueTC":  "高達錫蒙力維度爾",
         "ValueTC2":  "殘命搜魔鋼彈",
         "Pilot":  "Gaelio Bauduin",
@@ -8098,12 +8425,12 @@
         "Id":  265,
         "Value":  "Pale Rider",
         "ValueJP":  "ペイルライダー(陸戦重装仕様)",
-        "ValueCN":  "苍白骑士（陆战重装式样）",
+        "ValueCN":  "苍白骑士 (陆战重装式样)",
         "ValueTC":  "蒼白騎士 (陸戰重裝規格)",
         "ValueTC2":  "蒼白騎士 (陸戰重裝規格)",
         "Pilot":  "Chloe Croce",
         "PilotJP":  "クロエ・クローチェ",
-        "PilotCN":  "克洛艾·克罗切",
+        "PilotCN":  "克洛伊·克罗斯",
         "PilotTC":  "克洛艾·克羅切",
         "PilotTC2":  "克洛艾·克羅切",
         "PilotSeiyuu":  "Noto Mamiko",
@@ -8113,7 +8440,7 @@
         "PilotSeiyuuTC2":  "能登麻美子",
         "Series":  "Mobile Suit Gundam Side Story: Missing Link",
         "SeriesJP":  "機動戦士ガンダム外伝 ミッシングリンク",
-        "SeriesCN":  "机动战士高达外传 失落的节点",
+        "SeriesCN":  "机动战士高达外传 MISSING LINK",
         "SeriesTC":  "機動戰士高達外傳 MISSING LINK",
         "SeriesTC2":  "機動戰士鋼彈外傳 MISSING LINK",
         "Cost":  2000,
@@ -8130,9 +8457,9 @@
     },
     {
         "Id":  266,
-        "Value":  "Vincent\u0027s Gelgoog High Mobility Type",
+        "Value":  "Vincent'ss Gelgoog High Mobility Type",
         "ValueJP":  "高機動型ゲルググ(ヴィンセント機)",
-        "ValueCN":  "高机动型勇士（文森特机）",
+        "ValueCN":  "高机动型勇士 (文森特机)",
         "ValueTC":  "高機動型格魯古古 (雲遜機)",
         "ValueTC2":  "高機動型傑爾古格 (文森機)",
         "Pilot":  "Vincent Gleissner",
@@ -8147,7 +8474,7 @@
         "PilotSeiyuuTC2":  "櫻井孝宏",
         "Series":  "Mobile Suit Gundam Side Story: Missing Link",
         "SeriesJP":  "機動戦士ガンダム外伝 ミッシングリンク",
-        "SeriesCN":  "机动战士高达外传 失落的节点",
+        "SeriesCN":  "机动战士高达外传 MISSING LINK",
         "SeriesTC":  "機動戰士高達外傳 MISSING LINK",
         "SeriesTC2":  "機動戰士鋼彈外傳 MISSING LINK",
         "Cost":  2000,
@@ -8164,9 +8491,9 @@
     },
     {
         "Id":  268,
-        "Value":  "Efreet (Doug Schneid\u0027s Unit)",
+        "Value":  "Efreet (Doug Schneid'ss Unit)",
         "ValueJP":  "イフリート(シュナイド機)",
-        "ValueCN":  "伊芙利特（施耐德机）",
+        "ValueCN":  "伊夫里特 (施耐德机)",
         "ValueTC":  "伊夫利特 (施耐德機)",
         "ValueTC2":  "伊弗利特 (施耐德機)",
         "Pilot":  "Doug Schneid",
@@ -8181,7 +8508,7 @@
         "PilotSeiyuuTC2":  "安元洋貴",
         "Series":  "Mobile Suit Gundam Side Story: Missing Link",
         "SeriesJP":  "機動戦士ガンダム外伝 ミッシングリンク",
-        "SeriesCN":  "机动战士高达外传 失落的节点",
+        "SeriesCN":  "机动战士高达外传 MISSING LINK",
         "SeriesTC":  "機動戰士高達外傳 MISSING LINK",
         "SeriesTC2":  "機動戰士鋼彈外傳 MISSING LINK",
         "Cost":  2000,
@@ -8205,7 +8532,7 @@
         "ValueTC2":  "全裝甲型鋼彈",
         "Pilot":  "Io Fleming",
         "PilotJP":  "イオ・フレミング",
-        "PilotCN":  "伊欧·弗雷明",
+        "PilotCN":  "伊欧·弗莱明",
         "PilotTC":  "以奧·富林明古",
         "PilotTC2":  "伊歐·弗萊明",
         "PilotSeiyuu":  "Nakamura Yuichi",
@@ -8244,9 +8571,9 @@
         "Id":  270,
         "Value":  "Zaku II High Mobility Type (Psycho Zaku)",
         "ValueJP":  "サイコ・ザク",
-        "ValueCN":  "精神力扎古",
-        "ValueTC":  "高機動型精神感應渣古",
-        "ValueTC2":  "腦波傳導型薩克",
+        "ValueCN":  "精神感应扎古",
+        "ValueTC":  "重渣古",
+        "ValueTC2":  "腦波傳導薩克",
         "Pilot":  "Daryl Lorenz",
         "PilotJP":  "ダリル・ローレンツ",
         "PilotCN":  "达里尔·洛伦兹",
@@ -8288,12 +8615,12 @@
         "Id":  271,
         "Value":  "Atlas Gundam",
         "ValueJP":  "アトラスガンダム",
-        "ValueCN":  "阿特拉斯高达",
+        "ValueCN":  "擎天神高达",
         "ValueTC":  "阿特拉斯高達",
         "ValueTC2":  "擎天神鋼彈",
         "Pilot":  "Io Fleming",
         "PilotJP":  "イオ・フレミング",
-        "PilotCN":  "伊欧·弗雷明",
+        "PilotCN":  "伊欧·弗莱明",
         "PilotTC":  "以奧·富林明古",
         "PilotTC2":  "伊歐·弗萊明",
         "PilotSeiyuu":  "Nakamura Yuichi",
@@ -8322,9 +8649,9 @@
         "Id":  272,
         "Value":  "Acguy (Thunderbolt Ver.)",
         "ValueJP":  "アッガイ(ダリル搭乗)",
-        "ValueCN":  "龟霸（达利尔机）",
-        "ValueTC":  "龜霸 (達里爾)",
-        "ValueTC2":  "亞凱 (戴瑞機)",
+        "ValueCN":  "龟霸 (达利尔搭乘)",
+        "ValueTC":  "龜霸 (達里爾搭乘)",
+        "ValueTC2":  "亞凱 (戴瑞機搭乘)",
         "Pilot":  "Daryl Lorenz",
         "PilotJP":  "ダリル・ローレンツ",
         "PilotCN":  "达里尔·洛伦兹",
@@ -8366,19 +8693,19 @@
         "Id":  279,
         "Value":  "Build Strike Gundam Full Package",
         "ValueJP":  "ビルドストライクガンダム(フルパッケージ)",
-        "ValueCN":  "创制强袭高达",
+        "ValueCN":  "全装备型创制强袭高达",
         "ValueTC":  "創建突擊高達全裝備型",
         "ValueTC2":  "製作攻擊鋼彈全裝備型",
-        "Pilot":  "Iori Sei \u0026 Reiji",
-        "PilotJP":  "イオリ・セイ \u0026 レイジ",
-        "PilotCN":  "伊织诚 \u0026 岭司",
-        "PilotTC":  "伊織政 \u0026 澪司",
-        "PilotTC2":  "伊織誠 \u0026 嶺司",
-        "PilotSeiyuu":  "Komatsu Mikako \u0026 Kokuryū Sachi",
-        "PilotSeiyuuJP":  "小松未可子 \u0026 國立幸",
-        "PilotSeiyuuCN":  "小松未可子 \u0026 国立幸",
-        "PilotSeiyuuTC":  "小松未可子 \u0026 國立幸",
-        "PilotSeiyuuTC2":  "小松未可子 \u0026 國立幸",
+        "Pilot":  "Iori Sei&Reiji",
+        "PilotJP":  "イオリ・セイ&レイジ",
+        "PilotCN":  "伊织诚&岭司",
+        "PilotTC":  "伊織政&澪司",
+        "PilotTC2":  "伊織誠&嶺司",
+        "PilotSeiyuu":  "Komatsu Mikako&Kokuryū Sachi",
+        "PilotSeiyuuJP":  "小松未可子&國立幸",
+        "PilotSeiyuuCN":  "小松未可子&国立幸",
+        "PilotSeiyuuTC":  "小松未可子&國立幸",
+        "PilotSeiyuuTC2":  "小松未可子&國立幸",
         "Series":  "Gundam Build Fighters",
         "SeriesJP":  "ガンダムビルドファイターズ",
         "SeriesCN":  "高达创战者",
@@ -8437,6 +8764,10 @@
                       {
                           "Id":  1,
                           "Value":  "MBONポーズド"
+                      },
+                      {
+                          "Id":  2,
+                          "Value":  "EXVS.2ポーズド"
                       }
                   ]
     },
@@ -8482,7 +8813,7 @@
         "Id":  283,
         "Value":  "Try Burning Gundam",
         "ValueJP":  "トライバーニングガンダム",
-        "ValueCN":  "Try 创制燃焰高达",
+        "ValueCN":  "TRY燃焰高达",
         "ValueTC":  "TRY爆熱高達",
         "ValueTC2":  "TRY燃燒鋼彈",
         "Pilot":  "Sekai Kamiki",
@@ -8526,7 +8857,7 @@
         "Id":  284,
         "Value":  "Lightning Gundam Full Burnern",
         "ValueJP":  "ライトニングガンダムフルバーニアン",
-        "ValueCN":  "闪电高达FB",
+        "ValueCN":  "闪电高达全方位推进型",
         "ValueTC":  "電光高達全方位推進型",
         "ValueTC2":  "電光鋼彈全方位推進型",
         "Pilot":  "Yuuma Kousaka",
@@ -8651,29 +8982,33 @@
                       {
                           "Id":  1,
                           "Value":  "OBポーズドB"
+                      },
+                      {
+                          "Id":  2,
+                          "Value":  "EXVS.ポーズド"
                       }
                   ]
     },
     {
         "Id":  287,
-        "Value":  "Gundam G-Lucifer",
+        "Value":  "G-Lucifer",
         "ValueJP":  "G-ルシファー",
-        "ValueCN":  "高达G-路西法",
-        "ValueTC":  "高達G路西法",
-        "ValueTC2":  "鋼彈G天魔",
-        "Pilot":  "Raraiya Akuparl \u0026 Noredo Nug",
-        "PilotJP":  "ラライヤ・アクパール \u0026 ノレド・ナグ",
-        "PilotCN":  "拉拉雅·亚克伯尔 \u0026 诺蕾德·娜格",
-        "PilotTC":  "娜拉雅·亞古柏爾 \u0026 蘿蕾度·拿古",
-        "PilotTC2":  "拉拉雅·亞克伯爾 \u0026 諾蕾德·娜古",
-        "PilotSeiyuu":  "Fukui Yukari \u0026 Kotobuki Minako",
-        "PilotSeiyuuJP":  "福井裕佳梨 \u0026 寿美菜子",
-        "PilotSeiyuuCN":  "福井裕佳梨 \u0026 寿美菜子",
-        "PilotSeiyuuTC":  "福井裕佳梨 \u0026 壽美菜子",
-        "PilotSeiyuuTC2":  "福井裕佳梨 \u0026 壽美菜子",
+        "ValueCN":  "G-路西法",
+        "ValueTC":  "G路西法",
+        "ValueTC2":  "G天魔",
+        "Pilot":  "Raraiya Akuparl&Noredo Nug",
+        "PilotJP":  "ラライヤ・アクパール&ノレド・ナグ",
+        "PilotCN":  "拉拉雅·亚克伯尔&诺蕾德·娜格",
+        "PilotTC":  "娜拉雅·亞古柏爾&蘿蕾度·拿古",
+        "PilotTC2":  "拉拉雅·亞克伯爾&諾蕾德·娜古",
+        "PilotSeiyuu":  "Fukui Yukari&Kotobuki Minako",
+        "PilotSeiyuuJP":  "福井裕佳梨&寿美菜子",
+        "PilotSeiyuuCN":  "福井裕佳梨&寿美菜子",
+        "PilotSeiyuuTC":  "福井裕佳梨&壽美菜子",
+        "PilotSeiyuuTC2":  "福井裕佳梨&壽美菜子",
         "Series":  "Gundam Reconguista in G",
         "SeriesJP":  "ガンダム Gのレコンギスタ",
-        "SeriesCN":  "高达G之复国运动",
+        "SeriesCN":  "高达 Reconguista in G",
         "SeriesTC":  "高達 Reconguista in G",
         "SeriesTC2":  "鋼彈 Reconguista in G",
         "Cost":  1500,
@@ -8741,7 +9076,7 @@
         "ValueTC2":  "貝迪哥",
         "Pilot":  "Carris Nautilus",
         "PilotJP":  "カリス・ノーティラス",
-        "PilotCN":  "卡利斯·诺提拉斯",
+        "PilotCN":  "卡利斯·诺提鲁",
         "PilotTC":  "加歷斯·諾迪尼斯",
         "PilotTC2":  "卡利斯·羅迪拉斯",
         "PilotSeiyuu":  "Endō Aya",
@@ -8782,7 +9117,7 @@
         "ValueJP":  "ナラティブガンダム",
         "ValueCN":  "NT高达",
         "ValueTC":  "敘述高達",
-        "ValueTC2":  "NT鋼彈 (敘事鋼彈)",
+        "ValueTC2":  "NT鋼彈",
         "Pilot":  "Jona Basta",
         "PilotJP":  "ヨナ・バシュタ",
         "PilotCN":  "约拿·巴修塔",
@@ -8829,7 +9164,7 @@
         "PilotSeiyuuTC2":  "佐藤拓也",
         "Series":  "Gundam Reconguista in G",
         "SeriesJP":  "ガンダム Gのレコンギスタ",
-        "SeriesCN":  "高达G之复国运动",
+        "SeriesCN":  "高达 Reconguista in G",
         "SeriesTC":  "高達 Reconguista in G",
         "SeriesTC2":  "鋼彈 Reconguista in G",
         "Cost":  3000,
@@ -8895,6 +9230,14 @@
                       {
                           "Id":  1,
                           "Value":  "OBポーズドB"
+                      },
+                      {
+                          "Id":  2,
+                          "Value":  "GGGP纪念"
+                      },
+                      {
+                          "Id":  3,
+                          "Value":  "EXVS.2ポーズド"
                       }
                   ]
     },
@@ -8993,16 +9336,16 @@
         "ValueCN":  "星际创制强袭高达",
         "ValueTC":  "星創突擊高達",
         "ValueTC2":  "星際製作攻擊鋼彈",
-        "Pilot":  "Iori Sei \u0026 Reiji",
-        "PilotJP":  "イオリ・セイ \u0026 レイジ",
-        "PilotCN":  "伊织诚 \u0026 岭司",
-        "PilotTC":  "伊織政 \u0026 澪司",
-        "PilotTC2":  "伊織誠 \u0026 嶺司",
-        "PilotSeiyuu":  "Komatsu Mikako \u0026 Kokuryū Sachi",
-        "PilotSeiyuuJP":  "小松未可子 \u0026 國立幸",
-        "PilotSeiyuuCN":  "小松未可子 \u0026 国立幸",
-        "PilotSeiyuuTC":  "小松未可子 \u0026 國立幸",
-        "PilotSeiyuuTC2":  "小松未可子 \u0026 國立幸",
+        "Pilot":  "Iori Sei&Reiji",
+        "PilotJP":  "イオリ・セイ&レイジ",
+        "PilotCN":  "伊织诚&岭司",
+        "PilotTC":  "伊織政&澪司",
+        "PilotTC2":  "伊織誠&嶺司",
+        "PilotSeiyuu":  "Komatsu Mikako&Kokuryū Sachi",
+        "PilotSeiyuuJP":  "小松未可子&國立幸",
+        "PilotSeiyuuCN":  "小松未可子&国立幸",
+        "PilotSeiyuuTC":  "小松未可子&國立幸",
+        "PilotSeiyuuTC2":  "小松未可子&國立幸",
         "Series":  "Gundam Build Fighters",
         "SeriesJP":  "ガンダムビルドファイターズ",
         "SeriesCN":  "高达创战者",
@@ -9017,6 +9360,14 @@
                       {
                           "Id":  1,
                           "Value":  "OBポーズドB"
+                      },
+                      {
+                          "Id":  2,
+                          "Value":  "XBポーズド"
+                      },
+                      {
+                          "Id":  3,
+                          "Value":  "IBポーズドB"
                       }
                   ]
     },
@@ -9056,11 +9407,11 @@
     },
     {
         "Id":  297,
-        "Value":  "Gundam Flauros (Ryusei-Go)",
+        "Value":  "Gundam Flauros",
         "ValueJP":  "ガンダム・フラウロス",
-        "ValueCN":  "高达弗洛伦斯（流星号）",
-        "ValueTC":  "高達佛勞洛斯 (第四代流星號)",
-        "ValueTC2":  "蔽魔鋼彈 (第四代流星號)",
+        "ValueCN":  "高达·佛劳洛斯",
+        "ValueTC":  "高達佛勞洛斯",
+        "ValueTC2":  "蔽魔鋼彈",
         "Pilot":  "Norba Shino",
         "PilotJP":  "ノルバ・シノ",
         "PilotCN":  "诺尔巴·西诺",
@@ -9077,6 +9428,17 @@
         "SeriesTC":  "機動戰士高達 鐵血的孤兒",
         "SeriesTC2":  "機動戰士鋼彈 鐵血孤兒",
         "Cost":  2000,
+        "Skins":  [
+                      {
+                          "Id":  0,
+                          "Value":  "デフォルト"
+                      },
+                      {
+                          "Id":  1,
+                          "Value":  "厄災戦時カラー"
+                      }
+        
+                  ],
         "Costumes":  [
                          {
                              "Id":  0,
@@ -9098,7 +9460,11 @@
                       },
                       {
                           "Id":  2,
-                          "Value":  "EXVS.2ポーズド"
+                          "Value":  "XBポーズド"
+                      },
+                      {
+                          "Id":  11,
+                          "Value":  "厄災戦時カラー"
                       }
                   ]
     },
@@ -9341,6 +9707,10 @@
                       {
                           "Id":  1,
                           "Value":  "OBポーズドB"
+                      },
+                      {
+                          "Id":  2,
+                          "Value":  "XBポーズド"
                       }
                   ]
     },
@@ -9348,7 +9718,7 @@
         "Id":  303,
         "Value":  "N-Extreme Gundam Explosion",
         "ValueJP":  "N-EXTREMEガンダム エクスプロージョン",
-        "ValueCN":  "N-Extreme E高达",
+        "ValueCN":  "N-极限高达·爆裂",
         "ValueTC":  "N-EXTREME高達 Explosion",
         "ValueTC2":  "N-EXTREME鋼彈 Explosion",
         "Pilot":  "Amagi Sai",
@@ -9361,7 +9731,7 @@
         "PilotSeiyuuCN":  "大野智敬",
         "PilotSeiyuuTC":  "大野智敬",
         "PilotSeiyuuTC2":  "大野智敬",
-        "Series":  "Project N-EXTREME",
+         "Series":  "Project N-EXTREME",
         "SeriesJP":  "Project N-EXTREME",
         "SeriesCN":  "Project N-EXTREME",
         "SeriesTC":  "Project N-EXTREME",
@@ -9396,7 +9766,7 @@
                       },
                       {
                           "Id":  2,
-                          "Value":  "GGGP（XB東西戦）キービジュアル"
+                          "Value":  "GGGP (XB東西戦)キービジュアル"
                       },
                       {
                           "Id":  3,
@@ -9405,6 +9775,10 @@
                       {
                           "Id":  4,
                           "Value":  "OBポーズドB"
+                      },
+                      {
+                          "Id":  5,
+                          "Value":  "XBポーズド"
                       },
                       {
                           "Id":  11,
@@ -9426,7 +9800,7 @@
         "Id":  304,
         "Value":  "N-Extreme Gundam Xanadu",
         "ValueJP":  "N-EXTREMEガンダム ザナドゥ",
-        "ValueCN":  "N-Extreme X高达",
+        "ValueCN":  "N-极限高达·上都",
         "ValueTC":  "N-EXTREME高達 Xanadu",
         "ValueTC2":  "N-EXTREME鋼彈 Xanadu",
         "Pilot":  "Ebihara Chikage",
@@ -9474,7 +9848,7 @@
                       },
                       {
                           "Id":  2,
-                          "Value":  "GGGP（XB東西戦）キービジュアル"
+                          "Value":  "GGGP (XB東西戦)キービジュアル"
                       },
                       {
                           "Id":  3,
@@ -9500,7 +9874,7 @@
         "Id":  305,
         "Value":  "N-Extreme Gundam Vicious",
         "ValueJP":  "N-EXTREMEガンダム ヴィシャス",
-        "ValueCN":  "N-Extreme V高达",
+        "ValueCN":  "N-极限高达·狂暴",
         "ValueTC":  "N-EXTREME高達 Vicious",
         "ValueTC2":  "N-EXTREME鋼彈 Vicious",
         "Pilot":  "Barka Nil",
@@ -9513,7 +9887,7 @@
         "PilotSeiyuuCN":  "熊谷健太郎",
         "PilotSeiyuuTC":  "熊谷健太郎",
         "PilotSeiyuuTC2":  "熊谷健太郎",
-        "Series":  "Project N-EXTREME",
+         "Series":  "Project N-EXTREME",
         "SeriesJP":  "Project N-EXTREME",
         "SeriesCN":  "Project N-EXTREME",
         "SeriesTC":  "Project N-EXTREME",
@@ -9548,7 +9922,7 @@
                       },
                       {
                           "Id":  2,
-                          "Value":  "GGGP（XB東西戦）キービジュアル"
+                          "Value":  "GGGP (XB東西戦)キービジュアル"
                       },
                       {
                           "Id":  3,
@@ -9574,7 +9948,7 @@
         "Id":  306,
         "Value":  "N-Extreme Gundam Supremacy",
         "ValueJP":  "N-EXTREMEガンダム スプレマシー",
-        "ValueCN":  "N-Extreme S高达",
+        "ValueCN":  "N-极限高达·支配",
         "ValueTC":  "N-EXTREME高達 Supremacy",
         "ValueTC2":  "N-EXTREME鋼彈 Supremacy",
         "Pilot":  "Dante D Wordslord",
@@ -9622,7 +9996,7 @@
                       },
                       {
                           "Id":  2,
-                          "Value":  "GGGP（XB東西戦）キービジュアル"
+                          "Value":  "GGGP (XB東西戦)キービジュアル"
                       },
                       {
                           "Id":  3,
@@ -9648,9 +10022,9 @@
         "Id":  307,
         "Value":  "Garazzo (Hiling Care Custom)",
         "ValueJP":  "ガラッゾ(ヒリング・ケア機)",
-        "ValueCN":  "加莱佐（希林格机）",
-        "ValueTC":  "加萊佐 (曉寧機)",
-        "ValueTC2":  "加萊佐 (希林格機)",
+        "ValueCN":  "加莱佐 (希林·凯尔机)",
+        "ValueTC":  "加萊佐 (曉寧·恪雅機)",
+        "ValueTC2":  "加萊佐 (希林格·凱爾機)",
         "Pilot":  "Hiling Care",
         "PilotJP":  "ヒリング・ケア",
         "PilotCN":  "希林格·凯尔",
@@ -9697,7 +10071,7 @@
         "ValueTC2":  "達哈克",
         "Pilot":  "Klim Nick",
         "PilotJP":  "クリム・ニック",
-        "PilotCN":  "克宁·尼克",
+        "PilotCN":  "克里姆·尼克",
         "PilotTC":  "古廉·尼克",
         "PilotTC2":  "克寧·尼克",
         "PilotSeiyuu":  "Oosaka Ryouta",
@@ -9707,7 +10081,7 @@
         "PilotSeiyuuTC2":  "逢坂良太",
         "Series":  "Gundam Reconguista in G",
         "SeriesJP":  "ガンダム Gのレコンギスタ",
-        "SeriesCN":  "高达G之复国运动",
+        "SeriesCN":  "高达 Reconguista in G",
         "SeriesTC":  "高達 Reconguista in G",
         "SeriesTC2":  "鋼彈 Reconguista in G",
         "Cost":  2500,
@@ -9736,7 +10110,7 @@
         "Id":  310,
         "Value":  "RX-93ff Gundam",
         "ValueJP":  "RX-93ff νガンダム",
-        "ValueCN":  "RX-93ff 福冈牛",
+        "ValueCN":  "RX-93ff ν高达",
         "ValueTC":  "RX-93ff ν高達",
         "ValueTC2":  "RX-93ff ν鋼彈",
         "Pilot":  "Amuro Ray",
@@ -9814,9 +10188,9 @@
         "Id":  312,
         "Value":  "Nu Gundam HWS",
         "ValueJP":  "νガンダムHWS",
-        "ValueCN":  "重牛",
-        "ValueTC":  "ν高達 HWS裝備型",
-        "ValueTC2":  "ν鋼彈 HWS裝備型",
+        "ValueCN":  "ν高达 HWS",
+        "ValueTC":  "ν高達 HWS",
+        "ValueTC2":  "ν鋼彈 HWS",
         "Pilot":  "Amuro Ray",
         "PilotJP":  "アムロ・レイ",
         "PilotCN":  "阿姆罗·雷",
@@ -9827,7 +10201,7 @@
         "PilotSeiyuuCN":  "古谷彻",
         "PilotSeiyuuTC":  "古谷徹",
         "PilotSeiyuuTC2":  "古谷徹",
-        "Series":  "Mobile Suit Gundam: Char\u0027s Counterattack MSV",
+        "Series":  "Mobile Suit Gundam: Char'ss Counterattack MSV",
         "SeriesJP":  "機動戦士ガンダム 逆襲のシャア MSV",
         "SeriesCN":  "机动战士高达 逆袭的夏亚 MSV",
         "SeriesTC":  "機動戰士高達 馬沙之反擊 MSV",
@@ -10149,7 +10523,7 @@
         "PilotSeiyuuTC2":  "雞冠井美智子",
         "Series":  "Gundam Reconguista in G",
         "SeriesJP":  "ガンダム Gのレコンギスタ",
-        "SeriesCN":  "高达G之复国运动",
+        "SeriesCN":  "高达 Reconguista in G",
         "SeriesTC":  "高達 Reconguista in G",
         "SeriesTC2":  "鋼彈 Reconguista in G",
         "Cost":  2000,
@@ -10271,7 +10645,7 @@
         "ValueTC2":  "瞬變鋼彈",
         "Pilot":  "Kijima Wilfrid",
         "PilotJP":  "キジマ・ウィルフリッド",
-        "PilotCN":  "木岛·威弗里德",
+        "PilotCN":  "木岛威弗里德",
         "PilotTC":  "木島·韋福里德",
         "PilotTC2":  "木島·威弗里德",
         "PilotSeiyuu":  "Suzumura Kenichi",
@@ -10344,9 +10718,9 @@
         "Id":  324,
         "Value":  "GUNDAM AERIAL (REBUILD)",
         "ValueJP":  "ガンダム・エアリアル(改修型)",
-        "ValueCN":  "风灵高达（改修型）",
-        "ValueTC":  "風靈高達（改修型）",
-        "ValueTC2":  "風靈鋼彈（改修型）",
+        "ValueCN":  "风灵高达 (改修型)",
+        "ValueTC":  "風靈高達 (改修型)",
+        "ValueTC2":  "風靈鋼彈 (改修型)",
         "Pilot":  "Suletta Mercury",
         "PilotJP":  "スレッタ・マーキュリー",
         "PilotCN":  "斯莱塔·墨丘利",
@@ -10388,9 +10762,9 @@
         "Id":  325,
         "Value":  "GUNDAM AERIAL (REBUILD) PAMET-SCORE EIGHT",
         "ValueJP":  "ガンダム・エアリアル(改修型)パーメットスコア・エイト",
-        "ValueCN":  "风灵高达（改修型）帕梅特刻痕等级八",
-        "ValueTC":  "風靈高達（改修型）帕梅特刻痕等级八",
-        "ValueTC2":  "風靈鋼彈（改修型）帕梅特刻痕等级八",
+        "ValueCN":  "风灵高达 (改修型)帕梅特刻痕等级8",
+        "ValueTC":  "風靈高達 (改修型)帕梅特刻痕等级8",
+        "ValueTC2":  "風靈鋼彈 (改修型)帕梅特刻痕等级8",
         "Pilot":  "?",
         "PilotJP":  "?",
         "PilotCN":  "?",
@@ -10417,7 +10791,7 @@
         "ValueTC2":  "死亡騎士",
         "Pilot":  "Chloe Croce",
         "PilotJP":  "クロエ・クローチェ",
-        "PilotCN":  "克洛艾·克罗切",
+        "PilotCN":  "克洛伊·克罗斯",
         "PilotTC":  "克洛艾·克羅切",
         "PilotTC2":  "克洛艾·克羅切",
         "PilotSeiyuu":  "Noto Mamiko",
@@ -10427,7 +10801,7 @@
         "PilotSeiyuuTC2":  "能登麻美子",
         "Series":  "Mobile Suit Gundam Side Story: Missing Link",
         "SeriesJP":  "機動戦士ガンダム外伝 ミッシングリンク",
-        "SeriesCN":  "机动战士高达外传 失落的节点",
+        "SeriesCN":  "机动战士高达外传 MISSING LINK",
         "SeriesTC":  "機動戰士高達外傳 MISSING LINK",
         "SeriesTC2":  "機動戰士鋼彈外傳 MISSING LINK",
         "Cost":  2500,
@@ -10448,17 +10822,17 @@
         "ValueJP":  "マイティーストライクフリーダムガンダム",
         "ValueCN":  "非凡强袭自由高达",
         "ValueTC":  "突擊自由高達·極",
-        "ValueTC2":  "全能自由鋼彈",
-        "Pilot":  "Kira Yamato \u0026 Lacus Clyne",
-        "PilotJP":  "キラ・ヤマト＆ラクス・クライン",
-        "PilotCN":  "基拉·大和\u0026拉克丝·克莱因",
-        "PilotTC":  "基拉·大和\u0026拉克絲·克萊因",
-        "PilotTC2":  "基拉·大和\u0026拉克絲·克萊因",
-        "PilotSeiyuu":  "Hoshi Sōichirō \u0026 Tanaka Rie",
-        "PilotSeiyuuJP":  "保志総一郎 \u0026 田中理惠",
-        "PilotSeiyuuCN":  "保志总一郎 \u0026 田中理惠",
-        "PilotSeiyuuTC":  "保志総一郎 \u0026 田中理惠",
-        "PilotSeiyuuTC2":  "保志総一郎 \u0026 田中理惠",
+        "ValueTC2":  "全能攻擊自由鋼彈",
+        "Pilot":  "Kira Yamato&Lacus Clyne",
+        "PilotJP":  "キラ・ヤマト&ラクス・クライン",
+         "PilotCN":  "基拉·大和&拉克丝·克莱因",
+        "PilotTC":  "基拉·大和&拉克絲·克萊因",
+        "PilotTC2":  "煌·大和&拉克絲·克萊因",
+        "PilotSeiyuu":  " Tanaka Rie&Hoshi Sōichirō ",
+        "PilotSeiyuuJP":  "保志総一郎&田中理惠",
+        "PilotSeiyuuCN":  "保志总一郎&田中理惠",
+        "PilotSeiyuuTC":  "保志総一郎&田中理惠",
+        "PilotSeiyuuTC2":  "保志総一郎&田中理惠 ",
         "Series":  "Mobile Suit Gundam SEED Freedom",
         "SeriesJP":  "機動戦士ガンダムSEED FREEDOM",
         "SeriesCN":  "机动战士高达SEED FREEDOM",
@@ -10538,25 +10912,249 @@
         "Id":  329,
         "Value":  "Red Gundam",
         "ValueJP":  "赤いガンダム",
-        "ValueCN":  "红高达",
-        "ValueTC":  "紅高達",
-        "ValueTC2":  "紅鋼彈",
+        "ValueCN":  "红色高达",
+        "ValueTC":  "紅色高達",
+        "ValueTC2":  "紅色鋼彈",
         "Pilot":  "Shuji Itō",
         "PilotJP":  "シュウジ・イトウ",
-        "PilotCN":  "伊藤修司",
-        "PilotTC":  "伊藤修司",
-        "PilotTC2":  "伊藤修司",
-        "PilotSeiyuu":  "Tsuchiya Kōichi",
-        "PilotSeiyuuJP":  "土屋神夜",
-        "PilotSeiyuuCN":  "土屋神夜",
-        "PilotSeiyuuTC":  "土屋神夜",
-        "PilotSeiyuuTC2":  "土屋神夜",
+        "PilotCN":  "修司伊藤",
+        "PilotTC":  "修治伊藤",
+        "PilotTC2":  "修司伊藤",
+        "PilotSeiyuu":  "Shimba Tsuchiya",
+        "PilotSeiyuuJP":  "土屋神葉",
+        "PilotSeiyuuCN":  "土屋神叶",
+        "PilotSeiyuuTC":  "土屋神葉",
+        "PilotSeiyuuTC2":  "土屋神葉",
         "Series":  "Mobile Suit Gundam GQuuuuuuX",
         "SeriesJP":  "機動戦士Gundam GQuuuuuuX",
-        "SeriesCN":  "机动战士高达GQuuuuuuX",
-        "SeriesTC":  "機動戰士高達GQuuuuuuX",
-        "SeriesTC2":  "機動戰士鋼彈GQuuuuuuX",
+        "SeriesCN":  "机动战士高达 GQuuuuuuX",
+        "SeriesTC":  "機動戰士高達 GQuuuuuuX",
+        "SeriesTC2":  "機動戰士鋼彈 GQuuuuuuX",
         "Cost":  2000
+    },
+    {
+        "Id":  330,
+        "Value":  "Gaplant",
+        "ValueJP":  "ギャプラン",
+        "ValueCN":  "加普兰",
+        "ValueTC":  "卡博羅",
+        "ValueTC2":  "蓋布蘭",
+        "Pilot":  "Rosamia Badam",
+        "PilotJP":  "ロザミア・バダム",
+        "PilotCN":  "罗莎米亚·巴达姆",
+        "PilotTC":  "羅莎米亞‧巴達姆",
+        "PilotTC2":  "羅莎米亞‧巴達姆",
+        "PilotSeiyuu":  "Fujii Kayoko",
+        "PilotSeiyuuJP":  "藤井佳代子",
+        "PilotSeiyuuCN":  "藤井佳代子",
+        "PilotSeiyuuTC":  "藤井佳代子",
+        "PilotSeiyuuTC2":  "藤井佳代子",
+        "Series":  "Mobile Suit Z Gundam",
+        "SeriesJP":  "機動戦士Zガンダム",
+        "SeriesCN":  "机动战士Z高达",
+        "SeriesTC":  "機動戰士Z高達",
+        "SeriesTC2":  "機動戰士Z鋼彈",
+        "Cost":  2000,
+        "Costumes":  [
+                         {
+                             "Id":  0,
+                             "Value":  "デフォルト"
+                         },
+                         {
+                             "Id":  1,
+                             "Value":  "ティターンズ制服"
+                         }
+                     ]
+    },
+    {
+        "Id":  331,
+        "Value":  "QUBELEY PAPILLON",
+        "ValueJP":  "キュベレイパピヨン",
+        "ValueCN":  "蝶影卡碧尼",
+        "ValueTC":  "蝶影卡碧尼",
+        "ValueTC2":  "花蝶丘貝雷",
+        "Pilot":  "Aila Jyrkiäinen",
+        "PilotJP":  "ユウキ・タツヤ",
+        "PilotCN":  "艾拉・尤基艾宁",
+        "PilotTC":  "雅娜・尤洛基艾寧",
+        "PilotTC2":  "艾拉・尤基艾寧",
+        "PilotSeiyuu":  "Saori Hayami",
+        "PilotSeiyuuJP":  "早見沙織",
+        "PilotSeiyuuCN":  "早见沙织",
+        "PilotSeiyuuTC":  "早見沙織",
+        "PilotSeiyuuTC2":  "早見沙織",
+        "Series":  "Gundam Build Fighters",
+        "SeriesJP":  "ガンダムビルドファイターズ",
+        "SeriesCN":  "高达创战者",
+        "SeriesTC":  "高達創戰者",
+        "SeriesTC2":  "鋼彈創鬥者",
+        "Cost":  2500,
+        "Costumes":  [
+                         {
+                             "Id":  0,
+                             "Value":  "デフォルト"
+                         },
+                         {
+                             "Id":  1,
+                             "Value":  "私服"
+                         }
+                     ],
+        "Poses":  [
+                      {
+                          "Id":  0,
+                          "Value":  "IBポーズド"
+                      },
+                      {
+                          "Id":  1,
+                          "Value":  "IBポーズドB"
+                      }
+                  ]
+    },
+    {
+        "Id":  332,
+        "Value":  "GQuuuuuuX",
+        "ValueJP":  "GQuuuuuuX",
+        "ValueCN":  "GQuuuuuuX",
+        "ValueTC":  "GQuuuuuuX",
+        "ValueTC2":  "GQuuuuuuX",
+        "Pilot":  "Amate Yuzuriha",
+        "PilotJP":  "アマテ・ユズリハ",
+        "PilotCN":  "天手让叶",
+        "PilotTC":  "天手讓葉",
+        "PilotTC2":  "天手讓葉",
+        "PilotSeiyuu":  "Tomoyo Kurosawa",
+        "PilotSeiyuuJP":  "黒沢ともよ",
+        "PilotSeiyuuCN":  "黑泽朋世",
+        "PilotSeiyuuTC":  "黑澤朋世",
+        "PilotSeiyuuTC2":  "黑澤朋世",
+        "Series":  "Mobile Suit Gundam GQuuuuuuX",
+        "SeriesJP":  "機動戦士Gundam GQuuuuuuX",
+        "SeriesCN":  "机动战士高达 GQuuuuuuX",
+        "SeriesTC":  "機動戰士高達 GQuuuuuuX",
+        "SeriesTC2":  "機動戰士鋼彈 GQuuuuuuX",
+        "Cost":  2500,
+        "Costumes":  [
+                         {
+                             "Id":  0,
+                             "Value":  "デフォルト"
+                         },
+                         {
+                             "Id":  1,
+                             "Value":  "ハイバリーハウス学園制服"
+                         }
+                     ],
+        "Poses":  [
+                      {
+                          "Id":  0,
+                          "Value":  "IBポーズド"
+                      },
+                      {
+                          "Id":  1,
+                          "Value":  "エクストリームファン投票"
+                      }
+                  ]
+    },
+    {
+        "Id":  333,
+        "Value":  "Seravee Gundam",
+        "ValueJP":  "セラヴィーガンダム",
+        "ValueCN":  "炽天使高达",
+        "ValueTC":  "熾天使高達",
+        "ValueTC2":  "熾天使鋼彈",
+        "Pilot":  "Tieria Āde",
+        "PilotJP":  "ティエリア・アーデ",
+        "PilotCN":  "提耶利亚·厄德",
+        "PilotTC":  "迪尼亞·艾迪",
+        "PilotTC2":  "提耶利亞·厄德",
+        "PilotSeiyuu":  "Kamiya Hiroshi",
+        "PilotSeiyuuJP":  "神谷浩史",
+        "PilotSeiyuuCN":  "神谷浩史",
+        "PilotSeiyuuTC":  "神谷浩史",
+        "PilotSeiyuuTC2":  "神谷浩史",
+        "Series":  "Mobile Suit Gundam 00",
+        "SeriesJP":  "機動戦士ガンダム00",
+        "SeriesCN":  "机动战士高达00",
+        "SeriesTC":  "機動戰士高達00",
+        "SeriesTC2":  "機動戰士鋼彈00",
+        "Cost":  2500,
+        "Costumes":  [
+                         {
+                             "Id":  0,
+                             "Value":  "デフォルト"
+                         },
+                         {
+                             "Id":  1,
+                             "Value":  "ドレス"
+                         }
+                     ]
+    },
+    {
+        "Id":  334,
+        "Value":  "TX-ff104 Alyzeus",
+        "ValueJP":  "TX-ff104 アリュゼウス",
+        "ValueCN":  "TX-ff104 阿利宙斯",
+        "ValueTC":  "TX-ff104 阿利宙斯",
+        "ValueTC2":  "TX-ff104 阿利宙斯",
+        "Pilot":  "Lane Aime",
+        "PilotJP":  "レーン・エイム",
+        "PilotCN":  "雷恩·艾姆",
+        "PilotTC":  "雷恩·艾姆",
+        "PilotTC2":  "連恩·艾姆",
+        "PilotSeiyuu":  "Soma Saito",
+        "PilotSeiyuuJP":  "斉藤壮馬",
+        "PilotSeiyuuCN":  "齐藤壮马",
+        "PilotSeiyuuTC":  "斉藤壮馬",
+        "PilotSeiyuuTC2":  "斉藤壮馬",
+        "Series":  "Mobile Suit Gundam: Hathaway'ss Flash(movie)",
+        "SeriesJP":  "機動戦士ガンダム 閃光のハサウェイ(劇場版) ",
+        "SeriesCN":  "机动战士高达 闪光的哈萨维(剧场版)",
+        "SeriesTC":  "機動戰士高達 閃光之凱薩衛(剧场版)",
+        "SeriesTC2":  "機動戰士鋼彈 閃光的哈薩威(剧场版)",
+        "Cost":  2500,
+        "Costumes":  [
+                         {
+                             "Id":  0,
+                             "Value":  "デフォルト"
+                         },
+                         {
+                             "Id":  1,
+                             "Value":  "地球連邦軍制服"
+                         }
+                     ]
+    },
+    {
+        "Id":  335,
+        "Value":  "Wodom Pod+",
+        "ValueJP":  "ウォドムポッド+",
+        "ValueCN":  "沃多姆荚舱+",
+        "ValueTC":  "沃多姆艙+",
+        "ValueTC2":  "渥頓戰艇+",
+        "Pilot":  "May",
+        "PilotJP":  "メイ",
+        "PilotCN":  "芽依",
+        "PilotTC":  "美兒",
+        "PilotTC2":  "小梅",
+        "PilotSeiyuu":  "Mai Fuchigami",
+        "PilotSeiyuuJP":  "渕上舞",
+        "PilotSeiyuuCN":  "渕上舞",
+        "PilotSeiyuuTC":  "渕上舞",
+        "PilotSeiyuuTC2":  "渕上舞",
+        "Series":  "Gundam Build Divers Re:Rise",
+        "SeriesJP":  "ガンダムビルドダイバーズRe:Rise",
+        "SeriesCN":  "高达创形者 再起",
+        "SeriesTC":  "高達創戰潛行者Re:RISE",
+        "SeriesTC2":  "鋼彈創鬥者 潛網大戰Re:RISE",
+        "Cost":  2500,
+        "Costumes":  [
+                         {
+                             "Id":  0,
+                             "Value":  "デフォルト"
+                         },
+                         {
+                             "Id":  1,
+                             "Value":  "ジャケットなし"
+                         }
+                     ]
     },
     {
         "Id":  50001,
@@ -10745,9 +11343,9 @@
         "PilotSeiyuuTC2":  "/",
         "Series":  "Turn A Gundam",
         "SeriesJP":  "∀ガンダム",
-        "SeriesCN":  "∀高达",
-        "SeriesTC":  "∀高達",
-        "SeriesTC2":  "∀鋼彈",
+        "SeriesCN":  "逆A高达",
+        "SeriesTC":  "逆A高達",
+        "SeriesTC2":  "逆A鋼彈",
         "Cost":  0
     },
     {
@@ -10793,9 +11391,9 @@
         "PilotSeiyuuTC2":  "/",
         "Series":  "Mobile Suit Gundam 0083: Stardust Memory",
         "SeriesJP":  "機動戦士ガンダム0083 STARDUST MEMORY",
-        "SeriesCN":  "机动战士高达0083: 星尘的回忆",
-        "SeriesTC":  "機動戰士高達0083: 星塵的回憶",
-        "SeriesTC2":  "機動戰士鋼彈0083: 星塵回憶",
+        "SeriesCN":  "机动战士高达0083 星尘作战回忆录",
+        "SeriesTC":  "機動戰士高達0083 星塵作戰回憶錄",
+        "SeriesTC2":  "機動戰士鋼彈0083 STARDUST MEMORY",
         "Cost":  0
     },
     {
@@ -10841,7 +11439,7 @@
         "PilotSeiyuuTC2":  "/",
         "Series":  "Mobile Suit Gundam Unicorn",
         "SeriesJP":  "機動戦士ガンダムUC",
-        "SeriesCN":  "机动战士高达UC",
+        "SeriesCN":  "机动战士高达 独角兽",
         "SeriesTC":  "機動戰士高達UC",
         "SeriesTC2":  "機動戰士鋼彈UC",
         "Cost":  0
@@ -10887,7 +11485,7 @@
         "PilotSeiyuuCN":  "/",
         "PilotSeiyuuTC":  "/",
         "PilotSeiyuuTC2":  "/",
-        "Series":  "Mobile Suit Gundam: Char\u0027s Counterattack",
+        "Series":  "Mobile Suit Gundam: Char'ss Counterattack",
         "SeriesJP":  "機動戦士ガンダム 逆襲のシャア",
         "SeriesCN":  "机动战士高达 逆袭的夏亚",
         "SeriesTC":  "機動戰士高達 馬沙之反擊",
@@ -11033,7 +11631,7 @@
         "PilotSeiyuuTC2":  "/",
         "Series":  "Mobile Suit Gundam Side Story: The Blue Destiny",
         "SeriesJP":  "機動戦士ガンダム外伝 THE BLUE DESTINY",
-        "SeriesCN":  "机动战士高达外传 蓝色命运",
+        "SeriesCN":  "机动战士高达外传 THE BLUE DESTINY",
         "SeriesTC":  "機動戰士高達外傳 THE BLUE DESTINY",
         "SeriesTC2":  "機動戰士鋼彈外傳 THE BLUE DESTINY",
         "Cost":  0
@@ -11057,9 +11655,9 @@
         "PilotSeiyuuTC2":  "/",
         "Series":  "Mobile Suit Gundam MS IGLOO",
         "SeriesJP":  "機動戦士ガンダム MS IGLOO",
-        "SeriesCN":  "机动战士高达 MS IGLOO 一年战争秘录",
-        "SeriesTC":  "機動戰士高達 MS IGLOO 一年戰爭秘錄",
-        "SeriesTC2":  "機動戰士鋼彈 MS IGLOO 一年戰爭秘錄",
+        "SeriesCN":  "机动战士高达 MS IGLOO",
+        "SeriesTC":  "機動戰士高達 MS IGLOO",
+        "SeriesTC2":  "機動戰士鋼彈 MS IGLOO",
         "Cost":  0
     },
     {
@@ -11079,7 +11677,7 @@
         "PilotSeiyuuCN":  "/",
         "PilotSeiyuuTC":  "/",
         "PilotSeiyuuTC2":  "/",
-        "Series":  "Mobile Suit Gundam Char\u0027s Counter Attack - Beltorchika\u0027s Children",
+        "Series":  "Mobile Suit Gundam Char'ss Counter Attack - Beltorchika'ss Children",
         "SeriesJP":  "機動戦士ガンダム 逆襲のシャア ベルトーチカ・チルドレン",
         "SeriesCN":  "机动战士高达 逆袭的夏亚 贝托蒂嘉的子嗣",
         "SeriesTC":  "機動戰士高達 馬沙之反擊 貝積加的孩子",
@@ -11105,7 +11703,7 @@
         "PilotSeiyuuTC2":  "/",
         "Series":  "Mobile Suit Gundam 00 The Movie -Awakening of the Trailblazer-",
         "SeriesJP":  "劇場版 機動戦士ガンダム00 -A wakening of the Trailblazer-",
-        "SeriesCN":  "剧场版 机动战士高达00 -觉醒的先驱者-",
+        "SeriesCN":  "机动战士高达00 剧场版 -先驱者的觉醒-",
         "SeriesTC":  "劇場版 機動戰士高達00 -先驅者的覺醒-",
         "SeriesTC2":  "劇場版 機動戰士鋼彈00 -先驅者的覺醒-",
         "Cost":  0
@@ -11175,7 +11773,7 @@
         "PilotSeiyuuCN":  "/",
         "PilotSeiyuuTC":  "/",
         "PilotSeiyuuTC2":  "/",
-        "Series":  "Mobile Suit Gundam: Hathaway\u0027s Flash",
+        "Series":  "Mobile Suit Gundam: Hathaway'ss Flash",
         "SeriesJP":  "機動戦士ガンダム 閃光のハサウェイ",
         "SeriesCN":  "机动战士高达 闪光的哈萨维",
         "SeriesTC":  "機動戰士高達 閃光之凱薩衛",
@@ -11297,7 +11895,7 @@
         "PilotSeiyuuTC2":  "/",
         "Series":  "Gundam Reconguista in G",
         "SeriesJP":  "ガンダム Gのレコンギスタ",
-        "SeriesCN":  "高达G之复国运动",
+        "SeriesCN":  "高达 Reconguista in G",
         "SeriesTC":  "高達 Reconguista in G",
         "SeriesTC2":  "鋼彈 Reconguista in G",
         "Cost":  0
@@ -11345,7 +11943,7 @@
         "PilotSeiyuuTC2":  "/",
         "Series":  "Mobile Suit Gundam Side Story: Missing Link",
         "SeriesJP":  "機動戦士ガンダム外伝 ミッシングリンク",
-        "SeriesCN":  "机动战士高达外传 失落的节点",
+        "SeriesCN":  "机动战士高达外传 MISSING LINK",
         "SeriesTC":  "機動戰士高達外傳 MISSING LINK",
         "SeriesTC2":  "機動戰士鋼彈外傳 MISSING LINK",
         "Cost":  0
@@ -11540,6 +12138,30 @@
         "SeriesCN":  "机动战士高达SEED FREEDOM",
         "SeriesTC":  "機動戰士高達SEED FREEDOM",
         "SeriesTC2":  "機動戰士鋼彈SEED FREEDOM",
+        "Cost":  0
+    },
+    {
+        "Id":  50069,
+        "Value":  "RANDOM",
+        "ValueJP":  "ランダム",
+        "ValueCN":  "随机",
+        "ValueTC":  "隨機",
+        "ValueTC2":  "隨機",
+        "Pilot":  "/",
+        "PilotJP":  "/",
+        "PilotCN":  "/",
+        "PilotTC":  "/",
+        "PilotTC2":  "/",
+        "PilotSeiyuu":  "/",
+        "PilotSeiyuuJP":  "/",
+        "PilotSeiyuuCN":  "/",
+        "PilotSeiyuuTC":  "/",
+        "PilotSeiyuuTC2":  "/",
+        "Series":  "Mobile Suit Gundam GQuuuuuuX",
+        "SeriesJP":  "機動戦士Gundam GQuuuuuuX",
+        "SeriesCN":  "机动战士高达 GQuuuuuuX",
+        "SeriesTC":  "機動戰士高達 GQuuuuuuX",
+        "SeriesTC2":  "機動戰士鋼彈 GQuuuuuuX",
         "Cost":  0
     },
     {

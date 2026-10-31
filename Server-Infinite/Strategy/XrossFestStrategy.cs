@@ -32,6 +32,8 @@ public class XrossFestStrategy : IFestStrategy
             RuleType = (uint)ruleType,
             StartDate = (ulong)startDate.ToUnixTimeSeconds(),
             EndDate = (ulong)endDate.ToUnixTimeSeconds(),
+            PlayableStartDate = (ulong)startDate.ToUnixTimeSeconds(),
+            PlayableEndDate = (ulong)endDate.ToUnixTimeSeconds(),
             BurstXrossFlag = true,
             Timer = 210,
             MatchingBorder = 0,

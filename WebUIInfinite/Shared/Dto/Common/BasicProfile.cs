@@ -14,10 +14,14 @@ public class BasicProfile
     public uint[] DefaultBgmList { get; set; } = Array.Empty<uint>();
     public uint[] StageRandoms { get; set; } = Array.Empty<uint>();
     public Title DefaultTitle { get; set; } = new();
+    // Nullable to distinguish an old client's omitted fields from an explicit clear.
+    public Title? SubTitle1 { get; set; }
+    public Title? SubTitle2 { get; set; }
     public Title TriadTitle { get; set; } = new();
     public Title ClassMatchTitle { get; set; } = new();
     public bool IsFixedRadar { get; set; } = false;
     public bool EnableQuickStart { get; set; } = false;
+    public int MarkerColorId { get; set; } = 0;
     public uint Gp { get; set; } = 0;
     // Client-aligned new field (LoadCard.MobileUserGroup.CustomizeGroup tag 5).
     public bool BgmSafeMode { get; set; } = false;

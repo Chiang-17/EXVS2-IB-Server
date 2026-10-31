@@ -552,10 +552,10 @@
     <value>終了 スタンプID</value>
   </data>
   <data name="bgm_safe_mode" xml:space="preserve">
-    <value>BGM セーフモード</value>
+    <value>ゲーム実況モード</value>
   </data>
   <data name="bgm_safe_mode_hint" xml:space="preserve">
-    <value>注意：BGMセーフモードを有効にすると、BGM再生設定が無効になります</value>
+    <value>注意：ゲーム実況モードを有効にすると、BGM再生設定が無効になります</value>
   </data>
   <data name="gamepad_style" xml:space="preserve">
     <value>Operation Mode</value>
@@ -1083,4 +1083,8 @@
   <data name="invalid_user_login" xml:space="preserve">
     <value>Login Failed!</value>
   </data>
+  <data name="marker_color" xml:space="preserve"><value>ロックオンマーカーカラー</value></data>
+  <data name="main_title" xml:space="preserve"><value>メイン称号</value></data>
+  <data name="sub_title_1" xml:space="preserve"><value>サブ称号1</value></data>
+  <data name="sub_title_2" xml:space="preserve"><value>サブ称号2</value></data>
 </root>

@@ -42,7 +42,8 @@ public class LoadGameDataQueryHandler : IRequestHandler<LoadGameDataQuery, Respo
             new TriadCourseCommand(),
             new TriadWantedDataCommand(_config),
             new FesDataCommand(_config),
-            new FreeMatchDataCommand()
+            new FreeMatchDataCommand(),
+            new RouteBattleSettingCommand(_config)
         };
         
         loadGameDataCommands.ForEach(command => command.Fill(loadGameData));

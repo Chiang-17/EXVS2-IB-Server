@@ -15,16 +15,16 @@ public class ReleasedContentCommand : ILoadGameDataCommand
     public void Fill(Response.LoadGameData loadGameData)
     {
         var releasedMobileSuits = Enumerable.Range(1, 400).Select(i => (uint)i).ToArray();
-        var releasedNavis = Enumerable.Range(1, 51).Select(i => (uint)i).ToArray();
-        var newMobileSuits = _config.GameConfigurations.NewMobileSuits ?? new[] { 135u, 323u, 326u };
+        var releasedNavis = Enumerable.Range(1, 100).Select(i => (uint)i).ToArray();
+        // Default version markers follow update_and_new_ms.txt from the IB v13 resource pack.
+        var newMobileSuits = _config.GameConfigurations.NewMobileSuits ?? new[] { 330u, 331u, 332u, 333u, 334u, 335u };
         var updatedMobileSuits = _config.GameConfigurations.UpdatedMobileSuits ?? [
-            3u, 7u, 13u, 37u, 54u, 58u,
-            62u, 80u, 92u, 105u, 107u, 108u,
-            113u, 114u, 116u, 121u, 131u, 144u,
-            151u, 157u, 169u, 180u, 181u, 183u,
-            191u, 192u, 194u, 195u, 199u, 209u,
-            222u, 287u, 288u, 291u, 305u, 306u,
-            310u, 313u, 321u, 322u
+            19u, 250u, 142u, 64u, 112u, 164u, 108u, 259u, 90u, 146u,
+            265u, 252u, 191u, 327u, 318u, 140u, 269u, 325u, 288u, 290u,
+            294u, 224u, 97u, 242u, 5u, 330u, 279u, 170u, 165u, 41u,
+            156u, 37u, 127u, 308u, 293u, 79u, 253u, 168u, 166u, 301u,
+            292u, 21u, 8u, 195u, 176u, 129u, 270u, 91u, 289u, 326u,
+            331u, 152u, 187u, 207u, 300u, 216u, 205u, 98u
         ];
 
         loadGameData.ReleaseMsIds = releasedMobileSuits;

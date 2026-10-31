@@ -56,9 +56,7 @@ internal static class TagTeamGroupBuilder
         if (partner.PlayerLevel is not null)
         {
             group.PartnerPlayerLevelId = partner.PlayerLevel.PlayerLevelId;
-            // Client renamed prestige_id -> badge_id at the player level; preserve the same
-            // value on the partner snapshot.
-            group.PartnerBadgeId = partner.PlayerLevel.PrestigeId;
+            group.PartnerBadgeId = partner.PlayerLevel.BadgeId;
         }
 
         if (partner.TeamClassMatchRecord is not null)

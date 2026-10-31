@@ -61,8 +61,6 @@
                 <MudTextField @bind-Value="Title.CustomText"
                               Immediate="true"
                               Variant="Variant.Outlined"
-                              Counter="@((int) NameLength.TitleMaxLength)"
-                              MaxLength="@((int) NameLength.TitleMaxLength)"
                               Label="@localizer["title_custom_text"]"
                               Validation="NameValidator.ValidateCustomizeTitle" />
             </MudItem>
@@ -169,8 +167,6 @@
                                   Immediate="true"
                                   Variant="Variant.Outlined"
                                   Disabled="@(Title.TextId != 0)"
-                                  Counter="@((int) NameLength.TitleMaxLength)"
-                                  MaxLength="@((int) NameLength.TitleMaxLength)"
                                   Label="@localizer["title_custom_text"]"
                                   Validation="NameValidator.ValidateCustomizeTitle" />
                 </MudItem>

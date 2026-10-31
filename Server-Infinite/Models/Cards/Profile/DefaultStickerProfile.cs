@@ -36,6 +36,10 @@ public class DefaultStickerProfile : BaseEntity
     [Required]
     public uint StickerBackgroundId { get; set; } = 0;
 
+    /// <summary>Maps to PlayerSticker.sub_background_id (tag 9).</summary>
+    [Required]
+    public uint SubBackgroundId { get; set; } = 0;
+
     [Required] 
     public uint StickerEffectId { get; set; } = 0;
     

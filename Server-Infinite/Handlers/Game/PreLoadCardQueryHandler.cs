@@ -101,10 +101,13 @@ public class PreLoadCardQueryHandler : IRequestHandler<PreLoadCardQuery, Respons
         var gamepadSetting = await _context.GamepadSettingDbSet
             .FirstAsync(x => x.CardProfile == cardProfile);
 
+        var playerLevel = await _context.PlayerLevelDbSet
+            .FirstAsync(x => x.CardProfile == cardProfile);
+
         var mobileUserGroup = new Response.PreLoadCard.MobileUserGroup()
         {
-            BadgeId = 0,
-            BadgeExp = 0,
+            BadgeId = playerLevel.BadgeId,
+            BadgeExp = playerLevel.BadgeExp,
             AuthFlag = true,
             GamePadStyle = gamepadSetting.GamePadStyle,
             customize_group = new Response.PreLoadCard.MobileUserGroup.CustomizeGroup()

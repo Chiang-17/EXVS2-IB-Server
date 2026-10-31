@@ -23,9 +23,7 @@ public class TeamClassInformationCommand : IPreLoadPlayerCommand
         loadPlayer.ClassIdTeam = teamClassInformation.ClassId;
         loadPlayer.ClassChangeStatusTeam = teamClassInformation.ClassChangeStatus;
         
-        // Phase A schema realignment: the previous tag 40 (TopPointRankNumTeam, uint) was
-        // dropped because the newer client schema reuses tag 40 for required float rate_solo.
-        // The team-side rank entry count no longer has a destination in this response.
+        loadPlayer.TopPointRankNumTeam = teamClassInformation.TopPointRankEntryCount;
         loadPlayer.RateTeam = teamClassInformation.Rate;
         
         if (teamClassInformation.ClassId < 4)

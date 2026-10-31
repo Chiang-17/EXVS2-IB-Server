@@ -7,7 +7,8 @@ public class StickerDto
     public uint StickerBackgroundId { get; set; } = 0;
     public uint StickerEffectId { get; set; } = 0;
 
-    /// <summary>Maps to PlayerSticker.Tracker.text_id (tag 3) for tracker slot 1–3.</summary>
+    /// <summary>Tracker selector ID. Statistic selectors map to wire text_id;
+    /// title selectors 100/101/102 resolve the corresponding saved title's ID/text.</summary>
     public uint Tracker1 { get; set; } = 0;
     public uint Tracker2 { get; set; } = 0;
     public uint Tracker3 { get; set; } = 0;

@@ -14,6 +14,16 @@ public class UserTitleSettingConfigurations : IEntityTypeConfiguration<UserTitle
             .WithOne(e => e.UserTitleSetting)
             .HasForeignKey<UserDefaultTitle>(e => e.UserTitleSettingId)
             .IsRequired();
+
+        builder.HasOne(e => e.UserSubTitle1)
+            .WithOne(e => e.UserTitleSetting)
+            .HasForeignKey<UserSubTitle1>(e => e.UserTitleSettingId)
+            .IsRequired();
+
+        builder.HasOne(e => e.UserSubTitle2)
+            .WithOne(e => e.UserTitleSetting)
+            .HasForeignKey<UserSubTitle2>(e => e.UserTitleSettingId)
+            .IsRequired();
         
         builder.HasOne(e => e.UserTriadTitle)
             .WithOne(e => e.UserTitleSetting)

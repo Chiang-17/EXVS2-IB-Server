@@ -243,7 +243,6 @@
     private readonly int[] _pageSizeOptions = { 5, 10, 25, 50, 100 };
 
     private MudTable<MobileSuit> _mudTable = null!;
-    private const uint MaxSelectableMobileSuitId = 329;
     
     // ReSharper disable once NotAccessedField.Local
     private int _selectedRowNumber = -1;
@@ -251,7 +250,7 @@
     protected override async Task OnInitializedAsync()
     {
         await base.OnInitializedAsync();
-        _mobileSuits = AggregatedMobileSuits.Where(ms => ms.Id <= MaxSelectableMobileSuitId).ToList();
+        _mobileSuits = AggregatedMobileSuits.Where(ms => ms.Id is >= 1 and <= 1000).ToList();
         _selectedMobileSuit = _mobileSuits.FirstOrDefault(ms => ms.Id == Data);
         var firstPageOption = _pageSizeOptions.ToList().FirstOrDefault();
         _selectedPage = CalculateCurrentPage(_mobileSuits, _selectedMobileSuit, firstPageOption);

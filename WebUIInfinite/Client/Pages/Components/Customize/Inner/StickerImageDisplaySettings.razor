@@ -34,21 +34,24 @@
                 }
             </MudGrid>
 
-            @if (ShowCostumePool && StickerDto.PilotImageDispFlag)
+            @if (StickerDto.PilotImageDispFlag)
             {
-                <MudDivider Class="my-3"/>
-                <MudText Typo="Typo.subtitle1" Class="mb-2">@localizer["sticker_costume_for_pilot"]</MudText>
-                <MudGrid Class="mt-2">
-                    <MudItem xs="12">
-                        <StickerPoolChipGrid
-                            Options="@CostumeOptions"
-                            SelectedIds="@(StickerDto.CostumeIds ?? new List<uint>())"
-                            SelectedIdsChanged="OnCostumeIdsChanged"
-                            ImageSrcFactory="@GetCostumePreviewSrc"
-                            CutinImageSrcFactory="@GetCostumeCutinPreviewSrc"
-                            UseCutin="@StickerDto.CutinImageUseFlag"/>
-                    </MudItem>
-                </MudGrid>
+                @if (ShowCostumePool)
+                {
+                    <MudDivider Class="my-3"/>
+                    <MudText Typo="Typo.subtitle1" Class="mb-2">@localizer["sticker_costume_for_pilot"]</MudText>
+                    <MudGrid Class="mt-2">
+                        <MudItem xs="12">
+                            <StickerPoolChipGrid
+                                Options="@CostumeOptions"
+                                SelectedIds="@(StickerDto.CostumeIds ?? new List<uint>())"
+                                SelectedIdsChanged="OnCostumeIdsChanged"
+                                ImageSrcFactory="@GetCostumePreviewSrc"
+                                CutinImageSrcFactory="@GetCostumeCutinPreviewSrc"
+                                UseCutin="@StickerDto.CutinImageUseFlag"/>
+                        </MudItem>
+                    </MudGrid>
+                }
 
                 <MudDivider Class="my-3"/>
                 <MudGrid Justify="Justify.Center" Class="align-center">
@@ -58,7 +61,7 @@
                                 var subBackgroundImgPath = $"images/sticker/background/{StickerDto.SubBackgroundId}.webp";
                                 var subBackgroundName = GetStickerBackgroundDisplayName(StickerDto.SubBackgroundId);
                             }
-                            @if (StickerDto.SubBackgroundId > 0 && EnableImagePreview)
+                            @if (EnableImagePreview)
                             {
                                 <div class="d-flex justify-center">
                                     <MudImage ObjectPosition="ObjectPosition.Center" Src="@subBackgroundImgPath" Fluid="true"

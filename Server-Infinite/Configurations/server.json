@@ -18,6 +18,9 @@
         "TargetMsList": [72],
         "TimeAttackCourse": 212,
         "HighScoreCourse": 212
+      },
+      "RouteBattleConfigurations": {
+        "ResetBadgeExpOnChange": false
       }
     }
   }

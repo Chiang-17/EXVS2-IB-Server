@@ -7,15 +7,18 @@ public static class QuickStartInfoMapper
 {
     public static void ApplyFromProto(
         QuickStartSetting setting,
-        Response.LoadCard.MobileUserGroup.QuickStartInfo quickStartInfo)
+        QuickStartInfo quickStartInfo)
     {
         setting.GameMode = quickStartInfo.GameMode;
         setting.RuleType = quickStartInfo.ShouldSerializeRuleType() ? quickStartInfo.RuleType : null;
         setting.TeamType = quickStartInfo.TeamType;
         setting.MstMobileSuitId0 = quickStartInfo.MstMobileSuitId0;
         setting.BurstType0 = quickStartInfo.BurstType0;
-        setting.MstMobileSuitId1 = quickStartInfo.MstMobileSuitId1;
-        setting.BurstType1 = quickStartInfo.BurstType1;
+        // Save requests may omit the second suit; preserve the stored choice.
+        if (quickStartInfo.ShouldSerializeMstMobileSuitId1())
+            setting.MstMobileSuitId1 = quickStartInfo.MstMobileSuitId1;
+        if (quickStartInfo.ShouldSerializeBurstType1())
+            setting.BurstType1 = quickStartInfo.BurstType1;
         setting.StageId = quickStartInfo.StageId;
     }
 

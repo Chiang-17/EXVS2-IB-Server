@@ -13,9 +13,9 @@ Log.Logger = new LoggerConfiguration()
     .CreateBootstrapLogger();
 
 Log.Information("+=====================================+");
-Log.Information("+       SERVER-INFINITE FOR IBv4      +");
+Log.Information("+      SERVER-INFINITE FOR IBv13      +");
 Log.Information("+            BY LAZYSHEEP             +");
-Log.Information("+            VERSION: 1.1             +");
+Log.Information("+           VERSION: 1.2.0            +");
 Log.Information("+        FORKED FROM EXVS2-POC        +");
 Log.Information("+                                     +");
 Log.Information("+ Disclaimer:                         +");
@@ -23,12 +23,12 @@ Log.Information("+ FREE SOFTWARE, BEWARE OF SCAMMERS!  +");
 Log.Information("+ IF YOU PAID, YOU ARE BEING SCAMMED! +");
 Log.Information("+=====================================+");
 
-DisclaimerMessageBox.Start();
-
 Log.Information("Server starting...");
+var failed = false;
 
 try
 {
+    DisclaimerMessageBox.Start();
     SQLitePCL.Batteries_V2.Init();
     
     var builder = WebApplication.CreateBuilder(args);
@@ -64,6 +64,8 @@ try
     builder.Services.AddEndpointsApiExplorer();
     builder.Services.AddSwaggerGen();
     
+    builder.Services.AddSingleton<ServerInfinite.Processor.Tracker.ITrackerCatalog>(sp =>
+        new ServerInfinite.Processor.Tracker.TrackerCatalog(sp.GetRequiredService<IWebHostEnvironment>().WebRootFileProvider));
     builder.Services.AddMemoryCache();
     builder.Services.AddHttpContextAccessor();
     
@@ -89,7 +91,7 @@ try
         app.UseSwaggerUI();
     }
 
-    // Auto-migrate on startup (degraded: log failure and continue so the host still runs).
+    // Attempt migration, but keep serving requests if it fails.
     try
     {
         using var scope = app.Services.CreateScope();
@@ -99,7 +101,7 @@ try
     catch (Exception ex)
     {
         Log.Error(ex,
-            "Database migration failed; continuing in degraded mode. Schema may be outdated and game/UI DB calls can fail until migration succeeds");
+            "Database migration failed; continuing to serve requests. Database operations may fail until migration succeeds");
     }
 
     app.UseBlazorFrameworkFiles();
@@ -131,10 +133,25 @@ catch (Exception ex) when (
     // need to do it this way until we target .NET 8
     && ex.GetType().Name is not "HostAbortedException")
 {
-    Log.Fatal(ex, "Unhandled exception");
+    failed = true;
+    Environment.ExitCode = 1;
+    Log.Fatal(ex, "Server failed; terminating. See the exception below for the cause");
 }
 finally
 {
     Log.Information("Shut down complete");
     Log.CloseAndFlush();
+}
+
+// Keep a double-clicked console open after a fatal error. Redirected stdin and
+// service hosts must exit immediately so scripts can observe the failure code.
+if (failed && Environment.UserInteractive && !Console.IsInputRedirected)
+{
+    Console.WriteLine("启动失败，请查看上方错误。按任意键退出 / Server failed. Press any key to exit...");
+    try
+    {
+        Console.ReadKey(intercept: true);
+    }
+    catch (InvalidOperationException) { } // The console can detach during shutdown.
+    catch (IOException) { }
 }

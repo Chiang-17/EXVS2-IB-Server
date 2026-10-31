@@ -21,6 +21,9 @@ public class GeneralSetting : BaseEntity
 
     [Required]
     public bool EnableQuickStart { get; set; } = false;
+
+    [Range(0, int.MaxValue)]
+    public int MarkerColorId { get; set; } = 0;
     
     public virtual CardProfile CardProfile { get; set; } = null!;
 }

@@ -30,6 +30,8 @@ public class LoadClassMatchCommandHandler : IRequestHandler<LoadClassMatchComman
         // Rate deducted in Loss = ConstantRate, but if you loss to the one which has Higher Rate, the Loss Point will be lesser
         var loadClassMatchResponse = new Response.LoadClassMatch()
         {
+            // Revision 141 requires this submessage even without online matchmaking.
+            search_ratios = new Response.LoadClassMatch.SearchRatioTable(),
             ConstantRate = 10, // Mainly relies on this Rate for both Win and Loss
             WinScoreCoefficient = 25000, // During Class Match Pt calculation, Player Battle Score will be divided by this factor
             ClassBaseWinPoint = 50,
